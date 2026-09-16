@@ -104,3 +104,46 @@ class AISService:
             "type": "FeatureCollection",
             "features": features
         }
+
+    def get_encounters(self, min_duration_hours: float = 2.0, max_dist_m: float = 500.0) -> List[Dict[str, Any]]:
+        """
+        Detecta encuentros entre barcos (Transshipments).
+        Inspirado en Global Fishing Watch.
+        """
+        vessels = self.db.execute("SELECT DISTINCT mmsi, name FROM ais_vessels").fetchall()
+        encounters = []
+
+        # Para cada par de barcos
+        for i in range(len(vessels)):
+            for j in range(i + 1, len(vessels)):
+                mmsi1, name1 = vessels[i]
+                mmsi2, name2 = vessels[j]
+
+                # Obtener posiciones de ambos
+                pos1 = self.db.execute("SELECT utc, latitude, longitude FROM ais_vessels WHERE mmsi = ? ORDER BY utc", [mmsi1]).fetchall()
+                pos2 = self.db.execute("SELECT utc, latitude, longitude FROM ais_vessels WHERE mmsi = ? ORDER BY utc", [mmsi2]).fetchall()
+
+                # Comparar posiciones en el tiempo
+                # Simplificación: buscamos puntos temporales cercanos
+                for u1, lat1, lon1 in pos1:
+                    for u2, lat2, lon2 in pos2:
+                        time_diff = abs((u1 - u2).total_seconds()) / 3600
+                        if time_diff < 1.0: # Posiciones capturadas en la misma hora
+                            dist = self._haversine_meters(lat1, lon1, lat2, lon2)
+                            if dist <= max_dist_m:
+                                encounters.append({
+                                    "vessel_a": name1,
+                                    "vessel_b": name2,
+                                    "utc": str(u1),
+                                    "distance_m": round(dist, 2),
+                                    "type": "Potential Transshipment"
+                                })
+        return encounters
+
+    def _haversine_meters(self, lat1, lon1, lat2, lon2) -> float:
+        R = 6371000.0 # Earth radius in meters
+        phi1, phi2 = math.radians(lat1), math.radians(lat2)
+        dphi = math.radians(lat2 - lat1)
+        dlambda = math.radians(lon2 - lon1)
+        a = math.sin(dphi / 2)**2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2)**2
+        return 2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a))

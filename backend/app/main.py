@@ -4,6 +4,7 @@ from .database import get_db
 from .config import get_settings
 from .ais_service import AISService
 from .behavioral_analysis import BehavioralAnalysisService
+from .environmental_service import EnvironmentalService
 import duckdb
 
 app = FastAPI(
@@ -14,8 +15,14 @@ app = FastAPI(
 def get_ais_service(db: duckdb.DuckDBPyConnection = Depends(get_db)):
     return AISService(db)
 
-def get_behavioral_service(db: duckdb.DuckDBPyConnection = Depends(get_db)):
-    return BehavioralAnalysisService(db)
+def get_environmental_service(db: duckdb.DuckDBPyConnection = Depends(get_db)):
+    return EnvironmentalService(db)
+
+def get_behavioral_service(
+    db: duckdb.DuckDBPyConnection = Depends(get_db),
+    env_service: EnvironmentalService = Depends(get_environmental_service)
+):
+    return BehavioralAnalysisService(db, env_service)
 
 @app.on_event("startup")
 async def startup():
@@ -47,6 +54,10 @@ async def ais_vessel(mmsi: str, service: AISService = Depends(get_ais_service)):
 async def ais_routes(service: AISService = Depends(get_ais_service)):
     return service.get_all_routes_geojson()
 
+@app.get("/ais/encounters")
+async def ais_encounters(service: AISService = Depends(get_ais_service)):
+    return service.get_encounters()
+
 @app.get("/ais/behavior/{mmsi}")
 async def ais_behavior(mmsi: str, service: BehavioralAnalysisService = Depends(get_behavioral_service)):
     analysis = service.analyze_behavior(mmsi)
@@ -54,3 +65,6 @@ async def ais_behavior(mmsi: str, service: BehavioralAnalysisService = Depends(g
         raise HTTPException(status_code=400, detail="Insufficient data to analyze behavior")
     return analysis
 
+@app.get("/ais/environment/{mmsi}")
+async def ais_environment(mmsi: str, service: EnvironmentalService = Depends(get_environmental_service)):
+    return service.correlate_vessel_with_environment(mmsi)
