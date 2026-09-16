@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AMOH local scientific observation workspace" />
+    <link href="https://unpkg.com/maplibre-gl@3.3.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/maplibre-gl@3.3.0/dist/maplibre-gl.js"></script>
+    <title>AMOH | Research workspace</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <a class="brand" href="#overview" aria-label="AMOH home">
+          <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-label="AMOH observation mark">
+            <path d="M7 34c8-9 16-13 34-20" fill="none" stroke="currentColor" stroke-width="2" />
+            <circle cx="10" cy="34" r="4" fill="currentColor" /><circle cx="24" cy="26" r="4" fill="currentColor" /><circle cx="40" cy="14" r="4" fill="currentColor" />
+          </svg>
+          <span><strong>AMOH</strong><small>Antarctic Maritime<br />Observation Hub</small></span>
+        </a>
+        <div class="sidebar-rule"></div>
+        <p class="nav-label">WORKSPACE</p>
+        <nav>
+          <a class="nav-item active" href="#overview"><span class="nav-glyph">◌</span>Overview</a>
+          <a class="nav-item" href="#explore"><span class="nav-glyph">⌖</span>Explore</a>
+          <a class="nav-item" href="#observations"><span class="nav-glyph">＋</span>Observations</a>
+          <a class="nav-item" href="#sources"><span class="nav-glyph">▤</span>Data sources</a>
+          <a class="nav-item" href="#method"><span class="nav-glyph">≡</span>Method &amp; governance</a>
+        </nav>
+        <div class="sidebar-bottom"><p class="nav-label">FIELD NODE</p><div class="node-state"><span class="status-dot"></span><span id="server-status">Checking local server</span></div><p class="sidebar-caption">Working locally. Uploads will wait.</p></div>
+      </aside>
+
+      <main class="main-content" id="overview">
+        <header class="topbar">
+          <div><span class="breadcrumb">WORKSPACE / OVERVIEW</span><h1>Research workspace</h1></div>
+          <div class="top-actions"><span class="sync-state"><span class="status-dot"></span>Local node</span><button class="icon-button" aria-label="Open settings" title="Settings">⚙</button></div>
+        </header>
+
+        <section class="intro-band">
+          <div class="intro-copy"><p class="kicker">AMOH · OSIRIS · MIROFISH</p><h2>Map the route.<br /><em>Trace the evidence.</em></h2><p class="lede">A local-first scientific atlas for polar operations, combining real public itinerary data with field evidence, scenario modeling, and human review. The map is operational, not speculative.</p><div class="principle"><span class="principle-mark">i</span><span><strong>Observation ≠ causation</strong><small>Public plans inform context; evidence still decides the claim.</small></span></div></div>
+          <div class="expedition-card route-card">
+            <div class="route-card-header"><span class="label">REAL PUBLIC SOURCE</span><span class="source-pill" id="route-evidence-type">published_plan</span></div>
+            <strong id="route-title">Loading public route…</strong>
+            <span class="muted">Operator: <b id="route-operator">—</b></span>
+            <span class="muted">Route ID: <b id="route-id">—</b></span>
+            <span class="muted">Stops with coordinates: <b id="route-stages">—</b></span>
+            <span class="muted">Last local check: <b id="last-check">—</b></span>
+          </div>
+        </section>
+
+        <section class="metric-strip" aria-label="Workspace summary"><div class="metric"><span>FIELD OBSERVATIONS</span><strong id="observation-count">—</strong><small>Local records</small></div><div class="metric"><span>AIS POSITIONS</span><strong id="ais-count">—</strong><small>Imported or streamed</small></div><div class="metric"><span>REVIEW QUEUE</span><strong id="review-count">—</strong><small>Awaiting human review</small></div><div class="metric accent-metric"><span>REMOTE SYNC</span><strong>Off</strong><small>Working locally</small></div></section>
+
+        <section class="section-heading" id="observations"><div><span class="kicker">CAPTURE &amp; REVIEW</span><h2>Keep the evidence close</h2></div><p>Record what was observed, where the observer was, and what remains uncertain.</p></section>
+        <div class="workspace-grid">
+          <section class="panel form-panel"><div class="panel-heading"><div><span class="step-label">01 / CAPTURE</span><h3>New observation</h3></div><span class="local-pill">SAVED LOCALLY</span></div>
+            <form id="observation-form">
+              <label>Observation type<input name="observation_type" required placeholder="e.g. unusual water, vessel, sea ice" /></label>
+              <div class="two-col"><label>Observer latitude<input name="latitude" type="number" min="-90" max="90" step="any" required placeholder="−64.500" /></label><label>Observer longitude<input name="longitude" type="number" min="-180" max="180" step="any" required placeholder="−62.100" /></label></div>
+              <div class="two-col"><label>Observer type<select name="observer_type"><option>scientist</option><option>crew</option><option>community</option></select></label><label>GPS accuracy (m)<input name="accuracy_m" type="number" min="0" step="any" placeholder="Unavailable" /></label></div>
+              <details><summary>Evidence and context <span>＋</span></summary><div class="details-body"><label>Method / sensor<input name="method_sensor" placeholder="Visual observation, camera..." /></label><label>Environmental context<textarea name="environmental_context" rows="2" placeholder="Weather, sea state, visibility"></textarea></label></div></details>
+              <label>Field notes<textarea name="notes" rows="3" placeholder="Describe what you saw. Keep interpretation separate."></textarea></label>
+              <label class="check"><input name="is_demo" type="checkbox" /> <span>Mark as demonstration data</span></label>
+              <button type="submit">Save observation locally <span>→</span></button><p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+            </form>
+          </section>
+          <section class="panel records-panel"><div class="panel-heading"><div><span class="step-label">02 / EVIDENCE LOG</span><h3>Recent observations</h3></div><div class="actions"><a href="http://localhost:8002/exports/observations.csv">CSV ↓</a><a href="http://localhost:8002/exports/observations.geojson">GeoJSON ↓</a></div></div>
+            <div id="empty-state" class="empty"><span class="empty-icon">○</span><strong>No observations yet</strong><span>Capture a record or import local AIS data to begin.</span></div><div class="table-wrap"><table><thead><tr><th>UTC</th><th>Observation</th><th>Observer position</th><th>Review</th></tr></thead><tbody id="observations-table"></tbody></table></div>
+          </section>
+        </div>
+
+        <section class="explore-preview" id="explore"><div class="section-heading compact"><div><span class="kicker">LIVE LOCAL VIEW</span><h2>Explore the evidence</h2></div><span id="map-live-status" class="status-chip">CONNECTING</span></div><div class="live-map-layout"><div class="map-placeholder" id="live-map" role="img" aria-label="Live local map of observations and AIS positions"><div id="map-layer" aria-label="Map layer"></div><div id="map-empty" class="map-message"><span class="map-symbol">⌖</span><strong>No live positions loaded</strong><span>Import AIS or save a field observation to place evidence here.</span></div><div class="map-key"><span><i class="key-dot field"></i>Field</span><span><i class="key-dot ais"></i>AIS</span><span><i class="key-line"></i>Local records</span></div></div><aside class="map-side-panel"><span class="label">ACTIVE AREA</span><strong>Gerlache Strait</strong><span class="muted">Antarctic Peninsula · local node</span><div class="map-side-rule"></div><div class="map-stat"><span>Visible records</span><strong id="map-record-count">0</strong></div><div class="map-stat"><span>Last refresh</span><strong id="map-last-refresh">—</strong></div><button id="map-refresh" type="button" class="refresh-button">Refresh now ↻</button><p class="map-disclaimer">Historical AIS is not live vessel tracking. No position is inferred when a source is absent.</p></aside></div></section>
+
+        <section class="source-strip" id="sources"><div><span class="kicker">DATA SOURCES</span><h2>Know what is available</h2></div><div class="source-list"><div><strong>Field observations</strong><span>Local · review pending</span></div><div><strong>AIS positions</strong><span>Imported or streamed · source retained</span></div><div><strong>Satellite scenes</strong><span>Not downloaded · no claim made</span></div></div></section>
+
+        <section class="gee-panel" id="gee"><div class="section-heading compact"><div><span class="kicker">REMOTE CONTEXT · OPTIONAL</span><h2>Sentinel-1 SAR</h2></div><span id="gee-status" class="status-chip">NOT REQUESTED</span></div><div class="gee-content"><div><p>Request a rendered Earth Engine tile for the Gerlache Strait area. This is remote imagery, not continuous real-time monitoring.</p><button id="gee-load" type="button">Request Q1 2024 SAR tile <span>→</span></button><p id="gee-message" class="form-message" role="status" aria-live="polite"></p></div><div id="gee-result" class="gee-result" hidden><span class="label">REMOTE SCENE</span><strong id="gee-count">—</strong><span>Sentinel-1 HH / IW median</span></div></div></section>
+
+        <section class="notice" id="method"><div class="notice-icon">!</div><div><strong>A careful reading of the data</strong><span>AIS absence is not vessel absence. Satellite observations are not continuous real time. Community observations are not equivalent to instrumental measurements. Every match requires human review.</span></div></section>
+        <footer><span>AMOH · Local research workspace</span><span>Source provenance stays with the record.</span></footer>
+      </main>
+    </div>
+    <script src="app.js?v=4"></script>
+  </body>
+</html>

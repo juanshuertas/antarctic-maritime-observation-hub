@@ -15,4 +15,5 @@ services:
       - EXPEDITION_ID=NGRS-ANTA-2027
       - JWT_SECRET=dev-secret
       - ANON_SALT=dev-salt
+      - AISSTREAM_API_KEY=${AISSTREAM_API_KEY}
     restart: unless-stopped

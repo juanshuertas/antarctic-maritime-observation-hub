@@ -41,6 +41,7 @@ class Settings:
         self.gcs_bucket = os.getenv("GCS_BUCKET")
         self.gcs_prefix = os.getenv("GCS_PREFIX", "voyages/default")
         self.gee_project = os.getenv("GEE_PROJECT")
+        self.gee_enabled = os.getenv("GEE_ENABLED", "false").lower() == "true"
 
         # AIS
         self.aisstream_api_key = os.getenv("AISSTREAM_API_KEY")
