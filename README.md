@@ -7,7 +7,7 @@
 [![SCAR OSC 2026: Abstract 1820](https://img.shields.io/badge/SCAR_OSC_2026-Abstract_1820-00D2FF)](https://scar2026.org/)
 [![Program: NG--LEX Visiting Scientist 2027--28](https://img.shields.io/badge/NG--LEX-Visiting_Scientist_2027--28-gold)](https://www.nationalgeographic.org/)
 
-> **Plataforma offline-first de fusión geoespacial, fotogrametría táctica y simulación prospectiva para el monitoreo de la presión del tráfico marítimo mediante sensores satelitales (Sentinel), trazas AIS, sensores dron y validación visual en la Península Antártica y el Océano Austral.**  
+> **Plataforma offline-first de fusión oceanopolítica, geoespacial, fotogrametría táctica y simulación prospectiva para el monitoreo de la presión del tráfico marítimo mediante sensores satelitales (Sentinel), trazas AIS, sensores dron y validación visual en la Península Antártica y el Océano Austral.**  
 > Desarrollado por **Juan Sebastián Huertas Olea** como proyecto de investigación independiente alineado con la *Agenda Científica Antártica de Colombia 2025–2035* y adaptado para el *National Geographic–Lindblad Visiting Scientist Program (Southern Ocean 2027–2028)*. Abstract SCAR OSC 2026 #1820.
 
 ---
