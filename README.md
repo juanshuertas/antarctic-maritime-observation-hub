@@ -189,6 +189,7 @@ npm run dev
 ├── requirements.txt          # Dependencias Python
 └── README.md                 # Documentación principal
 🛡️ Seguridad, Privacidad y LicenciaPrivacidad Zero-Knowledge: La autenticación mediante World ID utiliza la prueba de conocimiento cero semaphore-protocol. No se almacenan datos biométricos, nombres reales ni direcciones IP de los investigadores.Sanitización OWASP: Todos los puntos de entrada de archivos (PDF/MD/TXT/EXIF) pasan por pipelines de validación y sanitización para prevenir vulnerabilidades XSS, SQLi e Inyección de Comandos.Licencia: Este proyecto está distribuido bajo la licencia GNU Affero General Public License v3.0 (AGPL-3.0). Consulta el archivo LICENSE para más detalles.
+
              │ • Python 3.12 + FastAPI + DuckDB Spatial                  │
              │ • Datasets: Quantarctica / Copernicus / GFW / SCAR        │
              └───────────────────────────────────────────────────────────┘
