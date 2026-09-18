@@ -1,283 +1,494 @@
 🧊 Antarctic Maritime Observation Hub — AMOH
-
 <p align="center">
-  <strong>WORLD OCEANS LIVING OBSERVATORY</strong><br/>
+  <strong>WORLD OCEANS LIVING OBSERVATORY</strong><br>
   <em>Field Atlas · Live Ocean Intelligence · Antarctic Expeditions · Scientific Passport</em>
 </p>
 
 <p align="center">
-  <a href="https://www.gnu.org/licenses/agpl-3.0">
-    <img alt="License: AGPL-3.0" src="https://img.shields.io/badge/License-AGPL--3.0-2f81f7">
-  </a>
-  <img alt="Status: Prototype" src="https://img.shields.io/badge/Status-Prototype-35c3c8">
-  <img alt="Frontend: React + Vite" src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-58d5e3">
-  <img alt="Map: MapLibre" src="https://img.shields.io/badge/Map-MapLibre-72e0b5">
-  <img alt="Backend: FastAPI" src="https://img.shields.io/badge/Backend-FastAPI-009688">
-  <img alt="Spatial: DuckDB" src="https://img.shields.io/badge/Spatial-DuckDB-yellow">
-  <img alt="AI: Pythia + MiroFish" src="https://img.shields.io/badge/AI-Pythia%20%2B%20MiroFish-a995ff">
-  <img alt="Field: Offline capable" src="https://img.shields.io/badge/Field-Offline%20Capable-caf9f7">
-</p>
-
-<!--
-README HERO IMAGE
-Recommended: download the project image supplied by the author and save it inside the repository as:
-docs/images/amoh-overview.png
-
-GitHub renders repository-hosted images more reliably than Google Drive share links.
--->
-
-<p align="center">
-  <img src="docs/images/amoh-overview.png" alt="AMOH — World Oceans Living Observatory" width="100%">
+  <img
+    src="./amoh-overview.png"
+    alt="AMOH — Antarctic Maritime Observation Hub / World Oceans Living Observatory"
+    width="100%"
+  />
 </p>
 
 <p align="center">
-  <a href="#-qué-es-amoh">Qué es AMOH</a> ·
-  <a href="#-live-lens">Live Lens</a> ·
-  <a href="#-expediciones">Expediciones</a> ·
-  <a href="#-field-connect">Field Connect</a> ·
-  <a href="#-pasaporte-científico-antártico">Pasaporte</a> ·
-  <a href="#-pythia--mirofish">AI</a> ·
-  <a href="#-instalación">Instalación</a>
+  <img alt="Status" src="https://img.shields.io/badge/Status-Research%20Prototype-35c3c8">
+  <img alt="Region" src="https://img.shields.io/badge/Region-Antarctica%20%26%20Southern%20Ocean-58d5e3">
+  <img alt="Frontend" src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61dafb">
+  <img alt="Map" src="https://img.shields.io/badge/Map-MapLibre-72e0b5">
+  <img alt="Backend" src="https://img.shields.io/badge/Backend-FastAPI-009688">
+  <img alt="Spatial" src="https://img.shields.io/badge/Spatial-DuckDB-yellow">
+  <img alt="AI" src="https://img.shields.io/badge/AI-Pythia%20%2B%20MiroFish-a995ff">
+  <img alt="Field" src="https://img.shields.io/badge/Field-Offline%20Capable-caf9f7">
 </p>
 
-🌊 Qué es AMOH
+<p align="center">
+  <a href="./Antarctic_Maritime_Hub_compressed.mp4"><strong>▶ Watch AMOH Demo</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://virtual.oxfordabstracts.com/event/75327/poster-gallery/grid?sort=titles&current=1820"><strong>SCAR 2026 Poster ↗</strong></a>
+</p>
+
+<p align="center">
+  <strong>Observe · Document · Understand · Preserve</strong>
+</p>
+
+---
+
+## 🌊 What is AMOH?
+
+**AMOH — Antarctic Maritime Observation Hub** is an experimental, map-first geospatial observatory for **Antarctica and the Southern Ocean**.
 
-Antarctic Maritime Observation Hub (AMOH) es un observatorio digital experimental para integrar, visualizar y documentar evidencia geoespacial del Océano Austral y la Antártida desde una sola interfaz.
+It is being developed as a **World Oceans Living Observatory** capable of connecting maritime activity, fisheries, satellite observations, Earth-system science, biodiversity, Antarctic expeditions, mobile field observations, scientific provenance and local artificial intelligence inside a unified spatial interface.
 
-El proyecto combina cartografía, actividad marítima, pesca, observación satelital, biodiversidad, hielo marino, infraestructura, fotogrametría DJI, datos de campo, expediciones científicas e inteligencia artificial local. Su objetivo no es crear “otro dashboard”, sino construir una infraestructura de observación trazable en la que cada dato pueda conservar su fuente, tiempo, ubicación, precisión, calidad, método y estado de revisión.
+AMOH is not intended to be another static dashboard.
 
-AMOH fue iniciado por Juan Sebastián Huertas Olea como proyecto independiente de investigación y desarrollo, con interés en la Península Antártica, el Océano Austral, la ciencia abierta, la observación participativa y la continuidad de datos entre expediciones.
+The goal is to create a **living scientific record of the Southern Ocean**, where observations can preserve their full context:
+
+- where they happened;
+- when they happened;
+- which source produced them;
+- how precise they are;
+- what method generated them;
+- whether they have been reviewed;
+- what evidence supports them;
+- and how they relate to other observations.
+
+AMOH was initiated by **Juan Sebastian Huertas Olea** as an independent research and development project focused on Antarctic observation, open science, expedition continuity, scientific participation and the relationship between humanity and the ocean.
 
-Principio de producto: primero el océano, después los datos, luego el análisis y, solo cuando sea necesario, las herramientas.
+---
 
-English summary
+## 🇨🇴 Resumen en español
 
-AMOH — Antarctic Maritime Observation Hub is an experimental, map-first observatory for the Southern Ocean and Antarctica. It connects maritime activity, satellite observations, fisheries, biodiversity, field data, expedition workflows, local AI and scientific provenance in a single system designed to remain useful under intermittent connectivity.
+**AMOH — Antarctic Maritime Observation Hub** es un observatorio digital experimental para integrar, visualizar y documentar evidencia del **Océano Austral y la Antártida** desde una sola plataforma.
+
+El proyecto busca conectar:
+
+- actividad marítima;
+- AIS;
+- pesca;
+- satélites;
+- hielo marino;
+- biodiversidad;
+- ciencia del Sistema Tierra;
+- observaciones de campo;
+- expediciones;
+- teléfonos y sensores;
+- inteligencia artificial;
+- cartografía científica;
+- y procedencia de datos.
+
+La plataforma está diseñada para operar normalmente conectada a Internet, pero sus funciones de **campo y expedición** pueden continuar en redes locales o sin conexión pública.
+
+---
+
+# 🌐 World Oceans Living Observatory
 
-🚧 Estado del proyecto
+> **One connected ocean. Evidence to understand it.**
 
-AMOH se encuentra en desarrollo activo / prototipo de investigación.
+AMOH begins with Antarctica and the Southern Ocean, but its long-term concept is broader:
 
-No todos los conectores descritos en este README están necesariamente habilitados en una instalación determinada. La disponibilidad depende de APIs, licencias, credenciales, permisos, conectividad y datasets configurados.
+```text
+OCEAN
++
+SATELLITES
++
+VESSELS
++
+FISHERIES
++
+BIODIVERSITY
++
+FIELD OBSERVATIONS
++
+EXPEDITIONS
++
+SCIENTIFIC DATA
++
+ARTIFICIAL INTELLIGENCE
++
+HUMAN PARTICIPATION
+```
 
-AMOH distingue explícitamente entre:
+The objective is not simply to collect more data.
 
-Estado
+The objective is to connect evidence while preserving:
 
-Significado
+```text
+SOURCE
+TIME
+LOCATION
+PRECISION
+QUALITY
+METHOD
+LICENSE
+PROVENANCE
+REVIEW STATE
+```
 
-LIVE
+---
 
-El proveedor confirma datos actuales dentro de la latencia declarada
+# 🚧 Project status
 
-DELAYED
+AMOH is currently an:
 
-El dato es reciente, pero no en tiempo real
+```text
+ACTIVE RESEARCH PROTOTYPE
+```
 
-RECENT
+Not every provider, API or module described in this repository is necessarily enabled in every installation.
 
-Registro reciente dentro de una ventana definida
+Availability depends on:
 
-HISTORICAL
+- API access;
+- licenses;
+- credentials;
+- permissions;
+- data-provider policies;
+- Internet availability;
+- field-network availability;
+- scientific datasets;
+- local configuration.
 
-Dato histórico
+AMOH explicitly distinguishes between real observations, delayed information, historical records, simulations and demonstration data.
 
-STALE
+---
 
-El dato superó su ventana de actualización esperada
+# 🟢 Data states
 
-OFFLINE
+| State | Meaning |
+|---|---|
+| `LIVE` | Current according to the provider and its declared latency |
+| `DELAYED` | Recent information that is not real-time |
+| `RECENT` | Recent observation inside a defined period |
+| `HISTORICAL` | Historical record |
+| `STALE` | Older than its expected refresh window |
+| `OFFLINE` | Provider or connection unavailable |
+| `SIMULATION` | Model-generated result |
+| `DEMO` | Synthetic demonstration data |
+| `UNREVIEWED` | Submitted evidence not yet scientifically reviewed |
+| `UNDER_REVIEW` | Evidence currently under review |
+| `VALIDATED` | Scientifically reviewed under a defined workflow |
+| `REJECTED` | Reviewed and rejected |
+| `NOT_CONFIGURED` | Adapter exists but its provider is not configured |
 
-El proveedor o enlace no está disponible
+AMOH must never present `DEMO`, `SIMULATION`, historical or unavailable data as `LIVE`.
 
-SIMULATION
+---
 
-Resultado de modelo o escenario, no observación
+# 🔬 Scientific principle
 
-DEMO
+AMOH follows one essential rule:
 
-Dato sintético o demostrativo
+> **Observation ≠ Causation**
 
-UNREVIEWED
+Spatial or temporal coincidence between:
 
-Evidencia recibida sin revisión científica
+- a vessel;
+- AIS activity;
+- a satellite detection;
+- fishing activity;
+- a whale sighting;
+- sea-ice variation;
+- a field observation;
+- an environmental anomaly;
 
-VALIDATED
+does **not automatically demonstrate**:
 
-Registro revisado bajo un flujo científico definido
+- causality;
+- environmental impact;
+- illegal activity;
+- intent;
+- responsibility.
 
-NOT_CONFIGURED
+AMOH supports investigation and evidence reconciliation.
 
-El adaptador existe, pero no tiene proveedor/credenciales configuradas
+It does not manufacture conclusions.
 
-AMOH nunca debe presentar datos DEMO, SIMULATION, históricos o no configurados como si fueran LIVE.
+---
 
-🔬 Pregunta científica y contexto
+# 🗺️ Live Lens
 
-AMOH nace de una pregunta práctica:
+**Live Lens** is the main AMOH workspace.
 
-¿Dónde y cuándo se concentra la actividad humana en el entorno antártico, qué evidencia podemos observar alrededor de ella y dónde existen vacíos de monitoreo que merecen mayor atención científica?
+The map is the product.
 
-El sistema está diseñado para reconciliar fuentes heterogéneas sin confundir correlación con causalidad:
+The interface is designed so that Antarctica and the Southern Ocean remain visually dominant while controls and analytical panels appear only when requested.
 
-trazas AIS y otras fuentes marítimas autorizadas;
+### Map modes
 
-observaciones satelitales ópticas y SAR;
+```text
+MAP
+GLOBE
+SAT
+SURIE
+```
 
-hielo marino, atmósfera y variables oceánicas;
+AMOH intentionally avoids loading multiple heavy globe engines at startup.
 
-Global Fishing Watch y contexto pesquero;
+The home experience uses a single primary geospatial renderer.
 
-biodiversidad y avistamientos;
+---
 
-fotografías y fotogrametría DJI;
+# 🌍 Antarctic Globe
 
-observaciones realizadas desde buques, estaciones y dispositivos móviles;
+The primary globe is oriented toward the Southern Hemisphere.
 
-productos de Quantarctica y otras infraestructuras científicas abiertas;
+Main geographic areas include:
 
-evidencia documental y resultados de expediciones.
+- Antarctica;
+- Antarctic Peninsula;
+- Drake Passage;
+- Scotia Sea;
+- South Shetland Islands;
+- Southern Ocean;
+- sub-Antarctic gateways.
 
-Regla científica central
+The interface can progressively display:
 
-Observation ≠ Causation.
+```text
+VESSELS
+FLIGHTS
+SATELLITES
+FISHERIES
+FAUNA
+PROTECTED AREAS
+SUBMARINE CABLES
+SCIENCE DATA
+TOURISM
+FIELD OBSERVATIONS
+EXPEDITION DATA
+```
 
-La coincidencia espacio-temporal entre un buque, una señal satelital, un animal, una observación humana o un cambio ambiental no demuestra por sí sola causalidad, ilegalidad, impacto ecológico ni intención.
+---
 
-🧭 Principios de diseño y operación
+# 🎛️ Spatial intelligence filters
 
-Map-first. El mapa es el espacio de trabajo principal y debe conservar la mayor parte del viewport.
+AMOH uses a compact filter system inspired by modern open-source geospatial-intelligence interfaces.
 
-Online-first, field-offline-capable. En operación normal AMOH aprovecha fuentes online; en territorio/expedición, la captura y revisión crítica pueden continuar sin Internet público.
+The interaction language emphasizes:
 
-Un solo mapa principal. La home utiliza un único motor MapLibre y evita montar múltiples renderers pesados simultáneamente.
+- map-first navigation;
+- semantic zoom;
+- spatial filtering;
+- entity selection;
+- density visualization;
+- viewport-aware loading;
+- lightweight contextual drawers.
 
-Carga bajo demanda. Pesquerías, SURIE, Quantarctica, analítica avanzada, Pasaporte, Expediciones, World y simulaciones se cargan solo cuando el usuario las solicita.
+### Main filters
 
-Provenance by default. Todo dato importante conserva fuente, tiempo UTC, licencia, precisión, calidad, método y revisión.
+#### 🚢 Vessels
 
-Cero interferencia. Las observaciones de campo se adaptan a la operación real de la expedición; AMOH no exige alterar la ruta del buque.
+Possible categories:
 
-Privacidad mínima necesaria. El sistema no necesita almacenar biometría para operar.
+```text
+Research
+Tourism
+Fishing
+Logistics
+Icebreakers
+Support vessels
+```
 
-AI ≠ scientific validation. La IA puede resumir, priorizar, comparar o proponer hipótesis; no sustituye la revisión científica.
+#### ✈️ Flights
 
-Graceful degradation. Si GFW, AIS, SURIE, World, Pythia o cualquier proveedor externo falla, el observatorio debe seguir funcionando.
+Regional aviation context where authorized public data is available.
 
-Rendimiento antes que densidad visual. AMOH evita miles de marcadores DOM, capas globales innecesarias y renderers redundantes.
+#### 🛰️ Satellites
 
-🗺️ Live Lens
+Relevant passes rather than the entire global satellite population.
 
-Live Lens es la pantalla principal del observatorio.
+Possible categories:
 
-La referencia visual combina la identidad propia de AMOH con patrones de interacción inspirados en plataformas de inteligencia geoespacial abiertas: navegación fluida, filtros compactos, selección de entidades, capas semánticas, agrupación por escala y paneles contextuales.
+```text
+Earth observation
+Communications
+Weather
+Navigation
+Research
+```
 
-Modos de mapa
+#### 🐟 Fisheries
 
-MAP — vista cartográfica ligera;
+Fishing activity and marine-resource context.
 
-GLOBE — proyección global enfocada en el hemisferio sur;
+#### 🐋 Fauna
 
-SAT — base satelital cuando el proveedor está configurado;
+Marine biodiversity and Antarctic wildlife.
 
-SURIE — comparación bajo demanda con el WebMap de ArcGIS SURIE.
+#### 〰️ Submarine infrastructure
 
-EARTH 3D no forma parte de la home actual: se retiró para reducir carga gráfica y evitar múltiples contextos WebGL.
+Public subsea cable and communications context.
 
-Filtros de entidades
+---
 
-El rail de filtros puede activar, según disponibilidad:
+# 🔭 Semantic zoom
 
-🚢 Buques
+AMOH changes the representation according to scale.
 
-✈️ Vuelos
+| Scale | Visualization |
+|---|---|
+| Global | density, clusters, aggregated context |
+| Regional | categories, corridors, hotspots |
+| Local | individual entities, tracks and evidence |
 
-🛰️ Satélites
+This avoids rendering tens of thousands of unnecessary individual objects.
 
-🐟 Pesquerías
+---
 
-🐋 Fauna
+# 🚢 AIS & maritime activity
 
-〰️ Cables submarinos / infraestructura subsea
+AMOH can normalize maritime observations using fields such as:
 
-Los íconos en la aplicación deben utilizar una familia vectorial consistente; los emojis anteriores solo representan las categorías en este README.
+```text
+mmsi
+vessel_name
+vessel_type
+timestamp_utc
+latitude
+longitude
+speed_knots
+course_deg
+source
+quality
+geom
+```
 
-Semantic zoom
+Potential analyses include:
 
-Escala
+- vessel tracks;
+- maritime corridors;
+- vessel density;
+- route concentration;
+- speed changes;
+- signal gaps;
+- voyage replay;
+- field-observation matchups;
+- tourism context;
+- fisheries context;
+- research-vessel activity.
 
-Representación
+### Critical rule
 
-Global
+```text
+AIS absence ≠ vessel absence
+```
 
-densidad, clusters y capas agregadas
+An AIS gap cannot by itself prove disappearance, illegal activity or deliberate transponder deactivation.
 
-Regional
+---
 
-categorías, corredores y eventos relevantes
+# 🎣 Global Fishing Watch
 
-Local
+AMOH is designed to integrate selected **Global Fishing Watch — GFW** data products when access, licensing and configuration allow.
 
-entidades individuales, trayectorias y evidencia
+Potential layers include:
 
-🎣 Global Fishing Watch
+- apparent fishing effort;
+- AIS activity;
+- VMS activity;
+- vessel presence;
+- fishing gear;
+- vessel encounters;
+- loitering;
+- AIS gaps;
+- port visits;
+- optical detections;
+- SAR detections;
+- night-light detections.
 
-AMOH integra Global Fishing Watch (GFW) como una fuente de contexto pesquero bajo demanda.
+Queries should be constrained by:
 
-La interfaz puede incorporar, cuando el proveedor y sus productos lo permiten:
+```text
+VIEWPORT
++
+TIME PERIOD
++
+ACTIVE PRODUCT
+```
 
-esfuerzo pesquero aparente;
+instead of loading unnecessary global datasets.
 
-presencia AIS/VMS;
+---
 
-arte de pesca;
+## ⚠️ Fishing activity ≠ illegal fishing
 
-embarcaciones seleccionadas;
+AMOH does not automatically classify a vessel as illegal because of:
 
-encuentros;
+- apparent fishing activity;
+- AIS gaps;
+- SAR detection;
+- vessel encounters;
+- loitering;
+- proximity to a protected area;
+- activity hotspots.
 
-comportamiento de deriva/loitering;
+These are signals that may require additional investigation.
 
-discontinuidades AIS;
+Legal determinations require appropriate evidence and competent authorities.
 
-visitas a puerto;
+---
 
-detecciones ópticas;
+# 🐋 Polar Fauna
 
-SAR;
+AMOH includes a **Polar Fauna** interface for exploring species observations and biodiversity datasets.
 
-night lights.
+Initial species groups include:
 
-La consulta se limita al viewport, periodo y producto activo, evitando cargar mapas globales completos.
+### 🦐 Antarctic krill
 
-Importante
+A central component of the Southern Ocean food web.
 
-AMOH no etiqueta automáticamente una embarcación como “ilegal” por ausencia AIS, detección SAR, actividad aparente, encuentro o presencia en un hotspot. Esas señales son contexto para revisión; una conclusión legal requiere evidencia y autoridad competentes.
+### 🐟 Antarctic toothfish
 
-🐋 Fauna polar y biodiversidad
+Relevant to Antarctic ecosystem and fisheries science.
 
-La capa Fauna Polar permite explorar registros relacionados con especies clave del Océano Austral.
+### 🐧 Penguins
 
-La experiencia inicial contempla iconografía individual para:
+Observation records can be connected with sea ice, tourism, fisheries and environmental variables.
 
-Krill antártico
+### 🦭 Weddell seal
 
-Merluza negra / Antarctic toothfish
+Marine mammal records can be explored alongside environmental conditions.
 
-Pingüinos
+### 🐋 Humpback whale
 
-Foca de Weddell
+Possible evidence can include:
 
-Ballena jorobada
+- sightings;
+- acoustic records;
+- tags;
+- field observations;
+- historical records.
 
-Orca
+### Orca
 
-Albatros y petreles marinos
+Observations can be represented individually or as aggregated scientific evidence.
 
-Adaptadores potenciales incluyen OBIS, GBIF, IWC, CCAMLR, SCAR/SOOS y observaciones AMOH Field.
+### Albatrosses and petrels
 
-Cada registro debe conservar su procedencia y, cuando aplique:
+Seabird records can be connected with marine and fisheries context.
 
+---
+
+# 🧬 Biodiversity sources
+
+Potential adapters include:
+
+```text
+OBIS
+GBIF
+IWC
+CCAMLR
+SCAR datasets
+SOOS
+AMOH Field
+```
+
+Each record should preserve:
+
+```text
 scientific_name
 common_name
 source
@@ -290,371 +501,572 @@ quality
 review_state
 license
 retrieved_at
+```
 
-AMOH puede visualizar superposición espacial entre fauna, pesca, hielo, turismo y actividad marítima, pero superposición no equivale a impacto causal.
+---
 
-🧊 Quantarctica, SCAR y SURIE
+# 🦐 Krill Intelligence
 
-Quantarctica
+A dedicated krill context can compare:
 
-Quantarctica funciona como catálogo científico y paquete de campo, no como un segundo mapa independiente.
+```text
+KRILL
++
+SEA ICE
++
+WHALES
++
+PENGUINS
++
+SEALS
++
+FISHERIES
++
+OCEAN CONDITIONS
+```
 
-Las capas seleccionadas pueden cubrir:
+Spatial overlap can help identify monitoring priorities.
 
-topografía;
+It does not establish ecological causality by itself.
 
-glaciología;
+---
 
-ice shelves;
+# 🛰️ Satellite observations
 
-geología;
+AMOH can integrate satellite observations relevant to Antarctica.
 
-biología;
+Potential products include:
 
-estaciones;
+- Sentinel-1 SAR;
+- Sentinel-2 optical imagery;
+- Copernicus products;
+- Earth Engine analyses;
+- sea-ice observations;
+- ocean-colour products;
+- atmospheric products;
+- night lights;
+- vessel detections.
 
-áreas protegidas;
+Every satellite observation should preserve, where available:
 
-gestión ambiental;
+```text
+source
+satellite
+sensor
+acquisition_time
+processing_time
+resolution
+quality
+license
+```
 
-infraestructura y contexto polar.
+Satellite information must not automatically be labelled as real-time.
 
-Para rendimiento web, AMOH prioriza formatos optimizados como PMTiles/MVT para vectores y COG/tiles para rásteres.
+---
 
-En expedición pueden prepararse paquetes offline limitados al corredor de navegación o zona de trabajo.
+# 🌍 Earth Sciences
 
-ArcGIS SURIE
+AMOH groups Earth-system observations into:
 
-AMOH contempla integración bajo demanda con el WebMap SURIE:
+```text
+ATMOSPHERE
+OCEAN
+CRYOSPHERE
+LAND / COAST
+BIOSPHERE
+GEOPHYSICS
+REMOTE SENSING
+```
 
-WebMap ID:
-de8bb6821bf148649f1e7b9154592a97
+Potential outputs include:
 
-La comparación puede realizarse mediante vista dividida o extensión sincronizada, siempre que el SDK, permisos y rendimiento lo permitan.
+- maps;
+- time series;
+- statistics;
+- scenes;
+- methodology;
+- source;
+- quality;
+- uncertainty.
 
-SCAR OSC 2026
+Analytical jobs may use:
 
-AMOH enlaza el trabajo presentado en SCAR Open Science Conference 2026 mediante acceso directo al póster correspondiente:
-
-Poster gallery — Abstract / Poster #1820
-https://virtual.oxfordabstracts.com/event/75327/poster-gallery/grid?sort=titles&current=1820
-
-La interfaz puede utilizar el logotipo oficial de SCAR 2026 únicamente respetando sus condiciones de uso y sin implicar patrocinio o respaldo institucional.
-
-🌍 Ciencias de la Tierra
-
-AMOH organiza variables del Sistema Tierra en dominios:
-
-atmósfera;
-
-océano;
-
-criósfera;
-
-costa/tierra;
-
-biosfera;
-
-geofísica;
-
-teledetección.
-
-Los análisis satelitales o de Earth Engine se ejecutan como trabajos bajo demanda, no como carga inicial de la home.
-
-Estados de job recomendados:
-
+```text
 QUEUED
 PROCESSING
 COMPLETED
 FAILED
 CANCELLED
+```
 
-Las visualizaciones pueden incluir:
+AMOH should never show fake progress when a remote provider does not expose real processing progress.
 
-mapas;
+---
 
-series temporales;
+# 🧊 Quantarctica
 
-estadísticas;
+AMOH is designed to connect with **Quantarctica** as an important Antarctic scientific-data environment.
 
-escenas;
+Potential layers include:
 
-metodología;
+- topography;
+- bathymetry;
+- glaciers;
+- ice shelves;
+- geology;
+- research stations;
+- protected areas;
+- biological context;
+- environmental management;
+- infrastructure.
 
-calidad;
+For browser performance AMOH should prefer optimized representations such as:
 
-fuente;
+```text
+PMTiles
+MVT
+COG
+raster tiles
+```
 
-fecha de adquisición.
+rather than loading full desktop GIS datasets directly into the browser.
 
-No se debe mostrar progreso falso si el proveedor no expone un progreso real.
+---
 
-📡 AIS, rutas y actividad marítima
+## Offline Quantarctica packages
 
-La capa marítima normaliza:
+During an expedition, users may define:
 
-mmsi
-vessel_name
-vessel_type
-timestamp_utc
-speed_knots
-course_deg
-source
-quality
-geom
+```text
+REGION
+ROUTE CORRIDOR
+FIELD SITES
+LAYERS
+RESOLUTION
+```
 
-AMOH puede construir:
+and prepare a limited offline science package before departure.
 
-trayectorias;
+---
 
-corredores;
+# 🗺️ ArcGIS SURIE
 
-densidad;
+AMOH supports on-demand comparison with the ArcGIS SURIE WebMap.
 
-cambios de velocidad;
+```text
+WebMap ID:
+de8bb6821bf148649f1e7b9154592a97
+```
 
-gaps de señal;
+Potential comparison modes:
 
-coincidencias espacio-temporales con observaciones de campo;
+```text
+SIDE BY SIDE
+SWIPE
+LINKED EXTENT
+```
 
-contexto de investigación, turismo, pesca y logística.
+SURIE is loaded only when requested.
 
-Ausencia AIS ≠ ausencia de buque.
+It is not required for AMOH startup.
 
-🌐 Cables submarinos e infraestructura
+---
 
-AMOH diferencia explícitamente entre cables submarinos / infraestructura subsea y activos navales.
+# 🌐 Submarine cables
 
-Cuando una fuente pública lo permita, una entidad de cable puede incluir:
+AMOH differentiates:
 
-name
+```text
+SUBMARINE CABLES
+```
+
+from:
+
+```text
+SUBMARINES
+```
+
+These are not equivalent.
+
+Public infrastructure records may include:
+
+```text
+cable_name
 operator
 landing_points
 status
 route_precision
 source
 retrieved_at
+```
 
-Las rutas deben representarse con precisión acorde con la fuente y nunca inventarse cuando el trazado público no está disponible.
+AMOH should never fabricate confidential or undocumented subsea infrastructure.
 
-📸 DJI y fotogrametría
+---
 
-AMOH puede ingerir fotografías de drones DJI y extraer metadatos EXIF/XMP como:
+# 📡 Connectivity
 
-GPS;
+AMOH can document connectivity conditions during expeditions.
 
-altitud;
+Potential context:
 
-altitud relativa;
+- ship Wi-Fi;
+- research-station networks;
+- satellite Internet;
+- Starlink where authorized;
+- local LAN;
+- cellular signal where available;
+- latency;
+- packet loss;
+- offline periods.
 
-pitch, roll, yaw;
+The goal is to understand field connectivity.
 
-modelo de cámara;
+It is not to identify or surveil individuals.
 
-distancia focal;
+AMOH does not require:
 
-ancho de imagen;
+```text
+IMEI
+IMSI
+Advertising ID
+```
 
-timestamp;
+as scientific device identifiers.
 
-hash del archivo.
+---
 
-Ground Sample Distance — GSD
+# 📸 DJI & aerial observations
 
-Cuando el ancho físico del sensor está disponible:
+AMOH can ingest DJI imagery and extract EXIF/XMP information.
 
-$$
-GSD = \frac{Sw \times H \times 100}{Fr \times ImW}
-$$
+Potential metadata:
 
-donde:
+```text
+GPS latitude
+GPS longitude
+GPS altitude
+relative altitude
+pitch
+roll
+yaw
+camera model
+focal length
+image width
+timestamp
+file hash
+```
 
-$Sw$ = ancho del sensor en mm;
+---
 
-$H$ = altura sobre el terreno en m;
+## Ground Sample Distance — GSD
 
-$Fr$ = focal en mm;
+When physical sensor width is known:
 
-$ImW$ = ancho de imagen en píxeles;
+```text
+GSD = (Sw × H × 100) / (Fr × ImW)
+```
 
-$GSD$ = cm/px.
+Where:
 
-AMOH no inventa el ancho del sensor. Si el modelo de cámara no puede resolverse con una fuente confiable, el GSD se marca como no disponible.
+```text
+Sw  = sensor width in mm
+H   = height above terrain in metres
+Fr  = focal length in mm
+ImW = image width in pixels
+```
 
-Los ortomosaicos pueden ser procesados externamente con herramientas compatibles como OpenDroneMap o DJI Terra y luego cargados como capas georreferenciadas.
+Result:
 
-📱 Field Connect
+```text
+GSD = centimetres / pixel
+```
 
-AMOH Field Connect convierte teléfonos y tabletas en nodos voluntarios de observación.
+AMOH must never invent camera sensor width.
 
-PWA
+If it cannot be reliably determined:
 
-La PWA puede utilizar, cuando el navegador y los permisos lo permiten:
+```text
+GSD = UNAVAILABLE
+```
 
-GPS;
+---
 
-precisión de ubicación;
+# 📱 AMOH Field Connect
 
-altitud;
+**AMOH Field Connect** transforms phones and tablets into voluntary observation nodes.
 
-heading;
+The PWA can capture, when supported and explicitly permitted:
 
-velocidad;
+- GPS;
+- location accuracy;
+- altitude;
+- heading;
+- speed;
+- camera;
+- photographs;
+- timestamp;
+- device orientation;
+- motion;
+- notes;
+- network status.
 
-cámara;
+Observations can remain local when the device loses Internet access.
 
-orientación;
+---
 
-movimiento;
+## Offline observation states
 
-timestamp;
-
-estado de red;
-
-formularios de campo.
-
-Los registros se almacenan localmente en IndexedDB y posteriormente se sincronizan con el Edge Node.
-
-Estados recomendados:
-
+```text
 LOCAL
+↓
 QUEUED
+↓
 SYNCING
+↓
 SERVER_RECEIVED
+↓
 UNDER_REVIEW
-APPROVED
-REJECTED
+↓
+APPROVED / REJECTED
+```
+
+Failure state:
+
+```text
 FAILED
+```
 
-QR de red local
+---
 
-En una red de buque o estación, el QR debe resolver una dirección LAN real:
+# 📲 Connecting phones by QR
 
-http://<LAN_IP>:5174/
+Inside a ship or expedition LAN, AMOH can generate a QR pointing to the actual local address.
 
-Nunca debe anunciar:
+Correct:
 
+```text
+http://192.168.x.x:5174/
+```
+
+Incorrect:
+
+```text
 localhost
 127.0.0.1
 0.0.0.0
+```
 
-El backend puede exponer GET /api/network-info para resolver la dirección LAN de forma controlada.
+A backend endpoint can provide:
 
-Android Field Node
+```text
+GET /api/network-info
+```
 
-Una aplicación Android opcional puede ampliar la captura mediante:
+to resolve the active LAN address.
 
-ubicación fusionada;
+---
 
-acelerómetro;
+# 📱 Android Field Node
 
-giroscopio;
+An optional native Android application can extend browser capabilities.
 
-magnetómetro;
+Potential technologies:
 
-vector de rotación;
+```text
+Kotlin
+Jetpack Compose
+Fused Location Provider
+SensorManager
+Nearby Connections
+Local encrypted storage
+```
 
-barómetro, si el dispositivo lo incluye;
+Potential sensors:
 
-batería y conectividad;
+- accelerometer;
+- gyroscope;
+- magnetometer;
+- rotation vector;
+- barometer;
+- ambient light;
+- location;
+- battery;
+- network.
 
-Nearby Connections para transferencia local.
+AMOH discovers what hardware actually exists on the device.
 
-AMOH debe descubrir las capacidades reales del equipo y no asumir que cada teléfono posee todos los sensores.
+It does not assume every phone contains every sensor.
 
-Perfiles de muestreo:
+---
 
+## Sensor profiles
+
+```text
 ECO
 SURVEY
 BURST
+```
 
-El modo BURST debe ser temporal para proteger batería, almacenamiento y estabilidad.
+### ECO
 
-🧭 Expediciones
+Battery-efficient contextual monitoring.
 
-/expeditions transforma AMOH en un sistema de continuidad científica entre preparación, territorio, revisión y memoria.
+### SURVEY
 
-Modelo:
+Moderate sampling during an active field session.
 
+### BURST
+
+Short-duration higher-frequency collection when scientifically justified.
+
+`BURST` should never remain active indefinitely.
+
+---
+
+# 🚢 Expeditions
+
+The `/expeditions` area converts AMOH into a continuity platform for scientific campaigns.
+
+Core model:
+
+```text
 EXPEDITION
-   ↓
+    ↓
 VOYAGE
-   ↓
+    ↓
 FIELD SESSION
-   ↓
+    ↓
 DEVICE
-   ↓
+    ↓
 OBSERVATION
-   ↓
+    ↓
 EVIDENCE
-   ↓
+    ↓
 MATCHUP
-   ↓
+    ↓
 SCIENTIFIC REVIEW
-   ↓
+    ↓
 VALIDATED OUTPUT
-   ↓
+    ↓
 PASSPORT
+```
 
-National Geographic–Lindblad Visiting Scientist concept
+---
 
-AMOH incluye un workspace para una propuesta/aplicación de investigación adaptada al contexto del Visiting Scientist Program — Southern Ocean 2027–2028.
+# 🟨 NGS–Lindblad Visiting Scientist research concept
 
-Estado recomendado mientras no exista confirmación oficial:
+AMOH includes a research workspace prepared around a proposal concept for the:
 
-PROPOSAL
+```text
+NGS–Lindblad Expeditions
+Visiting Scientist Program
+Southern Ocean 2027–2028
+```
 
-La propuesta se centra en integrar:
+Research concept:
 
+> **Where and when does maritime activity concentrate along the Antarctic Peninsula, and can AIS, satellite observations and field validation help identify where closer environmental monitoring is most needed?**
+
+Method:
+
+```text
 AIS
 +
 SATELLITE
 +
-FIELD OBSERVATION
+FIELD
 ↓
 MATCH
 ↓
 REVIEW
 ↓
 OUTPUT
+```
 
-La presencia de este módulo no implica selección, financiación, patrocinio ni respaldo de National Geographic o Lindblad Expeditions.
+Unless formally confirmed, this workspace remains:
 
-Programa Antártico Colombiano — PAC
+```text
+PROPOSAL
+```
 
-AMOH contempla un segundo template de expedición para el Programa Antártico Colombiano, capaz de modelar campañas sucesivas sin hardcodear el número o temporada.
+Its presence in AMOH does **not** imply selection, funding, endorsement or partnership by National Geographic or Lindblad Expeditions.
 
-El ciclo puede cubrir:
+---
 
-CALL / APPLICATION
-→ EVALUATION
-→ SELECTION
-→ PREPARATION
-→ TRAINING
-→ MEDICAL / ADMIN READINESS
-→ LOGISTICS
-→ DEPLOYMENT
-→ FIELD SCIENCE
-→ RETURN
-→ REPORTING
-→ SCIENTIFIC PRODUCTS
-→ LESSONS LEARNED
-→ ARCHIVE
+# 🇨🇴 Programa Antártico Colombiano
 
-El sistema diferencia entre PROPOSAL, SELECTED, ACTIVE, COMPLETED y otros estados, evitando que una propuesta aparezca como participación confirmada.
+AMOH is also being designed to support expedition workflows related to the **Programa Antártico Colombiano — PAC**.
 
-Science Hub
+The architecture allows successive expedition cycles without hardcoding a single year.
 
-Cada expedición puede exponer un Science Hub QR para tres tipos de contribución:
+Potential lifecycle:
 
-investigador/científico;
+```text
+CALL
+↓
+APPLICATION
+↓
+EVALUATION
+↓
+SELECTION
+↓
+PREPARATION
+↓
+PRE-ANTARCTIC TRAINING
+↓
+MEDICAL / ADMINISTRATIVE READINESS
+↓
+LOGISTICS
+↓
+DEPLOYMENT
+↓
+FIELD SCIENCE
+↓
+RETURN
+↓
+REPORTING
+↓
+SCIENTIFIC PRODUCTS
+↓
+LESSONS LEARNED
+↓
+ARCHIVE
+```
 
-staff de expedición;
+AMOH distinguishes between:
 
-invitado/comunidad.
+```text
+PROPOSAL
+SELECTED
+PLANNING
+READY
+ACTIVE
+RETURNING
+REPORTING
+COMPLETED
+ARCHIVED
+```
 
-Pipeline obligatorio:
+A proposal must never automatically appear as a completed expedition.
 
+---
+
+# 🔬 Science Hub
+
+Each expedition may expose an **AMOH Science Hub** through QR.
+
+Potential contributor types:
+
+```text
+RESEARCHER
+EXPEDITION STAFF
+GUEST / COMMUNITY
+```
+
+Scientific contribution workflow:
+
+```text
 SUBMIT
 ↓
 REVIEW
@@ -662,84 +1074,141 @@ REVIEW
 MATCH
 ↓
 USE
+```
 
-Nada se transforma automáticamente en ciencia validada.
+No submission becomes validated science automatically.
 
-🪪 Pasaporte Científico Antártico
+---
 
-El AMOH Antarctic Scientific Passport es una credencial científica interactiva y un registro de participación.
+# 🧪 Scientific Matchups
 
-Prototipo de pasaporte científico. No es un documento de viaje.
+AMOH can reconcile:
 
-Puede reunir:
+```text
+FIELD OBSERVATION
++
+AIS
++
+SATELLITE
++
+ENVIRONMENTAL CONTEXT
+```
 
-identidad pública del participante;
+Possible outcomes:
 
-expediciones;
+```text
+MATCH
+PARTIAL_MATCH
+NO_MATCH
+DATA_GAP
+CONFLICT
+```
 
-sesiones de campo;
+A disagreement between sources is scientifically useful information and should be preserved.
 
-observaciones validadas;
+---
 
-sellos científicos;
+# 🪪 Antarctic Scientific Passport
 
-datasets;
+The **AMOH Antarctic Scientific Passport** is an interactive scientific identity and participation record.
 
-publicaciones;
+> **Prototype scientific passport. It is not a travel document.**
 
-credenciales;
+The Passport can connect:
 
-logros;
+- expeditions;
+- field sessions;
+- validated observations;
+- routes;
+- scientific stamps;
+- datasets;
+- publications;
+- credentials;
+- achievements;
+- scientific participation.
 
-rutas y lugares;
+---
 
-historial de contribuciones.
+## Passport philosophy
 
-El Pasaporte no sustituye un pasaporte legal, visa, credencial gubernamental o autorización expedicionaria.
+The Passport answers:
 
-Diseño
+```text
+Where have I been?
 
-La experiencia combina:
+What have I observed?
 
-objeto editorial tipo pasaporte;
+What has been validated?
 
-cartografía polar;
+What have I contributed?
 
-sellos;
+What science am I connected to?
 
-security-pattern graphics originales;
+What can I do next?
+```
 
-smart card científica;
+It does not replace:
 
-interfaz móvil minimalista.
+- a legal passport;
+- visa;
+- government ID;
+- expedition permit;
+- institutional credential.
 
-AMOH no replica documentos oficiales ni arte protegido de otros proyectos.
+---
 
-Estados
+# 💳 AMOH Scientific Smart Card
 
-DRAFT
-ACTIVE
-SUSPENDED
-EXPIRED
+AMOH can represent a digital or physical scientific credential.
 
-Un usuario no recibe automáticamente estado ACTIVE; debe existir un flujo de emisión definido.
+Potential capabilities:
 
-🌐 World ID y recompensas WLD
+```text
+QR verification
+NFC
+public-key challenge
+selected public claims
+credential revocation
+```
 
-La integración con World es opcional y separa tres conceptos:
+It is not intended to imitate an official government travel document.
 
-AMOH identity — cuenta y perfil científico;
+---
 
-World verification — verificación de persona/human uniqueness cuando el producto y región lo permiten;
+# 🌐 World ID
 
-Scientific validation — revisión científica de la contribución.
+World integration is optional.
 
-Una verificación World no demuestra formación científica, institución, autoría ni calidad del dato.
+AMOH separates:
 
-AMOH no necesita almacenar biometría.
+```text
+AMOH ACCOUNT
+WORLD PROOF OF HUMAN
+SCIENTIFIC ROLE
+INSTITUTIONAL ROLE
+SCIENTIFIC VALIDATION
+```
 
-Flujo de recompensa
+These concepts are not equivalent.
 
+World verification does not establish:
+
+- academic qualification;
+- scientific competence;
+- institutional affiliation;
+- quality of evidence.
+
+AMOH does not need to store biometric information.
+
+---
+
+# 💰 Optional WLD scientific rewards
+
+AMOH is exploring a model in which scientifically validated contributions may become eligible for funded incentives.
+
+Potential workflow:
+
+```text
 MISSION COMPLETE
 ↓
 SUBMISSION
@@ -762,10 +1231,12 @@ PROCESSING
 ↓
 WORLD WALLET
 ↓
-PAID / CONFIRMED
+CONFIRMED
+```
 
-Estados sugeridos:
+Possible reward states:
 
+```text
 NOT_ELIGIBLE
 PENDING_SCIENTIFIC_REVIEW
 ELIGIBLE
@@ -775,88 +1246,147 @@ PROCESSING
 PAID
 FAILED
 REVOKED
+```
 
-PENDING nunca debe liberar una recompensa. Solo una observación científicamente APPROVED puede avanzar hacia elegibilidad.
+Critical rule:
 
-WLD es un mecanismo opcional de incentivo; AMOH no es una aplicación de trading y no muestra precios, gráficas especulativas ni promesas de rentabilidad.
+```text
+PENDING ≠ PAID
+```
 
-🧠 Pythia & MiroFish
+Only an observation that passes the configured scientific-review process may advance toward reward eligibility.
 
-Pythia Intelligence Stack
+AMOH is not a cryptocurrency trading application.
 
-Pythia es la capa analítica local de AMOH.
+---
 
-Configuración objetivo:
+# 🧠 Pythia
 
-Pythia server: :8088
-Local inference: Ollama
-Models: llama3.1 / qwen3 or configured equivalents
+**Pythia** is AMOH's local analytical intelligence layer.
 
-Consejo de agentes:
+Target local endpoint:
 
-Ice Navigator — hielo, navegabilidad y contexto de ruta;
+```text
+http://localhost:8088
+```
 
-Marine Biologist — biodiversidad, fauna y contexto ecológico;
+Possible local inference environment:
 
-Naval Strategist — patrones marítimos/AIS desde una perspectiva analítica no operativa;
+```text
+Ollama
+llama3.1
+qwen3
+```
 
-Skeptic — incertidumbre, contradicciones y falsos positivos.
+---
 
-La UI debe marcar sus respuestas como:
+## Swarm Council
 
+AMOH currently explores four analytical roles.
+
+### 🧊 Ice Navigator
+
+Focus:
+
+- sea ice;
+- cryosphere;
+- route context;
+- navigational environment.
+
+### 🐋 Marine Biologist
+
+Focus:
+
+- biodiversity;
+- whales;
+- krill;
+- ecosystem context.
+
+### 🚢 Naval Strategist
+
+Focus:
+
+- maritime patterns;
+- AIS;
+- logistics;
+- route activity.
+
+This role is intended for non-operational analytical context.
+
+### 🔎 Skeptic
+
+Focus:
+
+- uncertainty;
+- contradictory evidence;
+- weak assumptions;
+- false positives.
+
+---
+
+# ⚠️ AI Analysis
+
+Every Pythia result should be clearly identified as:
+
+```text
 AI ANALYSIS
+```
 
-Toda respuesta relevante debe poder referenciar evidencia, fuente, tiempo, lugar, supuestos y limitaciones.
+Relevant outputs should be able to expose:
 
-Pythia no sustituye:
+```text
+evidence IDs
+source
+time
+location
+assumptions
+limitations
+```
 
-comandante;
+Artificial intelligence does not replace scientific validation.
 
-autoridad de navegación;
+---
 
-médico;
+# 📈 Brier weighting
 
-comité científico;
+For verifiable probabilistic forecasts:
 
-revisor;
+```text
+BS_i = (1/N) × Σ(f_i,t - o_t)²
+```
 
-autoridad legal.
+Agent weight:
 
-Brier weighting
+```text
+W_i = (1 - BS_i)² / Σ(1 - BS_j)²
+```
 
-Para pronósticos probabilísticos verificables:
+Tests should include:
 
-$$
-BS_i = \frac{1}{N}\sum_{t=1}^{N}(f_{i,t}-o_t)^2
-$$
+```text
+perfect prediction
+poor prediction
+equal agents
+missing data
+single agent
+```
 
-$$
-W_i = \frac{(1-BS_i)^2}{\sum_{j=1}^{K}(1-BS_j)^2}
-$$
+---
 
-Los tests deben cubrir, como mínimo:
+# 🔮 Forecast Rings
 
-agente perfecto;
+Experimental horizons:
 
-agente deficiente;
-
-pesos iguales;
-
-datos faltantes;
-
-un único agente.
-
-Forecast Rings
-
-Horizontes experimentales:
-
+```text
 24H
 1W
 1M
 1Y
+```
 
-Todo Forecast Ring debe indicar claramente:
+Every Forecast Ring should expose:
 
+```text
 SIMULATION
 generated_at
 model
@@ -864,77 +1394,55 @@ horizon
 assumptions
 evidence
 limitations
+```
 
-Nunca debe confundirse una simulación con una observación.
+A simulation must never be presented as an observation.
 
-MiroFish
+---
 
-MiroFish funciona como motor prospectivo desacoplado con el flujo:
+# 🐟 MiroFish
 
+AMOH can connect with **MiroFish** as a prospective simulation engine.
+
+Workflow:
+
+```text
 01 / Ontology Generation
 02 / Graph Construction
 03 / Parallel Simulation
 04 / Report Generation
 05 / Deep Interaction
+```
 
-AMOH debe utilizar un adaptador sobre el motor disponible en lugar de reimplementarlo sin necesidad.
+AMOH should connect through an adapter rather than unnecessarily reimplementing the existing engine.
 
-🧪 Matchups y revisión científica
+---
 
-AMOH puede combinar:
+# 🗄️ Local Data Fabric
 
-FIELD OBSERVATION
-+
-AIS
-+
-SATELLITE
-+
-ENVIRONMENTAL CONTEXT
+AMOH uses **DuckDB Spatial** as a lightweight local geospatial analytical engine.
 
-para producir un ScientificMatchup.
+Connected provisioning:
 
-Estados:
-
-MATCH
-PARTIAL_MATCH
-NO_MATCH
-DATA_GAP
-CONFLICT
-
-Un conflicto entre fuentes se conserva como información científica; no debe ocultarse para “mejorar” la narrativa.
-
-Ejemplo de modelo:
-
-matchup_id
-expedition_id
-observation_id
-ais_evidence_ids[]
-satellite_evidence_ids[]
-time_delta_seconds
-distance_meters
-quality
-uncertainty
-status
-reviewer
-reviewed_at
-notes
-
-🗄️ Data Fabric y DuckDB Spatial
-
-AMOH utiliza DuckDB Spatial como motor analítico local.
-
-En provisioning conectado:
-
+```sql
 INSTALL spatial;
+```
 
-En ejecución:
+Runtime:
 
+```sql
 LOAD spatial;
+```
 
-En modo de campo offline, la extensión debe estar preparada previamente; la aplicación no debe intentar descargarla silenciosamente.
+During offline field operations the extension should already be provisioned.
 
-Vessel tracks
+AMOH must not silently attempt to download it while disconnected.
 
+---
+
+## Vessel tracks
+
+```sql
 CREATE TABLE vessel_tracks (
     mmsi VARCHAR,
     vessel_name VARCHAR,
@@ -945,9 +1453,13 @@ CREATE TABLE vessel_tracks (
     geom GEOMETRY,
     dark_vessel_flag BOOLEAN DEFAULT FALSE
 );
+```
 
-Passport claims
+---
 
+## Passport claims
+
+```sql
 CREATE TABLE passport_claims (
     claim_id UUID PRIMARY KEY,
     nullifier_hash VARCHAR,
@@ -958,9 +1470,13 @@ CREATE TABLE passport_claims (
     status VARCHAR,
     reward_wld_amount DOUBLE DEFAULT 0
 );
+```
 
-Forecast rings
+---
 
+## Forecast rings
+
+```sql
 CREATE TABLE forecast_rings (
     ring_id UUID PRIMARY KEY,
     horizon_code VARCHAR,
@@ -969,279 +1485,172 @@ CREATE TABLE forecast_rings (
     center_geom GEOMETRY,
     radius_meters DOUBLE
 );
+```
 
-Reward ledger
+---
 
-reward_id
-user_id
-campaign_id
-activity_id
-observation_id
-scientific_status
-reward_status
-reward_wld
-approved_by
-approved_at
-world_verification_reference
-wallet_transaction_reference
-created_at
+# 📊 Scientific visualization
 
-Expedition data
+AMOH follows three simple visualization rules.
 
-El modelo de expedición puede incorporar:
+## Missing data ≠ zero
 
-expeditions
-expedition_members
-expedition_voyages
-expedition_sessions
-expedition_routes
-expedition_devices
-field_observations
-observation_media
-scientific_matchups
-review_events
-expedition_outputs
-sync_jobs
+Missing values should create gaps rather than artificial zero measurements.
 
-🌐 Fuentes y adaptadores de datos
+## Tooltips preserve provenance
 
-AMOH se diseña alrededor de adaptadores. Un adaptador presente en el código no significa que la fuente esté habilitada o incluida por licencia.
+Relevant points and series should expose:
 
-Fuente / familia
-
-Uso potencial
-
-Quantarctica
-
-topografía, glaciología, geología, cartografía polar
-
-Copernicus Marine
-
-océano, SST, hielo y variables marinas
-
-Sentinel-1
-
-observación SAR
-
-Sentinel-2
-
-observación óptica
-
-Global Fishing Watch
-
-actividad pesquera y contexto marítimo
-
-SCAR / SOOS
-
-ciencia antártica y datasets relacionados
-
-OBIS / GBIF
-
-biodiversidad
-
-IWC
-
-cetáceos, cuando la fuente/dataset aplicable esté disponible
-
-CCAMLR
-
-ecosistema marino y contexto pesquero/regulatorio
-
-NOAA / NSIDC
-
-hielo y variables atmosféricas/marinas
-
-USGS / GEOFON
-
-sismicidad
-
-AIS providers
-
-posición y trazas de buques
-
-ArcGIS SURIE
-
-referencia/visualización comparativa
-
-AMOH Field
-
-observaciones originales de expedición
-
-Cada conector debe documentar:
-
-provider
-endpoint / dataset
-license
-attribution
-authentication
-refresh policy
-latency
-spatial precision
-temporal precision
-normalization method
-failure behavior
-
-📊 Visualización científica
-
-AMOH aplica tres reglas simples:
-
-1. Missing ≠ zero
-
-Si un dato no existe, la gráfica debe mostrar un gap, no un cero inventado.
-
-2. Tooltip trazable
-
-Cada punto o serie relevante debe exponer:
-
+```text
 value
 unit
 UTC
 source
 quality
 evidence
+```
 
-3. Diferenciar evidencia y simulación
+## Evidence differs from simulation
 
-observación: línea/símbolo continuo;
+Suggested visual language:
 
-interpolación: estilo discontinuo;
+```text
+OBSERVED      continuous
+INTERPOLATED  dashed
+SIMULATION    visually distinct
+```
 
-simulación: estilo diferenciado y etiqueta SIMULATION.
+---
 
-🎥 Cámaras y observación remota
+# 🧳 Antarctic tourism
 
-Una cámara solo aparece como LIVE si existe un stream real configurado.
+AMOH may incorporate public information related to Antarctic tourism.
 
-Una tarjeta de cámara debe mostrar, cuando exista:
+Potential layers:
 
+- operators;
+- published routes;
+- landing areas;
+- seasonal intensity;
+- vessel activity;
+- published future itineraries.
+
+The system should distinguish:
+
+```text
+OBSERVED ROUTE
+PUBLISHED ROUTE
+PLANNED ROUTE
+SCENARIO
+```
+
+A future scenario must never be displayed as a confirmed voyage.
+
+---
+
+# ⚖️ Antarctic governance & oceanopolitics
+
+AMOH may integrate public-source context related to:
+
+- Antarctic Treaty System;
+- protected areas;
+- scientific cooperation;
+- logistics;
+- tourism;
+- fishing;
+- environmental governance;
+- international collaboration;
+- infrastructure;
+- connectivity.
+
+This area is intended for scientific, diplomatic and public-policy analysis.
+
+It is not intended for:
+
+- targeting;
+- hostile scoring;
+- surveillance of individuals;
+- operational military guidance.
+
+---
+
+# ☢️ Radiological & pollution legacy
+
+Future AMOH layers may document public datasets concerning:
+
+- historical nuclear tests;
+- reactor accidents;
+- documented industrial releases;
+- radioactive residues;
+- marine radionuclides;
+- pollution;
+- warming;
+- acidification.
+
+Historical events must remain distinct from contemporary measurements.
+
+A historical release does not automatically prove current contamination at the same location.
+
+---
+
+# 🎥 Cameras & remote observation
+
+AMOH can display authorized or public cameras when an actual stream is configured.
+
+Camera metadata may include:
+
+```text
 operator
 location
 status
 timestamp
 permissions
 source
+```
 
-No se deben mostrar imágenes genéricas haciéndolas pasar por streams reales.
+A generic image must never be presented as a live feed.
 
-Detecciones automáticas sobre imagen deben iniciar como:
+Automated detections begin as:
 
+```text
 UNREVIEWED
+```
 
-Audio desactivado por defecto.
+---
 
-🧳 Turismo antártico
+# 🎨 Ocean art & culture
 
-AMOH puede representar rutas turísticas, operadores, zonas de visita y presión espacial cuando las fuentes lo permitan.
+AMOH may include an optional art-science gallery connecting:
 
-El módulo debe separar:
+- Antarctic photography;
+- ocean photography;
+- expedition art;
+- scientific visualization;
+- augmented reality;
+- environmental storytelling.
 
-ruta planificada;
+Every work should preserve:
 
-ruta publicada;
-
-ruta observada;
-
-temporada;
-
-operador;
-
-fuente;
-
-periodo de validez.
-
-Las proyecciones futuras deben etiquetarse como escenario, no como itinerario confirmado.
-
-⚖️ Oceanopolítica, Tratado y seguridad
-
-AMOH puede integrar contexto público sobre:
-
-Sistema del Tratado Antártico;
-
-áreas protegidas;
-
-presencia científica;
-
-logística;
-
-pesca;
-
-turismo;
-
-infraestructura;
-
-conectividad;
-
-eventos ambientales;
-
-cooperación internacional.
-
-El módulo se orienta a análisis científico, diplomático y de políticas públicas basado en fuentes abiertas, no a targeting, seguimiento de personas, scoring hostil o instrucciones operativas de defensa.
-
-☢️ Legado radiológico y contaminación
-
-El roadmap de AMOH puede incorporar datasets públicos sobre:
-
-pruebas nucleares históricas;
-
-accidentes de reactores;
-
-descargas documentadas;
-
-radionúclidos marinos;
-
-contaminación;
-
-acidificación y calentamiento como estresores combinados.
-
-Cada evento debe mostrar fuente, periodo, geografía, incertidumbre y naturaleza histórica/actual. La plataforma no debe inferir contaminación presente a partir de un evento histórico sin evidencia de medición.
-
-🛰️ Conectividad y señal
-
-AMOH puede documentar disponibilidad de comunicaciones en expedición:
-
-Wi‑Fi de buque/estación;
-
-Internet satelital;
-
-conectividad celular cuando exista;
-
-latencia;
-
-pérdida de enlace;
-
-disponibilidad local LAN.
-
-La telemetría de conectividad debe enfocarse en calidad del enlace y operación de campo; AMOH no requiere identificadores invasivos como IMEI, IMSI o advertising IDs para identificar un dispositivo.
-
-🎨 Ciencia, arte y cultura oceánica
-
-Como extensión opcional, AMOH contempla un espacio de galería para:
-
-fotografía oceánica;
-
-obra de expedición;
-
-visualización científica;
-
-realidad aumentada;
-
-proyectos de arte y ciencia.
-
-La publicación de una obra debe conservar:
-
+```text
 author
 title
 date
 source
 license / permission
 credit
+```
 
-No se reutilizan fotografías, concursos o assets de terceros sin permiso/licencia verificable.
+AMOH should not republish third-party artwork without appropriate permission.
 
-🎓 Grants & Opportunities
+---
 
-Un módulo opcional de oportunidades puede estructurar:
+# 💡 Grants & opportunities
 
+AMOH may include an AI-assisted opportunity-matching layer.
+
+Potential schema:
+
+```text
 opportunity
 organization
 theme
@@ -1252,166 +1661,210 @@ funding
 source
 status
 matched_need
+```
 
-Pythia puede ayudar a detectar coincidencias entre necesidades científicas del territorio y convocatorias, pero la elegibilidad final debe verificarse en la fuente oficial.
+AI may help identify relationships between scientific needs and funding opportunities.
 
-🔐 Seguridad y privacidad
+Final eligibility must always be verified at the official source.
 
-AMOH adopta una postura defensiva.
+---
 
-Aplicación
+# ⚡ Performance philosophy
 
-queries SQL parametrizadas;
+AMOH is designed to remain lightweight.
 
-validación de inputs;
+Target home:
 
-protección XSS;
+```text
+1 MapLibre instance
+1 WebGL context
+minimal default layers
+```
 
-evitar dangerouslySetInnerHTML salvo sanitización explícita;
+The home should not preload:
 
-CORS restringido;
+```text
+full Global Fishing Watch analytics
+full Quantarctica package
+ArcGIS SDK
+Passport bundle
+Expeditions bundle
+World SDK
+MiroFish
+large charts
+art gallery
+grant engine
+```
 
-validación de Host en despliegues LAN;
+These modules should be loaded when requested.
 
-protección ante DNS rebinding;
+---
 
-CSRF cuando aplique;
+# 📉 Performance metrics
 
-rate limits;
+Development builds should monitor:
 
-permisos por rol;
+```text
+initial requests
+MB transferred
+map ready time
+time to interactive
+FPS
+WebGL contexts
+MapLibre sources
+MapLibre layers
+visible entities
+memory use
+```
 
-auditoría de acceso.
+Optimization should be measured rather than assumed.
 
-Uploads
+---
 
-Validar:
+# 🔐 Security
 
-MIME
+AMOH follows a defensive-security model.
+
+Application controls may include:
+
+- parameterized SQL;
+- input validation;
+- XSS protection;
+- restrictive CORS;
+- CSRF protection where applicable;
+- role-based authorization;
+- rate limiting;
+- Host validation;
+- DNS-rebinding protection;
+- signed device-pairing challenges.
+
+---
+
+## File uploads
+
+Validate:
+
+```text
+MIME type
 extension
 size
 magic bytes
-generated filename
+safe filename
 safe destination
 hash
+```
 
-LAN
+---
 
-La disponibilidad en una red local no equivale a confianza implícita.
+## LAN security
 
-World
+A local ship network is not automatically trusted.
 
-No almacenar biometría de World ID. El sistema conserva solo el resultado mínimo de verificación requerido por el flujo.
+AMOH should continue authenticating users and devices.
 
-Dispositivos
+---
 
-Permisos granulares para:
+## Defensive testing
 
-ubicación;
+Security testing follows defensive methodologies such as OWASP WSTG against AMOH-owned or explicitly authorized environments only.
 
-cámara;
+---
 
-movimiento;
+# 🏗️ Architecture
 
-orientación;
+```text
+┌───────────────────────────────────────────────────────────────┐
+│                            AMOH                               │
+│                  WORLD OCEANS LIVING OBSERVATORY             │
+├───────────────────────────────────────────────────────────────┤
+│                         LIVE LENS                             │
+│                   MAP · GLOBE · SAT · SURIE                  │
+│                                                               │
+│ Vessels · Flights · Satellites · Fisheries · Fauna · Cables  │
+└───────────────────────────────┬───────────────────────────────┘
+                                │
+                         AMOH DATA FABRIC
+                                │
+           ┌────────────────────┼────────────────────┐
+           │                    │                    │
+           ▼                    ▼                    ▼
+    ONLINE ADAPTERS        FIELD / EDGE        SCIENCE LAYERS
+    AIS / GFW / APIs       PWA / Android       Quantarctica
+    Satellite / Weather    DuckDB / LAN        SURIE / COG/MVT
+           │                    │                    │
+           └────────────────────┼────────────────────┘
+                                ▼
+                     PROVENANCE + REVIEW
+                                │
+               ┌────────────────┼────────────────┐
+               ▼                ▼                ▼
+            PYTHIA         EXPEDITIONS        PASSPORT
+               │                │                │
+               └────────────────┼────────────────┘
+                                ▼
+                            MIROFISH
+                      SCENARIO SIMULATION
+```
 
-salud, solo en estudios específicos y con opt-in separado.
+---
 
-Defensive testing
+# 🧱 Technology stack
 
-Las pruebas OWASP WSTG se limitan a entornos AMOH propios/autorizados. No se realizan escaneos ofensivos de terceros desde el proyecto.
+## Frontend
 
-🧩 Arquitectura
-
-┌──────────────────────────────────────────────────────────────┐
-│                         AMOH HOME                            │
-│                World Oceans Living Observatory              │
-├──────────────────────────────────────────────────────────────┤
-│  MapLibre Live Lens                                         │
-│  MAP · GLOBE · SAT · SURIE                                  │
-│  Buques · Vuelos · Satélites · Pesca · Fauna · Cables       │
-└─────────────────────────────┬────────────────────────────────┘
-                              │
-                       AMOH DATA FABRIC
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-        ▼                     ▼                     ▼
-  ONLINE ADAPTERS       FIELD / EDGE          SCIENCE LAYERS
-  AIS / GFW / APIs      PWA / Android         Quantarctica
-  Satellite / Weather   DuckDB / LAN          SURIE / COG/MVT
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              ▼
-                    PROVENANCE + REVIEW
-                              │
-              ┌───────────────┼────────────────┐
-              ▼               ▼                ▼
-          PYTHIA          EXPEDITIONS       PASSPORT
-              │               │                │
-              └───────────────┼────────────────┘
-                              ▼
-                         MIROFISH
-                     scenario simulation
-
-Regla de rendimiento
-
-La home no debe montar simultáneamente todos los módulos.
-
-HOME
- └─ MapLibre core
-      ├─ AIS / basic science
-      └─ user action
-          ├─ GFW          lazy
-          ├─ Fauna        lazy
-          ├─ Quantarctica lazy
-          ├─ SURIE        lazy
-          ├─ Pythia       lazy
-          ├─ Expeditions  lazy
-          └─ Passport     lazy
-
-🧱 Stack tecnológico
-
-Frontend
-
+```text
 React
 Vite
 MapLibre GL JS
 IndexedDB
 PWA
+```
 
-Backend
+## Backend
 
-Python 3.12+
+```text
+Python
 FastAPI
 DuckDB
 DuckDB Spatial
+```
 
-Edge / AI
+## AI / Edge
 
+```text
 Ollama
 Pythia
 MiroFish adapter
+```
 
-Integraciones opcionales
+## Optional integrations
 
-ArcGIS Maps SDK / SURIE
+```text
 Global Fishing Watch
+ArcGIS SURIE
+Quantarctica
+Copernicus
+Google Earth Engine
 World / World ID
-Google Cloud / BigQuery
-Earth Engine
-external AIS providers
+Google Cloud
+BigQuery
+AIS providers
 scientific open-data APIs
+```
 
-🔌 API de referencia
+---
 
-La implementación puede exponer endpoints como:
+# 🔌 API reference
 
+Potential backend routes include:
+
+```text
 GET  /api/health
 GET  /api/system/status
 GET  /api/network-info
 
 GET  /api/vessels
+
 GET  /api/observations
 POST /api/observations
 
@@ -1419,38 +1872,44 @@ GET  /api/forecast-rings
 
 GET  /api/expeditions
 GET  /api/expeditions/:id
-GET  /api/expeditions/:id/observations
-GET  /api/expeditions/:id/devices
 
 GET  /api/missions
 GET  /api/achievements
 GET  /api/profile/progress
+
 GET  /api/rewards
 
 GET  /api/passport/me
 GET  /api/passport/journey
 GET  /api/passport/stamps
 GET  /api/passport/credentials
+```
 
-La lista real debe mantenerse sincronizada con las rutas implementadas.
+The README should remain synchronized with routes actually implemented.
 
-⚙️ Variables de entorno
+---
 
-Nunca publiques secretos en Git.
+# ⚙️ Environment configuration
 
-Ejemplo:
+Never commit production secrets.
 
+Example:
+
+```env
 # Frontend
 PORT=5174
 HOST=0.0.0.0
+
 VITE_API_URL=http://localhost:8000
 VITE_PYTHIA_URL=http://localhost:8088
 
-# Backend
-DUCKDB_PATH=./app/data/amoh_spatial.duckdb
+# Database
+DUCKDB_PATH=./backend/data/amoh_spatial.duckdb
+
+# SURIE
+VITE_SURIE_WEBMAP_ID=de8bb6821bf148649f1e7b9154592a97
 
 # Optional providers
-VITE_SURIE_WEBMAP_ID=de8bb6821bf148649f1e7b9154592a97
 GFW_API_TOKEN=
 AIS_API_KEY=
 GOOGLE_CLOUD_PROJECT=
@@ -1459,442 +1918,610 @@ EARTH_ENGINE_PROJECT=
 # Optional World integration
 WORLD_APP_ID=
 WORLD_ACTION_ID=
+```
 
-Usa .env.example con valores vacíos/documentados y conserva .env fuera del repositorio.
+Use:
 
-🚀 Instalación
+```text
+.env.example
+```
 
-Requisitos
+for documented variable names.
 
-Herramienta
+Never commit:
 
-Recomendación
+```text
+.env
+API keys
+private tokens
+wallet keys
+credentials
+```
 
+---
+
+# 🚀 Local development
+
+## Requirements
+
+Recommended environment:
+
+```text
 Git
-
-2.30+
-
 Node.js
-
-versión soportada por el package.json actual
-
-Python
-
-3.12+
-
+Python 3.12+
 Docker / Docker Compose
+Ollama — optional
+```
 
-estable reciente
+---
 
-Ollama
+## Clone
 
-opcional, para AI local
-
-Clonar
-
+```bash
 git clone https://github.com/juanshuertas/antarctic-maritime-observation-hub.git
+
 cd antarctic-maritime-observation-hub
+```
 
-Frontend
+---
 
+## Frontend
+
+If the frontend package is located at repository root:
+
+```bash
 npm install
+
 npm run dev -- --host 0.0.0.0 --port 5174
+```
 
-Abrir:
+Open:
 
+```text
 http://localhost:5174/
+```
 
-Backend
+If the frontend later moves to a dedicated directory, use the commands documented in its corresponding `package.json`.
 
-Windows PowerShell
+---
+
+## Backend
+
+The current repository contains a `backend/` directory.
+
+### Windows PowerShell
+
+```powershell
+cd backend
 
 python -m venv venv
-.\venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
-Linux / macOS
+.\venv\Scripts\Activate.ps1
+
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+### Linux / macOS
+
+```bash
+cd backend
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 python -m pip install --upgrade pip
+
 pip install -r requirements.txt
+
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```
 
-Pythia local
+Adjust the Uvicorn module path if the backend structure differs.
 
-Con Ollama instalado:
+---
 
+# 🧠 Local AI
+
+With Ollama installed:
+
+```bash
 ollama pull llama3.1
 ollama pull qwen3
+```
 
-Iniciar el servicio AMOH/Pythia de acuerdo con los scripts del repositorio. La configuración objetivo utiliza:
+Target Pythia endpoint:
 
-http://localhost:8088
+```text
+http://localhost:8088/
+```
 
-Docker
+Use the actual scripts available in the repository to start the Pythia service.
 
-Cuando docker-compose.yml esté configurado para el estado actual del repositorio:
+---
 
+# 🐳 Docker
+
+The repository includes:
+
+```text
+docker-compose.yml
+```
+
+When its services match the current application structure:
+
+```bash
 docker compose up --build -d
+```
+
+Check:
+
+```bash
 docker compose ps
+```
 
-🚢 Operación en LAN / buque
+Stop:
 
-El frontend puede exponerse en la red local:
+```bash
+docker compose down
+```
 
+---
+
+# 🚢 Ship / Expedition LAN
+
+A typical field deployment may look like:
+
+```text
+EDGE NODE
+│
+├── AMOH Frontend :5174
+├── FastAPI :8000
+├── Pythia :8088
+├── DuckDB Spatial
+├── offline map packages
+├── selected Quantarctica data
+├── observation queue
+└── selective cloud sync
+```
+
+Phones connect using:
+
+```text
 http://<LAN_IP>:5174/
+```
 
-El QR de Conectar celular debe utilizar esa dirección real.
+---
 
-Un despliegue Edge típico:
+# ☁️ Cloud synchronization
 
-Laptop / Edge Node
-├─ React/Vite or production frontend
-├─ FastAPI
-├─ DuckDB Spatial
-├─ local map packages
-├─ IndexedDB sync gateway
-├─ Pythia/Ollama
-└─ selective cloud sync
+AMOH is **online-first** during normal observatory operation.
 
-La pérdida de Internet público no debe impedir:
+Field and expedition workflows are designed to continue when public Internet disappears.
 
-nueva observación;
+Cloud services may support:
 
-GPS;
+- backup;
+- remote access;
+- validated observations;
+- selected media;
+- historical analytics;
+- BigQuery;
+- Earth Engine;
+- batch processing.
 
-fotos;
+Raw high-frequency sensor data does not need to be uploaded automatically.
 
-notas;
+---
 
-almacenamiento local;
+# 🧪 Testing
 
-sincronización LAN;
+Before declaring a build stable:
 
-revisión local;
-
-datasets offline preparados;
-
-consulta de expedición y Pasaporte almacenados localmente.
-
-☁️ Sincronización cloud
-
-Cuando existe conectividad, AMOH puede sincronizar selectivamente con infraestructura cloud.
-
-Usos potenciales:
-
-backup;
-
-publicación de observaciones validadas;
-
-almacenamiento de media autorizado;
-
-BigQuery para análisis históricos;
-
-tareas batch;
-
-acceso remoto.
-
-No se recomienda enviar por defecto todos los streams de sensores crudos. El sistema prioriza:
-
-metadata
-validated observations
-selected media
-scientific outputs
-essential state
-
-🧪 Testing
-
-Antes de declarar una build estable:
-
+```bash
 npm run build
 npm run lint
 npm test
+```
 
-Usa únicamente los scripts que realmente existan en package.json.
+Only run commands that exist in the current repository.
 
-Casos mínimos:
+Minimum test areas:
 
-home y mapa;
-
-un solo MapLibre/WebGL;
-
-filtros;
-
-AIS;
-
-GFW load/error/unload;
-
-fauna;
-
-SURIE load/error/unload;
-
-offline queue;
-
-IndexedDB persistence;
-
-QR LAN;
-
-GSD;
-
-Brier;
-
-Passport state machine;
-
-reward gating;
-
-Expeditions navigation;
-
-responsive layout;
-
-provider failure.
-
-No declarar una prueba como exitosa si no se ejecutó.
-
-⚡ Performance
-
-Objetivo de la home:
-
-1 MapLibre instance
-1 WebGL context
-minimal default layers
-no ArcGIS at startup
-no World SDK at startup
-no Passport bundle at startup
-no Expeditions bundle at startup
-no MiroFish at startup
-no global GFW heatmap at startup
-
-Medir:
-
-initial requests
-transferred MB
-map-ready time
-interactive time
-FPS
-WebGL contexts
-MapLibre sources
-MapLibre layers
-visible entities
-memory
-
-La optimización debe demostrarse con métricas, no solo con la palabra “optimized”.
-
-📂 Estructura de referencia
-
-La estructura exacta puede evolucionar con el repositorio; una organización típica es:
-
-antarctic-maritime-observation-hub/
-├── app/
-│   ├── main.py
-│   ├── db.py
-│   └── routers/
-├── services/
-│   ├── pythia/
-│   ├── mirofish/
-│   └── adapters/
-├── src/
-│   ├── components/
-│   ├── gis/
-│   ├── field/
-│   ├── expeditions/
-│   ├── passport/
-│   ├── science/
-│   └── services/
-├── public/
-├── docs/
-│   └── images/
-│       └── amoh-overview.png
-├── docker-compose.yml
-├── package.json
-├── requirements.txt
-├── .env.example
-├── LICENSE
-└── README.md
-
-Documenta la estructura real del repositorio si difiere de este esquema.
-
-🧭 Roadmap
-
-Core
-
-Live Lens MapLibre ligero;
-
-filtros de entidades;
-
-AIS;
-
-GFW;
-
-fauna;
-
-cables submarinos;
-
-Quantarctica;
-
-SURIE;
-
-Pythia.
-
-Field
-
-PWA;
-
-Android Field Node;
-
-sensores;
-
-LAN pairing;
-
-offline queue;
-
-Edge Node.
-
+```text
+Live Lens
+MapLibre startup
+single WebGL context
+AIS
+GFW
+fauna
+SURIE
+Quantarctica
+offline observations
+IndexedDB
+LAN QR
+DJI GSD
+Pythia
+Brier weighting
+Passport state machine
+reward gating
 Expeditions
+responsive layout
+provider failures
+```
+
+Never report a test as successful unless it was actually executed.
+
+---
 
-NatGeo proposal workspace;
+# 🧭 Roadmap
 
-PAC expedition template;
+## 🗺️ Live Observatory
 
-Science Hub;
+- [ ] Lightweight Antarctic globe
+- [ ] Semantic zoom
+- [ ] Vessel filters
+- [ ] Flight filters
+- [ ] Satellite filters
+- [ ] Fisheries filters
+- [ ] Fauna filters
+- [ ] Submarine cables
+- [ ] Protected areas
+- [ ] Earth Sciences
+
+## 🎣 Global Fishing Watch
+
+- [ ] Apparent fishing effort
+- [ ] AIS / VMS
+- [ ] Gear type
+- [ ] Encounters
+- [ ] Loitering
+- [ ] AIS gaps
+- [ ] SAR detections
+- [ ] Optical detections
+
+## 📱 Field
+
+- [ ] PWA
+- [ ] Android Field Node
+- [ ] Sensor discovery
+- [ ] Offline observations
+- [ ] LAN transfer
+- [ ] Edge Node
+
+## 🚢 Expeditions
 
-matchups;
+- [ ] NGS–Lindblad proposal workspace
+- [ ] Programa Antártico Colombiano template
+- [ ] Science Hub
+- [ ] Field sessions
+- [ ] Scientific matchups
+- [ ] Review workflow
+- [ ] Voyage replay
+- [ ] Outputs
 
-review;
+## 🪪 Passport
 
-outputs;
+- [ ] Antarctic Scientific Passport
+- [ ] Journey
+- [ ] Scientific stamps
+- [ ] Smart Card
+- [ ] Credentials
+- [ ] Expeditions
+- [ ] Achievements
+- [ ] Optional World verification
+- [ ] Optional WLD reward workflow
 
-voyage replay.
+## 🧠 Intelligence
 
-Passport
+- [ ] Pythia
+- [ ] Swarm Council
+- [ ] Forecast Rings
+- [ ] MiroFish
+- [ ] Monitoring-priority analysis
 
-identidad científica;
+## 🔬 Science & Culture
 
-journey;
+- [ ] Grants
+- [ ] Ocean literacy
+- [ ] Tourism
+- [ ] Art/science gallery
+- [ ] Historical radiological data
+- [ ] Oceanopolitics
+- [ ] Cameras
+- [ ] Connectivity
 
-stamps;
+---
 
-credentials;
+# 🔬 SCAR Open Science Conference 2026
 
-smart card;
+AMOH is connected to research presented in the context of:
 
-World verification opcional;
+```text
+SCAR Open Science Conference 2026
+Poster / Abstract #1820
+```
 
-WLD reward gating.
+### Poster
 
-Science & Culture
+[**Access the SCAR 2026 Poster ↗**](https://virtual.oxfordabstracts.com/event/75327/poster-gallery/grid?sort=titles&current=1820)
 
-Earth Science;
+The AMOH interface may provide direct access to this poster from its SCAR 2026 area.
 
-turismo;
+References to the event do not by themselves imply SCAR endorsement of the AMOH software project.
 
-radiological legacy;
+---
 
-connectivity;
+# 🛰️ Research continuity
 
-cameras;
+One of AMOH's central concepts is that each expedition can improve the next.
 
-grants;
+```text
+NGS–LINDBLAD RESEARCH PILOT
+↓
+FIELD LESSONS
+↓
+METHOD VERSION
+↓
+COLOMBIAN ANTARCTIC EXPEDITION
+↓
+IMPROVED METHOD
+↓
+FUTURE EXPEDITIONS
+↓
+LONGITUDINAL ANTARCTIC OBSERVATORY
+```
 
-art/science gallery.
+Historical expedition records should never be overwritten when methodologies evolve.
 
-💼 Sostenibilidad
+Instead AMOH preserves:
 
-El núcleo científico puede mantenerse abierto mientras se exploran modelos de sostenibilidad para servicios avanzados, por ejemplo:
+```text
+method_version
+change_log
+used_at
+provenance
+```
 
-APIs de contexto marítimo/hielo;
+---
 
-servicios de integración;
+# 🔄 Expedition knowledge transfer
 
-deployments Edge;
+Validated methods can move between expeditions.
 
-analítica para investigación;
+For example:
 
-reportes de procedencia;
+```text
+AIS + SATELLITE + FIELD
 
-infraestructura de datos;
+v1.0
+Pilot expedition
 
-soporte institucional.
+↓
 
-Estas líneas representan posibilidades de desarrollo, no productos comerciales garantizados ni certificaciones existentes.
+v1.1
+Subsequent expedition
 
-🤝 Contribuciones
+↓
 
-Las contribuciones son bienvenidas cuando respetan:
+v1.2
+Long-term Antarctic observation
+```
 
-trazabilidad;
+The method evolves.
 
-licencias de datos;
+The historical evidence does not change.
 
-privacidad;
+---
 
-reproducibilidad;
+# 🤝 International cooperation
 
-seguridad;
+AMOH is designed for multinational scientific collaboration.
 
-rendimiento;
+Participant metadata may include:
 
-separación entre observación, inferencia y simulación.
+```text
+country
+institution
+program
+role
+project
+expedition
+```
 
-Antes de abrir un PR:
+These fields provide context.
 
-1. Revisa issues existentes.
-2. Mantén cambios pequeños y trazables.
-3. No incluyas secretos ni datos sensibles.
-4. Documenta nuevas fuentes y sus licencias.
-5. Añade tests cuando corresponda.
-6. No etiquetes datos simulados como reales.
+They are not intended to rank countries, institutions or researchers.
 
-📚 Investigación, poster y expediciones
+---
 
-SCAR OSC 2026
+# 🌊 Why the Southern Ocean matters
 
-Póster / Abstract #1820:
+The Southern Ocean connects physical, biological and human processes at planetary scale.
 
-https://virtual.oxfordabstracts.com/event/75327/poster-gallery/grid?sort=titles&current=1820
+AMOH explores this territory through a combined lens of:
 
-National Geographic–Lindblad concept
+```text
+CLIMATE
+ICE
+OCEAN
+BIODIVERSITY
+MARITIME ACTIVITY
+FISHERIES
+TOURISM
+SCIENCE
+INFRASTRUCTURE
+GOVERNANCE
+HUMAN OBSERVATION
+```
 
-AMOH contiene una adaptación de investigación preparada para un contexto de expedición Southern Ocean 2027–2028. Su presencia en el repositorio se considera proposal/research concept salvo confirmación externa posterior.
+The platform is intended to make those relationships easier to observe without collapsing them into a single score or oversimplified narrative.
 
-Programa Antártico Colombiano
+---
 
-La arquitectura de Expediciones permite modelar campañas del Programa Antártico Colombiano y mantener continuidad entre temporadas sin convertir una propuesta en participación confirmada.
+# 🌱 Sustainability & future services
 
-⚠️ Independencia y marcas
+The scientific core can remain open while AMOH explores sustainable ways to support advanced deployments.
 
-AMOH es un proyecto independiente.
+Potential future areas may include:
 
-Las referencias a SCAR, National Geographic, Lindblad Expeditions, Global Fishing Watch, World, ArcGIS, Quantarctica, Copernicus, Google, DJI, CCAMLR, OBIS, GBIF, IWC u otras organizaciones describen programas, fuentes, tecnologías o integraciones de interés.
+- research deployments;
+- expedition Edge Nodes;
+- geospatial APIs;
+- maritime-context services;
+- scientific data infrastructure;
+- provenance systems;
+- institutional integrations;
+- field-data workflows;
+- specialized analytical reports.
 
-A menos que se indique explícitamente mediante documentación verificable, su mención no implica patrocinio, asociación, selección, aval, certificación ni respaldo institucional.
+These represent areas of exploration.
 
-Todas las marcas pertenecen a sus respectivos titulares.
+They are not guarantees of existing commercial products.
 
-🛡️ Licencia
+---
 
-Este README conserva la licencia indicada por el repositorio fuente:
+# 🤝 Contributing
 
-GNU Affero General Public License v3.0 — AGPL-3.0
+Contributions are welcome when they preserve:
 
-Consulta LICENSE.
+- scientific provenance;
+- reproducibility;
+- data licensing;
+- privacy;
+- security;
+- accessibility;
+- performance;
+- distinction between observations and simulations.
 
-Antes de publicar, verifica que el archivo LICENSE del repositorio coincida con este badge y con esta sección.
+Before opening a pull request:
 
-👤 Autor
+```text
+1. Review existing issues.
 
-Juan Sebastián Huertas Olea
-Creator / Research & Product Lead — AMOH
+2. Keep changes small and traceable.
 
-Antarctic Maritime Observation Hub
-World Oceans Living Observatory
+3. Never include secrets.
+
+4. Document new providers and their licenses.
+
+5. Add tests when practical.
+
+6. Never present synthetic data as real data.
+
+7. Preserve provenance.
+
+8. Avoid unnecessary heavy dependencies.
+
+9. Keep the map-first philosophy.
+
+10. Respect provider terms of service.
+```
+
+---
+
+# ⚖️ Independence & trademarks
+
+**AMOH is an independent research and development project.**
+
+References to organizations, technologies or platforms such as:
+
+- SCAR;
+- National Geographic;
+- Lindblad Expeditions;
+- Comisión Colombiana del Océano;
+- Programa Antártico Colombiano;
+- Global Fishing Watch;
+- World;
+- ArcGIS;
+- Quantarctica;
+- Copernicus;
+- Google;
+- DJI;
+- CCAMLR;
+- OBIS;
+- GBIF;
+- IWC;
+- UNESCO;
+- NASA;
+- NOAA;
+- other scientific providers;
+
+describe research programs, datasets, technologies, references or potential integrations.
+
+Unless explicitly documented otherwise, their mention does **not imply**:
+
+```text
+SPONSORSHIP
+ENDORSEMENT
+SELECTION
+CERTIFICATION
+PARTNERSHIP
+INSTITUTIONAL AFFILIATION
+```
+
+All trademarks belong to their respective owners.
+
+---
+
+# 📄 License
+
+See:
+
+[`LICENSE`](./LICENSE)
+
+for the software license currently applicable to this repository.
+
+The `LICENSE` file is the authoritative source.
+
+---
+
+# 🎬 AMOH Demo
+
+The repository includes a project video:
+
+[**▶ Antarctic Maritime Hub — Watch Demo**](./Antarctic_Maritime_Hub_compressed.mp4)
+
+---
+
+# 🖼️ Project image
+
+The README hero image is stored at:
+
+```text
+./amoh-overview.png
+```
+
+This keeps the README independent from external image-hosting services such as Google Drive.
+
+---
+
+# 👤 Project Lead
+
+## Juan Sebastian Huertas Olea
+
+**Creator · Research & Product Lead**
+
+### AMOH — Antarctic Maritime Observation Hub
+
+**World Oceans Living Observatory**
+
+---
 
 <p align="center">
-  <strong>Observe · Document · Understand · Preserve</strong>
+  <strong>AMOH</strong><br>
+  <strong>WORLD OCEANS LIVING OBSERVATORY</strong>
 </p>
 
 <p align="center">
   <em>A living scientific record of our relationship with the Southern Ocean.</em>
+</p>
+
+<p align="center">
+  <strong>Observe · Document · Understand · Preserve</strong>
 </p>
