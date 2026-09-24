@@ -123,6 +123,8 @@ class AISService:
                 pos1 = self.db.execute("SELECT utc, latitude, longitude FROM ais_vessels WHERE mmsi = ? ORDER BY utc", [mmsi1]).fetchall()
                 pos2 = self.db.execute("SELECT utc, latitude, longitude FROM ais_vessels WHERE mmsi = ? ORDER BY utc", [mmsi2]).fetchall()
 
+                close_events = []
+
                 # Comparar posiciones en el tiempo
                 # Simplificación: buscamos puntos temporales cercanos
                 for u1, lat1, lon1 in pos1:
@@ -131,13 +133,45 @@ class AISService:
                         if time_diff < 1.0: # Posiciones capturadas en la misma hora
                             dist = self._haversine_meters(lat1, lon1, lat2, lon2)
                             if dist <= max_dist_m:
-                                encounters.append({
-                                    "vessel_a": name1,
-                                    "vessel_b": name2,
-                                    "utc": str(u1),
-                                    "distance_m": round(dist, 2),
-                                    "type": "Potential Transshipment"
-                                })
+                                close_events.append((max(u1, u2), dist))
+
+                if not close_events:
+                    continue
+
+                close_events.sort(key=lambda x: x[0])
+                window_start, window_end = close_events[0][0], close_events[0][0]
+                min_dist = close_events[0][1]
+
+                for utc, dist in close_events[1:]:
+                    if (utc - window_end).total_seconds() <= 3600:
+                        window_end = utc
+                        min_dist = min(min_dist, dist)
+                    else:
+                        duration_hours = (window_end - window_start).total_seconds() / 3600
+                        if duration_hours >= min_duration_hours:
+                            encounters.append({
+                                "vessel_a": name1,
+                                "vessel_b": name2,
+                                "utc": str(window_start),
+                                "end_utc": str(window_end),
+                                "duration_hours": round(duration_hours, 2),
+                                "distance_m": round(min_dist, 2),
+                                "type": "Potential Transshipment"
+                            })
+                        window_start, window_end = utc, utc
+                        min_dist = dist
+
+                duration_hours = (window_end - window_start).total_seconds() / 3600
+                if duration_hours >= min_duration_hours:
+                    encounters.append({
+                        "vessel_a": name1,
+                        "vessel_b": name2,
+                        "utc": str(window_start),
+                        "end_utc": str(window_end),
+                        "duration_hours": round(duration_hours, 2),
+                        "distance_m": round(min_dist, 2),
+                        "type": "Potential Transshipment"
+                    })
         return encounters
 
     def _haversine_meters(self, lat1, lon1, lat2, lon2) -> float:
