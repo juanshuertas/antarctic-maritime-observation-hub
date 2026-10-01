@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OLEA PB124 Admin</title><link rel="stylesheet" href="/peaceboat/static/styles.css"></head><body><main class="shell wide">
+<section class="card"><div class="eyebrow">JUAN ADMIN · PB124-OLEA-2026</div><h1>Peace Boat Pilot Admin</h1>
+<div class="grid3"><input id="u" value="juan" placeholder="Username"><input id="p" type="password" placeholder="Password"><button id="login">LOGIN</button></div><div id="msg"></div></section>
+<section id="dash" class="hidden">
+<div class="card"><h2>Pre-flight</h2><button id="preflight">RUN PEACE BOAT PILOT PRE-FLIGHT</button><pre id="pre"></pre></div>
+<div class="card"><h2>LOCAL ARCHIVE</h2><div id="archive"></div></div>
+<div class="card"><h2>Metrics</h2><pre id="metrics"></pre></div>
+<div class="card"><h2>Observations</h2><div id="obs"></div></div>
+<div class="card"><h2>Exports</h2><div class="grid3"><button data-exp="json">JSON</button><button data-exp="csv">CSV</button><button data-exp="geojson">GeoJSON</button></div></div>
+</section></main><script>
+let token="";
+const api=async(p,o={})=>{o.headers={...(o.headers||{}),Authorization:`Bearer ${token}`};const r=await fetch(p,o);if(!r.ok)throw new Error(await r.text());return r};
+login.onclick=async()=>{try{let r=await fetch('/api/auth/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:u.value,password:p.value})});let j=await r.json();if(!r.ok)throw Error(j.detail||'Login failed');token=j.access_token;dash.classList.remove('hidden');msg.textContent='Authenticated';refresh()}catch(e){msg.textContent=e.message}};
+async function refresh(){metrics.textContent=JSON.stringify(await (await api('/api/pilots/PB124-OLEA-2026/metrics')).json(),null,2);let a=await(await api('/api/pilots/PB124-OLEA-2026/local-archive')).json();archive.innerHTML=`Windows Sync Agent: <b>${a.agent}</b><br>Local Root: ${a.root_path||'not reported'}<br>Server observations: ${a.server_observations}<br>Local verified observations: ${a.local_verified_observations}<br>Server photos: ${a.server_photos}<br>Local verified photos: ${a.local_verified_photos}<br>Pending: ${a.pending}<br>Integrity errors: ${a.integrity_errors}<br>Last local backup: ${a.last_seen_utc||'never'}`;let x=await(await api('/api/pilots/PB124-OLEA-2026/observations')).json();obs.innerHTML=x.map(o=>`<div class="statusbox"><b>${o.observation_id}</b><br>${o.observed_at_utc}<br>GPS ${o.gps_accuracy_m??'—'} m · ${o.observer_corrected_context||o.auto_context||o.context||'context —'}</div>`).join('')}
+preflight.onclick=async()=>pre.textContent=JSON.stringify(await(await api('/api/pilots/PB124-OLEA-2026/preflight')).json(),null,2);
+document.querySelectorAll('[data-exp]').forEach(b=>b.onclick=async()=>{let ext=b.dataset.exp;let r=await api(`/api/pilots/PB124-OLEA-2026/export.${ext}`);let blob=await r.blob();let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`PB124-OLEA-2026.${ext}`;a.click()});
+</script></body></html>

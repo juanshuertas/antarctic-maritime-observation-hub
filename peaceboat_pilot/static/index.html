@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07141c"><link rel="manifest" href="/peaceboat/manifest.webmanifest">
+<title>OLEA — Peace Boat 124th Global Voyage</title><link rel="stylesheet" href="/peaceboat/static/styles.css">
+</head>
+<body>
+<main class="shell">
+<section id="loginCard" class="card">
+<div class="eyebrow">OLEA</div><h1>Peace Boat 124th Global Voyage</h1><h2>Shipboard Field-Observation Pilot</h2>
+<p>Hi Meri,</p>
+<p>Thank you for helping test the OLEA field-observation workflow aboard Pacific World.</p>
+<p>This pilot uses only your phone. It does not connect to Peace Boat vessel systems and does not require any change to normal ship operations.</p>
+<p><strong>Typical observation: less than 2 minutes.</strong></p>
+<input id="username" autocomplete="username" placeholder="Username" value="meri">
+<input id="password" type="password" autocomplete="current-password" placeholder="Password">
+<button id="loginBtn">START FIELD PILOT</button><div id="loginMsg" class="msg"></div>
+</section>
+
+<section id="fieldApp" class="hidden">
+<header class="top">
+<div><div class="eyebrow">OLEA · PB124</div><strong id="fieldState">FIELD MODE OFF</strong></div>
+<div class="right"><span id="gpsBadge">GPS —</span><span id="netBadge">ONLINE</span><span id="pendingBadge">0 PENDING</span></div>
+</header>
+
+<div class="card">
+<h2>Permissions</h2>
+<div class="grid3">
+<button id="enableLocation">ENABLE LOCATION</button>
+<label class="buttonlike">ENABLE CAMERA<input id="photoInput" type="file" accept="image/*" capture="environment" hidden></label>
+<button id="enableSensors">ENABLE AVAILABLE FIELD SENSORS</button>
+</div>
+<div class="sensorline" id="sensorLine">Location: not authorized · Orientation: unknown · Motion: unknown</div>
+</div>
+
+<div class="card opportunity">
+<div class="eyebrow">NEXT OBSERVATION OPPORTUNITY</div>
+<h2 id="opportunityReason">Activate Field Mode when safe and convenient.</h2>
+<div class="grid3"><button id="captureTop">CAPTURE OBSERVATION</button><button class="secondary" id="snooze">SNOOZE</button><button class="secondary" id="dismiss">DISMISS</button></div>
+<button class="dangerlite" id="notSafe">NOT SAFE / NOT CONVENIENT</button>
+</div>
+
+<div class="card">
+<div class="row"><h2>Field Mode</h2><button id="fieldToggle">TURN ON</button></div>
+<div class="statusbox" id="saveStatus">No local observation yet.</div>
+</div>
+
+<form id="obsForm" class="card hidden">
+<h2>Capture observation</h2>
+<label>Visibility / horizon<select id="visibility"><option>excellent</option><option>good</option><option>moderate haze</option><option>poor</option><option>fog</option><option>precipitation-obscured</option><option>horizon not visible</option><option>uncertain</option></select></label>
+<label>Sea state — visual<select id="seaState"><option>calm / glassy</option><option>ripples</option><option>small waves</option><option>moderate waves</option><option>rough</option><option>very rough</option><option>uncertain</option></select></label>
+<label>Whitecaps<select id="whitecaps"><option>none</option><option>few</option><option>frequent</option><option>extensive</option><option>uncertain</option></select></label>
+<label>Sea-surface appearance<select id="surface"><option>uniform</option><option>visible colour difference</option><option>foam</option><option>slick-like appearance</option><option>natural floating material</option><option>possible anthropogenic floating material</option><option>turbid appearance</option><option>other</option><option>uncertain</option></select></label>
+<label>Sky / cloud<select id="sky"><option>clear</option><option>mostly clear</option><option>partly cloudy</option><option>mostly cloudy</option><option>overcast</option><option>fog</option><option>uncertain</option></select></label>
+<label>Environmental context<select id="context"><option>open ocean</option><option>distant coast</option><option>coastal transit</option><option>approaching port</option><option>in port</option><option>departing port</option><option>anchored</option><option>uncertain</option></select></label>
+<label>Wildlife<select id="wildlife"><option>none</option><option>seabirds</option><option>marine mammal</option><option>multiple</option><option>other</option><option>uncertain</option></select></label>
+<label>Floating material<select id="floating"><option>none</option><option>natural</option><option>possible anthropogenic</option><option>mixed</option><option>uncertain</option></select></label>
+<label>Notes<textarea id="notes" rows="3" placeholder="Optional factual note"></textarea></label>
+<div class="photoline"><span id="photoState">Photo optional</span><label class="buttonlike">TAKE / ADD PHOTO<input id="photoCapture" type="file" accept="image/*" capture="environment" hidden></label></div>
+<button type="submit">SAVE OBSERVATION</button><button type="button" class="secondary" id="cancelCapture">CANCEL</button>
+</form>
+
+<div class="card">
+<div class="row"><div><div class="eyebrow">LAST OBSERVATION</div><div id="lastObs">None</div></div><div><div class="eyebrow">PILOT PROGRESS</div><strong id="progress">0 / 5</strong></div></div>
+</div>
+</section>
+</main>
+<script src="/peaceboat/static/app.js"></script>
+</body></html>
