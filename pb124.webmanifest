@@ -7,13 +7,5 @@
   "display": "standalone",
   "background_color": "#020a10",
   "theme_color": "#06131c",
-  "description": "Offline-first PB124 shipboard field-observation method pilot.",
-  "icons": [
-    {
-      "src": "/antarctic-maritime-observation-hub/pb124-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ]
+  "description": "Offline-first PB124 shipboard field-observation method pilot."
 }
