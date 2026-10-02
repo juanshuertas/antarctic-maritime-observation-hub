@@ -14,8 +14,21 @@
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/assets/vendor-turf-dVHIkDg_.js">
     <link rel="stylesheet" crossorigin href="/antarctic-maritime-observation-hub/assets/vendor-maplibre-CKRTiAqP.css">
     <link rel="stylesheet" crossorigin href="/antarctic-maritime-observation-hub/assets/pb124-public-Bsp7LAQJ.css">
-  </head>
+    <link rel="manifest" href="/antarctic-maritime-observation-hub/pb124.webmanifest" />
+</head>
   <body>
     <div id="root"></div>
-  </body>
+  <script>
+(() => {
+  if (!('serviceWorker' in navigator)) return;
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register('/antarctic-maritime-observation-hub/pb124-sw.js', {
+        scope: '/antarctic-maritime-observation-hub/'
+      })
+      .catch(() => {});
+  });
+})();
+</script>
+</body>
 </html>

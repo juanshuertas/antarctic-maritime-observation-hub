@@ -1,0 +1,19 @@
+{
+  "name": "OLEA PB124 Field Connect",
+  "short_name": "PB124 Field",
+  "id": "/antarctic-maritime-observation-hub/peaceboat/",
+  "start_url": "/antarctic-maritime-observation-hub/peaceboat/",
+  "scope": "/antarctic-maritime-observation-hub/",
+  "display": "standalone",
+  "background_color": "#020a10",
+  "theme_color": "#06131c",
+  "description": "Offline-first PB124 shipboard field-observation method pilot.",
+  "icons": [
+    {
+      "src": "/antarctic-maritime-observation-hub/pb124-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
