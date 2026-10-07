@@ -1,37 +1,44 @@
-name: PB124 Public Field App
+name: PB124 Pages
 
 on:
-  push:
-    branches: ['pb124-meri-deploy-20261001-181027']
   workflow_dispatch:
+  push:
+    branches:
+      - pb124-meri-live-v6
+    paths:
+      - "pb124-pages-site/**"
+      - ".github/workflows/pb124-pages.yml"
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
 concurrency:
-  group: pb124-pages
+  group: "pb124-pages"
   cancel-in-progress: true
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${ steps.deployment.outputs.page_url }
-    runs-on: ubuntu-latest
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Checkout deployment artifact
-        uses: actions/checkout@v7
+      - name: Checkout PB124 deployment branch
+        uses: actions/checkout@v6
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v6
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
-      - name: Upload PB124 static artifact
-        uses: actions/upload-pages-artifact@v5
+      - name: Upload PB124 Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: pb124-pages-site
+          path: ./pb124-pages-site
+          include-hidden-files: true
 
-      - name: Deploy Pages
+      - name: Deploy PB124 Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
