@@ -1,0 +1,25 @@
+{
+  "version": "3.1.0",
+  "datasets": [
+    {
+      "id": "olea_wap_2024_microphytoplankton",
+      "type": "FIELD_SCIENCE",
+      "scientific_role": "GROUND_TRUTH_CANDIDATE_NOT_VALIDATED_MODEL",
+      "display_url": "/data/web/geojson/wap_2024_stations_verified_v3_1.geojson",
+      "source_article_doi": "10.25268/bimc.invemar.2026.55.2.1419",
+      "target_count": 26,
+      "notes": "WAP sector has 24 stations; 19 density targets; PDF table 2 used for corrected environmental measurements"
+    },
+    {
+      "id": "olea_obis_icefree_antarctica",
+      "type": "TERRESTRIAL_OCCURRENCE",
+      "download_status": "IMPORTED_SOURCE_RAW",
+      "dataset_uuid": "3b7223b4-295a-43b6-bea5-82776e7e598f",
+      "source_archive": "https://ipt.biodiversity.aq/archive.do?r=aas_4296_biodiversity_icefree_antarctica_db",
+      "display_url": "/data/web/geojson/obis_icefree_antarctica_grid.geojson",
+      "role": "CONSERVATION_CONTEXT_NOT_MICROPHYTOPLANKTON_PREDICTOR",
+      "citation": "Terauds A (2025). The Biodiversity of Ice-free Antarctica Database. CC BY 4.0"
+    }
+  ],
+  "training_gate": "DO_NOT_TRAIN_WITHOUT_GROUPED_OR_SPATIAL_CV_AND_HUMAN_REVIEW"
+}
