@@ -1,0 +1,21 @@
+{
+  "record_count": 31,
+  "wab_station_count": 24,
+  "southeast_pacific_station_count": 7,
+  "density_targets": 26,
+  "density_missing": 5,
+  "pdf_table2_rows_verified": 31,
+  "excel_numeric_format_warning": "Original spreadsheet displays scaled/ambiguous numeric cells (e.g., 228198); all environmental measurements transcribed from published PDF Table 2, not directly interpreted from spreadsheet numeric format.",
+  "articles": {
+    "title": "Microfitoplancton a lo largo del Pacífico sudoriental y al norte de la península Antártica Occidental, verano austral 2023-2024",
+    "doi": "10.25268/bimc.invemar.2026.55.2.1419",
+    "year": 2026
+  },
+  "ground_truth_note": "Measured station densities exist for 26 sites but are not independently held-out validation; no station-specific sampling timestamp beyond sector date ranges; small n, spatially correlated; model training only after splits and review.",
+  "input_pdf_sha256": "5ca6f71cb2e599583472605de5431a141588a0ced0ec19b35dd03fdb0f3ed2e1",
+  "input_xlsx_sha256": "d0e3703047df129cd7fc7d3b9ff80f5f06b3a33947daa6a00d8c5f98ea16c371",
+  "coordinates_from": "User spreadsheet Estación/Coordenadas",
+  "temperature_salinity_nitrogen_oxygen_from": "Original paper PDF Table 2",
+  "density_from": "User spreadsheet, crosschecked against paper PDF Table 3",
+  "target_units": "cells / L"
+}
