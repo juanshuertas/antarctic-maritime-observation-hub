@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Horizon / current curve -->
+  <path d="M3 20c4-4 9-4 13 0s9 4 13 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <!-- Three observation points -->
+  <circle cx="8" cy="10" r="2.1" fill="currentColor"/>
+  <circle cx="16" cy="7" r="2.1" fill="currentColor"/>
+  <circle cx="24" cy="10" r="2.1" fill="currentColor"/>
+  <!-- Simple observation path linking them -->
+  <path d="M8 10L16 7L24 10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

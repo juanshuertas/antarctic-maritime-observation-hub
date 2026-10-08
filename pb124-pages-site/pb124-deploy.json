@@ -1,0 +1,13 @@
+{
+  "deployment_fingerprint": "PB124-V8-20261008T144008Z-07f6e3858f19defb",
+  "generated_at_utc": "2026-10-08T14:40:08.433734+00:00",
+  "source": "C:\\AMOH\\app\\dist-pb124-public",
+  "main_js": "pb124-public-BLIkLtQn.js",
+  "main_js_sha256": "07f6e3858f19defb6c113932f67f7af1661bbd75d1970b2e713cb8968f797659",
+  "required_markers": [
+    "Complete all 3 guided evidence photos before saving",
+    "SAVE COMPLETE OBSERVATION · 3/3 EVIDENCE",
+    "START NEW OBSERVATION"
+  ],
+  "expected_public_url": "https://juanshuertas.github.io/antarctic-maritime-observation-hub/peaceboat/"
+}

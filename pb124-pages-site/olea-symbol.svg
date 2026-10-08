@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="sym-ice" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#26BDE2" />
+      <stop offset="100%" stop-color="#0A97D9" />
+    </linearGradient>
+    <linearGradient id="sym-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#72E0B5" />
+      <stop offset="100%" stop-color="#3F7E44" />
+    </linearGradient>
+    <linearGradient id="sym-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCC30B" />
+      <stop offset="100%" stop-color="#FD6925" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagonal Polar Boundary (SDG Frame) -->
+  <polygon points="32,4 56,18 56,46 32,60 8,46 8,18" stroke="url(#sym-ice)" stroke-width="2.5" fill="#061422" />
+  
+  <!-- Iceberg Pinnacle (SDG 14 / Climate 13) -->
+  <polygon points="32,12 48,44 32,38 16,44" fill="url(#sym-ice)" opacity="0.95" />
+  <polygon points="32,38 48,44 32,54 16,44" fill="#00689D" opacity="0.9" />
+
+  <!-- Dynamic SDG Arcs (Life below water, Climate, Energy) -->
+  <path d="M16 34 C 23 28, 41 28, 48 34" stroke="url(#sym-green)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M19 40 C 26 35, 38 35, 45 40" stroke="url(#sym-orange)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Core Polar Beacon -->
+  <circle cx="32" cy="32" r="2.5" fill="#FFFFFF" />
+  <circle cx="32" cy="32" r="1.2" fill="#FD6925" />
+</svg>
