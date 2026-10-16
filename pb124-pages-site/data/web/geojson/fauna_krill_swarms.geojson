@@ -1,0 +1,803 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "krill-swarm-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5,
+          -62.9
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-001",
+        "name": "Súper-enjambre de Krill del Estrecho de Bransfield",
+        "common_name": "Súper-enjambre de Krill del Estrecho de Bransfield",
+        "common_name_es": "Súper-enjambre de Krill del Estrecho de Bransfield",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1850,
+        "acoustic_nasc_m2_nmi2": 12400,
+        "swarm_length_km": 42.0,
+        "depth_range_m": 65,
+        "depth_m": 65,
+        "predator_association": "Ballenas jorobadas, pingüinos barbijo y focas leopardo",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890102+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.6,
+          -64.5
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-002",
+        "name": "Enjambre Acústico Denso Estrecho de Gerlache",
+        "common_name": "Enjambre Acústico Denso Estrecho de Gerlache",
+        "common_name_es": "Enjambre Acústico Denso Estrecho de Gerlache",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 2400,
+        "acoustic_nasc_m2_nmi2": 16800,
+        "swarm_length_km": 28.5,
+        "depth_range_m": 45,
+        "depth_m": 45,
+        "predator_association": "Ballenas jorobadas en alimentación por red de burbujas",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890122+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.8,
+          -63.1
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-003",
+        "name": "Manto Acústico de Krill Isla Decepción",
+        "common_name": "Manto Acústico de Krill Isla Decepción",
+        "common_name_es": "Manto Acústico de Krill Isla Decepción",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1450,
+        "acoustic_nasc_m2_nmi2": 9800,
+        "swarm_length_km": 19.0,
+        "depth_range_m": 55,
+        "depth_m": 55,
+        "predator_association": "Colonias de pingüino barbijo de Baily Head",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 13,
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890137+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.2,
+          -61.5
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-004",
+        "name": "Enjambre Pelágico Paso Drake Sur",
+        "common_name": "Enjambre Pelágico Paso Drake Sur",
+        "common_name_es": "Enjambre Pelágico Paso Drake Sur",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1120,
+        "acoustic_nasc_m2_nmi2": 7600,
+        "swarm_length_km": 35.0,
+        "depth_range_m": 85,
+        "depth_m": 85,
+        "predator_association": "Albatros de ceja negra y petreles gigantes",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890149+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8,
+          -61.0
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-005",
+        "name": "Súper-enjambre de Isla Elefante (Scotia Norte)",
+        "common_name": "Súper-enjambre de Isla Elefante (Scotia Norte)",
+        "common_name_es": "Súper-enjambre de Isla Elefante (Scotia Norte)",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 2100,
+        "acoustic_nasc_m2_nmi2": 14200,
+        "swarm_length_km": 48.0,
+        "depth_range_m": 70,
+        "depth_m": 70,
+        "predator_association": "Rorcuales comunes (Fin whales) y pingüinos barbijo",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 13,
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890162+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.5,
+          -54.2
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-006",
+        "name": "Súper-enjambre de Georgias del Sur / Cumberland",
+        "common_name": "Súper-enjambre de Georgias del Sur / Cumberland",
+        "common_name_es": "Súper-enjambre de Georgias del Sur / Cumberland",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 3200,
+        "acoustic_nasc_m2_nmi2": 22500,
+        "swarm_length_km": 65.0,
+        "depth_range_m": 50,
+        "depth_m": 50,
+        "predator_association": "Ballenas azules, rorcuales comunes y pingüinos rey",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 15,
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890176+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.8,
+          -60.5
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-007",
+        "name": "Concentración Masiva de Krill Islas Orcadas del Sur",
+        "common_name": "Concentración Masiva de Krill Islas Orcadas del Sur",
+        "common_name_es": "Concentración Masiva de Krill Islas Orcadas del Sur",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1780,
+        "acoustic_nasc_m2_nmi2": 11900,
+        "swarm_length_km": 38.0,
+        "depth_range_m": 60,
+        "depth_m": 60,
+        "predator_association": "Pingüinos adelia, petreles damero y focas cangrejeras",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 14,
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890193+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2,
+          -75.5
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-008",
+        "name": "Enjambre de Krill Costero de Hielo de Ronne",
+        "common_name": "Enjambre de Krill Costero de Hielo de Ronne",
+        "common_name_es": "Enjambre de Krill Costero de Hielo de Ronne",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 980,
+        "acoustic_nasc_m2_nmi2": 6200,
+        "swarm_length_km": 24.0,
+        "depth_range_m": 120,
+        "depth_m": 120,
+        "predator_association": "Focas de Weddell y pingüinos emperador",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 3,
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890203+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.0,
+          -70.8
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-009",
+        "name": "Manto Acústico de Weddell Occidental",
+        "common_name": "Manto Acústico de Weddell Occidental",
+        "common_name_es": "Manto Acústico de Weddell Occidental",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1320,
+        "acoustic_nasc_m2_nmi2": 8900,
+        "swarm_length_km": 31.0,
+        "depth_range_m": 75,
+        "depth_m": 75,
+        "predator_association": "Focas cangrejeras y orcas tipo B",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 2,
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890213+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.5,
+          -71.8
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-010",
+        "name": "Enjambre Marginal de Hielo Weddell Oriental",
+        "common_name": "Enjambre Marginal de Hielo Weddell Oriental",
+        "common_name_es": "Enjambre Marginal de Hielo Weddell Oriental",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 890,
+        "acoustic_nasc_m2_nmi2": 5800,
+        "swarm_length_km": 21.0,
+        "depth_range_m": 90,
+        "depth_m": 90,
+        "predator_association": "Petreles de las nieves y focas de Ross",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 2,
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890227+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.5,
+          -75.2
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-011",
+        "name": "Súper-enjambre de Krill de Hielo del Mar de Ross",
+        "common_name": "Súper-enjambre de Krill de Hielo del Mar de Ross",
+        "common_name_es": "Súper-enjambre de Krill de Hielo del Mar de Ross",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1650,
+        "acoustic_nasc_m2_nmi2": 11400,
+        "swarm_length_km": 52.0,
+        "depth_range_m": 80,
+        "depth_m": 80,
+        "predator_association": "Rorcuales minke antárticos, pingüinos adelia y orcas tipo C",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890243+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.0,
+          -77.2
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-012",
+        "name": "Enjambre Costero de McMurdo Sound",
+        "common_name": "Enjambre Costero de McMurdo Sound",
+        "common_name_es": "Enjambre Costero de McMurdo Sound",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1420,
+        "acoustic_nasc_m2_nmi2": 9500,
+        "swarm_length_km": 26.0,
+        "depth_range_m": 45,
+        "depth_m": 45,
+        "predator_association": "Pingüinos emperador de Cabo Crozier",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890255+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.5,
+          -72.3
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-013",
+        "name": "Parche Acústico de Cabo Hallett",
+        "common_name": "Parche Acústico de Cabo Hallett",
+        "common_name_es": "Parche Acústico de Cabo Hallett",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1180,
+        "acoustic_nasc_m2_nmi2": 7900,
+        "swarm_length_km": 29.0,
+        "depth_range_m": 60,
+        "depth_m": 60,
+        "predator_association": "Colonias de pingüino de adelia",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890267+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0,
+          -67.2
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-014",
+        "name": "Súper-enjambre de Bahía Prydz / Amery",
+        "common_name": "Súper-enjambre de Bahía Prydz / Amery",
+        "common_name_es": "Súper-enjambre de Bahía Prydz / Amery",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 2150,
+        "acoustic_nasc_m2_nmi2": 14900,
+        "swarm_length_km": 58.0,
+        "depth_range_m": 55,
+        "depth_m": 55,
+        "predator_association": "Ballenas azules antárticas, pingüinos adelia y petreles antárticos",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 9,
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890281+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.0,
+          -65.5
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-015",
+        "name": "Enjambre Costero de Tierra de Davis (Wilkes)",
+        "common_name": "Enjambre Costero de Tierra de Davis (Wilkes)",
+        "common_name_es": "Enjambre Costero de Tierra de Davis (Wilkes)",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1250,
+        "acoustic_nasc_m2_nmi2": 8400,
+        "swarm_length_km": 33.0,
+        "depth_range_m": 70,
+        "depth_m": 70,
+        "predator_association": "Focas cangrejeras y rorcuales minke",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 10,
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890290+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5,
+          -66.2
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-016",
+        "name": "Enjambre de Glaciar Mertz / Jorge V",
+        "common_name": "Enjambre de Glaciar Mertz / Jorge V",
+        "common_name_es": "Enjambre de Glaciar Mertz / Jorge V",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1390,
+        "acoustic_nasc_m2_nmi2": 9200,
+        "swarm_length_km": 36.0,
+        "depth_range_m": 65,
+        "depth_m": 65,
+        "predator_association": "Pingüinos emperador y págalos polares",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 12,
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.890978+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5,
+          -66.0
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-017",
+        "name": "Manto Acústico de Costa Adelia",
+        "common_name": "Manto Acústico de Costa Adelia",
+        "common_name_es": "Manto Acústico de Costa Adelia",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1150,
+        "acoustic_nasc_m2_nmi2": 7600,
+        "swarm_length_km": 27.0,
+        "depth_range_m": 50,
+        "depth_m": 50,
+        "predator_association": "Pingüinos adelia de Pointe Géologie",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 11,
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.891010+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0,
+          -65.8
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-018",
+        "name": "Enjambre Pelágico Mar de los Cosmonautas",
+        "common_name": "Enjambre Pelágico Mar de los Cosmonautas",
+        "common_name_es": "Enjambre Pelágico Mar de los Cosmonautas",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 980,
+        "acoustic_nasc_m2_nmi2": 6400,
+        "swarm_length_km": 25.0,
+        "depth_range_m": 85,
+        "depth_m": 85,
+        "predator_association": "Focas cangrejeras y orcas",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 8,
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.891026+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          -69.0
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-019",
+        "name": "Enjambre de Tierra de la Reina Maud / Lazarev",
+        "common_name": "Enjambre de Tierra de la Reina Maud / Lazarev",
+        "common_name_es": "Enjambre de Tierra de la Reina Maud / Lazarev",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 890,
+        "acoustic_nasc_m2_nmi2": 5700,
+        "swarm_length_km": 22.0,
+        "depth_range_m": 95,
+        "depth_m": 95,
+        "predator_association": "Focas de Ross y petreles de las nieves",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 7,
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.891037+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.5,
+          -73.0
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-020",
+        "name": "Enjambre Costero Mar de Amundsen / Thwaites",
+        "common_name": "Enjambre Costero Mar de Amundsen / Thwaites",
+        "common_name_es": "Enjambre Costero Mar de Amundsen / Thwaites",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1420,
+        "acoustic_nasc_m2_nmi2": 9600,
+        "swarm_length_km": 37.0,
+        "depth_range_m": 70,
+        "depth_m": 70,
+        "predator_association": "Rorcuales minke y focas cangrejeras masivas",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 5,
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.891049+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5,
+          -70.5
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-021",
+        "name": "Manto Acústico Mar de Bellingshausen",
+        "common_name": "Manto Acústico Mar de Bellingshausen",
+        "common_name_es": "Manto Acústico Mar de Bellingshausen",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1100,
+        "acoustic_nasc_m2_nmi2": 7200,
+        "swarm_length_km": 29.0,
+        "depth_range_m": 75,
+        "depth_m": 75,
+        "predator_association": "Pingüinos adelia y focas leopardo",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 6,
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.891063+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "krill-swarm-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5,
+          -51.8
+        ]
+      },
+      "properties": {
+        "id": "krill-swarm-022",
+        "name": "Enjambre Kerguelen / Heard (Subantártico)",
+        "common_name": "Enjambre Kerguelen / Heard (Subantártico)",
+        "common_name_es": "Enjambre Kerguelen / Heard (Subantártico)",
+        "scientific_name": "Euphausia superba",
+        "category": "krill",
+        "sub_type": "swarm",
+        "layer": "fauna_krill_swarms",
+        "biomass_density_g_m2": 1680,
+        "acoustic_nasc_m2_nmi2": 11200,
+        "swarm_length_km": 44.0,
+        "depth_range_m": 60,
+        "depth_m": 60,
+        "predator_association": "Peces de hielo, albatros viajeros y elefantes marinos",
+        "trophic_role": "Pilar central de la trama trófica circumpolar antártica",
+        "sector_id": 16,
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "color": "#fb923c",
+        "icon": "icon_krill_antarctic",
+        "source": "CCAMLR Acoustic Survey & Autonomous Glider Fleet (SOOS)",
+        "updated_at": "2026-09-23T04:47:08.891084+00:00"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-09-23T04:47:08.901749+00:00",
+    "total_features": 22,
+    "projection": "EPSG:4326 (WGS 84)",
+    "authority": "AMOH / OBIS / CCAMLR / Copernicus Marine"
+  }
+}

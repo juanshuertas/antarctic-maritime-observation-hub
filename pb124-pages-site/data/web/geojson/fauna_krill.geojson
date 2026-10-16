@@ -1,0 +1,2685 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Distribución de Biomasa de Krill Antártico (Euphausiacea)",
+    "count": 81,
+    "generated_at": "2026-09-23T03:27:23.451910+00:00",
+    "circumpolar_sectors": 18,
+    "crs": "EPSG:4326"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.8,
+          -63.5
+        ]
+      },
+      "properties": {
+        "id": "anchor-0028",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico (Estrecho de Bransfield (Enjambre Núcleo))",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 45,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8,
+          -66.2
+        ]
+      },
+      "properties": {
+        "id": "anchor-0029",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico (Giro de Bahía Prydz)",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 60,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0,
+          -76.0
+        ]
+      },
+      "properties": {
+        "id": "anchor-0030",
+        "scientific_name": "Euphausia crystallorophias",
+        "common_name": "Krill Costero / del Hielo (Polinia Costera de Ross)",
+        "common_name_es": "Krill Costero / del Hielo",
+        "common_name_en": "Ice Krill",
+        "category": "krill",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "trophic_role": "Eslabón trófico en plataformas glaciares",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 80,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63,
+          -62.25
+        ]
+      },
+      "properties": {
+        "id": "obis-00018120-e512-4d14-bccd-e322fede4531",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2005-01-17",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 85.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.7667,
+          -62.65
+        ]
+      },
+      "properties": {
+        "id": "obis-0002489f-47bf-4bf8-be4c-d7d1394e22f1",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.5167,
+          -62.5167
+        ]
+      },
+      "properties": {
+        "id": "obis-0003b7e2-525b-4dbc-ab3d-d07a30b1e960",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.433,
+          -66.6021
+        ]
+      },
+      "properties": {
+        "id": "obis-0005bcd5-fdd5-4891-99b9-1dfecc21dbe2",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2002-4-17",
+        "basis_of_record": "HumanObservation",
+        "institution": "WHOI",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.5,
+          -61
+        ]
+      },
+      "properties": {
+        "id": "obis-00069023-39a4-4aa0-ab07-37e4e4c086e3",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "1996-01-26",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 85.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.0667,
+          -62.3333
+        ]
+      },
+      "properties": {
+        "id": "obis-000916d2-d434-4259-9d69-9799df9722ad",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0371,
+          -67.717
+        ]
+      },
+      "properties": {
+        "id": "obis-000957db-a14c-4d51-838b-71bb49271302",
+        "scientific_name": "Euphausia crystallorophias",
+        "common_name": "Krill Costero / del Hielo",
+        "common_name_es": "Krill Costero / del Hielo",
+        "common_name_en": "Ice Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Eslabón trófico en plataformas glaciares",
+        "event_date": "2001-5-7",
+        "basis_of_record": "HumanObservation",
+        "institution": "WHOI",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8933,
+          -60.9833
+        ]
+      },
+      "properties": {
+        "id": "obis-000aa786-1388-41a6-8dad-83f68ee547ac",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "GAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8667,
+          -60.9167
+        ]
+      },
+      "properties": {
+        "id": "obis-000afb0e-10fc-4672-b620-cfcdcd498539",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.9,
+          -62.2
+        ]
+      },
+      "properties": {
+        "id": "obis-000c0e26-1548-4443-8a81-660b8bac0131",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5,
+          -62.25
+        ]
+      },
+      "properties": {
+        "id": "obis-000c4ba5-e53b-43ad-8b12-a40ed9ce6caf",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "1995-01-16",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 81.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.9333,
+          -59.8667
+        ]
+      },
+      "properties": {
+        "id": "obis-000cbc91-4c42-426f-baa8-2cdb122ebf3b",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8167,
+          -61.0333
+        ]
+      },
+      "properties": {
+        "id": "obis-00116e5d-30f6-467b-a308-37cc2928b3c5",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.85,
+          -62.3667
+        ]
+      },
+      "properties": {
+        "id": "obis-0011874d-e075-403b-8fec-62d02f25ff5d",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1352,
+          -67.7743
+        ]
+      },
+      "properties": {
+        "id": "obis-00148800-5470-4e0c-bf32-9f047e33fd02",
+        "scientific_name": "Euphausia crystallorophias",
+        "common_name": "Krill Costero / del Hielo",
+        "common_name_es": "Krill Costero / del Hielo",
+        "common_name_en": "Ice Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Eslabón trófico en plataformas glaciares",
+        "event_date": "2002-4-22",
+        "basis_of_record": "HumanObservation",
+        "institution": "WHOI",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.3667,
+          -61.3833
+        ]
+      },
+      "properties": {
+        "id": "obis-00155285-8489-4cd1-8997-277b5d1ed8d3",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59,
+          -61.5
+        ]
+      },
+      "properties": {
+        "id": "obis-0018433f-55bb-4eb9-9b51-d9b72ba47762",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2282,
+          -66.2375
+        ]
+      },
+      "properties": {
+        "id": "obis-0018cfa8-62cc-448e-b79b-c91004530b4e",
+        "scientific_name": "Euphausia crystallorophias",
+        "common_name": "Krill Costero / del Hielo",
+        "common_name_es": "Krill Costero / del Hielo",
+        "common_name_en": "Ice Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Eslabón trófico en plataformas glaciares",
+        "event_date": "2002-4-17",
+        "basis_of_record": "HumanObservation",
+        "institution": "WHOI",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60,
+          -61.8
+        ]
+      },
+      "properties": {
+        "id": "obis-001a3bbe-9cc5-45a0-b83d-0c4312697432",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6,
+          -61.9667
+        ]
+      },
+      "properties": {
+        "id": "obis-001aac59-cea2-4f3e-820c-4cb954ff7bed",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.97,
+          -60.265
+        ]
+      },
+      "properties": {
+        "id": "obis-001b613f-501a-44d0-a018-83104597d875",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "GAMLR 1986",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.3167,
+          -61.1667
+        ]
+      },
+      "properties": {
+        "id": "obis-001b6404-91c6-44db-97a2-22de246192d6",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.55,
+          -61.75
+        ]
+      },
+      "properties": {
+        "id": "obis-001c2479-d703-4b78-b8ee-797bfd2de0f1",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5167,
+          -61.2
+        ]
+      },
+      "properties": {
+        "id": "obis-001d7060-cc4c-41ce-b18e-7bcbdea361e7",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.9833,
+          -61.9333
+        ]
+      },
+      "properties": {
+        "id": "obis-001dbc26-186e-4a67-a259-b0e432d471b5",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7667,
+          -60.3333
+        ]
+      },
+      "properties": {
+        "id": "obis-00044f41-f16d-4491-a22f-1e1f2d0a108e",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4207,
+          -68.6365
+        ]
+      },
+      "properties": {
+        "id": "obis-001204e3-0665-48d2-8c73-817e558c2504",
+        "scientific_name": "Euphausia crystallorophias",
+        "common_name": "Krill Costero / del Hielo",
+        "common_name_es": "Krill Costero / del Hielo",
+        "common_name_en": "Ice Krill",
+        "category": "krill",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "trophic_role": "Eslabón trófico en plataformas glaciares",
+        "event_date": "2001-5-18",
+        "basis_of_record": "HumanObservation",
+        "institution": "WHOI",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9667,
+          -68.8667
+        ]
+      },
+      "properties": {
+        "id": "obis-001ec3bd-bbd5-4487-82d3-fc13b5293765",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.935,
+          -69.062
+        ]
+      },
+      "properties": {
+        "id": "obis-00242641-c727-4336-8cfd-c2c143f001fd",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2002-05-07",
+        "basis_of_record": "HumanObservation",
+        "institution": "GLOBEC",
+        "source": "OBIS",
+        "depth_m": 12.5,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5667,
+          -64.5167
+        ]
+      },
+      "properties": {
+        "id": "obis-0002087d-8880-4502-ae84-16ab76612916",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.4333,
+          -64.5833
+        ]
+      },
+      "properties": {
+        "id": "obis-0007eded-a9a0-43ec-9c6a-8dc0a37f9d03",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.9667,
+          -65.75
+        ]
+      },
+      "properties": {
+        "id": "obis-0008abc3-8908-4de5-a1d6-f0d7b5bf0f90",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4333,
+          -66.8333
+        ]
+      },
+      "properties": {
+        "id": "obis-000d992a-d7e8-4a5a-b5b7-6a59fabd27c9",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "1987-02-01",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 50.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.1667,
+          -65.0333
+        ]
+      },
+      "properties": {
+        "id": "obis-000e0bdd-9d69-4636-9822-dad09c55b1da",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9715,
+          -62.0044
+        ]
+      },
+      "properties": {
+        "id": "obis-0023e90d-3fd4-4de2-a556-91aab8eb8ddc",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2006-01-27T12:00:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 105.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.0833,
+          -63.2667
+        ]
+      },
+      "properties": {
+        "id": "obis-0025d285-a63b-4a7e-ad31-ad1593d78f35",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.1333,
+          -65.9333
+        ]
+      },
+      "properties": {
+        "id": "obis-00038bbd-ccfb-42a1-b19b-f48b3e6c235e",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.4,
+          -64.1333
+        ]
+      },
+      "properties": {
+        "id": "obis-00017a9f-5639-4671-ae61-2e1b10b8920f",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.25,
+          -63.6333
+        ]
+      },
+      "properties": {
+        "id": "obis-0001cf61-a39d-4551-9d7e-d0a4cea78415",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.45,
+          -64.7667
+        ]
+      },
+      "properties": {
+        "id": "obis-0006ab74-7cbe-474d-a615-b1a08cb57eeb",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2833,
+          -63.75
+        ]
+      },
+      "properties": {
+        "id": "obis-00144ddc-da9f-4a26-944a-b5d5a8152db7",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.6667,
+          -64.8833
+        ]
+      },
+      "properties": {
+        "id": "obis-0014a689-b0be-49ac-8979-d8c2fab28a8f",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6352,
+          -57.6324
+        ]
+      },
+      "properties": {
+        "id": "obis-00195353-67aa-4f29-86cb-d7914a43fef6",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2010-03-23 22:36:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1333,
+          -64.1667
+        ]
+      },
+      "properties": {
+        "id": "obis-001a572f-e0c6-4b5a-9e37-e76b04d0fb8c",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2345,
+          -63.8466
+        ]
+      },
+      "properties": {
+        "id": "obis-001a7102-8127-4451-8aa8-3f35bfd442a8",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "1998-01-11 15:09:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0251,
+          -51.7429
+        ]
+      },
+      "properties": {
+        "id": "obis-001b5864-782e-4c20-89ec-fcdc10f7eab7",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2011-12-31 14:55:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3094,
+          -53.4247
+        ]
+      },
+      "properties": {
+        "id": "obis-0020dfcb-3f55-4605-844e-56764274d445",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2009-12-03 14:06:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2667,
+          -64.2333
+        ]
+      },
+      "properties": {
+        "id": "obis-00216f4b-a8c0-42ec-8be1-12f7dcd8b4b2",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.1483,
+          -64.7904
+        ]
+      },
+      "properties": {
+        "id": "obis-00217448-b91f-463e-bcd4-401ba2854a32",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2009-01-03",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AM",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7747,
+          -52.6025
+        ]
+      },
+      "properties": {
+        "id": "obis-00238d22-1ff5-4374-9574-f34ac10293cb",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2001-01-06 00:15:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8833,
+          -65.2667
+        ]
+      },
+      "properties": {
+        "id": "obis-00244ce7-f09f-425b-bab5-a5c21b82141f",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.5213,
+          -53.3661
+        ]
+      },
+      "properties": {
+        "id": "obis-0025cc4b-d1b3-4c44-9516-2f111889c6c7",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2010-02-23 02:21:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.7176,
+          -52.6942
+        ]
+      },
+      "properties": {
+        "id": "obis-0027c3db-83e6-498f-9d36-b79239c44fba",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2006-01-24 13:15:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.5333,
+          -63.7667
+        ]
+      },
+      "properties": {
+        "id": "obis-002816ff-a296-4454-81e2-f5152109be9f",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.2167,
+          -64.35
+        ]
+      },
+      "properties": {
+        "id": "obis-000394f9-f2cf-47c2-b673-3e274db02a53",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9994,
+          -55.1079
+        ]
+      },
+      "properties": {
+        "id": "obis-000505f1-459f-4d6a-ab1d-d779b4133780",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "1999-07-20 10:21:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.65,
+          -63.9
+        ]
+      },
+      "properties": {
+        "id": "obis-00093932-3c70-4fa5-b379-4d81288e2a06",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.0473,
+          -54.3355
+        ]
+      },
+      "properties": {
+        "id": "obis-0009a881-9499-480e-9585-b61fc370cdcf",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2016-12-11 04:01:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.8167,
+          -64.6833
+        ]
+      },
+      "properties": {
+        "id": "obis-000b5605-d92b-4408-9a57-bf621efd6456",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8876,
+          -55.1229
+        ]
+      },
+      "properties": {
+        "id": "obis-00124e0a-46fe-44d5-bb1f-6dbbd78d6159",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2016-01-03 08:26:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.45,
+          -65.6167
+        ]
+      },
+      "properties": {
+        "id": "obis-0012c6a7-7324-4f4a-a786-df74f4e72080",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0167,
+          -65.6
+        ]
+      },
+      "properties": {
+        "id": "obis-00134e47-7131-485e-bf55-8c81dd61a5dc",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3554,
+          -57.1052
+        ]
+      },
+      "properties": {
+        "id": "obis-001359b5-5579-4fa1-ad2f-e77964e7523a",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2018-10-28 20:29:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.0646,
+          -56.1351
+        ]
+      },
+      "properties": {
+        "id": "obis-0015aab5-d1cb-45e1-bbc7-dcf5d1c12f1a",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2009-02-28 04:07:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7833,
+          -65.4333
+        ]
+      },
+      "properties": {
+        "id": "obis-0019de6e-035d-4e0b-b6a8-6142e0e87772",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1,
+          -65.4833
+        ]
+      },
+      "properties": {
+        "id": "obis-001a3ef2-056c-4ef9-ae10-4f6f84a71c97",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.434,
+          -54.8656
+        ]
+      },
+      "properties": {
+        "id": "obis-0024d8e9-71e9-4ee2-bc41-9d881f08d3cb",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2000-01-27 09:55:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.75,
+          -66.0833
+        ]
+      },
+      "properties": {
+        "id": "obis-00055c59-f8fa-4d80-a659-0939c31e295e",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.6789,
+          -50.9559
+        ]
+      },
+      "properties": {
+        "id": "obis-0019b002-44e2-46f3-8fa6-97c29f7aa595",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2022-02-03 14:38:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4946,
+          -55.3862
+        ]
+      },
+      "properties": {
+        "id": "obis-001b8052-ea51-4265-94d4-7ac053b64d70",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2006-03-15 12:03:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.4029,
+          -64.6268
+        ]
+      },
+      "properties": {
+        "id": "obis-0023a5c4-993f-4f60-ab8d-19220ae9c0b3",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2018-01-31 21:35:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 10.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.65,
+          -58.9833
+        ]
+      },
+      "properties": {
+        "id": "obis-001aed2a-9884-4b0b-8d86-c7d75a1b42a7",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "1984-11-30",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 50.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7167,
+          -54.1333
+        ]
+      },
+      "properties": {
+        "id": "obis-0008a109-b9e6-4816-a59a-9694cd217e1d",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2026-12-23",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 86.5,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7333,
+          -54.05
+        ]
+      },
+      "properties": {
+        "id": "obis-00235997-d0cd-4433-afc7-50dacfd09ed8",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "CCAMLR",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69,
+          -52
+        ]
+      },
+      "properties": {
+        "id": "obis-0016f829-d95e-4892-900f-0d06b8b89ea3",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "1987-03-31T18:45:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 37.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.8903,
+          -68.6742
+        ]
+      },
+      "properties": {
+        "id": "obis-00001c03-707a-4c2f-b594-7a32a2b64b7d",
+        "scientific_name": "Euphausia superba",
+        "common_name": "Krill Antártico",
+        "common_name_es": "Krill Antártico",
+        "common_name_en": "Antarctic Krill",
+        "category": "krill",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Piedra angular del ecosistema antártico",
+        "event_date": "2002-5-2",
+        "basis_of_record": "HumanObservation",
+        "institution": "WHOI",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.8842,
+          -68.5443
+        ]
+      },
+      "properties": {
+        "id": "obis-00058384-1932-4189-8dd6-a700cf4b99e0",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2001-5-18",
+        "basis_of_record": "HumanObservation",
+        "institution": "WHOI",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.8398,
+          -68.5082
+        ]
+      },
+      "properties": {
+        "id": "obis-002757ff-9cfc-4bc6-9744-08f0cda28345",
+        "scientific_name": "Thysanoessa macrura",
+        "common_name": "Krill Oceánico Antártico",
+        "common_name_es": "Krill Oceánico Antártico",
+        "common_name_en": "Oceanic Krill",
+        "category": "krill",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro / carnívoro pelágico",
+        "event_date": "2001-5-18",
+        "basis_of_record": "HumanObservation",
+        "institution": "GLOBEC",
+        "source": "OBIS",
+        "depth_m": 12.5,
+        "population_estimate": null,
+        "icon": "icon_krill_antarctic",
+        "color": "#fb923c",
+        "freshness": "MEASURED"
+      }
+    }
+  ]
+}

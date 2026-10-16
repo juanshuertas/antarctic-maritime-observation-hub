@@ -1,0 +1,861 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "whale-pod-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.2,
+          -64.8
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-001",
+        "name": "Grupo Familiar de Ballena Azul Antártica",
+        "common_name": "Grupo Familiar de Ballena Azul Antártica",
+        "common_name_es": "Grupo Familiar de Ballena Azul Antártica",
+        "scientific_name": "Balaenoptera musculus intermedia",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 3,
+        "individuals": 3,
+        "behavior": "Alimentación lenta de krill en superficie con cría",
+        "acoustic_telemetry": "Cantos de frecuencia ultra-baja (18-28 Hz) detectados",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 10,
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "CR",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891120+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5,
+          -66.8
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-002",
+        "name": "Pareja de Ballenas Azules en Bahía Prydz",
+        "common_name": "Pareja de Ballenas Azules en Bahía Prydz",
+        "common_name_es": "Pareja de Ballenas Azules en Bahía Prydz",
+        "scientific_name": "Balaenoptera musculus intermedia",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 2,
+        "individuals": 2,
+        "behavior": "Filtración profunda de enjambre de krill",
+        "acoustic_telemetry": "Vocalizaciones antárticas Z-call registradas",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 9,
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "CR",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891142+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.2,
+          -56.5
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-003",
+        "name": "Avistamiento de Ballena Azul en Arco de Scotia",
+        "common_name": "Avistamiento de Ballena Azul en Arco de Scotia",
+        "common_name_es": "Avistamiento de Ballena Azul en Arco de Scotia",
+        "scientific_name": "Balaenoptera musculus intermedia",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 2,
+        "individuals": 2,
+        "behavior": "Tránsito alimentario hacia Georgias del Sur",
+        "acoustic_telemetry": "Pulsos de ecolocalización pasiva",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 15,
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "CR",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891159+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0,
+          -70.5
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-004",
+        "name": "Ballena Azul Solitaria en Mar de Ross",
+        "common_name": "Ballena Azul Solitaria en Mar de Ross",
+        "common_name_es": "Ballena Azul Solitaria en Mar de Ross",
+        "scientific_name": "Balaenoptera musculus intermedia",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 1,
+        "individuals": 1,
+        "behavior": "Monitoreo satelital sat-tag en talud norte de Ross",
+        "acoustic_telemetry": "Llamadas de contacto registradas por sonoboya",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "CR",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891171+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.2,
+          -60.8
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-005",
+        "name": "Agregación Alimentaria Masiva de Rorcuales Comunes",
+        "common_name": "Agregación Alimentaria Masiva de Rorcuales Comunes",
+        "common_name_es": "Agregación Alimentaria Masiva de Rorcuales Comunes",
+        "scientific_name": "Balaenoptera physalus",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 24,
+        "individuals": 24,
+        "behavior": "Alimentación cooperativa en súper-enjambre de krill",
+        "acoustic_telemetry": "Coro acústico de 20 Hz de alta amplitud",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 13,
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "VU",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891182+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8,
+          -54.8
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-006",
+        "name": "Manada de Ballenas Fin en Georgias del Sur",
+        "common_name": "Manada de Ballenas Fin en Georgias del Sur",
+        "common_name_es": "Manada de Ballenas Fin en Georgias del Sur",
+        "scientific_name": "Balaenoptera physalus",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 18,
+        "individuals": 18,
+        "behavior": "Embestidas de alimentación en superficie",
+        "acoustic_telemetry": "Vocalizaciones 20-Hz estereofónicas",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 15,
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891196+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.5,
+          -58.2
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-007",
+        "name": "Grupo de Rorcuales Comunes en Paso Drake",
+        "common_name": "Grupo de Rorcuales Comunes en Paso Drake",
+        "common_name_es": "Grupo de Rorcuales Comunes en Paso Drake",
+        "scientific_name": "Balaenoptera physalus",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 8,
+        "individuals": 8,
+        "behavior": "Migración hacia el sur cruzando el frente polar",
+        "acoustic_telemetry": "Pulsos regulares de tránsito",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "VU",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891206+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.8,
+          -51.0
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-008",
+        "name": "Manada de Fin Whales en Kerguelen",
+        "common_name": "Manada de Fin Whales en Kerguelen",
+        "common_name_es": "Manada de Fin Whales en Kerguelen",
+        "scientific_name": "Balaenoptera physalus",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 11,
+        "individuals": 11,
+        "behavior": "Forrajeo pelágico sobre la meseta",
+        "acoustic_telemetry": "Detección acústica por hidrófono CTBTO",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 16,
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "VU",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891216+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.5,
+          -64.6
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-009",
+        "name": "Manada de Ballenas Jorobadas en Estrecho de Gerlache",
+        "common_name": "Manada de Ballenas Jorobadas en Estrecho de Gerlache",
+        "common_name_es": "Manada de Ballenas Jorobadas en Estrecho de Gerlache",
+        "scientific_name": "Megaptera novaeangliae",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 14,
+        "individuals": 14,
+        "behavior": "Red de burbujas (bubble-net feeding) coordinada",
+        "acoustic_telemetry": "Cantos sociales de alimentación y coletazos",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891227+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.9,
+          -64.9
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-010",
+        "name": "Jorobadas con Crías en Bahía Paraíso",
+        "common_name": "Jorobadas con Crías en Bahía Paraíso",
+        "common_name_es": "Jorobadas con Crías en Bahía Paraíso",
+        "scientific_name": "Megaptera novaeangliae",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 6,
+        "individuals": 6,
+        "behavior": "Madres amamantando y enseñando buceo a crías",
+        "acoustic_telemetry": "Susurros acústicos madre-cría (<1 kHz)",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891238+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.2,
+          -64.6
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-011",
+        "name": "Grupo de Forrajeo de Jorobadas en Bahía Wilhelmina",
+        "common_name": "Grupo de Forrajeo de Jorobadas en Bahía Wilhelmina",
+        "common_name_es": "Grupo de Forrajeo de Jorobadas en Bahía Wilhelmina",
+        "scientific_name": "Megaptera novaeangliae",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 22,
+        "individuals": 22,
+        "behavior": "Mayor concentración estival de jorobadas de la Antártica",
+        "acoustic_telemetry": "Fuerte actividad de soplos y saltos (breaching)",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891251+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8,
+          -62.5
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-012",
+        "name": "Jorobadas en Alimentación en Islas Shetland del Sur",
+        "common_name": "Jorobadas en Alimentación en Islas Shetland del Sur",
+        "common_name_es": "Jorobadas en Alimentación en Islas Shetland del Sur",
+        "scientific_name": "Megaptera novaeangliae",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 9,
+        "individuals": 9,
+        "behavior": "Buceos sincrónicos sobre enjambres de krill",
+        "acoustic_telemetry": "Secuencias de cantos de forrajeo",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 13,
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891281+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.5,
+          -65.2
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-013",
+        "name": "Manada de Jorobadas en Tierra de Wilkes",
+        "common_name": "Manada de Jorobadas en Tierra de Wilkes",
+        "common_name_es": "Manada de Jorobadas en Tierra de Wilkes",
+        "scientific_name": "Megaptera novaeangliae",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 7,
+        "individuals": 7,
+        "behavior": "Forrajeo costero en borde de hielo",
+        "acoustic_telemetry": "Vocalizaciones de navegación",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 10,
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891305+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.5,
+          -75.8
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-014",
+        "name": "Grupo de Rorcuales Minke en Banquisa del Mar de Ross",
+        "common_name": "Grupo de Rorcuales Minke en Banquisa del Mar de Ross",
+        "common_name_es": "Grupo de Rorcuales Minke en Banquisa del Mar de Ross",
+        "scientific_name": "Balaenoptera bonaerensis",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 12,
+        "individuals": 12,
+        "behavior": "Alimentación en canales de hielo marino y polinias",
+        "acoustic_telemetry": "Señales bio-duck registradas por hidrófonos",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891332+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5,
+          -73.2
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-015",
+        "name": "Rorcuales Minke en Canales de Hielo de Weddell",
+        "common_name": "Rorcuales Minke en Canales de Hielo de Weddell",
+        "common_name_es": "Rorcuales Minke en Canales de Hielo de Weddell",
+        "scientific_name": "Balaenoptera bonaerensis",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 8,
+        "individuals": 8,
+        "behavior": "Asomándose verticalmente por grietas (spyhopping)",
+        "acoustic_telemetry": "Sonidos bio-duck típicos del invierno/verano polar",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 2,
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "NT",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891342+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.5,
+          -74.0
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-016",
+        "name": "Minkes Antárticos en Bahía Pine Island (Amundsen)",
+        "common_name": "Minkes Antárticos en Bahía Pine Island (Amundsen)",
+        "common_name_es": "Minkes Antárticos en Bahía Pine Island (Amundsen)",
+        "scientific_name": "Balaenoptera bonaerensis",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 6,
+        "individuals": 6,
+        "behavior": "Forrajeo bajo plataformas glaciares",
+        "acoustic_telemetry": "Pulsos de baja frecuencia",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 5,
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "NT",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891364+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.0,
+          -66.4
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-017",
+        "name": "Grupo de Minkes en Costa Adelia",
+        "common_name": "Grupo de Minkes en Costa Adelia",
+        "common_name_es": "Grupo de Minkes en Costa Adelia",
+        "scientific_name": "Balaenoptera bonaerensis",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 5,
+        "individuals": 5,
+        "behavior": "Evadiendo orcas en hielo denso",
+        "acoustic_telemetry": "Silenciamiento acústico táctico",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 11,
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "NT",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891375+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.8,
+          -64.7
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-018",
+        "name": "Clan Matriarcal de Orcas Tipo B1 (Caza sobre Hielo)",
+        "common_name": "Clan Matriarcal de Orcas Tipo B1 (Caza sobre Hielo)",
+        "common_name_es": "Clan Matriarcal de Orcas Tipo B1 (Caza sobre Hielo)",
+        "scientific_name": "Orcinus orca",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 11,
+        "individuals": 11,
+        "behavior": "Creación de olas cooperativas para desestabilizar focas",
+        "acoustic_telemetry": "Silbidos coordinados durante el ataque de olas",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "DD",
+        "color": "#e2e8f0",
+        "icon": "icon-orca",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891386+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.5,
+          -77.4
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-019",
+        "name": "Manada de Orcas Tipo C (Comedoras de Peces de Ross)",
+        "common_name": "Manada de Orcas Tipo C (Comedoras de Peces de Ross)",
+        "common_name_es": "Manada de Orcas Tipo C (Comedoras de Peces de Ross)",
+        "scientific_name": "Orcinus orca",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 26,
+        "individuals": 26,
+        "behavior": "Patrulla activa cazando austromerluza antártica",
+        "acoustic_telemetry": "Ecolocalización multifrecuencia intensa",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "DD",
+        "color": "#e2e8f0",
+        "icon": "icon-orca",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891396+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.8,
+          -71.5
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-020",
+        "name": "Grupo de Orcas Tipo B2 (Cazadoras de Pingüinos)",
+        "common_name": "Grupo de Orcas Tipo B2 (Cazadoras de Pingüinos)",
+        "common_name_es": "Grupo de Orcas Tipo B2 (Cazadoras de Pingüinos)",
+        "scientific_name": "Orcinus orca",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 9,
+        "individuals": 9,
+        "behavior": "Caza coordinada de pingüinos de adelia en borde de hielo",
+        "acoustic_telemetry": "Pulsos de ecolocalización de alta tasa",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "DD",
+        "color": "#e2e8f0",
+        "icon": "icon-orca",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891407+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0,
+          -72.0
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-021",
+        "name": "Manada de Orcas de Weddell en Banquisa",
+        "common_name": "Manada de Orcas de Weddell en Banquisa",
+        "common_name_es": "Manada de Orcas de Weddell en Banquisa",
+        "scientific_name": "Orcinus orca",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 8,
+        "individuals": 8,
+        "behavior": "Patrulla perimetral en busca de focas cangrejeras",
+        "acoustic_telemetry": "Llamadas de contacto estereotipadas",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 2,
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "DD",
+        "color": "#e2e8f0",
+        "icon": "icon-orca",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891419+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8,
+          -66.7
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-022",
+        "name": "Manada de Orcas en Mertz Glacier (Jorge V)",
+        "common_name": "Manada de Orcas en Mertz Glacier (Jorge V)",
+        "common_name_es": "Manada de Orcas en Mertz Glacier (Jorge V)",
+        "scientific_name": "Orcinus orca",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 7,
+        "individuals": 7,
+        "behavior": "Tránsito rápido bordeando el frente del glaciar",
+        "acoustic_telemetry": "Clicks de alta frecuencia",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 12,
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "DD",
+        "color": "#e2e8f0",
+        "icon": "icon-orca",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891431+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0,
+          -72.8
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-023",
+        "name": "Orcas Cazadoras de Focas en Amundsen",
+        "common_name": "Orcas Cazadoras de Focas en Amundsen",
+        "common_name_es": "Orcas Cazadoras de Focas en Amundsen",
+        "scientific_name": "Orcinus orca",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 6,
+        "individuals": 6,
+        "behavior": "Emboscada en canales de hielo a la deriva",
+        "acoustic_telemetry": "Llamadas de coordinación de manada",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 5,
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "DD",
+        "color": "#e2e8f0",
+        "icon": "icon-orca",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891444+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.2,
+          -53.5
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-024",
+        "name": "Madre y Cría de Ballena Franca Austral",
+        "common_name": "Madre y Cría de Ballena Franca Austral",
+        "common_name_es": "Madre y Cría de Ballena Franca Austral",
+        "scientific_name": "Eubalaena australis",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 2,
+        "individuals": 2,
+        "behavior": "Descanso y amamantamiento en aguas calmas subantárticas",
+        "acoustic_telemetry": "Llamadas de contacto 'up-call'",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 18,
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891455+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "whale-pod-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.0,
+          -54.0
+        ]
+      },
+      "properties": {
+        "id": "whale-pod-025",
+        "name": "Manada de Rorcuales Boreales (Sei Whales)",
+        "common_name": "Manada de Rorcuales Boreales (Sei Whales)",
+        "common_name_es": "Manada de Rorcuales Boreales (Sei Whales)",
+        "scientific_name": "Balaenoptera borealis",
+        "category": "cetaceans",
+        "sub_type": "pod",
+        "layer": "fauna_whale_pods",
+        "pod_size": 5,
+        "individuals": 5,
+        "behavior": "Alimentación rápida de copépodos en frente polar",
+        "acoustic_telemetry": "Llamadas de baja frecuencia descendentes",
+        "trophic_role": "Depredador ápice / Megafauna marina filtradora o carnívora",
+        "sector_id": 15,
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-whale",
+        "source": "IWC (International Whaling Commission) SOWER & OBIS Marine Mammal Tracking",
+        "updated_at": "2026-09-23T04:47:08.891466+00:00"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-09-23T04:47:08.907249+00:00",
+    "total_features": 25,
+    "projection": "EPSG:4326 (WGS 84)",
+    "authority": "AMOH / OBIS / CCAMLR / Copernicus Marine"
+  }
+}

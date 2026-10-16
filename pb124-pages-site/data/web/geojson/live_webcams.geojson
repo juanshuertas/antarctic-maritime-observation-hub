@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9,
+          -63.32
+        ]
+      },
+      "properties": {
+        "title": "Base Bernardo OHiggins HD Cam",
+        "provider": "INACH / Ej\u00e9rcito de Chile",
+        "stream_type": "Live PTZ / 4K",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.99,
+          -63.39
+        ]
+      },
+      "properties": {
+        "title": "Base Esperanza Polar Wildlife Cam",
+        "provider": "IAA / Comando Conjunto Ant\u00e1rtico",
+        "stream_type": "Live Stream Penguin Colony",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.05,
+          -64.77
+        ]
+      },
+      "properties": {
+        "title": "Palmer Station Glacier View",
+        "provider": "USAP / NSF Polar Programs",
+        "stream_type": "Live Glacier & Bay Cam",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.96,
+          -68.57
+        ]
+      },
+      "properties": {
+        "title": "Davis Station Panoramic Cam",
+        "provider": "Australian Antarctic Division",
+        "stream_type": "Live Sea-Ice Monitor",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.87,
+          -67.6
+        ]
+      },
+      "properties": {
+        "title": "Mawson Station Horseshoe Harbour",
+        "provider": "Australian Antarctic Division",
+        "stream_type": "Live Aurora & Harbour",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.66,
+          -77.84
+        ]
+      },
+      "properties": {
+        "title": "McMurdo Sound & Mt. Erebus Cam",
+        "provider": "USAP / NSF",
+        "stream_type": "Live Ice Runway & Volcano",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          -90.0
+        ]
+      },
+      "properties": {
+        "title": "Amundsen-Scott South Pole Cam",
+        "provider": "NOAA / USAP",
+        "stream_type": "Live 360 Geographic South Pole",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.27,
+          -70.67
+        ]
+      },
+      "properties": {
+        "title": "Neumayer III Ekstr\u00f6m Ice Shelf Cam",
+        "provider": "Alfred Wegener Institute (AWI)",
+        "stream_type": "Live Atmospheric & Ice Cam",
+        "active": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.29,
+          -54.81
+        ]
+      },
+      "properties": {
+        "title": "Ushuaia Port / Canal Beagle Live",
+        "provider": "Puerto Ushuaia / Prefectura",
+        "stream_type": "Live Expeditions Maritime HD",
+        "active": true
+      }
+    }
+  ]
+}

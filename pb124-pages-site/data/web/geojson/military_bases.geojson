@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.29,
+          -54.81
+        ]
+      },
+      "properties": {
+        "name": "Base Naval Ushuaia (ARA)",
+        "country": "Argentina",
+        "type": "Naval / Polar Logistics",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.91,
+          -53.16
+        ]
+      },
+      "properties": {
+        "name": "Base A\u00e9rea Chabunco (FACh)",
+        "country": "Chile",
+        "type": "Air Force / Polar Logistics",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44,
+          -51.82
+        ]
+      },
+      "properties": {
+        "name": "RAF Mount Pleasant Complex",
+        "country": "United Kingdom",
+        "type": "Tri-Service Defense Complex",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.41,
+          -7.31
+        ]
+      },
+      "properties": {
+        "name": "Naval Support Facility Diego Garcia",
+        "country": "USA / UK",
+        "type": "Strategic Maritime Base",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.53,
+          -43.48
+        ]
+      },
+      "properties": {
+        "name": "Operation Deep Freeze Hub (Christchurch)",
+        "country": "USA / NZ",
+        "type": "Antarctic Logistics Gateway",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.32,
+          -42.88
+        ]
+      },
+      "properties": {
+        "name": "Hobart Port Defense & Polar Berth",
+        "country": "Australia",
+        "type": "Southern Ocean Naval Hub",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5,
+          -33.9
+        ]
+      },
+      "properties": {
+        "name": "Simons Town Naval Base",
+        "country": "South Africa",
+        "type": "Naval Base & Polar Resupply",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.85,
+          -62.19
+        ]
+      },
+      "properties": {
+        "name": "Aer\u00f3dromo Teniente Rodolfo Marsh",
+        "country": "Chile",
+        "type": "Military Runway / Antarctic Air Hub",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.62,
+          -64.24
+        ]
+      },
+      "properties": {
+        "name": "Base Marambio Air Hub (FAA)",
+        "country": "Argentina",
+        "type": "Military Polar Air Base",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.66,
+          -77.84
+        ]
+      },
+      "properties": {
+        "name": "McMurdo Logistics Station",
+        "country": "USA",
+        "type": "Joint Logistics Center",
+        "status": "Active",
+        "category": "military"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.12,
+          -67.57
+        ]
+      },
+      "properties": {
+        "name": "Rothera Air Facility",
+        "country": "United Kingdom",
+        "type": "Polar Operations Hub",
+        "status": "Active",
+        "category": "military"
+      }
+    }
+  ]
+}

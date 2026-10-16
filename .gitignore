@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Datos pesados
+data/
+models/*.pt
+models/*.onnx
+*.duckdb
+*.db
+*.tif
+*.tiff
+*.nc
+*.h5
+
+# Credenciales (CRÍTICO)
+.env
+.env.local
+credentials/
+*.json
+!package.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

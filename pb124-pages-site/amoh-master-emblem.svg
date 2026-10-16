@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%" aria-label="AMOH Master Emblem - Antarctic Maritime Observation Hub">
+  <defs>
+    <!-- Background Radial Gradients -->
+    <radialGradient id="amoh-bg-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#07182c"/>
+      <stop offset="60%" stop-color="#030b14"/>
+      <stop offset="100%" stop-color="#010408"/>
+    </radialGradient>
+
+    <radialGradient id="amoh-core-glow" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#0a97d9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#02060c" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Metallic Gold Gradients -->
+    <linearGradient id="amoh-gold-linear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4d0"/>
+      <stop offset="25%" stop-color="#e2c57b"/>
+      <stop offset="60%" stop-color="#b48c36"/>
+      <stop offset="90%" stop-color="#e2c57b"/>
+      <stop offset="100%" stop-color="#8a631c"/>
+    </linearGradient>
+
+    <linearGradient id="amoh-gold-accent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9a7322"/>
+      <stop offset="50%" stop-color="#fdf4d8"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+
+    <!-- Polar Cyan/Ice Gradients -->
+    <linearGradient id="amoh-ice-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#72f4ff"/>
+      <stop offset="70%" stop-color="#00c8e6"/>
+      <stop offset="100%" stop-color="#006b99"/>
+    </linearGradient>
+
+    <linearGradient id="amoh-deep-ocean" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00b4d8"/>
+      <stop offset="50%" stop-color="#0077b6"/>
+      <stop offset="100%" stop-color="#03045e"/>
+    </linearGradient>
+
+    <linearGradient id="amoh-emerald-biosphere" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+
+    <!-- Drop Shadows & Glow Filters -->
+    <filter id="amoh-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="amoh-intense-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur2"/>
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="amoh-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.85"/>
+    </filter>
+
+    <!-- Clip Paths for Precision Geometry -->
+    <clipPath id="circle-clip">
+      <circle cx="400" cy="400" r="380"/>
+    </clipPath>
+  </defs>
+
+  <!-- ================= MASTER BACKGROUND ================= -->
+  <g id="Background">
+    <circle cx="400" cy="400" r="396" fill="url(#amoh-bg-gradient)" stroke="url(#amoh-gold-linear)" stroke-width="2"/>
+    <circle cx="400" cy="400" r="378" fill="none" stroke="#00f0ff" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 8"/>
+    <circle cx="400" cy="400" r="330" fill="url(#amoh-core-glow)"/>
+  </g>
+
+  <!-- ================= POLAR GRID & AZIMUTH RING ================= -->
+  <g id="PolarGrid" stroke="#00f0ff" stroke-opacity="0.18" stroke-width="1">
+    <!-- Concentric Range Rings (Sagi Haviv & NASA Telemetry) -->
+    <circle cx="400" cy="400" r="300" fill="none"/>
+    <circle cx="400" cy="400" r="230" fill="none" stroke-dasharray="2 6"/>
+    <circle cx="400" cy="400" r="160" fill="none"/>
+    <circle cx="400" cy="400" r="90" fill="none" stroke-dasharray="1 5"/>
+
+    <!-- Crosshair Azimuths -->
+    <line x1="400" y1="40" x2="400" y2="760" stroke="#00f0ff" stroke-opacity="0.15" stroke-dasharray="6 6"/>
+    <line x1="40" y1="400" x2="760" y2="400" stroke="#00f0ff" stroke-opacity="0.15" stroke-dasharray="6 6"/>
+    <line x1="145" y1="145" x2="655" y2="655" stroke="#00f0ff" stroke-opacity="0.08"/>
+    <line x1="145" y1="655" x2="655" y2="145" stroke="#00f0ff" stroke-opacity="0.08"/>
+  </g>
+
+  <!-- ================= AZIMUTH DEGREE TICKS (360 DEGREES) ================= -->
+  <g id="AzimuthTicks" stroke="url(#amoh-gold-linear)" stroke-width="1.5">
+    <!-- Cardinal & Primary Ticks -->
+    <line x1="400" y1="24" x2="400" y2="40" stroke-width="3"/>
+    <line x1="400" y1="760" x2="400" y2="776" stroke-width="3"/>
+    <line x1="24" y1="400" x2="40" y2="400" stroke-width="3"/>
+    <line x1="760" y1="400" x2="776" y2="400" stroke-width="3"/>
+
+    <!-- Diagonal Quadrants -->
+    <line x1="134" y1="134" x2="147" y2="147" stroke-width="2"/>
+    <line x1="666" y1="134" x2="653" y2="147" stroke-width="2"/>
+    <line x1="134" y1="666" x2="147" y2="653" stroke-width="2"/>
+    <line x1="666" y1="666" x2="653" y2="653" stroke-width="2"/>
+  </g>
+
+  <!-- ================= EXTERIOR TYPOGRAPHY RING (PATH-BASED) ================= -->
+  <g id="TypographyRing">
+    <path id="textPathTop" d="M 100 400 A 300 300 0 0 1 700 400" fill="none"/>
+    <path id="textPathBottom" d="M 700 400 A 300 300 0 0 1 100 400" fill="none"/>
+
+    <text fill="url(#amoh-gold-linear)" font-family="'DM Serif Display', 'Cinzel', 'Trajan Pro', Georgia, serif" font-size="20" font-weight="700" letter-spacing="6.5">
+      <textPath href="#textPathTop" startOffset="50%" text-anchor="middle">
+        ANTARCTIC MARITIME OBSERVATION HUB
+      </textPath>
+    </text>
+
+    <text fill="#8fa3bd" font-family="'JetBrains Mono', 'Space Mono', 'Consolas', monospace" font-size="12" font-weight="600" letter-spacing="4">
+      <textPath href="#textPathBottom" startOffset="50%" text-anchor="middle">
+        ★ 90°00′00″ S · SOUTHERN OCEAN 4D SOVEREIGNTY · OLEA ★
+      </textPath>
+    </text>
+  </g>
+
+  <!-- ================= UN SDG COLOR SPECTRUM INNER BEZEL ================= -->
+  <g id="SDGSpectrum" stroke-width="4" fill="none">
+    <!-- SDG 14: Life Below Water -->
+    <path d="M 330 84 A 320 320 0 0 1 470 84" stroke="#0a97d9"/>
+    <!-- SDG 13: Climate Action -->
+    <path d="M 470 84 A 320 320 0 0 1 626 174" stroke="#3f7e44"/>
+    <!-- SDG 9: Innovation & Infrastructure -->
+    <path d="M 626 174 A 320 320 0 0 1 716 330" stroke="#fd6925"/>
+    <!-- SDG 7: Affordable & Clean Energy -->
+    <path d="M 716 330 A 320 320 0 0 1 716 470" stroke="#fcc30b"/>
+    <!-- SDG 16: Peace, Justice & Strong Institutions (Antarctic Treaty) -->
+    <path d="M 716 470 A 320 320 0 0 1 626 626" stroke="#00689d"/>
+    <!-- SDG 17: Partnerships for the Goals -->
+    <path d="M 626 626 A 320 320 0 0 1 470 716" stroke="#19486a"/>
+    <!-- SDG 15: Life on Land (Polar Fauna) -->
+    <path d="M 470 716 A 320 320 0 0 1 330 716" stroke="#56c02b"/>
+    <!-- SDG 11: Sustainable Communities & Polar Stations -->
+    <path d="M 330 716 A 320 320 0 0 1 174 626" stroke="#fd9d24"/>
+    <!-- SDG 6: Clean Water & Subglacial Aquifers -->
+    <path d="M 174 626 A 320 320 0 0 1 84 470" stroke="#26bde2"/>
+    <!-- SDG 14 Marine Azure Return -->
+    <path d="M 84 470 A 320 320 0 0 1 84 330" stroke="#00b4d8"/>
+    <!-- Polar Science Cyan -->
+    <path d="M 84 330 A 320 320 0 0 1 174 174" stroke="#72f4ff"/>
+    <!-- Sovereign Gold Convergence -->
+    <path d="M 174 174 A 320 320 0 0 1 330 84" stroke="#e2c57b"/>
+  </g>
+
+  <!-- ================= THE MASTER ICONIC ISOTYPE (SAGI HAVIV x AARÓN MARTÍNEZ) ================= -->
+  <!-- Concept: The Radical Polar Monogram & Icebreaker Vortex
+       1. Pure geometry: Golden triangle iceberg pinnacle + aerodynamic vessel bow.
+       2. Dynamic wave vortex: Southern Ocean circumpolar current encircling the hub.
+       3. Convergence 'A' & 'M' monolithic fusion.
+       4. The Southern 4-Point Guiding Star at zenith. -->
+  <g id="MasterIsotype" filter="url(#amoh-shadow)">
+    
+    <!-- Outer Shield / Hexagonal Dynamic Containment (U.S. Polo Heritage & Maritime Shield) -->
+    <polygon points="400,120 630,250 630,550 400,680 170,550 170,250" 
+             fill="#040e1b" fill-opacity="0.85" 
+             stroke="url(#amoh-gold-linear)" stroke-width="3" 
+             stroke-linejoin="round"/>
+    
+    <!-- Inner Hexagonal Stencil Ring -->
+    <polygon points="400,140 610,260 610,540 400,660 190,540 190,260" 
+             fill="none" 
+             stroke="#00f0ff" stroke-opacity="0.25" stroke-width="1.5" 
+             stroke-dasharray="8 6"/>
+
+    <!-- Dynamic Circumpolar Current Vortex (Aarón Martínez Bézier Mastery) -->
+    <path d="M 220 480 
+             C 210 370, 270 260, 390 230 
+             C 490 205, 570 265, 580 360 
+             C 590 470, 500 565, 390 565 
+             C 320 565, 260 525, 250 460" 
+          fill="none" 
+          stroke="url(#amoh-ice-cyan)" 
+          stroke-width="5" 
+          stroke-linecap="round" 
+          opacity="0.4"
+          filter="url(#amoh-glow)"/>
+
+    <!-- Left Facet: The Abyssal Ice Shelf / Maritime Bow (Deep Sapphire to Glacial Cyan) -->
+    <path d="M 400 170 
+             L 240 520 
+             L 330 520 
+             L 375 420 
+             L 400 420 
+             Z" 
+          fill="url(#amoh-deep-ocean)" 
+          stroke="#00f0ff" 
+          stroke-width="2" 
+          stroke-linejoin="round"/>
+
+    <!-- Right Facet: The Golden Ratio Iceberg Pinnacle (Pristine Ice Cyan to Platinum White) -->
+    <path d="M 400 170 
+             L 560 520 
+             L 470 520 
+             L 425 420 
+             L 400 420 
+             Z" 
+          fill="url(#amoh-ice-cyan)" 
+          stroke="#ffffff" 
+          stroke-width="2" 
+          stroke-linejoin="round"
+          filter="url(#amoh-glow)"/>
+
+    <!-- Central Icebreaker Keel / Optical Spine (Sovereign Gold Core) -->
+    <polygon points="400,170 412,420 400,470 388,420" 
+             fill="url(#amoh-gold-linear)" 
+             stroke="#fff4d0" 
+             stroke-width="1.5"/>
+
+    <!-- The Horizontal Hydrodynamic Vector ("M" & Wave Synthesis) -->
+    <path d="M 285 450 
+             Q 345 385 400 450 
+             Q 455 385 515 450 
+             L 535 490 
+             Q 465 425 400 500 
+             Q 335 425 265 490 
+             Z" 
+          fill="url(#amoh-gold-linear)" 
+          stroke="#ffe89e" 
+          stroke-width="1.5"
+          filter="url(#amoh-glow)"/>
+
+    <!-- Subglacial Core Prism: Glowing Biosphere Emerald / SDG 13 & 14 Intersection -->
+    <polygon points="400,460 435,525 400,560 365,525" 
+             fill="url(#amoh-emerald-biosphere)" 
+             stroke="#72f4ff" 
+             stroke-width="2"
+             filter="url(#amoh-intense-glow)"/>
+
+    <circle cx="400" cy="510" r="4" fill="#ffffff" filter="url(#amoh-intense-glow)"/>
+
+    <!-- ================= THE ZENITH SOUTHERN CROSS STAR ================= -->
+    <!-- 8-Point Diamond Star at Zenith (NASA Navigation & Rolls-Royce Spirit) -->
+    <g id="ZenithStar" transform="translate(400, 150)">
+      <!-- Star Flare -->
+      <circle cx="0" cy="0" r="14" fill="url(#amoh-gold-accent)" opacity="0.3" filter="url(#amoh-glow)"/>
+      <!-- Vertical Ray -->
+      <polygon points="0,-26 3,-5 0,0 -3,-5" fill="url(#amoh-gold-linear)"/>
+      <polygon points="0,26 3,5 0,0 -3,5" fill="url(#amoh-gold-linear)"/>
+      <!-- Horizontal Ray -->
+      <polygon points="-26,0 -5,3 0,0 -5,-3" fill="url(#amoh-gold-linear)"/>
+      <polygon points="26,0 5,3 0,0 5,-3" fill="url(#amoh-gold-linear)"/>
+      <!-- Diagonal Shorter Rays -->
+      <polygon points="-12,-12 -3,-2 0,0 -2,-3" fill="#ffffff"/>
+      <polygon points="12,-12 3,-2 0,0 2,-3" fill="#ffffff"/>
+      <polygon points="-12,12 -3,2 0,0 -2,3" fill="#ffffff"/>
+      <polygon points="12,12 3,2 0,0 2,3" fill="#ffffff"/>
+      <!-- Brilliant Center -->
+      <circle cx="0" cy="0" r="3.5" fill="#ffffff" filter="url(#amoh-glow)"/>
+    </g>
+
+    <!-- Base Coordinate & Verification Badge (NASA Telemetry Stencil) -->
+    <g id="TelemetryStamps" transform="translate(400, 615)">
+      <rect x="-85" y="-14" width="170" height="28" rx="6" fill="#020710" stroke="url(#amoh-gold-linear)" stroke-width="1.5"/>
+      <text x="0" y="5" fill="#00f0ff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="2.5" text-anchor="middle">
+        VERIFIED · 4D
+      </text>
+      <circle cx="-68" cy="0" r="3" fill="#10b981" filter="url(#amoh-glow)"/>
+      <circle cx="68" cy="0" r="3" fill="#10b981" filter="url(#amoh-glow)"/>
+    </g>
+  </g>
+
+  <!-- ================= EDITORIAL HERALDIC EMBELLISHMENTS ================= -->
+  <!-- Left Expedition Laurel & Ice Crystal (U.S. Polo & Editorial Rigor) -->
+  <g id="HeraldicFlourishLeft" stroke="url(#amoh-gold-linear)" stroke-width="1.5" fill="none" opacity="0.8">
+    <path d="M 125 360 C 115 420, 130 480, 165 530"/>
+    <circle cx="123" cy="380" r="3" fill="url(#amoh-gold-linear)"/>
+    <circle cx="130" cy="430" r="3" fill="url(#amoh-gold-linear)"/>
+    <circle cx="148" cy="480" r="3" fill="url(#amoh-gold-linear)"/>
+    <circle cx="170" cy="525" r="3" fill="url(#amoh-gold-linear)"/>
+  </g>
+
+  <!-- Right Expedition Laurel & Ice Crystal -->
+  <g id="HeraldicFlourishRight" stroke="url(#amoh-gold-linear)" stroke-width="1.5" fill="none" opacity="0.8">
+    <path d="M 675 360 C 685 420, 670 480, 635 530"/>
+    <circle cx="677" cy="380" r="3" fill="url(#amoh-gold-linear)"/>
+    <circle cx="670" cy="430" r="3" fill="url(#amoh-gold-linear)"/>
+    <circle cx="652" cy="480" r="3" fill="url(#amoh-gold-linear)"/>
+    <circle cx="630" cy="525" r="3" fill="url(#amoh-gold-linear)"/>
+  </g>
+
+  <!-- Four Precision Anchor Ticks (Chermayeff & Geismar & Haviv Minimal Grid) -->
+  <g id="GridAnchors" fill="#00f0ff" opacity="0.6">
+    <circle cx="70" cy="70" r="2.5"/>
+    <circle cx="730" cy="70" r="2.5"/>
+    <circle cx="70" cy="730" r="2.5"/>
+    <circle cx="730" cy="730" r="2.5"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: amoh-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/app:/app/app
+      - ./data:/app/data
+    environment:
+      - ENVIRONMENT=edge
+      - DATA_DIR=/app/data
+      - EXPEDITION_ID=NGRS-ANTA-2027
+      - JWT_SECRET=dev-secret
+      - ANON_SALT=dev-salt
+    restart: unless-stopped

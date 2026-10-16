@@ -1,0 +1,583 @@
+{
+  "type": "FeatureCollection",
+  "name": "maritime_vessels",
+  "metadata": {
+    "title": "Open Circumpolar & Antarctic Maritime Fleet",
+    "description": "Flota abierta de buques oceanográficos, de paz, de logística polar y pesqueros regulados CCAMLR",
+    "count": 19,
+    "updated_at": "2026-09-23T05:36:29.016784+00:00",
+    "standard": "SOLAS Cap. V / ITU-R M.1371 / OMI Open Maritime AIS"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "vessel-354624000",
+      "properties": {
+        "mmsi": 354624000,
+        "imo": 9000168,
+        "ship_name": "PACIFIC WORLD",
+        "callsign": "3FAG7",
+        "ship_type": "Passenger / NGO Peace Voyage Vessel",
+        "role": "Observatorio Oficial de Ciencia Ciudadana Peace Boat & Decenio del Océano de la ONU",
+        "country": "Panama / Peace Boat",
+        "sog": 12.5,
+        "cog": 165.0,
+        "heading": 164,
+        "nav_status": "Under way using engine",
+        "destination": "Drake Passage / Antarctica",
+        "eta": "2027-01-28 08:00",
+        "source": "PEACE_BOAT_CITIZEN_HUB",
+        "freshness": "LIVE",
+        "license": "Public AIS / IOC-UNESCO Ocean Decade",
+        "timestamp": "2026-09-23T05:36:29.016502+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.31,
+          -54.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-730000001",
+      "properties": {
+        "mmsi": 730000001,
+        "imo": 9939503,
+        "ship_name": "ARC SIMON BOLIVAR",
+        "callsign": "HKBL",
+        "ship_type": "Research / Oceanographic",
+        "role": "Buque de Investigación Científica Marina (X Expedición Antártica de Colombia)",
+        "country": "Colombia",
+        "sog": 9.4,
+        "cog": 142.0,
+        "heading": 140,
+        "nav_status": "Under way using engine",
+        "destination": "Gerlache Strait / Melchior",
+        "eta": "2026-09-23 18:00",
+        "source": "AMOH_PAC_OBSERVER",
+        "freshness": "LIVE",
+        "license": "Public Marine Telemetry",
+        "timestamp": "2026-09-23T05:36:29.016587+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5,
+          -64.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-257085000",
+      "properties": {
+        "mmsi": 257085000,
+        "imo": 9814636,
+        "ship_name": "ANTARCTIC ENDURANCE",
+        "callsign": "LAEP8",
+        "ship_type": "Krill Trawler",
+        "role": "Buque pesquero de krill con licencia CCAMLR y observador científico permanente",
+        "country": "Norway",
+        "sog": 3.8,
+        "cog": 88.0,
+        "heading": 90,
+        "nav_status": "Engaged in fishing",
+        "destination": "CCAMLR Subarea 48.2 (South Orkneys)",
+        "eta": "2026-09-24 06:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "CCAMLR Public Registry",
+        "timestamp": "2026-09-23T05:36:29.016603+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.6,
+          -60.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-232029707",
+      "properties": {
+        "mmsi": 232029707,
+        "imo": 9798222,
+        "ship_name": "RRS SIR DAVID ATTENBOROUGH",
+        "callsign": "ZDLP2",
+        "ship_type": "Polar Research Vessel",
+        "role": "Buque de Investigación Polar del British Antarctic Survey (BAS)",
+        "country": "United Kingdom",
+        "sog": 10.2,
+        "cog": 210.0,
+        "heading": 212,
+        "nav_status": "Under way using engine",
+        "destination": "Rothera Research Station",
+        "eta": "2026-09-25 12:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016613+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.125,
+          -67.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-211203660",
+      "properties": {
+        "mmsi": 211203660,
+        "imo": 8013132,
+        "ship_name": "POLARSTERN",
+        "callsign": "DBLK",
+        "ship_type": "Polar Icebreaker",
+        "role": "Rompehielos Científico de Investigación del Instituto Alfred Wegener (AWI)",
+        "country": "Germany",
+        "sog": 8.1,
+        "cog": 340.0,
+        "heading": 342,
+        "nav_status": "Under way using engine",
+        "destination": "Neumayer Station III",
+        "eta": "2026-09-26 14:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016623+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.27,
+          -70.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-601000000",
+      "properties": {
+        "mmsi": 601000000,
+        "imo": 9542362,
+        "ship_name": "S.A. AGULHAS II",
+        "callsign": "ZR6362",
+        "ship_type": "Polar Supply and Research",
+        "role": "Buque Polar de Abastecimiento e Investigación Sudafricano (SANAP)",
+        "country": "South Africa",
+        "sog": 11.5,
+        "cog": 175.0,
+        "heading": 174,
+        "nav_status": "Under way using engine",
+        "destination": "SANAE IV / Bouvet Island",
+        "eta": "2026-09-27 10:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016633+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.35,
+          -54.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-224851000",
+      "properties": {
+        "mmsi": 224851000,
+        "imo": 8803563,
+        "ship_name": "BIO HESPERIDES",
+        "callsign": "EBCB",
+        "ship_type": "Oceanographic Research",
+        "role": "Buque de Investigación Oceanográfica de la Armada y CSIC de España",
+        "country": "Spain",
+        "sog": 7.4,
+        "cog": 285.0,
+        "heading": 280,
+        "nav_status": "Under way using engine",
+        "destination": "Base Juan Carlos I (Livingston)",
+        "eta": "2026-09-25 09:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016642+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.389,
+          -62.664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-247385700",
+      "properties": {
+        "mmsi": 247385700,
+        "imo": 9114440,
+        "ship_name": "R/V LAURA BASSI",
+        "callsign": "IBPF",
+        "ship_type": "Polar Research Vessel",
+        "role": "Buque Oceanográfico del Programa Nacional de Investigación Antártica de Italia (PNRA)",
+        "country": "Italy",
+        "sog": 8.2,
+        "cog": 120.0,
+        "heading": 118,
+        "nav_status": "Under way using engine",
+        "destination": "Mario Zucchelli Station (Terra Nova)",
+        "eta": "2026-09-28 16:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016660+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.116,
+          -74.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-367198000",
+      "properties": {
+        "mmsi": 367198000,
+        "imo": 9007295,
+        "ship_name": "R/V NATHANIEL B. PALMER",
+        "callsign": "WBP3210",
+        "ship_type": "Polar Research Vessel",
+        "role": "Rompehielos Científico de la National Science Foundation de EE.UU. (USAP)",
+        "country": "United States",
+        "sog": 6.5,
+        "cog": 195.0,
+        "heading": 195,
+        "nav_status": "Under way using engine",
+        "destination": "McMurdo Station / Ross Sea",
+        "eta": "2026-09-24 15:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016670+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.686,
+          -77.842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-503000101",
+      "properties": {
+        "mmsi": 503000101,
+        "imo": 9797060,
+        "ship_name": "RSV NUYINA",
+        "callsign": "VMRN",
+        "ship_type": "Polar Research and Resupply",
+        "role": "Buque Rompehielos Insignia de la División Antártica Australiana (AAD)",
+        "country": "Australia",
+        "sog": 10.4,
+        "cog": 90.0,
+        "heading": 92,
+        "nav_status": "Under way using engine",
+        "destination": "Davis Research Station",
+        "eta": "2026-09-26 20:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016679+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.967,
+          -68.576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-227005480",
+      "properties": {
+        "mmsi": 227005480,
+        "imo": 9797539,
+        "ship_name": "L'ASTROLABE",
+        "callsign": "FASB",
+        "ship_type": "Polar Logistics Vessel",
+        "role": "Buque Logístico y Polar del Instituto Polar Francés Paul-Émile Victor (IPEV)",
+        "country": "France",
+        "sog": 9.8,
+        "cog": 160.0,
+        "heading": 160,
+        "nav_status": "Under way using engine",
+        "destination": "Dumont d'Urville Station",
+        "eta": "2026-09-25 18:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016689+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.002,
+          -66.663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-440000120",
+      "properties": {
+        "mmsi": 440000120,
+        "imo": 9490935,
+        "ship_name": "R/V ARAON",
+        "callsign": "DSQZ",
+        "ship_type": "Polar Research Icebreaker",
+        "role": "Rompehielos Científico del Instituto de Investigación Polar de Corea (KOPRI)",
+        "country": "South Korea",
+        "sog": 8.9,
+        "cog": 220.0,
+        "heading": 220,
+        "nav_status": "Under way using engine",
+        "destination": "Jang Bogo Station / Amundsen Sea",
+        "eta": "2026-09-29 11:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016702+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0,
+          -73.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-725000450",
+      "properties": {
+        "mmsi": 725000450,
+        "imo": 8917845,
+        "ship_name": "FARO DE HERCULES",
+        "callsign": "CBFH",
+        "ship_type": "CCAMLR Longliner",
+        "role": "Palangrero de bacalao de profundidad auditado por CCAMLR",
+        "country": "Chile",
+        "sog": 4.2,
+        "cog": 110.0,
+        "heading": 112,
+        "nav_status": "Engaged in fishing",
+        "destination": "South Georgia / Shag Rocks",
+        "eta": "2026-09-26 05:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "CCAMLR Public Registry",
+        "timestamp": "2026-09-23T05:36:29.016715+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.5,
+          -54.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-257568000",
+      "properties": {
+        "mmsi": 257568000,
+        "imo": 7395026,
+        "ship_name": "SAGA SEA",
+        "callsign": "LLZY",
+        "ship_type": "CCAMLR Krill Factory",
+        "role": "Factoría de procesamiento de krill monitoreada por radar SAR Sentinel-1",
+        "country": "Norway",
+        "sog": 4.1,
+        "cog": 105.0,
+        "heading": 105,
+        "nav_status": "Engaged in fishing",
+        "destination": "CCAMLR Area 48.1",
+        "eta": "2026-09-24 10:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "CCAMLR Public Registry",
+        "timestamp": "2026-09-23T05:36:29.016725+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.8,
+          -61.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-512000001",
+      "properties": {
+        "mmsi": 512000001,
+        "imo": 9187382,
+        "ship_name": "SAN AOTEA II",
+        "callsign": "ZM2214",
+        "ship_type": "CCAMLR Toothfish Longliner",
+        "role": "Palangrero neozelandés en el Área Marina Protegida del Mar de Ross",
+        "country": "New Zealand",
+        "sog": 3.5,
+        "cog": 215.0,
+        "heading": 215,
+        "nav_status": "Engaged in fishing",
+        "destination": "CCAMLR Subarea 88.1 (Ross Sea)",
+        "eta": "2026-09-27 08:00",
+        "source": "AISSTREAM_VERIFIED",
+        "freshness": "LIVE",
+        "license": "CCAMLR Public Registry",
+        "timestamp": "2026-09-23T05:36:29.016734+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.2,
+          -73.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-701000001",
+      "properties": {
+        "mmsi": 701000001,
+        "imo": 7533628,
+        "ship_name": "ARA ALMIRANTE IRIZAR",
+        "callsign": "LQAI",
+        "ship_type": "Polar Icebreaker / Resupply",
+        "role": "Rompehielos Insignia del Programa Antártico Argentino (DNA)",
+        "country": "Argentina",
+        "sog": 8.5,
+        "cog": 180.0,
+        "heading": 180,
+        "nav_status": "Under way using engine",
+        "destination": "Base Marambio / Weddell Sea",
+        "eta": "2026-09-25 14:00",
+        "source": "AMOH_PAC_OBSERVER",
+        "freshness": "LIVE",
+        "license": "COMNAP Open Fleet",
+        "timestamp": "2026-09-23T05:36:29.016743+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.63,
+          -64.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-414389000",
+      "properties": {
+        "mmsi": 414389000,
+        "imo": 9857901,
+        "ship_name": "SHEN LAN",
+        "callsign": "BOHP",
+        "ship_type": "Super-arrastrero Factoría Krill",
+        "role": "Super-arrastrero factoría antártico de 115m con sistema de bombeo continuo de krill bajo licencia CCAMLR",
+        "country": "China",
+        "sog": 3.8,
+        "cog": 135.0,
+        "heading": 135,
+        "nav_status": "Engaged in fishing",
+        "destination": "CCAMLR Subarea 48.1 (Bransfield)",
+        "eta": "2026-09-24 12:00",
+        "source": "CCAMLR_GFW_VERIFIED",
+        "freshness": "LIVE",
+        "license": "CCAMLR License CM 51-07",
+        "timestamp": "2026-09-23T05:36:29.016752+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2,
+          -62.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-412345678",
+      "properties": {
+        "mmsi": 412345678,
+        "imo": 9687796,
+        "ship_name": "HAI FENG 68",
+        "callsign": "BYHD",
+        "ship_type": "Arrastrero de Krill Antártico",
+        "role": "Arrastrero pelágico de krill antártico operado por CNFC en el Mar de Scotia",
+        "country": "China",
+        "sog": 4.1,
+        "cog": 190.0,
+        "heading": 190,
+        "nav_status": "Engaged in fishing",
+        "destination": "CCAMLR Subarea 48.2 (South Orkneys)",
+        "eta": "2026-09-25 04:00",
+        "source": "CCAMLR_GFW_VERIFIED",
+        "freshness": "LIVE",
+        "license": "CCAMLR License CM 51-07",
+        "timestamp": "2026-09-23T05:36:29.016765+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.1,
+          -60.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vessel-412211928",
+      "properties": {
+        "mmsi": 412211928,
+        "imo": 9781122,
+        "ship_name": "ZHOU SHANG 928",
+        "callsign": "BLPW",
+        "ship_type": "Potero de Calamar (Flota Aguas Distantes)",
+        "role": "Potero de calamar Illex/Pota con guirnaldas lumínicas en el corredor de la Milla 201 (Agujero Azul)",
+        "country": "China",
+        "sog": 9.2,
+        "cog": 170.0,
+        "heading": 170,
+        "nav_status": "Under way using engine",
+        "destination": "Milla 201 / Atlántico Sudoccidental",
+        "eta": "2026-09-26 18:00",
+        "source": "GFW_VIIRS_VERIFIED",
+        "freshness": "LIVE",
+        "license": "Flota de Aguas Distantes (DWF)",
+        "timestamp": "2026-09-23T05:36:29.016775+00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.2,
+          -53.5
+        ]
+      }
+    }
+  ]
+}

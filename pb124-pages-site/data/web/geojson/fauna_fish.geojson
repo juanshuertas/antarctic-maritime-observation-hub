@@ -1,0 +1,2982 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Peces de Hielo y Nototénidos Antárticos",
+    "count": 90,
+    "generated_at": "2026-09-23T03:27:23.473999+00:00",
+    "circumpolar_sectors": 18,
+    "crs": "EPSG:4326"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.0,
+          -74.5
+        ]
+      },
+      "properties": {
+        "id": "anchor-0019",
+        "scientific_name": "Dissostichus mawsoni",
+        "common_name": "Austromerluza Antártica / Bacalao Antártico (Banco Iselin (Mar de Ross))",
+        "common_name_es": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_en": "Antarctic Toothfish",
+        "category": "fish",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "trophic_role": "Depredador demersal ápice",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 920,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5,
+          -73.2
+        ]
+      },
+      "properties": {
+        "id": "anchor-0020",
+        "scientific_name": "Dissostichus mawsoni",
+        "common_name": "Austromerluza Antártica / Bacalao Antártico (Talud Continental de Weddell)",
+        "common_name_es": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_en": "Antarctic Toothfish",
+        "category": "fish",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "NT",
+        "trophic_role": "Depredador demersal ápice",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 1100,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2,
+          -61.2
+        ]
+      },
+      "properties": {
+        "id": "anchor-0021",
+        "scientific_name": "Chaenocephalus aceratus",
+        "common_name": "Pez de Hielo de Aleta Negra (Isla Elefante (Scotia Arc))",
+        "common_name_es": "Pez de Hielo de Aleta Negra",
+        "common_name_en": "Blackfin Icefish",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador bentónico de emboscada",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 240,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8,
+          -53.4
+        ]
+      },
+      "properties": {
+        "id": "anchor-0022",
+        "scientific_name": "Champsocephalus gunnari",
+        "common_name": "Draco Rayado de Hielo (Meseta Submarina de Heard)",
+        "common_name_es": "Draco Rayado de Hielo",
+        "common_name_en": "Mackerel Icefish",
+        "category": "fish",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Pelágico consumidor de krill",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 180,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5,
+          -76.8
+        ]
+      },
+      "properties": {
+        "id": "anchor-0023",
+        "scientific_name": "Pleuragramma antarctica",
+        "common_name": "Arenque Antártico / Pez Plateado (Borde de Barrera Ronne)",
+        "common_name_es": "Arenque Antártico / Pez Plateado",
+        "common_name_en": "Antarctic Silverfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Eslabón central pelágico costero",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 350,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.0933,
+          -52.4458
+        ]
+      },
+      "properties": {
+        "id": "obis-0000645e-489a-4b90-932a-824dc309fd2a",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-02-07",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 270.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.2075,
+          -52.1492
+        ]
+      },
+      "properties": {
+        "id": "obis-00006e33-cf09-4f6d-94eb-080d993c1ef0",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2015-02-05",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 229.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.7967,
+          -51.3525
+        ]
+      },
+      "properties": {
+        "id": "obis-00006e7b-0129-4e85-b7f6-6ab62d4bb241",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2014-10-22",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 180.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.4217,
+          -50.4017
+        ]
+      },
+      "properties": {
+        "id": "obis-00008410-8c19-44dd-b41a-c42a82a231ff",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2010-09-30",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 154.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.4583,
+          -50.4117
+        ]
+      },
+      "properties": {
+        "id": "obis-00008f4a-2ba4-49f6-bb2e-8301915aaa36",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-06-28",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 152.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.005,
+          -52.941
+        ]
+      },
+      "properties": {
+        "id": "obis-00009343-5efa-4f3a-8a1d-67e13b5b30b5",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-10-26",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 367.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0058,
+          -50.2583
+        ]
+      },
+      "properties": {
+        "id": "obis-0000b00c-17e2-4146-9302-a08338bcd3e8",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2016-02-11",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 157.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.1958,
+          -55.0667
+        ]
+      },
+      "properties": {
+        "id": "obis-0001392a-1168-4cbe-a4a0-ed6d7201dc45",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2019-04-14 19:39:00",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.9083,
+          -50.905
+        ]
+      },
+      "properties": {
+        "id": "obis-000141c6-c1da-4186-bb27-4df6f67d8218",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2015-02-08",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 178.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.2967,
+          -50.0015
+        ]
+      },
+      "properties": {
+        "id": "obis-00018146-4a81-41a9-bac6-7a4ab3476245",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2010-06-04",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 142.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.2643,
+          -51.1183
+        ]
+      },
+      "properties": {
+        "id": "obis-00018721-34db-4602-a40f-55903841688b",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-05-08",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 198.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.5,
+          -50.5667
+        ]
+      },
+      "properties": {
+        "id": "obis-000198be-ec44-4296-9ef9-e6ea3d3980d2",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2009-05-20",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 167.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.485,
+          -52.6683
+        ]
+      },
+      "properties": {
+        "id": "obis-0001f66c-4ec5-4c49-acf8-42a35f151adc",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2016-03-14",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 294.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7425,
+          -50.3558
+        ]
+      },
+      "properties": {
+        "id": "obis-0001fe5a-9818-4fee-a64f-367ba037784c",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-11-12",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 161.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.5433,
+          -51.2258
+        ]
+      },
+      "properties": {
+        "id": "obis-00024c05-3943-40ff-8c29-b04a0ce9511c",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2013-02-22",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 183.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.2408,
+          -50.4208
+        ]
+      },
+      "properties": {
+        "id": "obis-0002823b-01e5-4600-8934-8dd75c10d7e3",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-02-13",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 158.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.5183,
+          -52.223
+        ]
+      },
+      "properties": {
+        "id": "obis-0002b38a-c2c7-494e-941b-47cfb6b63d69",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2010-02-01",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 268.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.5633,
+          -50.6483
+        ]
+      },
+      "properties": {
+        "id": "obis-0002f95c-efad-4445-8262-1abb49880189",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2010-10-03",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 160.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.4717,
+          -50.1217
+        ]
+      },
+      "properties": {
+        "id": "obis-00031f94-6cdf-41a8-b50c-8a46cb71148a",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-05-18",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 163.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.7125,
+          -52.1875
+        ]
+      },
+      "properties": {
+        "id": "obis-00032167-8cc7-4e9b-a08c-bfc089c16463",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-07-24",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 256.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7483,
+          -50.4633
+        ]
+      },
+      "properties": {
+        "id": "obis-0003e3d9-be6b-4af4-9a8d-03f1c619b05f",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-06-11",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 167.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.4323,
+          -51.3728
+        ]
+      },
+      "properties": {
+        "id": "obis-0003ee3e-406f-4ccf-a8ed-46834d068064",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-07-27",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 141.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.9883,
+          -50.6833
+        ]
+      },
+      "properties": {
+        "id": "obis-000466e5-4377-4dab-ba77-5276c073ddce",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2009-01-23",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 183.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1192,
+          -52.4525
+        ]
+      },
+      "properties": {
+        "id": "obis-00046b27-2cc2-4cbe-a63b-24ee04c6186e",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-02-19",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 266.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.7826,
+          -50.5161
+        ]
+      },
+      "properties": {
+        "id": "obis-0004c060-ee96-42fc-9a54-e9f81ce964c3",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2023-02-13",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9532,
+          -52.3872
+        ]
+      },
+      "properties": {
+        "id": "obis-00001e92-37ef-4162-9ba8-9d9de2d5fec8",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2014-02-14",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 268.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.3708,
+          -54.7167
+        ]
+      },
+      "properties": {
+        "id": "obis-00006625-caab-4c27-99a2-8a32b6db645a",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2005-07-18 06:25:00",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1667,
+          -54.45
+        ]
+      },
+      "properties": {
+        "id": "obis-00009eca-8c24-4d46-835e-6fee636f9930",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "1994-06-10",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 837.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.1625,
+          -53.8
+        ]
+      },
+      "properties": {
+        "id": "obis-0000da94-56ec-43b6-853f-3f1644d26a3b",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2017-10-05 10:15:00",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.0933,
+          -52.365
+        ]
+      },
+      "properties": {
+        "id": "obis-00012659-97ff-4df9-bd70-9ca0823fa923",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2017-07-18",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 200.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.3708,
+          -50.55
+        ]
+      },
+      "properties": {
+        "id": "obis-00016766-5746-4517-b97f-5508b1beee26",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2017-07-04 22:10:00",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.6792,
+          -51.8583
+        ]
+      },
+      "properties": {
+        "id": "obis-00018745-76cc-4f0a-ba0b-c2a131195221",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2017-06-26 18:40:00",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9783,
+          -52.395
+        ]
+      },
+      "properties": {
+        "id": "obis-0001a7e9-d4b9-495b-92d5-1d4ce8a76ce8",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2010-07-05",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 282.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.0633,
+          -51.545
+        ]
+      },
+      "properties": {
+        "id": "obis-0001b84f-47a5-4497-8cd2-b574c78964ff",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2010-09-20",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 296.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.67,
+          -52.0183
+        ]
+      },
+      "properties": {
+        "id": "obis-00020219-2d7d-4e35-a251-88b85480d2c9",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2009-04-10",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 135.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.41,
+          -51.855
+        ]
+      },
+      "properties": {
+        "id": "obis-00025d6d-66d6-4faa-b8a2-7502e3829050",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2016-07-18",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 199.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.1857,
+          -50.7097
+        ]
+      },
+      "properties": {
+        "id": "obis-0002694c-30f3-4b3a-8eb9-1022c7c9a806",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2021-02-10",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 257.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.355,
+          -51.9067
+        ]
+      },
+      "properties": {
+        "id": "obis-0002ce2a-dcb9-4916-bc7a-9e4b61110a4e",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2015-09-05",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 295.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3125,
+          -53.35
+        ]
+      },
+      "properties": {
+        "id": "obis-0002e3cb-0608-4077-a51b-2078c645faeb",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2008-02-18 07:35:00",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.8317,
+          -51.0337
+        ]
+      },
+      "properties": {
+        "id": "obis-0003599b-b844-4a74-aa03-4322ac50f44f",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2001-10-19",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1667,
+          -51.45
+        ]
+      },
+      "properties": {
+        "id": "obis-000359b9-0991-4e07-bd21-1b22f9e07890",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "1995-10-10",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 1230.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98,
+          -51.1617
+        ]
+      },
+      "properties": {
+        "id": "obis-0003688a-3e2d-4374-aa39-01cd29470d13",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2012-07-02",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 140.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.5033,
+          -50.2908
+        ]
+      },
+      "properties": {
+        "id": "obis-00036d2e-d9f5-4d2d-84dd-1a6f7ed7ea87",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2019-10-22",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 313.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.1167,
+          -51.3167
+        ]
+      },
+      "properties": {
+        "id": "obis-0003cdb8-9d9e-4795-8a66-d133ca8362d1",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2009-07-16",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 178.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.0783,
+          -51.1117
+        ]
+      },
+      "properties": {
+        "id": "obis-00040c6d-4d15-4e41-bfd8-bbe3cee5496a",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2016-02-11",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 115.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2167,
+          -54.475
+        ]
+      },
+      "properties": {
+        "id": "obis-000411aa-6451-423c-8d5e-656dd193080a",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2001-12-14 15:55:00",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.1683,
+          -51.6267
+        ]
+      },
+      "properties": {
+        "id": "obis-00041957-f211-4dd5-bde8-830d08e9b4ce",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2007-09-08",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 284.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.8167,
+          -50.9333
+        ]
+      },
+      "properties": {
+        "id": "obis-00043a1e-1f42-4fd2-9ba3-93b6bf37354e",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2000-11-01",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 1684.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.95,
+          -50.8333
+        ]
+      },
+      "properties": {
+        "id": "obis-00046695-b288-4383-b72c-45d5363f9547",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2004-09-24",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 245.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.8842,
+          -50.4242
+        ]
+      },
+      "properties": {
+        "id": "obis-00047119-5fcc-47d6-a1a6-2b8016c6f363",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2012-10-16",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 142.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.5,
+          -72.8
+        ]
+      },
+      "properties": {
+        "id": "obis-0010eef8-893d-4abb-943f-c9225cbe86b0",
+        "scientific_name": "Dissostichus mawsoni",
+        "common_name": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_es": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_en": "Antarctic Toothfish",
+        "category": "fish",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "trophic_role": "Depredador demersal ápice",
+        "event_date": "2005-01-23",
+        "basis_of_record": "HumanObservation",
+        "institution": "NIWA",
+        "source": "OBIS",
+        "depth_m": 882.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.7,
+          -69.7333
+        ]
+      },
+      "properties": {
+        "id": "obis-001113e1-6c68-48b1-8144-e64bbbff3000",
+        "scientific_name": "Dissostichus mawsoni",
+        "common_name": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_es": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_en": "Antarctic Toothfish",
+        "category": "fish",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "NT",
+        "trophic_role": "Depredador demersal ápice",
+        "event_date": "2005-01-29",
+        "basis_of_record": "HumanObservation",
+        "institution": "NIWA",
+        "source": "OBIS",
+        "depth_m": 1262.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.65,
+          -69.8833
+        ]
+      },
+      "properties": {
+        "id": "obis-0016445f-14e3-44d1-b601-0ab934ee6745",
+        "scientific_name": "Dissostichus mawsoni",
+        "common_name": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_es": "Austromerluza Antártica / Bacalao Antártico",
+        "common_name_en": "Antarctic Toothfish",
+        "category": "fish",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "NT",
+        "trophic_role": "Depredador demersal ápice",
+        "event_date": "2005-02-05",
+        "basis_of_record": "HumanObservation",
+        "institution": "NIWA",
+        "source": "OBIS",
+        "depth_m": 1305.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9983,
+          -51.6683
+        ]
+      },
+      "properties": {
+        "id": "obis-000d957f-0bbf-4521-924e-464af087130a",
+        "scientific_name": "Champsocephalus gunnari",
+        "common_name": "Draco Rayado de Hielo",
+        "common_name_es": "Draco Rayado de Hielo",
+        "common_name_en": "Mackerel Icefish",
+        "category": "fish",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Pelágico consumidor de krill",
+        "event_date": "1993-09-07 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 253.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.387,
+          -68.338
+        ]
+      },
+      "properties": {
+        "id": "obis-0010cf23-069f-4658-9aba-da50d1de592a",
+        "scientific_name": "Trematomus bernacchii",
+        "common_name": "Bacalao Esmeralda Antártico",
+        "common_name_es": "Bacalao Esmeralda Antártico",
+        "common_name_en": "Emerald Notothen",
+        "category": "fish",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Bocazas bentónico costero",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.1533,
+          -52.4933
+        ]
+      },
+      "properties": {
+        "id": "obis-0013280e-7631-4fbf-a118-d14d1c9db1bf",
+        "scientific_name": "Champsocephalus gunnari",
+        "common_name": "Draco Rayado de Hielo",
+        "common_name_es": "Draco Rayado de Hielo",
+        "common_name_en": "Mackerel Icefish",
+        "category": "fish",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Pelágico consumidor de krill",
+        "event_date": "1993-09-05 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 384.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.09,
+          -52.5617
+        ]
+      },
+      "properties": {
+        "id": "obis-00252272-1535-4254-b79e-321a67163b64",
+        "scientific_name": "Champsocephalus gunnari",
+        "common_name": "Draco Rayado de Hielo",
+        "common_name_es": "Draco Rayado de Hielo",
+        "common_name_en": "Mackerel Icefish",
+        "category": "fish",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Pelágico consumidor de krill",
+        "event_date": "1990-06-21 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 251.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.55,
+          -66.278
+        ]
+      },
+      "properties": {
+        "id": "obis-0013af2e-6fc1-4756-b499-cbf0cfbaeb9d",
+        "scientific_name": "Trematomus bernacchii",
+        "common_name": "Bacalao Esmeralda Antártico",
+        "common_name_es": "Bacalao Esmeralda Antártico",
+        "common_name_en": "Emerald Notothen",
+        "category": "fish",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Bocazas bentónico costero",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.9483,
+          -52.8383
+        ]
+      },
+      "properties": {
+        "id": "obis-0000061d-1f56-45d3-ab7e-2b05f4fd6fb0",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2012-02-19",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 192.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7895,
+          -52.833
+        ]
+      },
+      "properties": {
+        "id": "obis-00001f3d-816a-4c31-baba-416fefd2748c",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2014-02-20",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 152.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7017,
+          -52.81
+        ]
+      },
+      "properties": {
+        "id": "obis-000076b6-7cdc-4b3d-8043-56282d5f5b9a",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-08-27",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 279.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.6542,
+          -53.4833
+        ]
+      },
+      "properties": {
+        "id": "obis-0000a12f-5d1b-4192-a29b-0c22df5ccfa8",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2019-09-22 04:19:00",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.73,
+          -52.8333
+        ]
+      },
+      "properties": {
+        "id": "obis-0000b2ea-2b92-45df-9fbd-4e436ee549df",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2012-07-13",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 287.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5708,
+          -53.675
+        ]
+      },
+      "properties": {
+        "id": "obis-0001369a-64d9-4b6a-acf5-9525e81997fd",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2020-09-26 13:45:00",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.2333,
+          -52.8667
+        ]
+      },
+      "properties": {
+        "id": "obis-000188e8-648e-4e8b-b897-39b13d2da5f6",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2016-02-14",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 256.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1117,
+          -52.9917
+        ]
+      },
+      "properties": {
+        "id": "obis-0001d1a3-128f-4953-8ca1-851eda4ca9a0",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2005-08-12",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 261.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7392,
+          -50.5983
+        ]
+      },
+      "properties": {
+        "id": "obis-0001ddfa-f9be-4470-bbc9-ee8b5776ce0a",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-11-06",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 148.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0433,
+          -52.96
+        ]
+      },
+      "properties": {
+        "id": "obis-0002324c-0eb1-4a83-ba4f-37f13a0eb8a9",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2020-02-14",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 202.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.45,
+          -52.835
+        ]
+      },
+      "properties": {
+        "id": "obis-00028fff-ca34-4db8-8610-98cf3e0bc971",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2018-12-29",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 137.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1,
+          -52.95
+        ]
+      },
+      "properties": {
+        "id": "obis-00029edd-d628-486a-9689-00883f8a15dc",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2006-03-13",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 153.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9833,
+          -52.8933
+        ]
+      },
+      "properties": {
+        "id": "obis-0002b159-e7ba-416f-8d02-317e43cea823",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2021-09-20",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7267,
+          -52.7533
+        ]
+      },
+      "properties": {
+        "id": "obis-0002d507-5104-4aba-83b7-c1294240b0e8",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2018-03-03",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 165.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.195,
+          -52.8817
+        ]
+      },
+      "properties": {
+        "id": "obis-0003a26f-c7fd-4831-a661-329769ad28f6",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "2015-09-06",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 224.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.3712,
+          -52.9653
+        ]
+      },
+      "properties": {
+        "id": "obis-00040f12-f203-4efc-ac05-cbfa70fe210c",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2020-07-21",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 179.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.3267,
+          -52.2667
+        ]
+      },
+      "properties": {
+        "id": "obis-00042dc6-ab3e-417f-8273-1a3cdb70ee16",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-01-29",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 99.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.55,
+          -52.9683
+        ]
+      },
+      "properties": {
+        "id": "obis-00044815-efd8-4bf8-9428-83fcafe8254c",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2022-03-04",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.3717,
+          -52.995
+        ]
+      },
+      "properties": {
+        "id": "obis-000456de-a63b-4ee0-a956-1320344ff6bf",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2021-03-02",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 185.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.545,
+          -50.6
+        ]
+      },
+      "properties": {
+        "id": "obis-00045c7a-c1f4-4dba-a47f-04bfb394ea06",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2008-05-19",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 143.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8733,
+          -52.9383
+        ]
+      },
+      "properties": {
+        "id": "obis-00046674-e67d-445b-9332-c682ed1f4d54",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-07-10",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 233.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.31,
+          -52.7008
+        ]
+      },
+      "properties": {
+        "id": "obis-00046a00-3e3d-4014-98ec-6614fa9e0d09",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2013-11-15",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 216.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.725,
+          -52.9817
+        ]
+      },
+      "properties": {
+        "id": "obis-0004994f-fa7c-460b-b821-bfccb686bdf2",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2017-09-13",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 251.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7767,
+          -52.8233
+        ]
+      },
+      "properties": {
+        "id": "obis-0005165e-6e14-4c48-81db-0a8082a5987f",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2011-03-12",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 148.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.3933,
+          -52.9717
+        ]
+      },
+      "properties": {
+        "id": "obis-0005185a-3c27-4c48-8286-d746dd13d039",
+        "scientific_name": "Patagonotothen ramsayi",
+        "common_name": "Nototenia de Ramsay",
+        "common_name_es": "Nototenia de Ramsay",
+        "common_name_en": "Ramsay's Notothen",
+        "category": "fish",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador demersal",
+        "event_date": "2012-03-09",
+        "basis_of_record": "MaterialSample",
+        "institution": "FIFD",
+        "source": "OBIS",
+        "depth_m": 171.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9883,
+          -52.4733
+        ]
+      },
+      "properties": {
+        "id": "obis-0004dea1-5ff4-49fc-a695-3a2e2c0bad58",
+        "scientific_name": "Champsocephalus gunnari",
+        "common_name": "Draco Rayado de Hielo",
+        "common_name_es": "Draco Rayado de Hielo",
+        "common_name_en": "Mackerel Icefish",
+        "category": "fish",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Pelágico consumidor de krill",
+        "event_date": "1992-02-11 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 216.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.0283,
+          -51.2817
+        ]
+      },
+      "properties": {
+        "id": "obis-001806db-e39e-4699-a3c4-41e94fc6887a",
+        "scientific_name": "Dissostichus eleginoides",
+        "common_name": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_es": "Bacalao de Profundidad / Merluza Negra",
+        "common_name_en": "Patagonian Toothfish",
+        "category": "fish",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador batipelágico",
+        "event_date": "1990-06-07 00:00:00+00",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 260.0,
+        "population_estimate": null,
+        "icon": "icon-fish",
+        "color": "#93c5fd",
+        "freshness": "MEASURED"
+      }
+    }
+  ]
+}

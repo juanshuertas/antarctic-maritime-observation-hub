@@ -1,0 +1,781 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fish-school-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.5,
+          -76.2
+        ]
+      },
+      "properties": {
+        "id": "fish-school-001",
+        "name": "Cardumen Pelágico de Diablillo Antártico",
+        "common_name": "Cardumen Pelágico de Diablillo Antártico",
+        "common_name_es": "Cardumen Pelágico de Diablillo Antártico",
+        "scientific_name": "Pleuragramma antarcticum",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 12500,
+        "depth_range_m": 180,
+        "depth_m": 180,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -52.4,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889761+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0,
+          -75.0
+        ]
+      },
+      "properties": {
+        "id": "fish-school-002",
+        "name": "Cardumen Juvenil de Pleuragramma (Mar de Ross)",
+        "common_name": "Cardumen Juvenil de Pleuragramma (Mar de Ross)",
+        "common_name_es": "Cardumen Juvenil de Pleuragramma (Mar de Ross)",
+        "scientific_name": "Pleuragramma antarcticum",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 8900,
+        "depth_range_m": 120,
+        "depth_m": 120,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -50.1,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889780+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.5,
+          -74.7
+        ]
+      },
+      "properties": {
+        "id": "fish-school-003",
+        "name": "Cardumen Costero de Bahía Terra Nova",
+        "common_name": "Cardumen Costero de Bahía Terra Nova",
+        "common_name_es": "Cardumen Costero de Bahía Terra Nova",
+        "scientific_name": "Pleuragramma antarcticum",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 6200,
+        "depth_range_m": 95,
+        "depth_m": 95,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -54.0,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889793+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.5,
+          -74.5
+        ]
+      },
+      "properties": {
+        "id": "fish-school-004",
+        "name": "Cardumen de Pleuragramma en Weddell Sur",
+        "common_name": "Cardumen de Pleuragramma en Weddell Sur",
+        "common_name_es": "Cardumen de Pleuragramma en Weddell Sur",
+        "scientific_name": "Pleuragramma antarcticum",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 14200,
+        "depth_range_m": 220,
+        "depth_m": 220,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -49.8,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 2,
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889805+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.0,
+          -76.8
+        ]
+      },
+      "properties": {
+        "id": "fish-school-005",
+        "name": "Cardumen Sub-banquisa Ronne-Filchner",
+        "common_name": "Cardumen Sub-banquisa Ronne-Filchner",
+        "common_name_es": "Cardumen Sub-banquisa Ronne-Filchner",
+        "scientific_name": "Pleuragramma antarcticum",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 7800,
+        "depth_range_m": 310,
+        "depth_m": 310,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -51.2,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 3,
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889815+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5,
+          -67.8
+        ]
+      },
+      "properties": {
+        "id": "fish-school-006",
+        "name": "Cardumen de Pleuragramma de Bahía Prydz",
+        "common_name": "Cardumen de Pleuragramma de Bahía Prydz",
+        "common_name_es": "Cardumen de Pleuragramma de Bahía Prydz",
+        "scientific_name": "Pleuragramma antarcticum",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 11300,
+        "depth_range_m": 160,
+        "depth_m": 160,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -51.6,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 9,
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889827+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.5,
+          -72.8
+        ]
+      },
+      "properties": {
+        "id": "fish-school-007",
+        "name": "Concentración de Austromerluza Antártica (Talud Ross)",
+        "common_name": "Concentración de Austromerluza Antártica (Talud Ross)",
+        "common_name_es": "Concentración de Austromerluza Antártica (Talud Ross)",
+        "scientific_name": "Dissostichus mawsoni",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 4800,
+        "depth_range_m": 780,
+        "depth_m": 780,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -36.5,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 4,
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889838+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0,
+          -71.2
+        ]
+      },
+      "properties": {
+        "id": "fish-school-008",
+        "name": "Cardumen Reproductor de Merluza Negra (Amundsen)",
+        "common_name": "Cardumen Reproductor de Merluza Negra (Amundsen)",
+        "common_name_es": "Cardumen Reproductor de Merluza Negra (Amundsen)",
+        "scientific_name": "Dissostichus mawsoni",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 3600,
+        "depth_range_m": 850,
+        "depth_m": 850,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -35.8,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 5,
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "NT",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889848+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -32.0,
+          -69.5
+        ]
+      },
+      "properties": {
+        "id": "fish-school-009",
+        "name": "Cardumen Profundo de Dissostichus (Weddell)",
+        "common_name": "Cardumen Profundo de Dissostichus (Weddell)",
+        "common_name_es": "Cardumen Profundo de Dissostichus (Weddell)",
+        "scientific_name": "Dissostichus mawsoni",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 4200,
+        "depth_range_m": 920,
+        "depth_m": 920,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -37.1,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 2,
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "NT",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889858+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.2,
+          -51.5
+        ]
+      },
+      "properties": {
+        "id": "fish-school-010",
+        "name": "Concentración de Bacalao de Profundidad (Kerguelen)",
+        "common_name": "Concentración de Bacalao de Profundidad (Kerguelen)",
+        "common_name_es": "Concentración de Bacalao de Profundidad (Kerguelen)",
+        "scientific_name": "Dissostichus eleginoides",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 5900,
+        "depth_range_m": 620,
+        "depth_m": 620,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -35.2,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 16,
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889871+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.1,
+          -53.8
+        ]
+      },
+      "properties": {
+        "id": "fish-school-011",
+        "name": "Cardumen de Dissostichus de Isla Heard",
+        "common_name": "Cardumen de Dissostichus de Isla Heard",
+        "common_name_es": "Cardumen de Dissostichus de Isla Heard",
+        "scientific_name": "Dissostichus eleginoides",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 4100,
+        "depth_range_m": 710,
+        "depth_m": 710,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -36.0,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 16,
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889882+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0,
+          -60.5
+        ]
+      },
+      "properties": {
+        "id": "fish-school-012",
+        "name": "Capa de Dispersión Acústica de Mictófidos (Paso Drake)",
+        "common_name": "Capa de Dispersión Acústica de Mictófidos (Paso Drake)",
+        "common_name_es": "Capa de Dispersión Acústica de Mictófidos (Paso Drake)",
+        "scientific_name": "Electrona antarctica",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 18500,
+        "depth_range_m": 350,
+        "depth_m": 350,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -48.5,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 1,
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889892+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5,
+          -55.8
+        ]
+      },
+      "properties": {
+        "id": "fish-school-013",
+        "name": "Cardumen Mesopelágico de Pez Linterna (Scotia)",
+        "common_name": "Cardumen Mesopelágico de Pez Linterna (Scotia)",
+        "common_name_es": "Cardumen Mesopelágico de Pez Linterna (Scotia)",
+        "scientific_name": "Electrona carlsbergi",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 22000,
+        "depth_range_m": 290,
+        "depth_m": 290,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -47.2,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 15,
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889906+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.5,
+          -52.0
+        ]
+      },
+      "properties": {
+        "id": "fish-school-014",
+        "name": "Manto Acústico de Mictófidos de Kerguelen",
+        "common_name": "Manto Acústico de Mictófidos de Kerguelen",
+        "common_name_es": "Manto Acústico de Mictófidos de Kerguelen",
+        "scientific_name": "Gymnoscopelus nicholsi",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 16200,
+        "depth_range_m": 320,
+        "depth_m": 320,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -49.0,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 16,
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889917+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0,
+          -64.2
+        ]
+      },
+      "properties": {
+        "id": "fish-school-015",
+        "name": "Cardumen Mesopelágico de Tierra de Wilkes",
+        "common_name": "Cardumen Mesopelágico de Tierra de Wilkes",
+        "common_name_es": "Cardumen Mesopelágico de Tierra de Wilkes",
+        "scientific_name": "Electrona antarctica",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 13400,
+        "depth_range_m": 380,
+        "depth_m": 380,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -48.9,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 10,
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889926+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.0,
+          -65.2
+        ]
+      },
+      "properties": {
+        "id": "fish-school-016",
+        "name": "Capa Acústica de Mictófidos Mar de Cosmonautas",
+        "common_name": "Capa Acústica de Mictófidos Mar de Cosmonautas",
+        "common_name_es": "Capa Acústica de Mictófidos Mar de Cosmonautas",
+        "scientific_name": "Electrona antarctica",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 14100,
+        "depth_range_m": 340,
+        "depth_m": 340,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -49.2,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 8,
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889936+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.3,
+          -61.2
+        ]
+      },
+      "properties": {
+        "id": "fish-school-017",
+        "name": "Cardumen de Pez de Hielo (Isla Elefante)",
+        "common_name": "Cardumen de Pez de Hielo (Isla Elefante)",
+        "common_name_es": "Cardumen de Pez de Hielo (Isla Elefante)",
+        "scientific_name": "Chaenocephalus aceratus",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 5300,
+        "depth_range_m": 190,
+        "depth_m": 190,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -46.2,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 13,
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889947+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8,
+          -62.4
+        ]
+      },
+      "properties": {
+        "id": "fish-school-018",
+        "name": "Cardumen de Drago Antártico (Islas Shetland del Sur)",
+        "common_name": "Cardumen de Drago Antártico (Islas Shetland del Sur)",
+        "common_name_es": "Cardumen de Drago Antártico (Islas Shetland del Sur)",
+        "scientific_name": "Champsocephalus gunnari",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 8700,
+        "depth_range_m": 140,
+        "depth_m": 140,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -45.5,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 13,
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889958+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.2,
+          -54.4
+        ]
+      },
+      "properties": {
+        "id": "fish-school-019",
+        "name": "Cardumen de Nototenia Negra (Georgias del Sur)",
+        "common_name": "Cardumen de Nototenia Negra (Georgias del Sur)",
+        "common_name_es": "Cardumen de Nototenia Negra (Georgias del Sur)",
+        "scientific_name": "Notothenia rossii",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 7200,
+        "depth_range_m": 110,
+        "depth_m": 110,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -42.8,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 15,
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889967+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.2,
+          -60.6
+        ]
+      },
+      "properties": {
+        "id": "fish-school-020",
+        "name": "Cardumen de Drago Cocodrilo (Islas Orcadas)",
+        "common_name": "Cardumen de Drago Cocodrilo (Islas Orcadas)",
+        "common_name_es": "Cardumen de Drago Cocodrilo (Islas Orcadas)",
+        "scientific_name": "Pseudochaenichthys georgianus",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 4900,
+        "depth_range_m": 175,
+        "depth_m": 175,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -46.8,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 14,
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.889977+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5,
+          -66.8
+        ]
+      },
+      "properties": {
+        "id": "fish-school-021",
+        "name": "Cardumen Bentopelágico de Mertz (Jorge V)",
+        "common_name": "Cardumen Bentopelágico de Mertz (Jorge V)",
+        "common_name_es": "Cardumen Bentopelágico de Mertz (Jorge V)",
+        "scientific_name": "Trematomus eulepidotus",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 3800,
+        "depth_range_m": 260,
+        "depth_m": 260,
+        "acoustic_frequency_khz": 38,
+        "target_strength_db": -47.0,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 12,
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.890048+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fish-school-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2,
+          -66.6
+        ]
+      },
+      "properties": {
+        "id": "fish-school-022",
+        "name": "Cardumen de Nototenia Antártica (Costa Adelia)",
+        "common_name": "Cardumen de Nototenia Antártica (Costa Adelia)",
+        "common_name_es": "Cardumen de Nototenia Antártica (Costa Adelia)",
+        "scientific_name": "Notothenia coriiceps",
+        "category": "fish",
+        "sub_type": "school",
+        "layer": "fauna_schools_fish",
+        "school_biomass_tons": 4100,
+        "depth_range_m": 80,
+        "depth_m": 80,
+        "acoustic_frequency_khz": 120,
+        "target_strength_db": -44.2,
+        "trophic_role": "Cardumen pelágico de peces polares / presa clave de pingüinos y focas",
+        "sector_id": 11,
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "color": "#38bdf8",
+        "icon": "icon-fish",
+        "source": "Simrad EK80 Scientific Acoustic Echo-sounder / CCAMLR Surveys",
+        "updated_at": "2026-09-23T04:47:08.890065+00:00"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-09-23T04:47:08.897001+00:00",
+    "total_features": 22,
+    "projection": "EPSG:4326 (WGS 84)",
+    "authority": "AMOH / OBIS / CCAMLR / Copernicus Marine"
+  }
+}

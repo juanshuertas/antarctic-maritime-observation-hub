@@ -1,0 +1,1161 @@
+{
+  "type": "FeatureCollection",
+  "name": "Antarctic and Austral Offshore Wells & Deep Sea Drilling",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5616,
+          -53.0714
+        ]
+      },
+      "properties": {
+        "id": "well-fenix-cma1",
+        "name": "Plataforma Offshore Fénix",
+        "type": "Plataforma de Producción Gasífera",
+        "status": "development",
+        "fuel": "Gas Natural / Condensado",
+        "operator": "TotalEnergies / PAE / Harbour Energy",
+        "basin": "Cuenca Marina Austral (CMA-1)",
+        "water_depth_m": 70,
+        "lat": -53.0714,
+        "lon": -67.5616,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S. Plataforma continental austral argentina.",
+        "details": "Inversión de USD 700M. Conectada por gasoducto submarino de 36.5 km a Vega Pléyade."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.12,
+          -53.95
+        ]
+      },
+      "properties": {
+        "id": "well-vega-pleyade",
+        "name": "Plataforma Vega Pléyade",
+        "type": "Plataforma Central de Producción",
+        "status": "operating",
+        "fuel": "Gas Natural",
+        "operator": "TotalEnergies Austral",
+        "basin": "Cuenca Marina Austral (CMA-1)",
+        "water_depth_m": 50,
+        "lat": -53.95,
+        "lon": -67.12,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S. Enclave energético de Tierra del Fuego.",
+        "details": "Hub neurálgico offshore que inyecta hasta 10 millones de m3 diarios de gas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.25,
+          -53.68
+        ]
+      },
+      "properties": {
+        "id": "well-carina-aries",
+        "name": "Plataforma Carina - Aries",
+        "type": "Plataforma de Producción",
+        "status": "operating",
+        "fuel": "Gas Natural / Condensado",
+        "operator": "TotalEnergies Austral",
+        "basin": "Cuenca Marina Austral (CMA-1)",
+        "water_depth_m": 60,
+        "lat": -53.68,
+        "lon": -67.25,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S. Plataforma productora más austral del planeta.",
+        "details": "Opera en condiciones extremas de oleaje subantártico y vientos de más de 120 km/h."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.25,
+          -52.65
+        ]
+      },
+      "properties": {
+        "id": "well-poseidon-magallanes",
+        "name": "Plataforma Poseidón",
+        "type": "Plataforma Offshore",
+        "status": "operating",
+        "fuel": "Gas Natural",
+        "operator": "TotalEnergies / Wintershall Dea",
+        "basin": "Cuenca Austral (Boca Oriental de Magallanes)",
+        "water_depth_m": 45,
+        "lat": -52.65,
+        "lon": -68.25,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S. Puerta de navegación atlántica austral.",
+        "details": "Extracción de gas en el umbral del Estrecho de Magallanes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.58,
+          -52.42
+        ]
+      },
+      "properties": {
+        "id": "well-spiteful-am2",
+        "name": "Plataforma Spiteful (AM-2)",
+        "type": "Plataforma Petrolífera Fija",
+        "status": "operating",
+        "fuel": "Crudo Liviano / Gas Asociado",
+        "operator": "ENAP Sipetrol / YPF",
+        "basin": "Estrecho de Magallanes Costa Afuera",
+        "water_depth_m": 32,
+        "lat": -52.42,
+        "lon": -68.58,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S. Dominio binacional Chile-Argentina.",
+        "details": "Pionera en perforación direccional submareal en el canal de navegación interoceánico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.62,
+          -52.51
+        ]
+      },
+      "properties": {
+        "id": "well-pejerrey",
+        "name": "Plataforma Offshore Pejerrey",
+        "type": "Plataforma Satélite",
+        "status": "operating",
+        "fuel": "Crudo y Gas",
+        "operator": "ENAP Magallanes",
+        "basin": "Cuenca Austral / Magallanes",
+        "water_depth_m": 28,
+        "lat": -52.51,
+        "lon": -68.62,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "details": "Nodo extractor en aguas protegidas del estrecho oriental."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.255,
+          -49.265
+        ]
+      },
+      "properties": {
+        "id": "well-sea-lion-14-10",
+        "name": "Pozo Descubridor Sea Lion (Bloque 14/10)",
+        "type": "Pozo Descubridor de Crudo Offshore",
+        "status": "development",
+        "fuel": "Petróleo Crudo (~30° API)",
+        "operator": "Rockhopper Exploration / Navitas Petroleum",
+        "basin": "North Falkland Basin (Cuenca Malvinas Norte)",
+        "water_depth_m": 450,
+        "lat": -49.265,
+        "lon": -59.255,
+        "category": "Frontera Petrolera Subantártica",
+        "treaty_status": "Al norte del paralelo 60°S (49°15′S). Área marítima disputada.",
+        "details": "Descubrimiento de más de 500 millones de barriles de recursos recuperables estimados."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.67,
+          -53.08
+        ]
+      },
+      "properties": {
+        "id": "well-darwin-east-61-17",
+        "name": "Pozo Exploratorio Darwin East (61/17-1)",
+        "type": "Descubrimiento de Gas y Condensado Profundo",
+        "status": "discovered",
+        "fuel": "Gas Natural / Condensado",
+        "operator": "Borders & Southern Petroleum",
+        "basin": "South Falkland Basin (Cuenca Malvinas Sur)",
+        "water_depth_m": 2000,
+        "lat": -53.08,
+        "lon": -57.67,
+        "category": "Frontera Petrolera Subantártica",
+        "treaty_status": "Al norte del paralelo 60°S (53°05′S). A 150 km de las puertas antárticas.",
+        "details": "Estructura anticlinal masiva con reservorio en turbiditas marinas del Cretácico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5,
+          -50.12
+        ]
+      },
+      "properties": {
+        "id": "well-isobel-deep",
+        "name": "Pozo Isobel Deep (14/20-1)",
+        "type": "Pozo Exploratorio Offshore",
+        "status": "discovered",
+        "fuel": "Petróleo Crudo",
+        "operator": "Premier Oil / Rockhopper",
+        "basin": "North Falkland Basin",
+        "water_depth_m": 480,
+        "lat": -50.12,
+        "lon": -59.5,
+        "category": "Frontera Petrolera Subantártica",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "details": "Confirmación de extensión meridional del sistema petrolero de lutitas lacustres."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.92,
+          -52.82
+        ]
+      },
+      "properties": {
+        "id": "well-toroa-south",
+        "name": "Pozo Toroa-1 (61/5-1)",
+        "type": "Pozo Exploratorio Profundo",
+        "status": "decommissioned",
+        "fuel": "Indicios de Hidrocarburos",
+        "operator": "Borders & Southern / FOGL",
+        "basin": "South Falkland Basin",
+        "water_depth_m": 540,
+        "lat": -52.82,
+        "lon": -58.92,
+        "category": "Frontera Petrolera Subantártica",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "details": "Primer pozo perforado en el talud continental sur-malvinense hacia el Paso de Drake."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.04,
+          -76.71
+        ]
+      },
+      "properties": {
+        "id": "well-dsdp-site-271",
+        "name": "Sondeo Científico Profundo DSDP Site 271",
+        "type": "Perforación Científica (Presencia de Hidrocarburos)",
+        "status": "scientific_drilling",
+        "fuel": "Metano y Etano Termogénico (Detección en Testigos)",
+        "operator": "Deep Sea Drilling Project (DSDP / NSF / Glomar Challenger)",
+        "basin": "Cuenca Central del Mar de Ross",
+        "water_depth_m": 562,
+        "lat": -76.71,
+        "lon": -175.04,
+        "category": "Investigación Geológica Antártica",
+        "treaty_status": "Al sur de 60°S. PROHIBICIÓN TOTAL DE EXPLOTACIÓN (Protocolo de Madrid Art. 7).",
+        "details": "Perforación detenida a los 265m por detección súbita de gas hidrocarburo (metano/etano)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.76,
+          -77.12
+        ]
+      },
+      "properties": {
+        "id": "well-dsdp-site-272",
+        "name": "Sondeo Científico Profundo DSDP Site 272",
+        "type": "Perforación Científica Estratigráfica",
+        "status": "scientific_drilling",
+        "fuel": "Gas Metano / Hidratos de Gas",
+        "operator": "Deep Sea Drilling Project (DSDP)",
+        "basin": "Cuenca Central del Mar de Ross",
+        "water_depth_m": 629,
+        "lat": -77.12,
+        "lon": -176.76,
+        "category": "Investigación Geológica Antártica",
+        "treaty_status": "Al sur de 60°S. Zona de Protección Ambiental Antártica.",
+        "details": "Recuperó 438m de testigos con diagénesis sedimentaria rica en gases de metano biogénico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.81,
+          -70.72
+        ]
+      },
+      "properties": {
+        "id": "well-odp-site-692",
+        "name": "Sondeo Oceánico ODP Site 692/693",
+        "type": "Perforación Científica Oceánica",
+        "status": "scientific_drilling",
+        "fuel": "Lutitas Negras Cretácicas Ricas en TOC",
+        "operator": "Ocean Drilling Program (ODP / JOIDES Resolution)",
+        "basin": "Talud Continental del Mar de Weddell (Margen de Dronning Maud)",
+        "water_depth_m": 2875,
+        "lat": -70.72,
+        "lon": -13.81,
+        "category": "Investigación Geológica Antártica",
+        "treaty_status": "Al sur de 60°S. Moratoria Minera y Energética del Tratado Antártico.",
+        "details": "Hallazgo de lutitas marinas anóxicas ricas en carbono orgánico con alto potencial de roca madre."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.42,
+          -68.38
+        ]
+      },
+      "properties": {
+        "id": "well-odp-site-741",
+        "name": "Sondeo ODP Site 741 (Bahía Prydz)",
+        "type": "Perforación Científica en Plataforma",
+        "status": "scientific_drilling",
+        "fuel": "Lignitos y Querógeno Tipo II/III",
+        "operator": "Ocean Drilling Program (ODP Leg 119)",
+        "basin": "Cuenca de Amery / Bahía Prydz",
+        "water_depth_m": 560,
+        "lat": -68.38,
+        "lon": 76.42,
+        "category": "Investigación Geológica Antártica",
+        "treaty_status": "Al sur de 60°S. Régimen de Reserva Científica y Paz.",
+        "details": "Identificó cuencas de rift mesozoicas con areniscas porosas y secuencias portadoras de carbón."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.483,
+          -77.885
+        ]
+      },
+      "properties": {
+        "id": "well-andrill-mcmurdo",
+        "name": "Perforación Geológica ANDRILL (McMurdo Sound)",
+        "type": "Perforación Científica Subglacial",
+        "status": "scientific_drilling",
+        "fuel": "Estratigrafía y Geotermia Polar",
+        "operator": "ANDRILL Consortium (EE.UU., Nueva Zelanda, Italia, Alemania)",
+        "basin": "Cuenca del Estrecho de McMurdo / Victoria Land Basin",
+        "water_depth_m": 383,
+        "lat": -77.885,
+        "lon": 165.483,
+        "category": "Investigación Geológica Antártica",
+        "treaty_status": "Al sur de 60°S. Estricta preservación ambiental bajo SCAR.",
+        "details": "Récord polar de 1.284 metros de testigos continuos perforados a través de la plataforma de hielo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0786,
+          -52.4154
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-7851363202",
+        "name": "Plataforma Offshore OSM 7851363202",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.4154,
+        "lon": -69.0786,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 7851363202)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3113,
+          -52.5491
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001774466",
+        "name": "SIP.MAG.AM-212",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Enap Sipetrol Argentina S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5491,
+        "lon": -68.3113,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001774466)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2804,
+          -52.5226
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001774467",
+        "name": "SIP.MAG.AM-303",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Enap Sipetrol Argentina S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5226,
+        "lon": -68.2804,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001774467)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2197,
+          -52.8205
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001774468",
+        "name": "TA.CMA-9.HNI-4",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Total Austral S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.8205,
+        "lon": -68.2197,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001774468)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2521,
+          -52.5706
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001774471",
+        "name": "SIP.MAG.AM-512",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Enap Sipetrol Argentina S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5706,
+        "lon": -68.2521,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001774471)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2195,
+          -52.7571
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001774477",
+        "name": "TAU.MA.Car.1-4(h)",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Total Austral S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.7571,
+        "lon": -67.2195,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001774477)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.042,
+          -52.6833
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001774478",
+        "name": "TA.CMA-1.Ari.P-1",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Total Austral S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.6833,
+        "lon": -68.042,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001774478)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1291,
+          -52.6061
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001774484",
+        "name": "SIP.MAG.AM-614",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Enap Sipetrol Argentina S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.6061,
+        "lon": -68.1291,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001774484)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1794,
+          -52.8364
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001843004",
+        "name": "TA.CMA-1.HCI-12",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Total Austral S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.8364,
+        "lon": -68.1794,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001843004)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.2966,
+          -53.1049
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001843013",
+        "name": "TAU.MA.Fen.e-4",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Total Austral S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -53.1049,
+        "lon": -67.2966,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001843013)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3846,
+          -52.5314
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001843016",
+        "name": "SIP.MAG.AM-116",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Enap Sipetrol Argentina S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5314,
+        "lon": -68.3846,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001843016)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4493,
+          -52.6121
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001843029",
+        "name": "SIP.POSEIDON.P-111",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Enap Sipetrol Argentina S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.6121,
+        "lon": -68.4493,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001843029)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7461,
+          -53.299
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001855449",
+        "name": "TAU.MA.Ple-10(h)",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Total Austral S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -53.299,
+        "lon": -67.7461,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001855449)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3325,
+          -53.0675
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-8001859412",
+        "name": "TAU.MA.Fen.e-3",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "Total Austral S.A.",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -53.0675,
+        "lon": -67.3325,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 8001859412)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9931,
+          -52.3512
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1221998922",
+        "name": "Plataforma Offshore OSM 1221998922",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.3512,
+        "lon": -68.9931,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1221998922)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0646,
+          -52.3164
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1221998923",
+        "name": "Plataforma Offshore OSM 1221998923",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.3164,
+        "lon": -69.0646,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1221998923)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0853,
+          -52.3468
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1221999448",
+        "name": "Plataforma Offshore OSM 1221999448",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.3468,
+        "lon": -69.0853,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1221999448)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0393,
+          -52.4852
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1222000252",
+        "name": "Plataforma Offshore OSM 1222000252",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.4852,
+        "lon": -69.0393,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1222000252)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0172,
+          -52.5184
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1222001205",
+        "name": "Plataforma Offshore OSM 1222001205",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5184,
+        "lon": -69.0172,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1222001205)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0125,
+          -52.5979
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1222001312",
+        "name": "Plataforma Offshore OSM 1222001312",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5979,
+        "lon": -69.0125,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1222001312)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.896,
+          -52.5286
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1222001597",
+        "name": "Plataforma Offshore OSM 1222001597",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5286,
+        "lon": -68.896,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1222001597)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4788,
+          -52.3724
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1236967423",
+        "name": "Plataforma Offshore OSM 1236967423",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.3724,
+        "lon": -68.4788,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1236967423)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7873,
+          -52.3902
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1243755251",
+        "name": "Plataforma Offshore OSM 1243755251",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.3902,
+        "lon": -68.7873,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1243755251)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7959,
+          -52.3567
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1243755415",
+        "name": "Plataforma Offshore OSM 1243755415",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.3567,
+        "lon": -68.7959,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1243755415)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7098,
+          -52.3723
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1243755640",
+        "name": "Plataforma Offshore OSM 1243755640",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.3723,
+        "lon": -68.7098,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1243755640)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6743,
+          -52.5638
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1243756332",
+        "name": "Catalina Norte 1 Heliport",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.5638,
+        "lon": -68.6743,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1243756332)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5102,
+          -52.365
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1247347358",
+        "name": "Plataforma Offshore OSM 1247347358",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.365,
+        "lon": -68.5102,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1247347358)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5165,
+          -52.4035
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1247347418",
+        "name": "Plataforma Offshore OSM 1247347418",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.4035,
+        "lon": -68.5165,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1247347418)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5203,
+          -52.4472
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1247347447",
+        "name": "Plataforma Offshore OSM 1247347447",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.4472,
+        "lon": -68.5203,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1247347447)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0721,
+          -52.2682
+        ]
+      },
+      "properties": {
+        "id": "osm-platform-1276358938",
+        "name": "Posesión 5 Heliport",
+        "type": "Plataforma Offshore (Extracción / Producción)",
+        "status": "operating",
+        "fuel": "Gas Natural / Crudo Liviano",
+        "operator": "ENAP / TotalEnergies / YPF / Consorcio CMA-1",
+        "basin": "Cuenca Austral / Estrecho de Magallanes",
+        "water_depth_m": 45,
+        "lat": -52.2682,
+        "lon": -69.0721,
+        "category": "Producción Comercial Subpolar",
+        "treaty_status": "Al norte del paralelo 60°S.",
+        "source": "OpenStreetMap Contributors / Overpass API",
+        "details": "Estructura marina verificada en catastro cartográfico abierto OSM (ID: 1276358938)."
+      }
+    }
+  ]
+}

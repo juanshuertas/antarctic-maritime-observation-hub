@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.0,
+          -75.5
+        ]
+      },
+      "properties": {
+        "name": "Glaciar Thwaites (Glaciar del Juicio Final)",
+        "metric": "Retroceso de la l\u00ednea de apoyo: 1.1 km/a\u00f1o",
+        "severity": "CR\u00cdTICA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.0,
+          -75.0
+        ]
+      },
+      "properties": {
+        "name": "Glaciar Pine Island",
+        "metric": "P\u00e9rdida de masa neta: 58 Gt/a\u00f1o",
+        "severity": "ALTA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.5,
+          -67.5
+        ]
+      },
+      "properties": {
+        "name": "Plataforma de Hielo Larsen C",
+        "metric": "Adelgazamiento basal y propagaci\u00f3n de fracturas",
+        "severity": "MODERADA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0,
+          -70.0
+        ]
+      },
+      "properties": {
+        "name": "Mar de Bellingshausen",
+        "metric": "Anomal\u00eda de extensi\u00f3n de hielo marino: -32% s/promedio",
+        "severity": "CR\u00cdTICA"
+      }
+    }
+  ]
+}

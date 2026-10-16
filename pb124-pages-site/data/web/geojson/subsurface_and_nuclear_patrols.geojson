@@ -1,0 +1,326 @@
+{
+  "type": "FeatureCollection",
+  "name": "AMOH Subsurface & Nuclear Patrol Corridors + CTBTO Hydroacoustic Network",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.14,
+          -34.37
+        ]
+      },
+      "properties": {
+        "id": "ctbto-ha01",
+        "name": "Estación Hidroacústica CTBTO HA01 (Cape Leeuwin)",
+        "country": "Australia",
+        "type": "hydroacoustic_monitoring",
+        "category": "CTBTO IMS SOFAR",
+        "status": "Operational",
+        "depth_m": 1050,
+        "purpose": "Detección acústica SOFAR de ensayos nucleares oceánicos y firmas de cavitación submarina."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.83,
+          -33.63
+        ]
+      },
+      "properties": {
+        "id": "ctbto-ha03",
+        "name": "Estación Hidroacústica CTBTO HA03 (Isla Robinson Crusoe)",
+        "country": "Chile",
+        "type": "hydroacoustic_monitoring",
+        "category": "CTBTO IMS SOFAR",
+        "status": "Operational",
+        "depth_m": 1200,
+        "purpose": "Monitoreo hidroacústico del Pacífico Suroriental y cuenca subantártica chilena."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.86,
+          -46.43
+        ]
+      },
+      "properties": {
+        "id": "ctbto-ha04",
+        "name": "Estación Hidroacústica CTBTO HA04 (Îles Crozet)",
+        "country": "Francia (TAAF)",
+        "type": "hydroacoustic_monitoring",
+        "category": "CTBTO IMS SOFAR",
+        "status": "Operational",
+        "depth_m": 1400,
+        "purpose": "Vigilancia hidroacústica del Océano Índico Austral y corrientes polares."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.4,
+          -7.97
+        ]
+      },
+      "properties": {
+        "id": "ctbto-ha08",
+        "name": "Estación Hidroacústica CTBTO HA08 (Ascension Island)",
+        "country": "Reino Unido",
+        "type": "hydroacoustic_monitoring",
+        "category": "CTBTO IMS SOFAR",
+        "status": "Operational",
+        "depth_m": 850,
+        "purpose": "Monitoreo del canal SOFAR en la dorsal mesoatlántica central y Atlántico Sur."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.31,
+          -37.07
+        ]
+      },
+      "properties": {
+        "id": "ctbto-ha12",
+        "name": "Estación Sismoacústica CTBTO HA12 (Tristan da Cunha)",
+        "country": "Reino Unido",
+        "type": "hydroacoustic_monitoring",
+        "category": "CTBTO IMS Auxiliary",
+        "status": "Operational",
+        "depth_m": 1100,
+        "purpose": "Vigilancia acústica del corredor sudatlántico y aproximación a la Cuenca del Cabo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44,
+          -51.82
+        ]
+      },
+      "properties": {
+        "id": "mare-harbour-naval",
+        "name": "Mare Harbour Deep-Water Naval Facility (Falkland Islands)",
+        "country": "Reino Unido",
+        "type": "naval_support_hub",
+        "category": "Submarine Logistics",
+        "status": "Active",
+        "purpose": "Punto de apoyo logístico de aguas profundas para buques de superficie y SSN de la Royal Navy."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.0,
+            -56.5
+          ],
+          [
+            -71.0,
+            -57.5
+          ],
+          [
+            -67.0,
+            -58.2
+          ],
+          [
+            -63.0,
+            -58.8
+          ],
+          [
+            -58.0,
+            -58.5
+          ],
+          [
+            -52.0,
+            -57.0
+          ],
+          [
+            -45.0,
+            -55.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ssn-corridor-drake",
+        "name": "Corredor Estratégico Submarino: Paso de Drake (Aguas Profundas)",
+        "type": "submarine_transit_corridor",
+        "classification": "Strategic Chokepoint (Interoceanic)",
+        "depth_range_m": "3500 - 5200",
+        "status": "Aguas Internacionales (Norte de 60°S)",
+        "notes": "Corredor interoceánico Pacífico-Atlántico de aguas profundas sin peajes. Utilizado para tránsitos discretos de submarinos nucleares de ataque (SSN clase Virginia, Los Angeles, Astute)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -60.0,
+            -52.0
+          ],
+          [
+            -57.0,
+            -53.5
+          ],
+          [
+            -52.0,
+            -55.0
+          ],
+          [
+            -45.0,
+            -56.5
+          ],
+          [
+            -38.0,
+            -55.5
+          ],
+          [
+            -30.0,
+            -54.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ssn-corridor-falklands-scotia",
+        "name": "Corredor de Patrulla y Vigilancia: Cuenca de Malvinas & Scotia Ridge",
+        "type": "submarine_patrol_zone",
+        "classification": "South Atlantic Patrol Area",
+        "depth_range_m": "2000 - 4500",
+        "status": "Aguas Internacionales / ZEE Reclamada",
+        "notes": "Área de patrulla y vigilancia submarina del Atlántico Sudoccidental con cobertura logística de Mare Harbour."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -28.0,
+            -55.0
+          ],
+          [
+            -26.5,
+            -57.5
+          ],
+          [
+            -26.0,
+            -60.0
+          ],
+          [
+            -27.0,
+            -62.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ssn-corridor-sandwich-trench",
+        "name": "Corredor Abisal: Fosa de las Sandwich del Sur (Meteor Deep)",
+        "type": "abyssal_acoustic_corridor",
+        "classification": "Deep Ocean Acoustic Highway",
+        "depth_range_m": "5000 - 8264",
+        "status": "Aguas Abisales Subantárticas",
+        "notes": "Zona abisal de propagación sismoacústica y ambiente térmico extremo. Profundidad máxima 8,264 m."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            140.0,
+            -48.0
+          ],
+          [
+            148.0,
+            -50.0
+          ],
+          [
+            155.0,
+            -52.0
+          ],
+          [
+            162.0,
+            -54.5
+          ],
+          [
+            170.0,
+            -55.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ssn-corridor-tasmania-macquarie",
+        "name": "Corredor Estratégico Submarino: Cresta de Macquarie / Pasaje de Tasmania",
+        "type": "submarine_transit_corridor",
+        "classification": "Southern Ocean / Pacific Gate",
+        "depth_range_m": "3000 - 5500",
+        "status": "Aguas Internacionales",
+        "notes": "Chokepoint submarino entre Australia, Nueva Zelanda y el Mar de Ross. Zona de tránsito de submarinos de ataque hacia el Pacífico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -180.0,
+            -60.0
+          ],
+          [
+            -120.0,
+            -60.0
+          ],
+          [
+            -60.0,
+            -60.0
+          ],
+          [
+            0.0,
+            -60.0
+          ],
+          [
+            60.0,
+            -60.0
+          ],
+          [
+            120.0,
+            -60.0
+          ],
+          [
+            180.0,
+            -60.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "treaty-parallel-60s",
+        "name": "Límite del Tratado Antártico (Paralelo 60°S): Zona Desnuclearizada y Desmilitarizada",
+        "type": "treaty_demilitarized_boundary",
+        "classification": "Nuclear-Weapon-Free Zone (NWFZ)",
+        "legal_basis": "Tratado Antártico (1959) Artículos I y V",
+        "status": "Vigente Internacional",
+        "notes": "Prohibición absoluta al sur de 60°S de bases militares, maniobras, ensayo de armas, detonaciones nucleares y eliminación de desechos radiactivos."
+      }
+    }
+  ]
+}
