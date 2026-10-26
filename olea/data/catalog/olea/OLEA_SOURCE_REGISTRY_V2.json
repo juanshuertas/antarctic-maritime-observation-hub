@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.0.0",
+  "sources": [
+    {
+      "id": "IAEA_MARIS",
+      "name": "IAEA Marine Radioactivity Information System (MARIS)",
+      "authority": "IAEA Marine Environment Laboratories",
+      "official_url": "https://maris.iaea.org/home",
+      "datasets_url": "https://maris.iaea.org/datasets",
+      "format": [
+        "CSV",
+        "NetCDF"
+      ],
+      "acquisition": "USE_LOCAL_FIRST",
+      "model_gate": "CONDITIONAL_AFTER_ANTARCTIC_WAP_COVERAGE_AUDIT"
+    },
+    {
+      "id": "BAS_WEBCAMS",
+      "name": "British Antarctic Survey Webcams",
+      "authority": "British Antarctic Survey",
+      "official_url": "https://www.bas.ac.uk/data/our-data/images/webcams/",
+      "sda_url": "https://www.bas.ac.uk/data/our-data/images/webcams/rrs-sir-david-attenborough-webcam/",
+      "acquisition": "METADATA_ONLY",
+      "image_policy": "DO_NOT_REHOST_WITHOUT_PERMISSION"
+    },
+    {
+      "id": "CRUISING_EARTH_WEBCAM_INDEX",
+      "name": "Cruising Earth Ship Webcam Index",
+      "authority": "Cruising Earth",
+      "role": [
+        "webcam_discovery_index",
+        "secondary_ship_metadata"
+      ],
+      "official_url": "https://www.cruisingearth.com/ship-webcams/",
+      "sda_url": "https://www.cruisingearth.com/ship-webcams/british-antarctic-survey/sir-david-attenborough/",
+      "olea_policy": {
+        "preferred_source": false,
+        "use_for": [
+          "discovery",
+          "external_link",
+          "availability_context"
+        ],
+        "do_not": [
+          "treat aggregator images as OLEA-owned media",
+          "rehost or scrape webcam image bytes without permission",
+          "treat visual feed as a calibrated scientific sensor"
+        ]
+      }
+    },
+    {
+      "id": "OLEA_LOCAL_INVENTORY_20261008",
+      "name": "OLEA local data inventory",
+      "authority": "OLEA local workspace",
+      "role": [
+        "data_availability",
+        "deduplication",
+        "layer_reconciliation"
+      ],
+      "local_root": "C:\\AMOH",
+      "inventory_stats": {
+        "relevant_files": 11990,
+        "total_size_gb": 9.274,
+        "unclassified_files": 8627,
+        "maris_csv_files_under_data_nuclear": 9,
+        "existing_live_webcams_geojson": true
+      }
+    },
+    {
+      "id": "ANTGG2021",
+      "name": "Antarctic gravity anomaly and height anomaly grids (AntGG2021)",
+      "authority": "IAG AntGG / PANGAEA",
+      "doi": "10.1594/PANGAEA.971238",
+      "landing_url": "https://doi.org/10.1594/PANGAEA.971238",
+      "format": [
+        "NetCDF"
+      ],
+      "crs": "EPSG:3031",
+      "grid_resolution": "5 km x 5 km",
+      "license": "CC-BY-4.0",
+      "acquisition": "AUTO_IF_MISSING"
+    },
+    {
+      "id": "ADMAP_OPEN_2024",
+      "name": "ADMAP Antarctic magnetic anomaly grids transformed for open-source software",
+      "authority": "SCAR ADMAP / PANGAEA",
+      "doi": "10.1594/PANGAEA.965433",
+      "landing_url": "https://doi.org/10.1594/PANGAEA.965433",
+      "format": [
+        "GeoTIFF",
+        "NetCDF",
+        "KMZ"
+      ],
+      "crs": [
+        "EPSG:3031",
+        "WGS84"
+      ],
+      "license": "CC-BY-4.0",
+      "acquisition": "AUTO_IF_MISSING"
+    },
+    {
+      "id": "CRUISING_EARTH_WEBCAMS",
+      "name": "Cruising Earth Ship Webcam Index",
+      "authority": "Cruising Earth",
+      "official_url": "https://www.cruisingearth.com/ship-webcams/",
+      "sda_url": "https://www.cruisingearth.com/ship-webcams/british-antarctic-survey/sir-david-attenborough/",
+      "acquisition": "DISCOVERY_INDEX_ONLY",
+      "image_policy": "DO_NOT_REHOST_THIRD_PARTY_IMAGE_BYTES"
+    }
+  ]
+}

@@ -1,0 +1,1295 @@
+{
+  "type": "FeatureCollection",
+  "name": "Antarctic and Southern Ocean Deep-Sea Mining and Mineral Deposits",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -30.32,
+          -56.088
+        ]
+      },
+      "properties": {
+        "id": "dsm-esr-e2-black-smokers",
+        "name": "Campo Hidrotermal E2 (East Scotia Ridge)",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Black Smokers",
+        "minerals": "Cobre (Cu), Zinc (Zn), Oro (Au), Plata (Ag), Hierro (Fe)",
+        "deposit_class": "Seafloor Massive Sulfides (SMS)",
+        "water_depth_m": 2600,
+        "lat": -56.088,
+        "lon": -30.32,
+        "temperature_c": 353,
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA) / Convemar",
+        "details": "Chimeneas volcánicas activas ('Dog Head', 'Sepia') con colonias del cangrejo yeti Kiwa n. sp."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.98,
+          -60.046
+        ]
+      },
+      "properties": {
+        "id": "dsm-esr-e9-vent-field",
+        "name": "Campo de Sulfuros E9 (Frontera Tratado Antártico)",
+        "type": "Sulfuros Masivos Polimetálicos (SMS)",
+        "minerals": "Cobre, Zinc, Plomo, Metales Preciosos",
+        "deposit_class": "Seafloor Massive Sulfides (SMS)",
+        "water_depth_m": 2400,
+        "lat": -60.046,
+        "lon": -29.98,
+        "temperature_c": 340,
+        "regulatory_regime": "Límite del Paralelo 60°S (Transición ISA - Tratado Antártico)",
+        "details": "Ubicado exactamente en el borde del paralelo 60°S, al norte del cráter Devil's Punchbowl."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.25,
+          -59.7
+        ]
+      },
+      "properties": {
+        "id": "dsm-kemp-caldera",
+        "name": "Caldera Volcánica Kemp (Arco de Sandwich del Sur)",
+        "type": "Sulfuros Hidrotermales y Azufre Líquido (White Smokers)",
+        "minerals": "Azufre Nativo, Zinc, Plomo, Arsénico, Oro",
+        "deposit_class": "Hydrothermal Caldera Mineralization",
+        "water_depth_m": 1600,
+        "lat": -59.7,
+        "lon": -28.25,
+        "temperature_c": 210,
+        "regulatory_regime": "Zona Marítima Subantártica (Alta Mar / ISA)",
+        "details": "Emisiones submarinas de azufre líquido ('Toxic Castle') y chimeneas de barita mineralizada."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.283,
+          -62.2
+        ]
+      },
+      "properties": {
+        "id": "dsm-hook-ridge-bransfield",
+        "name": "Cresta Hidrotermal Hook Ridge (Estrecho de Bransfield)",
+        "type": "Montículos Minerales de Sulfuros y Manganeso",
+        "minerals": "Manganeso, Hierro, Cobre, Metales Base",
+        "deposit_class": "Sediment-Hosted Hydrothermal Deposit",
+        "water_depth_m": 1050,
+        "lat": -62.2,
+        "lon": -57.283,
+        "temperature_c": 48,
+        "regulatory_regime": "Tratado Antártico / Protocolo de Madrid Art. 7 (PROHIBICIÓN MINERA)",
+        "details": "Rifting activo en la cuenca Bransfield con fauna bentónica quimiosintética endémica."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.45,
+          -62.15
+        ]
+      },
+      "properties": {
+        "id": "dsm-three-sisters-vents",
+        "name": "Complejo Submarino Three Sisters",
+        "type": "Sulfuros Hidrotermales Volcánicos",
+        "minerals": "Hierro, Cobre, Zinc, Sílice Coloidal",
+        "deposit_class": "Volcanic Seamount Hydrothermal",
+        "water_depth_m": 1200,
+        "lat": -62.15,
+        "lon": -57.45,
+        "temperature_c": 60,
+        "regulatory_regime": "Tratado Antártico (Zona Protegida Científica)",
+        "details": "Estructuras volcánicas submarinas asociadas a la tectónica de la Península Antártica."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.5,
+          -54.2
+        ]
+      },
+      "properties": {
+        "id": "dsm-par-hydrothermal-1",
+        "name": "Dorsal Pacífico-Antártica (PAR-1 Vent Field)",
+        "type": "Sulfuros Masivos en Dorsal Divergente",
+        "minerals": "Cobre, Zinc, Hierro, Plata",
+        "deposit_class": "Mid-Ocean Ridge Polymetallic Sulfides",
+        "water_depth_m": 2300,
+        "lat": -54.2,
+        "lon": -135.5,
+        "temperature_c": 310,
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA)",
+        "details": "Segmento de alta tasa de expansión tectónica con acumulación de chimeneas de sulfuros."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.2,
+          -50.5
+        ]
+      },
+      "properties": {
+        "id": "dsm-aad-hydrothermal",
+        "name": "Discordancia Australo-Antártica (AAD Vent Field)",
+        "type": "Sulfuros y Basaltos Hidrotermales",
+        "minerals": "Cobre, Cobalto, Níquel, Hierro",
+        "deposit_class": "Ultra-Slow to Intermediate Spreading Center",
+        "water_depth_m": 3400,
+        "lat": -50.5,
+        "lon": 126.2,
+        "temperature_c": 280,
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA)",
+        "details": "Zona de choque de celdas convectivas del manto terrestre entre el Índico y el Pacífico polar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0,
+          -62.5
+        ]
+      },
+      "properties": {
+        "id": "dsm-bellingshausen-nodules",
+        "name": "Campo de Nódulos de la Cuenca de Bellingshausen",
+        "type": "Nódulos Polimetálicos de Manganeso",
+        "minerals": "Manganeso (28%), Níquel (1.2%), Cobre (1.0%), Cobalto (0.25%), REE",
+        "deposit_class": "Polymetallic Nodules",
+        "water_depth_m": 4200,
+        "lat": -62.5,
+        "lon": -92.0,
+        "regulatory_regime": "Tratado Antártico (Art. 7 Moratoria Minera)",
+        "details": "Pavimento masivo de nódulos abisales formados bajo la Corriente Circumpolar Antártica."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.5,
+          -63.8
+        ]
+      },
+      "properties": {
+        "id": "dsm-weddell-jane-basin",
+        "name": "Depósitos Abisales de Jane Basin (Mar de Weddell)",
+        "type": "Nódulos y Costras de Ferromanganeso",
+        "minerals": "Manganeso, Hierro, Níquel, Tierras Raras Pesadas",
+        "deposit_class": "Ferromanganese Nodules & Crusts",
+        "water_depth_m": 3800,
+        "lat": -63.8,
+        "lon": -42.5,
+        "regulatory_regime": "Tratado Antártico / CCAMLR",
+        "details": "Formación de nódulos vinculada a aguas de fondo antárticas (AABW) oxigenadas y frías."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5,
+          -54.8
+        ]
+      },
+      "properties": {
+        "id": "dsm-burwood-cobalt-crusts",
+        "name": "Costras de Cobalto del Banco Burwood / Scotia Arc",
+        "type": "Costras de Ferromanganeso Ricas en Cobalto (CRC)",
+        "minerals": "Cobalto (hasta 1.1%), Níquel, Telurio, Platino, Tierras Raras",
+        "deposit_class": "Cobalt-Rich Crusts",
+        "water_depth_m": 1200,
+        "lat": -54.8,
+        "lon": -58.5,
+        "regulatory_regime": "Zona Económica Exclusiva Subantártica / Plataforma Continental",
+        "details": "Encostramiento mineralizado sobre basamento ígneo de montes submarinos del Arco de Scotia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5,
+          -53.2
+        ]
+      },
+      "properties": {
+        "id": "dsm-kerguelen-south-crusts",
+        "name": "Meseta Sur de Kerguelen (Sub-Antártico)",
+        "type": "Nódulos Polimetálicos y Costras Submarinas",
+        "minerals": "Manganeso, Cobalto, Níquel, Fosforitas",
+        "deposit_class": "Polymetallic Nodules & Phosphorites",
+        "water_depth_m": 2200,
+        "lat": -53.2,
+        "lon": 74.5,
+        "regulatory_regime": "Región Subantártica / ISA",
+        "details": "Grandes depósitos de ferromanganeso sobre la provincia magmática submarina de Kerguelen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9833,
+          -62.642
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-002",
+        "name": "Campo Hidrotermal Vent Field -62.64,-58.98",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -62.642,
+        "lon": -58.9833,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.25,
+          -62.75
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-003",
+        "name": "Campo Hidrotermal Vent Field -62.75,-59.25",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -62.75,
+        "lon": -59.25,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.65,
+          -62.95
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-004",
+        "name": "Campo Hidrotermal Vent Field -62.95,-60.65",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, confirmed)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -62.95,
+        "lon": -60.65,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, confirmed."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8333,
+          -46.2
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-005",
+        "name": "Campo Hidrotermal Vent Field -46.20,-75.83",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -46.2,
+        "lon": -75.8333,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "S. Pacific",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8,
+          -46.3
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-006",
+        "name": "Campo Hidrotermal Vent Field -46.30,-75.80",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -46.3,
+        "lon": -75.8,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "S. Pacific",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -30.2,
+          -57.5
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-008",
+        "name": "Campo Hidrotermal Vent Field -57.50,-30.20",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -57.5,
+        "lon": -30.2,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "S. Atlantic",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.93,
+          -60.05
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-009",
+        "name": "Campo Hidrotermal Vent Field -60.05,-29.93",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, confirmed)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -60.05,
+        "lon": -29.93,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, confirmed."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.0,
+          -60.0
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-010",
+        "name": "Campo Hidrotermal Vent Field -60.00,-152.00",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -60.0,
+        "lon": -152.0,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.0,
+          -64.5
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-011",
+        "name": "Campo Hidrotermal Vent Field -64.50,-170.00",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -64.5,
+        "lon": -170.0,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.0594,
+          -46.624
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-012",
+        "name": "Campo Hidrotermal Vent Field -46.62,96.06",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -46.624,
+        "lon": 96.0594,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.5709,
+          -46.8956
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-013",
+        "name": "Campo Hidrotermal Vent Field -46.90,96.57",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -46.8956,
+        "lon": 96.5709,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.8947,
+          -47.1196
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-014",
+        "name": "Campo Hidrotermal Vent Field -47.12,96.89",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -47.1196,
+        "lon": 96.8947,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.1566,
+          -47.2383
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-015",
+        "name": "Campo Hidrotermal Vent Field -47.24,97.16",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -47.2383,
+        "lon": 97.1566,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.4373,
+          -47.4145
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-016",
+        "name": "Campo Hidrotermal Vent Field -47.41,97.44",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -47.4145,
+        "lon": 97.4373,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.8678,
+          -47.6179
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-017",
+        "name": "Campo Hidrotermal Vent Field -47.62,97.87",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -47.6179,
+        "lon": 97.8678,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.0631,
+          -47.7009
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-018",
+        "name": "Campo Hidrotermal Vent Field -47.70,98.06",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -47.7009,
+        "lon": 98.0631,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.1756,
+          -47.7483
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-019",
+        "name": "Campo Hidrotermal Vent Field -47.75,98.18",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -47.7483,
+        "lon": 98.1756,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8232,
+          -48.0048
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-020",
+        "name": "Campo Hidrotermal Vent Field -48.00,98.82",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -48.0048,
+        "lon": 98.8232,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.0,
+          -50.25
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-021",
+        "name": "Campo Hidrotermal Vent Field -50.25,137.00",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.25,
+        "lon": 137.0,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55,
+          -50.25
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-022",
+        "name": "Campo Hidrotermal Vent Field -50.25,138.55",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.25,
+        "lon": 138.55,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.3,
+          -50.25
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-023",
+        "name": "Campo Hidrotermal Vent Field -50.25,138.30",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.25,
+        "lon": 138.3,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.25,
+          -50.25
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-024",
+        "name": "Campo Hidrotermal Vent Field -50.25,136.25",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.25,
+        "lon": 136.25,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.3,
+          -50.25
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-025",
+        "name": "Campo Hidrotermal Vent Field -50.25,135.30",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.25,
+        "lon": 135.3,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.1,
+          -50.25
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-026",
+        "name": "Campo Hidrotermal Vent Field -50.25,132.10",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.25,
+        "lon": 132.1,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.9,
+          -50.25
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-027",
+        "name": "Campo Hidrotermal Vent Field -50.25,131.90",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.25,
+        "lon": 131.9,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.8,
+          -50.3
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-028",
+        "name": "Campo Hidrotermal Vent Field -50.30,133.80",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.3,
+        "lon": 133.8,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.3,
+          -50.4
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-029",
+        "name": "Campo Hidrotermal Vent Field -50.40,134.30",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -50.4,
+        "lon": 134.3,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5,
+          -60.0
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-030",
+        "name": "Campo Hidrotermal Vent Field -60.00,152.50",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -60.0,
+        "lon": 152.5,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.8,
+          -62.1
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-031",
+        "name": "Campo Hidrotermal Vent Field -62.10,158.80",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -62.1,
+        "lon": 158.8,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Southern",
+        "regulatory_regime": "Tratado Antártico (Art. 7 Prohibición Minera Total)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.3333,
+          -59.4167
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-032",
+        "name": "Campo Hidrotermal Vent Field -59.42,-27.33",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -59.4167,
+        "lon": -27.3333,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "S. Atlantic",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.3166,
+          -59.7
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-033",
+        "name": "Campo Hidrotermal Vent Field -59.70,-28.32",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, confirmed)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -59.7,
+        "lon": -28.3166,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "S. Atlantic",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, confirmed."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.8571,
+          -59.721
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-034",
+        "name": "Campo Hidrotermal Vent Field -59.72,-27.86",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, confirmed)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -59.721,
+        "lon": -27.8571,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "S. Atlantic",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, confirmed."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.583,
+          -52.208
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-035",
+        "name": "Campo Hidrotermal Vent Field -52.21,15.58",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -52.208,
+        "lon": 15.583,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.738,
+          -52.224
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-036",
+        "name": "Campo Hidrotermal Vent Field -52.22,13.74",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -52.224,
+        "lon": 13.738,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.103,
+          -52.253
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-037",
+        "name": "Campo Hidrotermal Vent Field -52.25,15.10",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -52.253,
+        "lon": 15.103,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.748,
+          -52.42
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-038",
+        "name": "Campo Hidrotermal Vent Field -52.42,12.75",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -52.42,
+        "lon": 12.748,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.312,
+          -52.437
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-039",
+        "name": "Campo Hidrotermal Vent Field -52.44,13.31",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -52.437,
+        "lon": 13.312,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.817,
+          -52.707
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-040",
+        "name": "Campo Hidrotermal Vent Field -52.71,18.82",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -52.707,
+        "lon": 18.817,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.711,
+          -52.749
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-041",
+        "name": "Campo Hidrotermal Vent Field -52.75,11.71",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -52.749,
+        "lon": 11.711,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.188,
+          -53.02
+        ]
+      },
+      "properties": {
+        "id": "ir-vent-042",
+        "name": "Campo Hidrotermal Vent Field -53.02,22.19",
+        "type": "Sulfuros Masivos Polimetálicos (SMS) / Vent (active, inferred)",
+        "minerals": "Cobre (Cu), Zinc (Zn), Hierro (Fe), Oro (Au), Plata (Ag), Cobalto",
+        "deposit_class": "Seafloor Massive Sulfides (SMS) / Hydrothermal Vents",
+        "water_depth_m": 0.0,
+        "lat": -53.02,
+        "lon": 22.188,
+        "host_rock": "Basaltic / Ultramafic Mid-Ocean Ridge",
+        "tectonic_setting": "Mid-ocean ridge / Arc-backarc",
+        "ocean_sector": "Indian",
+        "regulatory_regime": "Autoridad Internacional de los Fondos Marinos (ISA / CONVEMAR)",
+        "source": "InterRidge Global Database v3.4 (PANGAEA / Beaulieu & Szafranski)",
+        "details": "Registro oficial InterRidge v3.4. Entorno: Mid-ocean ridge / Arc-backarc. Litología: Basaltic / Ultramafic Mid-Ocean Ridge. Actividad: active, inferred."
+      }
+    }
+  ]
+}

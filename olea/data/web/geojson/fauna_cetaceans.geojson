@@ -1,0 +1,2190 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Cetáceos y Ballenas del Océano Austral",
+    "count": 66,
+    "generated_at": "2026-09-23T03:27:23.346472+00:00",
+    "circumpolar_sectors": 18,
+    "crs": "EPSG:4326"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5,
+          -64.2
+        ]
+      },
+      "properties": {
+        "id": "anchor-0013",
+        "scientific_name": "Balaenoptera musculus",
+        "common_name": "Ballena Azul Antártica (Santuario Océano Índico Austral)",
+        "common_name_es": "Ballena Azul Antártica",
+        "common_name_en": "Antarctic Blue Whale",
+        "category": "cetaceans",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "CR",
+        "trophic_role": "Filtrador gigante de krill",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 12,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3,
+          -67.1
+        ]
+      },
+      "properties": {
+        "id": "anchor-0014",
+        "scientific_name": "Balaenoptera musculus",
+        "common_name": "Ballena Azul Antártica (Mar de los Cosmonautas)",
+        "common_name_es": "Ballena Azul Antártica",
+        "common_name_en": "Antarctic Blue Whale",
+        "category": "cetaceans",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "CR",
+        "trophic_role": "Filtrador gigante de krill",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 15,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0,
+          -71.5
+        ]
+      },
+      "properties": {
+        "id": "anchor-0015",
+        "scientific_name": "Balaenoptera musculus",
+        "common_name": "Ballena Azul Antártica (Entrada Amundsen / Glaciar Thwaites)",
+        "common_name_es": "Ballena Azul Antártica",
+        "common_name_en": "Antarctic Blue Whale",
+        "category": "cetaceans",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "CR",
+        "trophic_role": "Filtrador gigante de krill",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 10,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.5,
+          -54.3
+        ]
+      },
+      "properties": {
+        "id": "anchor-0016",
+        "scientific_name": "Balaenoptera physalus",
+        "common_name": "Rorcual Común / Ballena de Aleta (Islas Georgias del Sur)",
+        "common_name_es": "Rorcual Común / Ballena de Aleta",
+        "common_name_en": "Fin Whale",
+        "category": "cetaceans",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador oceánico de alta velocidad",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 20,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.5,
+          -77.5
+        ]
+      },
+      "properties": {
+        "id": "anchor-0017",
+        "scientific_name": "Orcinus orca",
+        "common_name": "Orca Antártica (Ecotipos A/B/C) (Estrecho de McMurdo (Caza Tipo B/C))",
+        "common_name_es": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_en": "Killer Whale / Orca",
+        "category": "cetaceans",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "DD",
+        "trophic_role": "Depredador ápice marino",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 8,
+        "population_estimate": null,
+        "icon": "icon-orca",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9,
+          -62.2
+        ]
+      },
+      "properties": {
+        "id": "anchor-0018",
+        "scientific_name": "Orcinus orca",
+        "common_name": "Orca Antártica (Ecotipos A/B/C) (Estrecho de Bransfield (Tipo A))",
+        "common_name_es": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_en": "Killer Whale / Orca",
+        "category": "cetaceans",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "DD",
+        "trophic_role": "Depredador ápice marino",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 15,
+        "population_estimate": null,
+        "icon": "icon-orca",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.4163,
+          -64.2257
+        ]
+      },
+      "properties": {
+        "id": "obis-00015f68-b91e-48d2-a9ec-2d008897d3a8",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2015-01-28T12:16",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1176,
+          -64.3061
+        ]
+      },
+      "properties": {
+        "id": "obis-00025565-05c4-4a27-b623-3ff4d131c1ed",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2004-03-27T13:56:31",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9826,
+          -64.0356
+        ]
+      },
+      "properties": {
+        "id": "obis-0004a568-d00f-40de-8f26-da6733f3d898",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2024-11-26T17:20:08",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.073,
+          -64.7816
+        ]
+      },
+      "properties": {
+        "id": "obis-00050a76-f43a-427f-9c6b-28d7b2703fd8",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2019-02-07T13:00:23",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.808,
+          -67.606
+        ]
+      },
+      "properties": {
+        "id": "obis-00052b44-2edc-43fa-b9f9-24632b833042",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2012-04-04T20:00:04",
+        "basis_of_record": "MachineObservation",
+        "institution": "Oregon State University",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.164,
+          -65.244
+        ]
+      },
+      "properties": {
+        "id": "obis-0005b07f-0aec-4e00-89c7-78fdc7d72499",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2025-12-28T13:25:22",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7563,
+          -64.5008
+        ]
+      },
+      "properties": {
+        "id": "obis-0008a1e4-4b39-49e9-98be-114529d6e2a9",
+        "scientific_name": "Orcinus orca",
+        "common_name": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_es": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_en": "Killer Whale / Orca",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "DD",
+        "trophic_role": "Depredador ápice marino",
+        "event_date": "2025-02-23T10:41:14",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-orca",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.7326,
+          -64.6188
+        ]
+      },
+      "properties": {
+        "id": "obis-0009acde-8066-4b97-b5e6-a020cd9746f3",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2017-01-22T14:54",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9721,
+          -64.1328
+        ]
+      },
+      "properties": {
+        "id": "obis-0009c9a8-b589-4a20-9194-088acd3c86b9",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2023-01-25T16:15:16-03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "iNaturalist",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.8665,
+          -64.8552
+        ]
+      },
+      "properties": {
+        "id": "obis-000a09f3-4c83-4490-b355-9c4710b32626",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2023-02-18T10:30:32",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.472,
+          -64.254
+        ]
+      },
+      "properties": {
+        "id": "obis-000a8b99-2125-4639-954e-939985133eb7",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2012-02-04T21:56:42",
+        "basis_of_record": "MachineObservation",
+        "institution": "Oregon State University",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.362,
+          -63.8497
+        ]
+      },
+      "properties": {
+        "id": "obis-000a9910-98d0-4797-ac6a-54d812fd357e",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2013-05-02T16:22:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.25,
+          -64.4
+        ]
+      },
+      "properties": {
+        "id": "obis-000ab4d5-1d97-4620-a9e2-8a3c8af858b4",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2024-12-17",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1833,
+          -65.2083
+        ]
+      },
+      "properties": {
+        "id": "obis-000bc171-8666-401c-9ad7-5be97ae1f654",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2014-03-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.6,
+          -64.85
+        ]
+      },
+      "properties": {
+        "id": "obis-000d5d01-8f58-47fa-b1d1-847bed31a794",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2026-03-16T17:58:07",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.6501,
+          -64.5411
+        ]
+      },
+      "properties": {
+        "id": "obis-000dbbd8-de20-4d63-8939-1825c34e1fe3",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2024-01-29T09:56:28",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0333,
+          -65.0667
+        ]
+      },
+      "properties": {
+        "id": "obis-000ea079-cc2d-4eb4-85cc-41eaa41053bd",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2024-12-28T08:53",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.8001,
+          -64.3352
+        ]
+      },
+      "properties": {
+        "id": "obis-000ec933-8baf-4bee-9e8c-3b8d126e7dd3",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2013-02-21T20:48:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1,
+          -64.5167
+        ]
+      },
+      "properties": {
+        "id": "obis-00108ddc-40d6-48b8-bb77-8f5ab606da11",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2019-12-26T15:04:02",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8317,
+          -65.9588
+        ]
+      },
+      "properties": {
+        "id": "obis-0010f7cd-9e64-446e-9bd3-067770fad15c",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2015-01-28T18:43:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8365,
+          -65.4918
+        ]
+      },
+      "properties": {
+        "id": "obis-00122159-8356-4680-83c3-51127903759f",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2006-03-14T09:47:30",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7806,
+          -64.1597
+        ]
+      },
+      "properties": {
+        "id": "obis-00128151-21b7-440e-859b-cfc447623e16",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2025-12-21T20:37:50",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0177,
+          -64.4416
+        ]
+      },
+      "properties": {
+        "id": "obis-0013f9a0-5568-4369-816b-e3fcb807c066",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2013-04-29T18:22:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.7803,
+          -63.4429
+        ]
+      },
+      "properties": {
+        "id": "obis-00147c12-7338-4f70-9958-80dbe7619a3b",
+        "scientific_name": "Orcinus orca",
+        "common_name": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_es": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_en": "Killer Whale / Orca",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "DD",
+        "trophic_role": "Depredador ápice marino",
+        "event_date": "2025-03-13T14:14:07",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-orca",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7617,
+          -62.684
+        ]
+      },
+      "properties": {
+        "id": "obis-001539d1-1646-4e89-b035-d1762cad07cc",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2020-01-15T14:16:13",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.6884,
+          -60.4545
+        ]
+      },
+      "properties": {
+        "id": "obis-00095513-f52f-4b0a-8678-d4cba105f6f4",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2021-01-10T14:10:18",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -30,
+          -64
+        ]
+      },
+      "properties": {
+        "id": "obis-001b56cd-f1d3-431c-83f5-836f17d9c7d6",
+        "scientific_name": "Balaenoptera bonaerensis",
+        "common_name": "Rorcual Minke Antártico",
+        "common_name_es": "Rorcual Minke Antártico",
+        "common_name_en": "Antarctic Minke Whale",
+        "category": "cetaceans",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "NT",
+        "trophic_role": "Filtrador de zonas de banquisa densa",
+        "event_date": "2006-12-16T01:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "CAML",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.45,
+          -51.95
+        ]
+      },
+      "properties": {
+        "id": "obis-000a98f7-1881-491d-902c-c11cf52eb6e6",
+        "scientific_name": "Cephalorhynchus commersonii",
+        "common_name": "Tonina Overa / Delfín de Commerson",
+        "common_name_es": "Tonina Overa / Delfín de Commerson",
+        "common_name_en": "Commerson's Dolphin",
+        "category": "cetaceans",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador costero ágil",
+        "event_date": "2000-07-26T09:15",
+        "basis_of_record": "HumanObservation",
+        "institution": "UK Royal Navy",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4471,
+          -67.062
+        ]
+      },
+      "properties": {
+        "id": "obis-000a7f93-a7c4-47a8-addf-7b768ffe3d00",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2016-02-17T16:51:17",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.5137,
+          -65.3527
+        ]
+      },
+      "properties": {
+        "id": "obis-001fbcf5-0305-468d-a404-7e4322a5263e",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2016-06-06T15:13:27",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.139,
+          -68.399
+        ]
+      },
+      "properties": {
+        "id": "obis-00160d09-185e-4157-a736-d37f5162e5cf",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2012-03-29T08:20:35",
+        "basis_of_record": "MachineObservation",
+        "institution": "Oregon State University",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.5,
+          -63.5
+        ]
+      },
+      "properties": {
+        "id": "obis-00121032-c2d4-46d9-9743-92966df576ae",
+        "scientific_name": "Balaenoptera bonaerensis",
+        "common_name": "Rorcual Minke Antártico",
+        "common_name_es": "Rorcual Minke Antártico",
+        "common_name_en": "Antarctic Minke Whale",
+        "category": "cetaceans",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "NT",
+        "trophic_role": "Filtrador de zonas de banquisa densa",
+        "event_date": "1976-01-01 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.5,
+          -62.5
+        ]
+      },
+      "properties": {
+        "id": "obis-0001430c-7586-46bb-9661-e748e0d167b6",
+        "scientific_name": "Balaenoptera physalus",
+        "common_name": "Rorcual Común / Ballena de Aleta",
+        "common_name_es": "Rorcual Común / Ballena de Aleta",
+        "common_name_en": "Fin Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador oceánico de alta velocidad",
+        "event_date": "1948-01-01 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5,
+          -63.5
+        ]
+      },
+      "properties": {
+        "id": "obis-00142e50-3f12-4174-89f7-7879d9aefb1b",
+        "scientific_name": "Balaenoptera musculus",
+        "common_name": "Ballena Azul Antártica",
+        "common_name_es": "Ballena Azul Antártica",
+        "common_name_en": "Antarctic Blue Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "CR",
+        "trophic_role": "Filtrador gigante de krill",
+        "event_date": "1937-01-01 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5,
+          -63.5
+        ]
+      },
+      "properties": {
+        "id": "obis-00198a24-cdd5-4339-875e-fb94c525bfff",
+        "scientific_name": "Balaenoptera physalus",
+        "common_name": "Rorcual Común / Ballena de Aleta",
+        "common_name_es": "Rorcual Común / Ballena de Aleta",
+        "common_name_en": "Fin Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador oceánico de alta velocidad",
+        "event_date": "1934-01-01 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5,
+          -64.5
+        ]
+      },
+      "properties": {
+        "id": "obis-001d2fd0-ded8-4101-bd64-3df36bc5b575",
+        "scientific_name": "Balaenoptera musculus",
+        "common_name": "Ballena Azul Antártica",
+        "common_name_es": "Ballena Azul Antártica",
+        "common_name_en": "Antarctic Blue Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "CR",
+        "trophic_role": "Filtrador gigante de krill",
+        "event_date": "1936-01-01 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.544,
+          -62.655
+        ]
+      },
+      "properties": {
+        "id": "obis-001ec272-57c5-4a07-8ca0-dde7b54b9fe2",
+        "scientific_name": "Balaenoptera musculus",
+        "common_name": "Ballena Azul Antártica",
+        "common_name_es": "Ballena Azul Antártica",
+        "common_name_en": "Antarctic Blue Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "CR",
+        "trophic_role": "Filtrador gigante de krill",
+        "event_date": "2013-04-24T01:25:07Z",
+        "basis_of_record": "MachineObservation",
+        "institution": "MPIAB",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.5,
+          -64.5
+        ]
+      },
+      "properties": {
+        "id": "obis-001f28b6-0fbb-4b2a-92fc-629b0f62ff1e",
+        "scientific_name": "Balaenoptera musculus",
+        "common_name": "Ballena Azul Antártica",
+        "common_name_es": "Ballena Azul Antártica",
+        "common_name_en": "Antarctic Blue Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "CR",
+        "trophic_role": "Filtrador gigante de krill",
+        "event_date": "1935-01-01 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.5,
+          -57.5
+        ]
+      },
+      "properties": {
+        "id": "obis-001fdc6e-efdc-4e3f-b08c-f717f6642e5b",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "1938-01-01 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.63,
+          -64.2
+        ]
+      },
+      "properties": {
+        "id": "obis-00213eb6-3504-4cbd-b866-e2e76e709ff7",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "1998-01-01 00:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1,
+          -66.4667
+        ]
+      },
+      "properties": {
+        "id": "obis-0024d0d8-bee0-4ffd-8bc7-50750cdeb9f1",
+        "scientific_name": "Orcinus orca",
+        "common_name": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_es": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_en": "Killer Whale / Orca",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "DD",
+        "trophic_role": "Depredador ápice marino",
+        "event_date": "1985-01-20 11:15:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-orca",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.0599,
+          -65.2351
+        ]
+      },
+      "properties": {
+        "id": "obis-0026b71b-7216-4c8e-874f-5d18ec176db9",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "1996-02-05 01:06:48Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9167,
+          -59.9167
+        ]
+      },
+      "properties": {
+        "id": "obis-0007285c-e2e6-4cac-aad6-65ab977fb621",
+        "scientific_name": "Balaenoptera bonaerensis",
+        "common_name": "Rorcual Minke Antártico",
+        "common_name_es": "Rorcual Minke Antártico",
+        "common_name_en": "Antarctic Minke Whale",
+        "category": "cetaceans",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "NT",
+        "trophic_role": "Filtrador de zonas de banquisa densa",
+        "event_date": "1991-11-06 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2575,
+          -56.083
+        ]
+      },
+      "properties": {
+        "id": "obis-00100caf-5b0f-442c-a810-9e7aca19e156",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2008-11-29T20:40:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.1247,
+          -62.0303
+        ]
+      },
+      "properties": {
+        "id": "obis-0006aa16-f5d7-4e5d-8e87-e7d76eb00e32",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2011-01-01T04:44:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.0526,
+          -52.2377
+        ]
+      },
+      "properties": {
+        "id": "obis-00144590-0065-4d78-b491-e7e928d04572",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2015-11-18T14:00:32",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.671,
+          -61.1761
+        ]
+      },
+      "properties": {
+        "id": "obis-00164e62-7259-44e7-88e3-1280b328687d",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2008-12-20T19:02:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.2519,
+          -62.9303
+        ]
+      },
+      "properties": {
+        "id": "obis-001757e6-cfea-4802-8691-471a18ef7533",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2008-12-28T20:04:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.6765,
+          -62.8731
+        ]
+      },
+      "properties": {
+        "id": "obis-001b0bb9-2dfe-4ab5-a521-816a53b92a51",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2008-12-20T06:04:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.5771,
+          -53.093
+        ]
+      },
+      "properties": {
+        "id": "obis-001d20ff-d79a-454c-acf9-f36c1d736df0",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2008-12-05T09:13:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.6896,
+          -66.1454
+        ]
+      },
+      "properties": {
+        "id": "obis-00202cf8-e9fb-46d0-93e3-21061c1a17e6",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2016-01-04T00:51:17",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.5944,
+          -64.983
+        ]
+      },
+      "properties": {
+        "id": "obis-0027ca2c-2c9d-46d8-9bad-d20463fc917e",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2015-12-08T00:30:50",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.25,
+          -53.5
+        ]
+      },
+      "properties": {
+        "id": "obis-0014acd7-5d8d-4f11-a0f3-8c398fb696a5",
+        "scientific_name": "Balaenoptera physalus",
+        "common_name": "Rorcual Común / Ballena de Aleta",
+        "common_name_es": "Rorcual Común / Ballena de Aleta",
+        "common_name_en": "Fin Whale",
+        "category": "cetaceans",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador oceánico de alta velocidad",
+        "event_date": "1928-09",
+        "basis_of_record": "HumanObservation",
+        "institution": "NIWA",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.5433,
+          -55.3581
+        ]
+      },
+      "properties": {
+        "id": "obis-001cd4af-1cec-4fad-8647-62b0ca8d358e",
+        "scientific_name": "Orcinus orca",
+        "common_name": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_es": "Orca Antártica (Ecotipos A/B/C)",
+        "common_name_en": "Killer Whale / Orca",
+        "category": "cetaceans",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "DD",
+        "trophic_role": "Depredador ápice marino",
+        "event_date": "2022-02-09T16:58:12",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-orca",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.2069,
+          -54.173
+        ]
+      },
+      "properties": {
+        "id": "obis-00225061-3daa-418f-9cbe-f8765ff0334e",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2024-01-25T11:55:16",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.75,
+          -54.25
+        ]
+      },
+      "properties": {
+        "id": "obis-0024f9e3-cbbc-42c5-900c-d49fefce030f",
+        "scientific_name": "Balaenoptera physalus",
+        "common_name": "Rorcual Común / Ballena de Aleta",
+        "common_name_es": "Rorcual Común / Ballena de Aleta",
+        "common_name_en": "Fin Whale",
+        "category": "cetaceans",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador oceánico de alta velocidad",
+        "event_date": "1927-12",
+        "basis_of_record": "HumanObservation",
+        "institution": "NIWA",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9467,
+          -53.7725
+        ]
+      },
+      "properties": {
+        "id": "obis-000744ff-84a8-4e5a-b889-525492752562",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2024-01-18T09:35:13",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4747,
+          -52.4714
+        ]
+      },
+      "properties": {
+        "id": "obis-000d4921-b8d5-4bce-990b-3041b640f39f",
+        "scientific_name": "Cephalorhynchus commersonii",
+        "common_name": "Tonina Overa / Delfín de Commerson",
+        "common_name_es": "Tonina Overa / Delfín de Commerson",
+        "common_name_en": "Commerson's Dolphin",
+        "category": "cetaceans",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador costero ágil",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "UNIV. MAGALLANES",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.915,
+          -68.217
+        ]
+      },
+      "properties": {
+        "id": "obis-001d81f8-e3fe-453a-96ad-eb54936bcf7b",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "2012-03-21T08:08:08",
+        "basis_of_record": "MachineObservation",
+        "institution": "Oregon State University",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.38,
+          -53.52
+        ]
+      },
+      "properties": {
+        "id": "obis-0025d021-b204-4c93-8ae5-d9871bc2a800",
+        "scientific_name": "Megaptera novaeangliae",
+        "common_name": "Ballena Jorobada / Yubarta",
+        "common_name_es": "Ballena Jorobada / Yubarta",
+        "common_name_en": "Humpback Whale",
+        "category": "cetaceans",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador pelágico migratorio",
+        "event_date": "1999-01-01",
+        "basis_of_record": "HumanObservation",
+        "institution": "Happywhale.com",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-whale",
+        "color": "#38bdf8",
+        "freshness": "MEASURED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Bentos Abisal, Cefalópodos y Ecosistemas VME",
+    "count": 13,
+    "generated_at": "2026-09-23T03:27:23.487432+00:00",
+    "circumpolar_sectors": 18,
+    "crs": "EPSG:4326"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.2,
+          -72.5
+        ]
+      },
+      "properties": {
+        "id": "anchor-0009",
+        "scientific_name": "Mesonychoteuthis hamiltoni",
+        "common_name": "Calamar Colosal Antártico (Fosa del Mar de Ross)",
+        "common_name_es": "Calamar Colosal Antártico",
+        "common_name_en": "Colossal Squid",
+        "category": "benthos",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador mesopelágico abisal",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 1420,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.1,
+          -68.4
+        ]
+      },
+      "properties": {
+        "id": "anchor-0010",
+        "scientific_name": "Mesonychoteuthis hamiltoni",
+        "common_name": "Calamar Colosal Antártico (Cañón Submarino de Weddell)",
+        "common_name_es": "Calamar Colosal Antártico",
+        "common_name_en": "Colossal Squid",
+        "category": "benthos",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador mesopelágico abisal",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 1850,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2,
+          -64.1
+        ]
+      },
+      "properties": {
+        "id": "anchor-0011",
+        "scientific_name": "Mesonychoteuthis hamiltoni",
+        "common_name": "Calamar Colosal Antártico (Canal de Drake Sur)",
+        "common_name_es": "Calamar Colosal Antártico",
+        "common_name_en": "Colossal Squid",
+        "category": "benthos",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador mesopelágico abisal",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 1600,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4,
+          -65.3
+        ]
+      },
+      "properties": {
+        "id": "anchor-0012",
+        "scientific_name": "Galiteuthis glacialis",
+        "common_name": "Calamar de Cristal Antártico (Talud de Davis)",
+        "common_name_es": "Calamar de Cristal Antártico",
+        "common_name_en": "Glacial Glass Squid",
+        "category": "benthos",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador transparente pelágico",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 850,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.4,
+          -71.3
+        ]
+      },
+      "properties": {
+        "id": "anchor-0035",
+        "scientific_name": "Thouarella sp.",
+        "common_name": "Octocoral Antártico de Profundidad (VME) (Ecosistema Marino Vulnerable Weddell)",
+        "common_name_es": "Octocoral Antártico de Profundidad (VME)",
+        "common_name_en": "Deep-Sea Primnoid Coral",
+        "category": "benthos",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador sésil y creador de hábitat VME",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 680,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.5,
+          -76.5
+        ]
+      },
+      "properties": {
+        "id": "anchor-0036",
+        "scientific_name": "Anoxycalyx joubini",
+        "common_name": "Esponja Volcán Gigante de Ross (Arrecife de Vidrio de Ross)",
+        "common_name_es": "Esponja Volcán Gigante de Ross",
+        "common_name_en": "Giant Volcano Sponge",
+        "category": "benthos",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "trophic_role": "Filtrador masivo de silicato",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 310,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5478,
+          -63.0006
+        ]
+      },
+      "properties": {
+        "id": "obis-0017678d-a58f-4439-b26b-13d4d429fcaa",
+        "scientific_name": "Odontaster validus",
+        "common_name": "Estrella de Mar Roja Antártica",
+        "common_name_es": "Estrella de Mar Roja Antártica",
+        "common_name_en": "Antarctic Red Sea Star",
+        "category": "benthos",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Omnívoro y depredador bentónico clave",
+        "event_date": "1927-02-28",
+        "basis_of_record": "HumanObservation",
+        "institution": "NIWA",
+        "source": "OBIS",
+        "depth_m": 32.5,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7719,
+          -66.0027
+        ]
+      },
+      "properties": {
+        "id": "obis-0024f0e1-ca9f-4054-9fda-22376d743c33",
+        "scientific_name": "Sterechinus neumayeri",
+        "common_name": "Erizo de Mar Antártico",
+        "common_name_es": "Erizo de Mar Antártico",
+        "common_name_en": "Antarctic Sea Urchin",
+        "category": "benthos",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro y detritívoro bentónico",
+        "event_date": "2023-02-27",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0007,
+          -65.7667
+        ]
+      },
+      "properties": {
+        "id": "obis-00257e9a-383a-4ca1-b691-0f5f24e72335",
+        "scientific_name": "Sterechinus neumayeri",
+        "common_name": "Erizo de Mar Antártico",
+        "common_name_es": "Erizo de Mar Antártico",
+        "common_name_en": "Antarctic Sea Urchin",
+        "category": "benthos",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Herbívoro y detritívoro bentónico",
+        "event_date": "2023-02-19",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.3717,
+          -57.69
+        ]
+      },
+      "properties": {
+        "id": "obis-0001fc69-3ef4-453e-beb9-a4725d4a66ea",
+        "scientific_name": "Thouarella sp.",
+        "common_name": "Octocoral Antártico de Profundidad (VME)",
+        "common_name_es": "Octocoral Antártico de Profundidad (VME)",
+        "common_name_en": "Deep-Sea Primnoid Coral",
+        "category": "benthos",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador sésil y creador de hábitat VME",
+        "event_date": "1975-05-26T12:00:00Z",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "USNM",
+        "source": "OBIS",
+        "depth_m": 411.5,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.192,
+          -77.042
+        ]
+      },
+      "properties": {
+        "id": "obis-000c6734-0426-4656-967e-ef73adcfa6d6",
+        "scientific_name": "Thouarella sp.",
+        "common_name": "Octocoral Antártico de Profundidad (VME)",
+        "common_name_es": "Octocoral Antártico de Profundidad (VME)",
+        "common_name_en": "Deep-Sea Primnoid Coral",
+        "category": "benthos",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "VU",
+        "trophic_role": "Filtrador sésil y creador de hábitat VME",
+        "event_date": "1968-01-21",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 584.5,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.0116,
+          -53.3047
+        ]
+      },
+      "properties": {
+        "id": "obis-0008221a-e3c9-4085-b32a-911408660403",
+        "scientific_name": "Galiteuthis glacialis",
+        "common_name": "Calamar de Cristal Antártico",
+        "common_name_es": "Calamar de Cristal Antártico",
+        "common_name_en": "Glacial Glass Squid",
+        "category": "benthos",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador transparente pelágico",
+        "event_date": "2004-03-24",
+        "basis_of_record": "PreservedSpecimen",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 300.0,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.88,
+          -53.65
+        ]
+      },
+      "properties": {
+        "id": "obis-00115b49-9342-4c03-961d-5131f827bf9e",
+        "scientific_name": "Pareledone charcoti",
+        "common_name": "Pulpo Antártico de Charcot",
+        "common_name_es": "Pulpo Antártico de Charcot",
+        "common_name_en": "Antarctic Octopus",
+        "category": "benthos",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador bentónico de fondo",
+        "event_date": "2006-1-13",
+        "basis_of_record": "HumanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 230.0,
+        "population_estimate": null,
+        "icon": "icon-squid",
+        "color": "#f472b6",
+        "freshness": "MEASURED"
+      }
+    }
+  ]
+}

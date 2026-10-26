@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "source": "IAEA MARIS local CSVs already present under C:\\AMOH\\data\\nuclear",
+  "canonical_fields": {
+    "sample_id": [
+      "MARIS sample ID"
+    ],
+    "sample_type": [
+      "Sample type"
+    ],
+    "laboratory": [
+      "Laboratory"
+    ],
+    "latitude": [
+      "Latitude (decimal)"
+    ],
+    "longitude": [
+      "Longitude (decimal)"
+    ],
+    "station_id": [
+      "Station ID"
+    ],
+    "provider_sample_id": [
+      "Data provider's sample ID"
+    ],
+    "profile_id": [
+      "MARIS Profile ID"
+    ],
+    "transect_id": [
+      "MARIS Transect ID"
+    ],
+    "sampling_depth_m": [
+      "Sampling depth (m)"
+    ],
+    "total_depth_m": [
+      "Total depth (m)"
+    ],
+    "sampling_start": [
+      "Sampling start datetime"
+    ],
+    "sampling_end": [
+      "Sampling end datetime"
+    ],
+    "nuclide": [
+      "Nuclide"
+    ],
+    "value_type": [
+      "Value type"
+    ],
+    "activity_or_mda": [
+      "Activity or MDA"
+    ],
+    "uncertainty": [
+      "Uncertainty"
+    ],
+    "unit": [
+      "Unit"
+    ],
+    "taxon_name": [
+      "Taxon name"
+    ],
+    "body_part": [
+      "Body part"
+    ],
+    "sediment_type": [
+      "Sediment type"
+    ],
+    "salinity": [
+      "Salinity"
+    ],
+    "temperature_c": [
+      "Temperature [°C]"
+    ],
+    "sampling_method": [
+      "Sampling method"
+    ],
+    "preparation_method": [
+      "Preparation method"
+    ],
+    "counting_method": [
+      "Counting method"
+    ],
+    "maris_reference_id": [
+      "MARIS reference ID"
+    ],
+    "reference": [
+      "Reference/Citation"
+    ],
+    "activity_corrected": [
+      "Activity corrected"
+    ],
+    "uncertainty_corrected": [
+      "Uncertainty corrected"
+    ],
+    "unit_corrected": [
+      "Unit corrected"
+    ]
+  },
+  "quality_rules": [
+    "No coordinate -> exclude from map but retain in QA report.",
+    "Activity must retain its unit and nuclide; never normalize by silent coercion.",
+    "Prefer corrected activity/unit fields where both are valid; retain originals for provenance.",
+    "Value type '<' or 'ND' is censored/non-detect information, not zero.",
+    "Deduplicate only with explicit compound keys; never by coordinate alone.",
+    "South-of-60S and WAP coverage are audit filters, not evidence of representativeness."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "name": "polar_aircraft",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "flight-DAP901",
+      "properties": {
+        "callsign": "DAP901",
+        "flight_icao": "DAP901",
+        "airline": "Aerovías DAP (Antarctic Airways)",
+        "aircraft_type": "BAe 146-200",
+        "departure_airport": "SCCI (Punta Arenas)",
+        "arrival_airport": "SCRM (Teniente Marsh / King George)",
+        "altitude_ft": 24000,
+        "speed_kts": 380,
+        "heading": 165,
+        "status": "active",
+        "route_desc": "Paso Drake Corredor Aéreo Principal",
+        "freshness": "LIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.12,
+          -59.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flight-SKIBIRD31",
+      "properties": {
+        "callsign": "SKIBIRD31",
+        "flight_icao": "SKB31",
+        "airline": "USAF / 109th Airlift Wing (Deep Freeze)",
+        "aircraft_type": "Lockheed LC-130 Hercules (Ski)",
+        "departure_airport": "NZCH (Christchurch)",
+        "arrival_airport": "NZWD (Williams Field / McMurdo)",
+        "altitude_ft": 22000,
+        "speed_kts": 310,
+        "heading": 182,
+        "status": "active",
+        "route_desc": "Puente Aéreo McMurdo Deep Freeze",
+        "freshness": "LIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5,
+          -68.32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flight-AAD01",
+      "properties": {
+        "callsign": "AAD-AIRLINK",
+        "flight_icao": "AAD01",
+        "airline": "Skytraders / Australian Antarctic Division",
+        "aircraft_type": "Airbus A319-115LR",
+        "departure_airport": "YMHB (Hobart)",
+        "arrival_airport": "YWKS (Wilkins Runway / Casey)",
+        "altitude_ft": 34000,
+        "speed_kts": 440,
+        "heading": 198,
+        "status": "active",
+        "route_desc": "Corredor Hobart – Wilkins Blue Ice",
+        "freshness": "LIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4,
+          -58.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flight-BASTWIN",
+      "properties": {
+        "callsign": "VP-FBL",
+        "flight_icao": "BAS02",
+        "airline": "British Antarctic Survey",
+        "aircraft_type": "DHC-6 Twin Otter (Ski-equipped)",
+        "departure_airport": "EGAR (Rothera Station)",
+        "arrival_airport": "EGAH (Halley VI Research Station)",
+        "altitude_ft": 12000,
+        "speed_kts": 160,
+        "heading": 110,
+        "status": "active",
+        "route_desc": "Travesía Transantártica Península – Brunt",
+        "freshness": "LIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3,
+          -71.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flight-FACHTC",
+      "properties": {
+        "callsign": "FACH994",
+        "flight_icao": "FACH994",
+        "airline": "Fuerza Aérea de Chile (Grupo 10)",
+        "aircraft_type": "Lockheed C-130H Hercules",
+        "departure_airport": "SCCI (Punta Arenas)",
+        "arrival_airport": "SCRM (Base Presidente Frei)",
+        "altitude_ft": 20000,
+        "speed_kts": 320,
+        "heading": 160,
+        "status": "active",
+        "route_desc": "Campaña Antártica Militar Logística",
+        "freshness": "LIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5,
+          -57.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flight-DROMLAN",
+      "properties": {
+        "callsign": "DROMLAN1",
+        "flight_icao": "DRM01",
+        "airline": "Dronning Maud Land Air Network",
+        "aircraft_type": "Ilyushin Il-76TD-90VD",
+        "departure_airport": "FACT (Cape Town)",
+        "arrival_airport": "ENOE (Troll Airfield Blue Ice)",
+        "altitude_ft": 31000,
+        "speed_kts": 420,
+        "heading": 185,
+        "status": "active",
+        "route_desc": "Puente Aéreo Intercontinental Cape Town – Troll",
+        "freshness": "LIVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2,
+          -64.1
+        ]
+      }
+    }
+  ]
+}

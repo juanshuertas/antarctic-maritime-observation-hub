@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.0,
+            -56.0
+          ],
+          [
+            -50.0,
+            -54.0
+          ],
+          [
+            -20.0,
+            -52.0
+          ],
+          [
+            10.0,
+            -51.0
+          ],
+          [
+            40.0,
+            -50.0
+          ],
+          [
+            80.0,
+            -51.0
+          ],
+          [
+            120.0,
+            -52.0
+          ],
+          [
+            160.0,
+            -54.0
+          ],
+          [
+            -160.0,
+            -56.0
+          ],
+          [
+            -120.0,
+            -57.0
+          ],
+          [
+            -70.0,
+            -56.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Antarctic Circumpolar Current (ACC)",
+        "velocity_m_s": 0.45,
+        "transport_sv": 140,
+        "sdg": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -60.0,
+            -64.0
+          ],
+          [
+            -45.0,
+            -66.0
+          ],
+          [
+            -30.0,
+            -68.0
+          ],
+          [
+            -15.0,
+            -66.0
+          ],
+          [
+            -30.0,
+            -62.0
+          ],
+          [
+            -55.0,
+            -61.0
+          ],
+          [
+            -60.0,
+            -64.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Weddell Sea Cyclonic Gyre",
+        "velocity_m_s": 0.18,
+        "sdg": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            170.0,
+            -72.0
+          ],
+          [
+            -175.0,
+            -74.0
+          ],
+          [
+            -160.0,
+            -72.0
+          ],
+          [
+            -170.0,
+            -68.0
+          ],
+          [
+            175.0,
+            -69.0
+          ],
+          [
+            170.0,
+            -72.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ross Sea Clockwise Gyre",
+        "velocity_m_s": 0.15,
+        "sdg": 6
+      }
+    }
+  ]
+}

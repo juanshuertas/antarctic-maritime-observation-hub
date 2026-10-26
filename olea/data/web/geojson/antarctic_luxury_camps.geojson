@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "name": "antarctic_luxury_camps",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.55, -70.77]
+      },
+      "properties": {
+        "id": "LUX-WCH-01",
+        "name": "Whichaway Camp (White Desert)",
+        "operator": "White Desert Antarctica",
+        "category": "Campamento de Lujo & Eco-Domo Polar",
+        "camp_type": "Heated Luxury Geodesic Domes",
+        "elevation_m": 120,
+        "capacity": "12 huéspedes exclusivos (7 suites domo)",
+        "price_range_usd": "$65,000 - $105,000 USD por persona",
+        "amenities": "Sauna polar sobre lago congelado, chef privado con estrellas Michelin, baño en suite climatizado, cama king-size, lounge de cócteles, biblioteca polar, Starlink.",
+        "access_aircraft": "Airbus A340-300 / Gulfstream G550 (Ciudad del Cabo a Wolf's Fang) + Basler BT-67",
+        "gateway_city": "Ciudad del Cabo (Sudáfrica)",
+        "activities": "Trekking a cuevas de hielo azul, rápel en nunataks, vuelo a colonia de pingüinos emperador (Bahía Atka), expedición aérea al Polo Sur 90°S.",
+        "season": "Noviembre a Febrero (2026-2030)",
+        "carbon_neutral": "100% Carbon Neutral Certificado (paneles solares fotovoltaicos, combustible SAF compensado).",
+        "website": "https://white-desert.com/camps/whichaway/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.20, -71.30]
+      },
+      "properties": {
+        "id": "LUX-ECH-02",
+        "name": "Echo Camp (White Desert)",
+        "operator": "White Desert Antarctica",
+        "category": "Campamento Futurista de Alta Gama",
+        "camp_type": "Aerospace Sky Pods (Inspiración Espacial)",
+        "elevation_m": 1500,
+        "capacity": "12 huéspedes exclusivos (6 sky pods)",
+        "price_range_usd": "$72,000 - $115,000 USD por persona",
+        "amenities": "Cápsulas Sky Pods con ventanales de piso a techo hacia el desierto polar, interiores de diseño aeroespacial retro, duchas calientes en suite, Cosmos Lounge & Bar, menú de degustación 5 tiempos.",
+        "access_aircraft": "Vuelo jet intercontinental directo desde Ciudad del Cabo a Wolf's Fang Runway + Basler BT-67",
+        "gateway_city": "Ciudad del Cabo (Sudáfrica)",
+        "activities": "Fat-biking en nieve polar compactada, esquí de fondo guiado, escalada en hielo, vuelo exclusivo al Polo Sur.",
+        "season": "Noviembre a Febrero (2026-2030)",
+        "carbon_neutral": "100% Desmontable sin huella ambiental, energía solar pasiva y activa.",
+        "website": "https://white-desert.com/camps/echo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.50, -70.50]
+      },
+      "properties": {
+        "id": "LUX-WF-03",
+        "name": "Wolf's Fang Camp & Ice Runway (White Desert)",
+        "operator": "White Desert Antarctica",
+        "category": "Luxury Alpine Safari Camp & Private Jet Hub",
+        "camp_type": "Tented Safari Suites & Ice Lounge",
+        "elevation_m": 1130,
+        "capacity": "16 huéspedes en suites de safari polar",
+        "price_range_usd": "$60,000 - $98,000 USD por persona",
+        "amenities": "Ice Bar con cócteles enfriados con hielo glaciar milenario de 10.000 años, carpas climatizadas con sillones de cuero y pieles, sauna finlandés, fogata polar a gas, pista de aterrizaje privada de hielo azul (3.000 m).",
+        "access_aircraft": "Airbus A340 VIP / Gulfstream G550 / Boeing 757 desde CPT (5.5 hrs directo)",
+        "gateway_city": "Ciudad del Cabo (Sudáfrica)",
+        "activities": "Escalada en la pared vertical del pico Wolf's Fang, safari en motonieve, paseos glaciológicos.",
+        "season": "Noviembre a Febrero (2026-2030)",
+        "carbon_neutral": "Protocolo residuo cero ATCM y compensación de carbono verificada.",
+        "website": "https://white-desert.com/camps/wolfs-fang/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.15, -79.85]
+      },
+      "properties": {
+        "id": "LUX-TG-04",
+        "name": "Three Glaciers Retreat (ALE)",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "category": "Retiro Exclusivo de Interior Glaciar",
+        "camp_type": "Custom Luxury Glass-Front Suites",
+        "elevation_m": 820,
+        "capacity": "16 huéspedes (8 suites independientes)",
+        "price_range_usd": "$75,000 - $98,000 USD por persona",
+        "amenities": "Suites con fachada acristalada panorámica hacia el Monte Dolence, calefacción individual termo-aislada, chef privado, carta de vinos de alta gama, sauna polar, salón de relajación con vistas a tres glaciares convergentes.",
+        "access_aircraft": "Boeing 757-200 (Punta Arenas a Union Glacier) + Twin Otter / Arctic Trucks 6x6",
+        "gateway_city": "Punta Arenas (Chile)",
+        "activities": "Motos de nieve de alta gama, esquí de travesía guiado por instructores UIAGM, exploración de grietas azules profundas, fotografía de nunataks.",
+        "season": "Diciembre a Enero",
+        "carbon_neutral": "Operación estricta IAATO con recojo integral de aguas grises y residuos.",
+        "website": "https://antarctic-logistics.com/destination/three-glaciers-retreat/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.87, -79.77]
+      },
+      "properties": {
+        "id": "LUX-UG-05",
+        "name": "Union Glacier Executive Clamshell Pods (ALE)",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "category": "Campamento Base & Suites Ejecutivas de Hielo Azul",
+        "camp_type": "Executive Double-Walled Heated Pods",
+        "elevation_m": 750,
+        "capacity": "70 huéspedes (área VIP ejecutiva climatizada)",
+        "price_range_usd": "$35,000 - $65,000 USD por persona",
+        "amenities": "Carpas clamshell de doble pared con aislamiento polar aerodinámico, pisos de madera elevados, camas completas con edredones de pluma de ganso, carpa comedor gourmet, clínica médica polar con cámara hiperbárica, banda ancha Starlink.",
+        "access_aircraft": "Boeing 757-200, Ilyushin Il-76 TD-90, Basler BT-67, Twin Otter",
+        "gateway_city": "Punta Arenas (Chile)",
+        "activities": "Punto de partida de expediciones al Polo Sur y Monte Vinson, maratón de hielo Union Glacier, sobrevuelos panorámicos.",
+        "season": "Noviembre a Enero",
+        "carbon_neutral": "Certificación IAATO y protocolo ambiental del Tratado Antártico.",
+        "website": "https://antarctic-logistics.com/destination/union-glacier-camp/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.50, -77.70]
+      },
+      "properties": {
+        "id": "LUX-GB-06",
+        "name": "Campamento Efímero Gould Bay - Pingüino Emperador (ALE)",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "category": "Luxury Glamping sobre Banquisa Marina",
+        "camp_type": "Insulated Sea-Ice Safari Tents",
+        "elevation_m": 5,
+        "capacity": "16 huéspedes (máximo por grupo)",
+        "price_range_usd": "$65,000 - $88,000 USD por persona",
+        "amenities": "Campamento de alta gama montado directamente sobre el hielo marino congelado del Mar de Weddell (2 m de grosor); carpas de dormir climatizadas, carpa comedor con chef de campo, letrinas sanitarias selladas de impacto cero.",
+        "access_aircraft": "Basler BT-67 / DHC-6 Twin Otter con esquís de nieve desde Union Glacier",
+        "gateway_city": "Punta Arenas (Chile via Union Glacier)",
+        "activities": "Convivencia y fotografía a escasos metros de una de las mayores colonias de cría del pingüino emperador (>8.000 adultos y pichones), avistamiento de focas de Weddell.",
+        "season": "Noviembre a mediados de Diciembre (antes de la fractura del hielo estival)",
+        "carbon_neutral": "100% desmontado sin dejar rastro de acuerdo al Protocolo de Madrid.",
+        "website": "https://antarctic-logistics.com/trip/emperor-penguins-at-gould-bay/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.62, -70.76]
+      },
+      "properties": {
+        "id": "LUX-ULT-07",
+        "name": "Ultima Oasis Camp (Ultima Antarctic Expeditions)",
+        "operator": "Ultima Antarctic Expeditions",
+        "category": "Boutique Polar Chalet Camp",
+        "camp_type": "Modular Scandinavian Chalets",
+        "elevation_m": 110,
+        "capacity": "14 huéspedes exclusivos",
+        "price_range_usd": "$55,000 - $90,000 USD por persona",
+        "amenities": "Chalets modulares calefaccionados con ventanales panorámicos, diseño interior nórdico minimalista, sauna finlandés seco frente al glaciar continental, gastronomía de alta cocina, Starlink.",
+        "access_aircraft": "Dassault Falcon 900 / Ilyushin Il-76 desde Ciudad del Cabo a Pista Novolazarevskaya",
+        "gateway_city": "Ciudad del Cabo (Sudáfrica)",
+        "activities": "Trekking en formaciones de hielo azul milenario, excursión en vehículos oruga Snowcat, vuelos en helicóptero polar a colonias de pingüinos, expediciones al Polo Sur.",
+        "season": "Noviembre a Febrero",
+        "carbon_neutral": "Eficiencia energética eólica/solar y retiro absoluto de residuos.",
+        "website": "https://ultima-antarctica.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.00, -90.00]
+      },
+      "properties": {
+        "id": "LUX-SP-08",
+        "name": "South Pole VIP Overnight Camp (90° S)",
+        "operator": "White Desert / ALE (Autorizado ATCM)",
+        "category": "Campamento Extremo de Lujo en Meseta Polar",
+        "camp_type": "High-Altitude Heated Geodesic Shelters",
+        "elevation_m": 2835,
+        "capacity": "12 huéspedes por grupo",
+        "price_range_usd": "$85,000 - $115,000 USD por persona (Paquete South Pole)",
+        "amenities": "Estructuras geodésicas climatizadas a -30°C exterior, sistemas de oxígeno suplementario para aclimatación a gran altitud, cena gourmet de celebración servida a 90° Sur, sello oficial del Polo Sur en pasaporte AMOH.",
+        "access_aircraft": "Basler BT-67 con esquís turbohélice desde Wolf's Fang o Union Glacier",
+        "gateway_city": "Ciudad del Cabo / Punta Arenas",
+        "activities": "Hitos geográfico y ceremonial del Polo Sur, recorrido exterior por el complejo científico Amundsen-Scott, observación astronómica de meseta polar.",
+        "season": "Diciembre a Enero",
+        "carbon_neutral": "Estricto cumplimiento del Anexo III del Tratado Antártico (eliminación y gestión de residuos).",
+        "website": "https://white-desert.com/adventures/south-pole/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.60, -78.52]
+      },
+      "properties": {
+        "id": "LUX-VIN-09",
+        "name": "Vinson Base Camp (Branscomb Glacier)",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "category": "High-Altitude Alpine Luxury Camp",
+        "camp_type": "Insulated Weatherhaven Polar Units",
+        "elevation_m": 2140,
+        "capacity": "14 escaladores VIP y guías de montaña",
+        "price_range_usd": "$48,000 - $65,000 USD por persona",
+        "amenities": "Módulos insulated Weatherhaven con calefacción, carpa comedor principal con chef de expedición, comunicaciones satelitales permanentes, equipo de seguridad y rescate para la cumbre más alta de la Antártida (Monte Vinson, 4.892 m).",
+        "access_aircraft": "DHC-6 Twin Otter con esquís desde Union Glacier",
+        "gateway_city": "Punta Arenas (Chile via Union Glacier)",
+        "activities": "Ascenso guiado a la cumbre Seven Summits Monte Vinson, escalada técnica alpina en cordillera Sentinel.",
+        "season": "Diciembre a Enero",
+        "carbon_neutral": "Evacuación total de residuos humanos y materiales de montaña.",
+        "website": "https://antarctic-logistics.com/trip/mount-vinson-climb/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.95, -62.20]
+      },
+      "properties": {
+        "id": "LUX-KGI-10",
+        "name": "Fildes Peninsula VIP Glamping Refuges (Rey Jorge)",
+        "operator": "Operadores Fly-Cruise IAATO / DAP Polar",
+        "category": "Domo VIP Intermodal Marítimo-Aéreo",
+        "camp_type": "Geodesic Coastal Domes",
+        "elevation_m": 35,
+        "capacity": "16 pasajeros VIP en tránsito intermodal",
+        "price_range_usd": "Incluido en suites fly-cruise ($25,000 - $55,000 USD)",
+        "amenities": "Domos climatizados con vista a Bahía Fildes, catering patagónico y vinos chilenos/argentinos, salón de bienvenida y embarque prioritario en Zodiacs hacia mega-yates de expedición (Scenic, Ponant, Silversea).",
+        "access_aircraft": "BAE-146 / Avro RJ desde Punta Arenas a Aeródromo Marsh (SCRM)",
+        "gateway_city": "Punta Arenas (Chile)",
+        "activities": "Evitación del Paso de Drake por aire, avistamiento de colonias de pingüinos de barbijo y papúa en Península Ardley, embarque inmediato en yate.",
+        "season": "Noviembre a Marzo",
+        "carbon_neutral": "Operado bajo estrictos permisos sectoriales de la DNA/INACH.",
+        "website": "https://iaato.org/"
+      }
+    }
+  ]
+}

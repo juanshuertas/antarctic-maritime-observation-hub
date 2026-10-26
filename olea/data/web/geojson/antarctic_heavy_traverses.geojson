@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "name": "AMOH Antarctic Heavy Over-Snow Traverses & Continental Tractor Trains",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            166.67,
+            -77.85
+          ],
+          [
+            167.5,
+            -78.2
+          ],
+          [
+            171.0,
+            -79.5
+          ],
+          [
+            175.0,
+            -81.0
+          ],
+          [
+            -175.0,
+            -82.5
+          ],
+          [
+            -165.0,
+            -83.5
+          ],
+          [
+            -155.0,
+            -84.8
+          ],
+          [
+            -147.5,
+            -85.6
+          ],
+          [
+            -135.0,
+            -87.2
+          ],
+          [
+            -110.0,
+            -88.8
+          ],
+          [
+            0.0,
+            -90.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "spot-traverse",
+        "name": "South Pole Traverse (SPoT) · McMurdo al Polo Sur",
+        "operator": "National Science Foundation (NSF) / USAP",
+        "distance_km": 1601,
+        "duration_days": "30 a 40 días",
+        "fleet": "Tractores Caterpillar MT865, Case Quadtrac, PistenBully remolcando trineos Lehmann cargados con combustible AN-8.",
+        "key_hazards": "Shear Zone de la Barrera de Ross (campos de grietas mitigados con georradar GPR) y rampa del Glaciar Leverett.",
+        "significance": "Arteria terrestre vital de combustible y carga pesada para la Estación Amundsen-Scott, reduciendo vuelos de LC-130."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.84,
+            -66.69
+          ],
+          [
+            138.0,
+            -67.5
+          ],
+          [
+            136.0,
+            -68.8
+          ],
+          [
+            134.0,
+            -70.0
+          ],
+          [
+            131.0,
+            -71.5
+          ],
+          [
+            128.0,
+            -72.8
+          ],
+          [
+            125.0,
+            -74.2
+          ],
+          [
+            123.35,
+            -75.1
+          ]
+        ]
+      },
+      "properties": {
+        "id": "raid-concordia",
+        "name": "Raid Concordia · Cap Prud'homme (Costero) a Base Concordia (Domo C)",
+        "operator": "IPEV (Francia) & PNRA (Italia)",
+        "distance_km": 1150,
+        "duration_days": "20 a 25 días",
+        "fleet": "Tractores oruga Caterpillar Challenger y Prinoth arrastrando trineos de combustible y módulos habitables.",
+        "elevation_gain_m": "0 m a 3,233 m (Meseta Polar)",
+        "significance": "Abastecimiento continental logístico al proyecto EPICA y observatorio astrofísico en Domo C."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.38,
+            -69.37
+          ],
+          [
+            79.0,
+            -70.8
+          ],
+          [
+            83.0,
+            -72.2
+          ],
+          [
+            88.0,
+            -73.5
+          ],
+          [
+            95.0,
+            -74.5
+          ],
+          [
+            101.0,
+            -76.2
+          ],
+          [
+            106.84,
+            -78.46
+          ]
+        ]
+      },
+      "properties": {
+        "id": "raid-vostok",
+        "name": "Raid Vostok · Base Progress (Larsemann Hills) a Base Vostok",
+        "operator": "Expedición Antártica Rusa (RAE) / AARI",
+        "distance_km": 1400,
+        "duration_days": "25 a 35 días",
+        "fleet": "Vehículos tractores oruga pesados Kharkovchanka / PistenBully 300 Polar y Kässbohrer.",
+        "elevation_gain_m": "0 m a 3,488 m (Lago subglacial Vostok)",
+        "significance": "Línea de vida logística del nuevo complejo modular de la estación Vostok en el polo del frío (-89.2 °C)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -82.9,
+            -79.76
+          ],
+          [
+            -85.0,
+            -82.0
+          ],
+          [
+            -88.0,
+            -84.5
+          ],
+          [
+            -90.2,
+            -85.2
+          ],
+          [
+            -75.0,
+            -87.5
+          ],
+          [
+            -30.0,
+            -89.0
+          ],
+          [
+            0.0,
+            -90.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "union-glacier-traverse",
+        "name": "Union Glacier South Pole Overland Traverse (Arctic Trucks & Orugas)",
+        "operator": "Antarctic Logistics & Expeditions (ALE) & White Desert",
+        "distance_km": 1150,
+        "duration_days": "10 a 18 días",
+        "fleet": "Vehículos polares Arctic Trucks 4x4 / 6x6 (Toyota Hilux AT44) con neumáticos de flotación a 2 PSI y tractores oruga ligeros.",
+        "category": "Turismo Extremo VIP & Soporte de Expediciones de Esquí",
+        "significance": "Corredor de apoyo y rescate para expediciones que esquían hasta el Polo Sur desde Hercules Inlet."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.98,
+            -62.19
+          ],
+          [
+            -58.94,
+            -62.18
+          ],
+          [
+            -58.9,
+            -62.18
+          ]
+        ]
+      },
+      "properties": {
+        "id": "kgi-coastal-traverse",
+        "name": "Travesía Costera Fildes (Base Frei / Escudero a Base Artigas)",
+        "operator": "INACH (Chile) / Instituto Antártico Uruguayo (IAU)",
+        "distance_km": 12,
+        "duration_days": "2 horas",
+        "fleet": "Camiones 4x4 todoterreno Ural/Kamaz, Hägglunds BV206 de oruga de goma y motos de nieve.",
+        "significance": "Corredor de cooperación científica y médica directa entre Chile, Uruguay, Rusia y China en Bahía Fildes."
+      }
+    }
+  ]
+}

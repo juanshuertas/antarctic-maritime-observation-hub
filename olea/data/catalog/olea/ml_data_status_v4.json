@@ -1,0 +1,100 @@
+{
+  "version": "4.0.0",
+  "generated_utc": "2026-10-09T19:12:52.632111+00:00",
+  "scope": "PUBLIC_METADATA_ONLY",
+  "data_sources": [
+    {
+      "id": "WAP_FIELD_DENSITY",
+      "state": "AVAILABLE_LOCAL",
+      "role": "FIELD_GROUND_TRUTH_CANDIDATE",
+      "bytes": 10678,
+      "rows": 31
+    },
+    {
+      "id": "WAP_FIELD_GEO",
+      "state": "AVAILABLE_LOCAL",
+      "role": "FIELD_GEO_VIEW",
+      "bytes": 21836,
+      "features": 31
+    },
+    {
+      "id": "MARIS_ANTARCTIC",
+      "state": "AVAILABLE_LOCAL",
+      "role": "SCIENTIFIC_CONTEXT_QA",
+      "bytes": 149,
+      "features": 0
+    },
+    {
+      "id": "ANTGG_GRAVITY",
+      "state": "AVAILABLE_LOCAL",
+      "role": "GEOPHYSICAL_PREDICTOR_CANDIDATE",
+      "bytes": 2178802,
+      "features": 8259
+    },
+    {
+      "id": "ANTGG_BOUGUER",
+      "state": "AVAILABLE_LOCAL",
+      "role": "GEOPHYSICAL_PREDICTOR_CANDIDATE",
+      "bytes": 2179365,
+      "features": 8259
+    },
+    {
+      "id": "CORALS_HEXACORALLIA",
+      "state": "AVAILABLE_LOCAL",
+      "role": "BIOLOGICAL_OCCURRENCE",
+      "bytes": 167053,
+      "features": 247
+    },
+    {
+      "id": "CORALS_STYLASTERIDAE",
+      "state": "AVAILABLE_LOCAL",
+      "role": "BIOLOGICAL_OCCURRENCE",
+      "bytes": 710318,
+      "features": 1035
+    },
+    {
+      "id": "OBIS_ICEFREE",
+      "state": "AVAILABLE_LOCAL",
+      "role": "TERRESTRIAL_ONLY_CONTEXT",
+      "bytes": 217235,
+      "features": 965
+    },
+    {
+      "id": "MARIS_ML_REPORT",
+      "state": "AVAILABLE_LOCAL",
+      "role": "EXPLORATORY_QA_RESULT",
+      "bytes": 4447
+    },
+    {
+      "id": "MARIS_ML_ALERTS",
+      "state": "AVAILABLE_LOCAL",
+      "role": "LOCAL_REVIEW_ONLY",
+      "bytes": 16721,
+      "rows": 257
+    }
+  ],
+  "maris": {
+    "local_csv_count": 9,
+    "scientific_role": "EXPLORATORY_QA_ONLY"
+  },
+  "pilot_A": {
+    "n_stations": 31,
+    "n_measured_targets": 26,
+    "training_gate": "BLOCKED_INSUFFICIENT_LABELS_OR_INDEPENDENT_GROUPS",
+    "required_min_observed_labels": 40,
+    "model_families": [
+      "Ridge",
+      "ElasticNet",
+      "HistGradientBoostingRegressor"
+    ],
+    "trained": false,
+    "explanation": "New station measurements are necessary. No synthetic targets, no zero-filling, no random row split."
+  },
+  "ml": {
+    "status": "TRAINED_EXPLORATORY_QA",
+    "scientifically_validated": false,
+    "qa_groups": 16,
+    "review_flags": 257
+  },
+  "notice": "Public web site displays a static snapshot. Training and controlled source processing run on the local Python engine."
+}

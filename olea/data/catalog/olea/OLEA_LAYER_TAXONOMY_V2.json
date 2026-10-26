@@ -1,0 +1,1496 @@
+{
+  "schema_version": "2.0.0",
+  "generated_for": "OLEA / C:\\AMOH — master research integration V2",
+  "design_principles": [
+    "One logical dataset = one canonical layer ID.",
+    "Packs/presets activate canonical IDs; they never duplicate layer declarations.",
+    "Observed evidence, contextual reference, derived analytics, and experimental layers must remain distinguishable.",
+    "A visible map layer is not automatically a valid ML feature.",
+    "Every layer must carry source, provider, license, temporal status, data quality, and scientific role.",
+    "Derived risk or pressure layers never replace the underlying evidence layers."
+  ],
+  "domains": [
+    {
+      "id": "REFERENCE_BASE",
+      "order": 10,
+      "label_es": "Base & Referencia",
+      "label_en": "Base & Reference",
+      "purpose": "Cartografía base y contexto no analítico.",
+      "groups": [
+        "cartography",
+        "history_reference"
+      ]
+    },
+    {
+      "id": "PHYSICAL_EARTH",
+      "order": 20,
+      "label_es": "Tierra Física & Geofísica",
+      "label_en": "Physical Earth & Geophysics",
+      "purpose": "Batimetría, relieve, tectónica y variables geofísicas.",
+      "groups": [
+        "bathymetry_seafloor",
+        "seismicity_geophysics"
+      ]
+    },
+    {
+      "id": "ENVIRONMENT",
+      "order": 30,
+      "label_es": "Ambiente: Atmósfera · Océano · Criósfera",
+      "label_en": "Environment: Atmosphere · Ocean · Cryosphere",
+      "purpose": "Estado ambiental observado y variables físicas dinámicas.",
+      "groups": [
+        "atmosphere_weather",
+        "ocean_circulation",
+        "cryosphere",
+        "marine_contaminants_tracers"
+      ]
+    },
+    {
+      "id": "ECOLOGY",
+      "order": 40,
+      "label_es": "Ecología & Biodiversidad",
+      "label_en": "Ecology & Biodiversity",
+      "purpose": "Ocurrencias, hábitat, colonias y sensibilidad ecológica.",
+      "groups": [
+        "biodiversity_occurrences",
+        "colonies_habitats",
+        "conservation_ecology"
+      ]
+    },
+    {
+      "id": "HUMAN_ACTIVITY",
+      "order": 50,
+      "label_es": "Actividad Humana & Marítima",
+      "label_en": "Human Activity & Maritime",
+      "purpose": "Tráfico, turismo, pesca, logística e infraestructura.",
+      "groups": [
+        "maritime_vessels",
+        "fisheries",
+        "tourism",
+        "aviation_logistics",
+        "infrastructure",
+        "extractive_activity"
+      ]
+    },
+    {
+      "id": "GOVERNANCE_CONSERVATION",
+      "order": 60,
+      "label_es": "Conservación & Gobernanza",
+      "label_en": "Conservation & Governance",
+      "purpose": "Áreas protegidas, tratados, gestión y contexto jurídico.",
+      "groups": [
+        "protected_managed_areas",
+        "treaties_management",
+        "claims_context"
+      ]
+    },
+    {
+      "id": "OBSERVATIONS_EVIDENCE",
+      "order": 70,
+      "label_es": "Observaciones & Evidencia",
+      "label_en": "Observations & Evidence",
+      "purpose": "Registros de campo, sensores, boyas, cámaras y plataformas observacionales.",
+      "groups": [
+        "field_observations",
+        "in_situ_sensors",
+        "live_cameras",
+        "remote_observation"
+      ]
+    },
+    {
+      "id": "DERIVED_INTELLIGENCE",
+      "order": 80,
+      "label_es": "Derivados & Inteligencia",
+      "label_en": "Derived & Intelligence",
+      "purpose": "Índices, heatmaps, riesgo, fricción y productos analíticos derivados.",
+      "groups": [
+        "derived_pressure",
+        "risk_intelligence",
+        "experimental_legacy"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "id": "rock_outcrops",
+      "label": "Afloramientos Rocosos Antárticos (SCAR ADD)",
+      "description": "Nunataks y cordilleras expuestas libres de hielo en el continente.",
+      "provider": "SCAR Antarctic Digital Database / NPI",
+      "dataset": "ADD_Rock_outcrop_low_res_polygon",
+      "variable": "rock_outcrops",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "REFERENCE_BASE",
+      "canonical_group": "cartography",
+      "scientific_role": "BASE_REFERENCE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_baseline",
+          "old_label": "Afloramientos Rocosos Antárticos (SCAR ADD)"
+        },
+        {
+          "old_domain": "ICE",
+          "old_subdomain": "sea_ice",
+          "old_label": "Afloramientos Rocosos & Relieve Continental (SCAR ADD)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": true,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "quantarctica_coastline",
+      "label": "Línea de Costa SCAR ADD (Quantarctica)",
+      "description": "Línea de costa circumpolar oficial de la Antarctic Digital Database.",
+      "provider": "Norwegian Polar Institute / SCAR",
+      "dataset": "add_coastline_medium_res",
+      "variable": "coastline",
+      "license": "SCAR / CC-BY",
+      "canonical_domain": "REFERENCE_BASE",
+      "canonical_group": "cartography",
+      "scientific_role": "BASE_REFERENCE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_baseline",
+          "old_label": "Línea de Costa SCAR ADD (Quantarctica)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "historic_routes",
+      "label": "Rutas Históricas de la Era Heroica Polar (1897–1917)",
+      "description": "Expediciones digitalizadas de Amundsen, Scott, Shackleton y Mawson.",
+      "provider": "American Geographical Society / Quantarctica",
+      "dataset": "AGS_HistoricRoutes_Digitized",
+      "variable": "historic_tracks",
+      "license": "Public Domain",
+      "canonical_domain": "REFERENCE_BASE",
+      "canonical_group": "history_reference",
+      "scientific_role": "CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_governance_history",
+          "old_label": "Rutas Históricas de la Era Heroica Polar (1897–1917)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "historic_stations",
+      "label": "Sitios y Monumentos Históricos (SMH / ATS)",
+      "description": "Cabañas, cruces conmemorativas y restos arqueológicos polares protegidos.",
+      "provider": "Secretaría del Tratado Antártico / Quantarctica",
+      "dataset": "HistoricStations",
+      "variable": "heritage_sites",
+      "license": "ATS Open Access",
+      "canonical_domain": "REFERENCE_BASE",
+      "canonical_group": "history_reference",
+      "scientific_role": "CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_governance_history",
+          "old_label": "Sitios y Monumentos Históricos (SMH / ATS)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "quantarctica_bathymetry",
+      "label": "Batimetría IBCSO v2 (Isobates SCAR/GEBCO)",
+      "description": "Contornos de profundidad oceánica (-500m a -4000m) en el Océano Austral.",
+      "provider": "IBCSO v2 / Alfred Wegener Institute (AWI)",
+      "dataset": "ibcso_v2_depth_contours",
+      "variable": "depth_m",
+      "license": "GEBCO / SCAR Open Data",
+      "canonical_domain": "PHYSICAL_EARTH",
+      "canonical_group": "bathymetry_seafloor",
+      "scientific_role": "PHYSICAL_PREDICTOR",
+      "former_placements": [
+        {
+          "old_domain": "OCEAN",
+          "old_subdomain": "currents",
+          "old_label": "Batimetría IBCSO v2 (Isobates SCAR/GEBCO)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "seismic_events",
+      "label": "Sismicidad Tectónica (USGS FDSN M2.5+)",
+      "description": "Terremotos circumpolares en Scotia, Sandwich del Sur y Dorsales.",
+      "provider": "USGS Earthquake Hazards Program",
+      "dataset": "fdsn_seismicity_m2.5",
+      "variable": "earthquake_epicenters",
+      "license": "CC0 Public Domain",
+      "canonical_domain": "PHYSICAL_EARTH",
+      "canonical_group": "seismicity_geophysics",
+      "scientific_role": "OBSERVATION",
+      "former_placements": [
+        {
+          "old_domain": "SPACE_GEOPHYSICS",
+          "old_subdomain": "space_geophysics_sub",
+          "old_label": "Sismicidad Tectónica (USGS FDSN M2.5+)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "polar_cyclones",
+      "label": "Centros de Baja Presión & Ciclones Polares",
+      "description": "Centros de baja presión atmosférica moduladores del paso de tormentas.",
+      "provider": "NOAA / ECMWF",
+      "dataset": "synoptic_polar_cyclones",
+      "variable": "cyclone_tracks",
+      "license": "Public Domain",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "atmosphere_weather",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "ENVIRONMENT",
+          "old_subdomain": "atmosphere",
+          "old_label": "Centros de Baja Presión & Ciclones Polares"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "ecmwf_wind",
+      "label": "Vientos Sinópticos a 10m (ECMWF OpenData)",
+      "description": "Vórtice polar y campos de viento circumpolar a nivel de superficie.",
+      "provider": "ECMWF Open Data",
+      "dataset": "ifs_single_level_wind_10m",
+      "variable": "wind_vectors_10m",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "atmosphere_weather",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "ENVIRONMENT",
+          "old_subdomain": "atmosphere",
+          "old_label": "Vientos Sinópticos a 10m (ECMWF OpenData)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "quantarctica_ice_shelf",
+      "label": "Barreras & Plataformas de Hielo Flotante",
+      "description": "Plataformas de hielo Ross, Ronne-Filchner, Amery y Larsen.",
+      "provider": "BAS / Quantarctica 3.0",
+      "dataset": "ice_shelves",
+      "variable": "ice_shelf_polygons",
+      "license": "Open Access",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "cryosphere",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_baseline",
+          "old_label": "Barreras & Plataformas de Hielo Flotante"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "sea_ice_concentration",
+      "label": "Concentración de Hielo Marino (OSI-SAF / AMSR2)",
+      "description": "Fracción de cobertura de hielo marino en cuadrícula circumpolar.",
+      "provider": "EUMETSAT OSI-SAF / JAXA",
+      "dataset": "osi_saf_sea_ice_conc_daily",
+      "variable": "ice_concentration_percent",
+      "license": "EUMETSAT Open Access",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "cryosphere",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "ICE",
+          "old_subdomain": "sea_ice",
+          "old_label": "Concentración de Hielo Marino (OSI-SAF / AMSR2)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "median_sea_ice_extents",
+      "label": "Extensión Mediana de Banquisa 1981–2010 (NSIDC/NPI)",
+      "description": "Línea de base climática mensual de 30 años de hielo marino.",
+      "provider": "NSIDC / NPI Quantarctica",
+      "dataset": "Median_SeaIce_Extents_1981-2010",
+      "variable": "median_extent_monthly",
+      "license": "Public Domain",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "cryosphere",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_baseline",
+          "old_label": "Extensión Mediana de Banquisa 1981–2010 (NSIDC/NPI)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "ice_shelves",
+      "label": "Plataformas de Hielo Flotantes (Ronne-Filchner, Ross, Amery)",
+      "description": "Límites morfológicos de plataformas glaciares con relieve.",
+      "provider": "Quantarctica / SCAR",
+      "dataset": "quantarctica_glaciology_shelves",
+      "variable": "ice_shelf_polygons",
+      "license": "SCAR / NPI",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "cryosphere",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "ICE",
+          "old_subdomain": "sea_ice",
+          "old_label": "Plataformas de Hielo Flotantes (Ronne-Filchner, Ross, Amery)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "quantarctica_glaciers",
+      "label": "Velocidad de Flujo Glaciar (MEaSUREs / REMA)",
+      "description": "Vectores de velocidad de corrientes de hielo (Pine Island, Thwaites, Totten).",
+      "provider": "NASA MEaSUREs InSAR / PGC REMA",
+      "dataset": "measures_antarctic_ice_velocity",
+      "variable": "velocity_m_yr",
+      "license": "NASA Earthdata Open Access",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "cryosphere",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "ICE",
+          "old_subdomain": "sea_ice",
+          "old_label": "Velocidad de Flujo Glaciar (MEaSUREs / REMA)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "glacier_velocity",
+      "label": "Velocidad de Flujo Glaciar (MEaSUREs InSAR)",
+      "description": "Corrientes de hielo y flujo hacia las plataformas marinas.",
+      "provider": "NASA MEaSUREs / Quantarctica Glaciology",
+      "dataset": "ice_velocity_contours",
+      "variable": "flow_speed_m_yr",
+      "license": "NASA Open Science",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "cryosphere",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_baseline",
+          "old_label": "Velocidad de Flujo Glaciar (MEaSUREs InSAR)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "maris_radionuclides",
+      "label": "IAEA MARIS — Radionucleidos Marinos (137Cs, 3H, 14C)",
+      "description": "Muestreos radiológicos y trazadores oceanográficos del OIEA.",
+      "provider": "IAEA Marine Information System (MARIS)",
+      "dataset": "iaea_maris_antarctic_samples",
+      "variable": "radionuclide_concentration",
+      "license": "IAEA Open Data",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "marine_contaminants_tracers",
+      "scientific_role": "CONDITIONAL_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "POLLUTION",
+          "old_subdomain": "radiological",
+          "old_label": "IAEA MARIS — Radionucleidos Marinos (137Cs, 3H, 14C)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "ocean_currents",
+      "label": "Corrientes Circumpolares (CMEMS Superficie)",
+      "description": "Vectores de velocidad y transporte de la Corriente Circumpolar Antártica (ACC).",
+      "provider": "Copernicus Marine Service (CMEMS)",
+      "dataset": "GLOBAL_ANALYSISFORECAST_PHY_001_024",
+      "variable": "surface_velocity",
+      "license": "Copernicus Open Access",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "ocean_circulation",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "OCEAN",
+          "old_subdomain": "currents",
+          "old_label": "Corrientes Circumpolares (CMEMS Superficie)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "southern_ocean_fronts",
+      "label": "Frentes Oceanográficos del Océano Austral (Orsi / SCAR)",
+      "description": "Frente Polar (PF), Subantártico (SAF), Subtropical (STF) y Límite Sur de la ACC.",
+      "provider": "SCAR / Orsi et al. / SOOS",
+      "dataset": "SouthernOceanFronts",
+      "variable": "ocean_fronts",
+      "license": "SCAR Open Data",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "ocean_circulation",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_ocean_life",
+          "old_label": "Frentes Oceanográficos del Océano Austral (Orsi / SCAR)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "acc_fronts",
+      "label": "Frentes Oceánicos Antárticos (STF, SAF, PF, SACCF)",
+      "description": "Límites dinámicos de masas de agua subantártica y polar.",
+      "provider": "SCAR / SOOS",
+      "dataset": "southern_ocean_fronts",
+      "variable": "ocean_front_lines",
+      "license": "CC-BY",
+      "canonical_domain": "ENVIRONMENT",
+      "canonical_group": "ocean_circulation",
+      "scientific_role": "ENVIRONMENT_STATE",
+      "former_placements": [
+        {
+          "old_domain": "OCEAN",
+          "old_subdomain": "currents",
+          "old_label": "Frentes Oceánicos Antárticos (STF, SAF, PF, SACCF)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "obis_biodiversity",
+      "label": "Registros de Fauna Marina (OBIS / AntOBIS)",
+      "description": "Ocurrencias georreferenciadas de pingüinos, focas, cetáceos y krill.",
+      "provider": "Ocean Biodiversity Information System (OBIS)",
+      "dataset": "obis_antarctic_occurrences",
+      "variable": "species_occurrences",
+      "license": "CC-BY / CC0",
+      "canonical_domain": "ECOLOGY",
+      "canonical_group": "biodiversity_occurrences",
+      "scientific_role": "ECOLOGICAL_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "LIFE",
+          "old_subdomain": "fauna",
+          "old_label": "Registros de Fauna Marina (OBIS / AntOBIS)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "emperor_penguin_colonies",
+      "label": "Colonias de Pingüino Emperador (Censo Satelital BAS/NPI)",
+      "description": "66 colonias reproductivas cartografiadas mediante reflectancia de guano en Sentinel-2 y Landsat.",
+      "provider": "British Antarctic Survey / NPI",
+      "dataset": "EmperorPenguinColonies",
+      "variable": "breeding_colonies",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "ECOLOGY",
+      "canonical_group": "colonies_habitats",
+      "scientific_role": "ECOLOGICAL_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_ocean_life",
+          "old_label": "Colonias de Pingüino Emperador (Censo Satelital BAS/NPI)"
+        },
+        {
+          "old_domain": "LIFE",
+          "old_subdomain": "fauna",
+          "old_label": "Colonias Pingüinos Emperador (Detección Satélite BAS)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": true,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "penguin_colonies",
+      "label": "Colonias de Pingüinos Emperador & Adelia",
+      "description": "Sitios reproductivos costeros monitoreados por SCAR EG-BAMM.",
+      "provider": "SCAR Expert Group on Birds & Marine Mammals",
+      "dataset": "scar_penguin_colonies",
+      "variable": "colony_locations",
+      "license": "SCAR Open Access",
+      "canonical_domain": "ECOLOGY",
+      "canonical_group": "colonies_habitats",
+      "scientific_role": "ECOLOGICAL_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "LIFE",
+          "old_subdomain": "fauna",
+          "old_label": "Colonias de Pingüinos Emperador & Adelia"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "important_bird_areas",
+      "label": "Áreas Importantes para la Conservación de Aves (IBAs)",
+      "description": "Sitios nodales de nidificación de albatros, petreles y pingüinos.",
+      "provider": "BirdLife International / SCAR Biology",
+      "dataset": "ImportantBirdAreas",
+      "variable": "iba_polygons",
+      "license": "BirdLife Open Data",
+      "canonical_domain": "ECOLOGY",
+      "canonical_group": "conservation_ecology",
+      "scientific_role": "ECOLOGICAL_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_ocean_life",
+          "old_label": "Áreas Importantes para la Conservación de Aves (IBAs)"
+        },
+        {
+          "old_domain": "LIFE",
+          "old_subdomain": "fauna",
+          "old_label": "Áreas Importantes para las Aves (IBA)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": true,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "polar_aviation",
+      "label": "Rutas & Vuelos Logísticos Antárticos",
+      "description": "Corredores intercontinentales (DROMLAN, Wilkins, Punta Arenas).",
+      "provider": "OpenSky Network / COMNAP",
+      "dataset": "polar_flight_corridors",
+      "variable": "flight_tracks",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "aviation_logistics",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "aviation",
+          "old_label": "Rutas & Vuelos Logísticos Antárticos"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "heavy_traverses",
+      "label": "Travesías Terrestres Pesadas (SPoT / Concordia / Vostok)",
+      "description": "Convoyes de tractores oruga continentales y trenes de trineos sobre el manto de hielo (McMurdo-Polo Sur, Raid Concordia, Raid Vostok).",
+      "provider": "USAP SPoT / IPEV-PNRA / RAE AARI / ALE",
+      "dataset": "antarctic_heavy_traverses",
+      "variable": "heavy_over_snow_routes",
+      "license": "COMNAP Logistics Database",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "aviation_logistics",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "tourism",
+          "old_label": "Travesías Terrestres Pesadas (SPoT / Concordia / Vostok)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "deepsea_mining",
+      "label": "Minería Submarina & Sulfuros Masivos (SMS / ISA)",
+      "description": "Chimeneas hidrotermales activas (black/white smokers), campos de nódulos de manganeso y costras de cobalto.",
+      "provider": "InterRidge / ISA / ChEss Southern Ocean / SCAR",
+      "dataset": "antarctic_deepsea_mining_deposits",
+      "variable": "mineral_deposits",
+      "license": "Scientific / ISA Open Access",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "extractive_activity",
+      "scientific_role": "HUMAN_ACTIVITY_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "treaty",
+          "old_label": "Minería Submarina & Sulfuros Masivos (SMS / ISA)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "offshore_wells",
+      "label": "Pozos Offshore & Sondeos Científicos (CMA-1 / DSDP)",
+      "description": "Plataformas productoras en Cuenca Austral/Malvinas y pozos científicos de investigación en el Mar de Ross y Weddell.",
+      "provider": "Secretaría de Energía / DSDP / ODP / SCAR",
+      "dataset": "antarctic_austral_offshore_wells",
+      "variable": "well_locations",
+      "license": "Open Hydrocarbon & Scientific Core Data",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "extractive_activity",
+      "scientific_role": "INFRASTRUCTURE",
+      "former_placements": [
+        {
+          "old_domain": "INFRASTRUCTURE",
+          "old_subdomain": "polar_bases",
+          "old_label": "Pozos Offshore & Sondeos Científicos (CMA-1 / DSDP)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "gfw_fishing_effort",
+      "label": "GFW — Esfuerzo Pesquero Aparente (Heatmap)",
+      "description": "Superficie continua oceánica de horas aparentes de pesca (4Wings API).",
+      "provider": "Global Fishing Watch",
+      "dataset": "public-global-fishing-effort:latest",
+      "variable": "apparent_fishing_hours",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "fisheries",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "fisheries",
+          "old_label": "GFW — Esfuerzo Pesquero Aparente (Heatmap)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "ccamlr_registry",
+      "label": "Registro de Buques Autorizados CCAMLR",
+      "description": "Flota con licencias válidas de pesca de krill y bacalao antártico.",
+      "provider": "CCAMLR Secretariat",
+      "dataset": "authorized_vessels_list",
+      "variable": "licensed_vessels",
+      "license": "CCAMLR Open Access",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "fisheries",
+      "scientific_role": "IDENTITY_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "fisheries",
+          "old_label": "Registro de Buques Autorizados CCAMLR"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "antarctic_stations",
+      "label": "Bases Científicas Permanentes & Estacionales",
+      "description": "28 bases circumpolares registradas por SCAR y COMNAP.",
+      "provider": "SCAR / COMNAP",
+      "dataset": "quantarctica_stations",
+      "variable": "research_stations",
+      "license": "SCAR Open Science",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "infrastructure",
+      "scientific_role": "INFRASTRUCTURE",
+      "former_placements": [
+        {
+          "old_domain": "INFRASTRUCTURE",
+          "old_subdomain": "polar_bases",
+          "old_label": "Bases Científicas Permanentes & Estacionales"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "submarine_cables",
+      "label": "Cables Submarinos & Enlaces SMART",
+      "description": "Infraestructura de telecomunicaciones y sensores sísmicos oceánicos.",
+      "provider": "TeleGeography / SMART Cable Task Force",
+      "dataset": "subsea_cables_gateway",
+      "variable": "cable_routes",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "infrastructure",
+      "scientific_role": "INFRASTRUCTURE",
+      "former_placements": [
+        {
+          "old_domain": "INFRASTRUCTURE",
+          "old_subdomain": "polar_bases",
+          "old_label": "Cables Submarinos & Enlaces SMART"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "comnap_facilities",
+      "label": "Instalaciones y Bases Antárticas COMNAP",
+      "description": "Red completa de 82 estaciones científicas de invierno y verano en el continente.",
+      "provider": "COMNAP / NPI",
+      "dataset": "COMNAP_Antarctic_Facilities",
+      "variable": "research_stations",
+      "license": "COMNAP Open Data",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "infrastructure",
+      "scientific_role": "INFRASTRUCTURE",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_governance_history",
+          "old_label": "Instalaciones y Bases Antárticas COMNAP"
+        },
+        {
+          "old_domain": "INFRASTRUCTURE",
+          "old_subdomain": "polar_bases",
+          "old_label": "108 Estaciones & Facilidades Científicas (COMNAP / Quantarctica)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": true,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "inach_shetland_23",
+      "label": "Islas Shetland del Sur — 23 Bases & Refugios (INACH)",
+      "description": "Recuadro oficial del mapa INACH: 23 bases numeradas (Chile, Argentina, España, Rusia, China, etc.).",
+      "provider": "Instituto Antártico Chileno (INACH)",
+      "dataset": "inach_shetland_inset_23",
+      "variable": "station_index_points",
+      "license": "INACH Gobierno de Chile",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "infrastructure",
+      "scientific_role": "INFRASTRUCTURE",
+      "former_placements": [
+        {
+          "old_domain": "INFRASTRUCTURE",
+          "old_subdomain": "polar_bases",
+          "old_label": "Islas Shetland del Sur — 23 Bases & Refugios (INACH)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "ais_vessels",
+      "label": "Buques AIS (Circumpolar)",
+      "description": "Posiciones y rumbos de buques polares en tiempo casi real.",
+      "provider": "AISStream / AISHub",
+      "dataset": "ais_vessels_polar",
+      "variable": "vessel_position",
+      "license": "Public / CC-BY",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "maritime_vessels",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "vessels",
+          "old_label": "Buques AIS (Circumpolar)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "research_vessels",
+      "label": "Buques Oceanográficos & Rompehielos",
+      "description": "Flota polar de investigación (Polarstern, Laura Bassi, Nuyina, etc.)",
+      "provider": "COMNAP / National Programs",
+      "dataset": "polar_research_fleet",
+      "variable": "research_vessels",
+      "license": "COMNAP Open Data",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "maritime_vessels",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "vessels",
+          "old_label": "Buques Oceanográficos & Rompehielos"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "tourist_vessels",
+      "label": "Cruceros & Veleros Turísticos IAATO",
+      "description": "Embarcaciones de turismo antártico registradas en IAATO.",
+      "provider": "IAATO Directory",
+      "dataset": "tourism_fleet",
+      "variable": "passenger_vessels",
+      "license": "IAATO Public Directory",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "maritime_vessels",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "vessels",
+          "old_label": "Cruceros & Veleros Turísticos IAATO"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "gfw_vessel_presence",
+      "label": "GFW — Densidad de Presencia de Buques",
+      "description": "Presencia total de embarcaciones (carga, pesca, pasaje, tanqueros).",
+      "provider": "Global Fishing Watch",
+      "dataset": "public-global-vessel-presence:latest",
+      "variable": "presence_hours",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "maritime_vessels",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "fisheries",
+          "old_label": "GFW — Densidad de Presencia de Buques"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "gfw_sar_detections",
+      "label": "GFW — Detecciones Radar SAR (Sentinel-1)",
+      "description": "Detecciones satelitales radar y correlación con transpondedores AIS.",
+      "provider": "ESA Copernicus / GFW",
+      "dataset": "public-global-sar-detections:latest",
+      "variable": "sar_radar_targets",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "maritime_vessels",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "fisheries",
+          "old_label": "GFW — Detecciones Radar SAR (Sentinel-1)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "autonomous_yachts",
+      "label": "Misiones Autónomas (Saildrone / AUVs) & Veleros de Expedición",
+      "description": "Circunnavegación Saildrone, AUVs bajo el Glaciar Thwaites y corredores de veleros para ski-alpinismo.",
+      "provider": "Saildrone / ITGC / IAATO Cat 1 Sailboats",
+      "dataset": "polar_autonomous_and_yachts",
+      "variable": "autonomous_and_sail_corridors",
+      "license": "Open Marine Science / IAATO",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "maritime_vessels",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "tourism",
+          "old_label": "Misiones Autónomas (Saildrone / AUVs) & Veleros de Expedición"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "iaato_deep_field_camps",
+      "label": "Campamentos de Interior & Pistas de Hielo Azul",
+      "description": "Bases y pistas logísticas de ALE y White Desert (Union Glacier, Wolfs Fang, Polo Sur).",
+      "provider": "ALE / White Desert / COMNAP",
+      "dataset": "iaato_deep_field_camps",
+      "variable": "deep_field_infrastructure",
+      "license": "Operator Public Filings",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "tourism",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "tourism",
+          "old_label": "Campamentos de Interior & Pistas de Hielo Azul"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "luxury_camps",
+      "label": "Campamentos de Lujo & Glamping Polar",
+      "description": "Campamentos de ultra-lujo en el interior polar: Whichaway, Echo, Wolf's Fang, Three Glaciers Retreat, Ultima Oasis y Gould Bay.",
+      "provider": "White Desert / ALE / Ultima Antarctic",
+      "dataset": "antarctic_luxury_camps",
+      "variable": "luxury_polar_camps",
+      "license": "IAATO / Operator Filings",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "tourism",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "tourism",
+          "old_label": "Campamentos de Lujo & Glamping Polar"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "iaato_routes",
+      "label": "Rutas Publicadas IAATO (2026–2030)",
+      "description": "Itinerarios de expedición, cruceros escénicos y puentes aéreos hacia la Antártida.",
+      "provider": "IAATO Registry",
+      "dataset": "iaato_tourism_routes",
+      "variable": "expedition_corridors",
+      "license": "IAATO Public Records",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "tourism",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "tourism",
+          "old_label": "Rutas Publicadas IAATO (2026–2030)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "iaato_landing_sites",
+      "label": "Sitios de Desembarco en Zodiac (IAATO)",
+      "description": "Puntos autorizados de desembarco con límites de aforo en tierra y protocolos H5N1.",
+      "provider": "IAATO / Antarctic Treaty Secretariat",
+      "dataset": "iaato_landing_sites",
+      "variable": "landing_points",
+      "license": "ATS / IAATO Open Data",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "tourism",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "tourism",
+          "old_label": "Sitios de Desembarco en Zodiac (IAATO)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "tourist_submersibles",
+      "label": "Sumergibles de Expedición & Puntos de Inmersión",
+      "description": "Sitios de inmersión para sumergibles civiles U-Boat Worx y Triton a bordo de buques de expedición (Scenic, Seabourn, Viking).",
+      "provider": "IAATO Marine Operations / U-Boat Worx / Triton",
+      "dataset": "expedition_submersibles",
+      "variable": "submersible_dive_sites",
+      "license": "IAATO Site Guidelines",
+      "canonical_domain": "HUMAN_ACTIVITY",
+      "canonical_group": "tourism",
+      "scientific_role": "HUMAN_ACTIVITY_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "ACTIVITY",
+          "old_subdomain": "tourism",
+          "old_label": "Sumergibles de Expedición & Puntos de Inmersión"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "inach_chilean_territory",
+      "label": "Territorio Chileno Antártico (53°O – 90°O Oficial INACH / DIFROL)",
+      "description": "Límites del Territorio Chileno Antártico fijados por Decreto Supremo Nº 1747 (1940) y Res. DIFROL Nº 43/2021.",
+      "provider": "Instituto Antártico Chileno (INACH) / DIFROL",
+      "dataset": "inach_official_territory_53_90",
+      "variable": "sovereign_limits",
+      "license": "Gobierno de Chile",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "claims_context",
+      "scientific_role": "LEGAL_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "grey_zones",
+          "old_label": "Territorio Chileno Antártico (53°O – 90°O Oficial INACH / DIFROL)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "acbrs",
+      "label": "Regiones Biogeográficas Antárticas de Conservación (ACBRs v2)",
+      "description": "16 ecorregiones terrestres antárticas adoptadas formalmente por el CEP.",
+      "provider": "SCAR / Terauds et al. / NPI",
+      "dataset": "ACBRs_v2",
+      "variable": "biogeographic_regions",
+      "license": "ATS Open Access",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "protected_managed_areas",
+      "scientific_role": "CONSERVATION_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_ocean_life",
+          "old_label": "Regiones Biogeográficas Antárticas de Conservación (ACBRs v2)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "asma",
+      "label": "Zonas Antárticas Especialmente Administradas (ASMA)",
+      "description": "Zonas con planes de gestión cooperativa entre programas nacionales (Valles Secos, etc.)",
+      "provider": "Secretaría del Tratado Antártico / CEP",
+      "dataset": "ASMA_polygons",
+      "variable": "managed_polygons",
+      "license": "ATS Open Access",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "protected_managed_areas",
+      "scientific_role": "MANAGEMENT_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_governance_history",
+          "old_label": "Zonas Antárticas Especialmente Administradas (ASMA)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "aspa_protected_areas",
+      "label": "Zonas Antárticas Especialmente Protegidas (ASPA / ASMA)",
+      "description": "Sitios con máxima restricción de acceso aprobados en RCTA.",
+      "provider": "Secretaría del Tratado Antártico (ATS)",
+      "dataset": "ats_protected_areas_database",
+      "variable": "protected_polygons",
+      "license": "ATS Open Access",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "protected_managed_areas",
+      "scientific_role": "MANAGEMENT_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "treaty",
+          "old_label": "Zonas Antárticas Especialmente Protegidas (ASPA / ASMA)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "aspa",
+      "label": "Zonas Antárticas Especialmente Protegidas (ASPA)",
+      "description": "Zonas de protección estricta según el Anexo V del Protocolo de Madrid.",
+      "provider": "Secretaría del Tratado Antártico / CEP",
+      "dataset": "ASPA_polygons",
+      "variable": "protected_polygons",
+      "license": "ATS Open Access",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "protected_managed_areas",
+      "scientific_role": "MANAGEMENT_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_governance_history",
+          "old_label": "Zonas Antárticas Especialmente Protegidas (ASPA)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "ccamlr_mpas",
+      "label": "Áreas Marinas Protegidas CCAMLR (Mar de Ross & Orcadas)",
+      "description": "Límites oficiales de las AMPs circumpolares aprobadas por consenso en CCAMLR.",
+      "provider": "CCAMLR / Quantarctica",
+      "dataset": "quantarctica_ccamlr_mpas",
+      "variable": "mpa_polygons",
+      "license": "CCAMLR Open Access",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "protected_managed_areas",
+      "scientific_role": "MANAGEMENT_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "treaty",
+          "old_label": "Áreas Marinas Protegidas CCAMLR (Mar de Ross & Orcadas)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "bbnj_high_seas",
+      "label": "Tratado de Alta Mar BBNJ (Naciones Unidas)",
+      "description": "Áreas marinas protegidas en alta mar y régimen MGR al norte de 60°S.",
+      "provider": "UN DOALOS / BBNJ Secretariat",
+      "dataset": "un_bbnj_clearinghouse",
+      "variable": "bbnj_marine_zones",
+      "license": "UN Public Document",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "treaties_management",
+      "scientific_role": "LEGAL_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "treaty",
+          "old_label": "Tratado de Alta Mar BBNJ (Naciones Unidas)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "ccamlr_statistical_areas",
+      "label": "Áreas Estadísticas de Pesca CCAMLR (48, 58, 88)",
+      "description": "Divisiones y subáreas de gestión y cuotas pesqueras del Océano Austral.",
+      "provider": "CCAMLR Secretariat / NPI",
+      "dataset": "CCAMLR_StatisticalAreas",
+      "variable": "statistical_subareas",
+      "license": "CCAMLR Open Data",
+      "canonical_domain": "GOVERNANCE_CONSERVATION",
+      "canonical_group": "treaties_management",
+      "scientific_role": "MANAGEMENT_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "QUANTARCTICA",
+          "old_subdomain": "quantarctica_governance_history",
+          "old_label": "Áreas Estadísticas de Pesca CCAMLR (48, 58, 88)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "field_observations",
+      "label": "Registros In-Situ (Offline SQLite/DuckDB)",
+      "description": "Avistamientos, muestras y telemetría recolectada en campaña polar.",
+      "provider": "AMOH Local Edge Node",
+      "dataset": "local_observations_edge",
+      "variable": "edge_records",
+      "license": "Observer Attribution",
+      "canonical_domain": "OBSERVATIONS_EVIDENCE",
+      "canonical_group": "field_observations",
+      "scientific_role": "FIELD_EVIDENCE",
+      "former_placements": [
+        {
+          "old_domain": "FIELD",
+          "old_subdomain": "local_field",
+          "old_label": "Registros In-Situ (Offline SQLite/DuckDB)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "argo_floats",
+      "label": "Perfiladores Autónomos Argo GDAC",
+      "description": "Boyas de deriva con perfiles oceanográficos verticales (0–2000m).",
+      "provider": "Argo Global Data Assembly Centre (GDAC)",
+      "dataset": "argo_southern_ocean_profiles",
+      "variable": "water_column_profiles",
+      "license": "Argo Open Data",
+      "canonical_domain": "OBSERVATIONS_EVIDENCE",
+      "canonical_group": "in_situ_sensors",
+      "scientific_role": "IN_SITU_OBSERVATION",
+      "former_placements": [
+        {
+          "old_domain": "SENSORS",
+          "old_subdomain": "sensor_arrays",
+          "old_label": "Perfiladores Autónomos Argo GDAC"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "hydrophone_network",
+      "label": "Red de Hidrófonos Submarinos (Bioacústica Polar)",
+      "description": "Anclajes acústicos de escucha de cetáceos y ruido ambiental.",
+      "provider": "AWI / HAFOS Acoustic Network",
+      "dataset": "hafos_acoustic_moorings",
+      "variable": "acoustic_detections",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "OBSERVATIONS_EVIDENCE",
+      "canonical_group": "in_situ_sensors",
+      "scientific_role": "IN_SITU_OBSERVATION",
+      "former_placements": [
+        {
+          "old_domain": "SENSORS",
+          "old_subdomain": "sensor_arrays",
+          "old_label": "Red de Hidrófonos Submarinos (Bioacústica Polar)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "live_webcams",
+      "label": "Cámaras Polares y Marítimas en Vivo",
+      "description": "Live visual context from authoritative polar/research operators; external discovery indexes may be linked but not treated as primary scientific measurements.",
+      "provider": "BAS / National Antarctic Programs; Cruising Earth as discovery index",
+      "dataset": "live_webcams",
+      "variable": "live_visual_context",
+      "license": "Source-specific; do not rehost third-party images without permission",
+      "canonical_domain": "OBSERVATIONS_EVIDENCE",
+      "canonical_group": "live_cameras",
+      "scientific_role": "LIVE_CONTEXT",
+      "former_placements": [],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "ADD_TO_CANONICAL_HIERARCHY"
+    },
+    {
+      "id": "satellite_tracking",
+      "label": "Constelaciones Satelitales (SGP4/TLE)",
+      "description": "Órbitas polares de Sentinel-1, Sentinel-2, Landsat-8/9 y MetOp.",
+      "provider": "CelesTrak / Space-Track",
+      "dataset": "active_polar_satellites",
+      "variable": "satellite_swaths",
+      "license": "Public Domain",
+      "canonical_domain": "OBSERVATIONS_EVIDENCE",
+      "canonical_group": "remote_observation",
+      "scientific_role": "REMOTE_OBSERVATION",
+      "former_placements": [
+        {
+          "old_domain": "SPACE_GEOPHYSICS",
+          "old_subdomain": "space_geophysics_sub",
+          "old_label": "Constelaciones Satelitales (SGP4/TLE)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "polar_friction_sectors",
+      "label": "Coropleta: Barómetro de Sectores de Fricción Polar (PFI)",
+      "description": "14 macro-cuencas polares evaluadas mediante el Polar Friction Index (PFI) con índices de fricción del 0 al 100.",
+      "provider": "AMOH Polar Friction Index Engine",
+      "dataset": "polar_friction_sectors",
+      "variable": "polar_friction_index",
+      "license": "Open Geopolitical Cartography",
+      "canonical_domain": "DERIVED_INTELLIGENCE",
+      "canonical_group": "derived_pressure",
+      "scientific_role": "DERIVED",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "grey_zones",
+          "old_label": "Coropleta: Barómetro de Sectores de Fricción Polar (PFI)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "grey_zones_defense_heatmap",
+      "label": "Mapa de Calor de Fricción Geopolítica & Zonas Grises",
+      "description": "Superficie continua interpolada de severidad de tensión estratégica ponderada por dualidad, prospección e interferencias.",
+      "provider": "AMOH Strategic Defense Observatory",
+      "dataset": "grey_zones_defense_heatmap",
+      "variable": "interpolated_friction_density",
+      "license": "AMOH Analytical Layer",
+      "canonical_domain": "DERIVED_INTELLIGENCE",
+      "canonical_group": "derived_pressure",
+      "scientific_role": "DERIVED",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "grey_zones",
+          "old_label": "Mapa de Calor de Fricción Geopolítica & Zonas Grises"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "subsurface_nuclear",
+      "label": "Submarinos Nucleares & Red Hidroacústica CTBTO",
+      "description": "Corredores estratégicos de patrullaje subsuperficial (Drake, Malvinas, Sandwich), estaciones SOFAR y límite desnuclearizado 60°S.",
+      "provider": "CTBTO Preparatory Commission / Strategic Navies",
+      "dataset": "subsurface_and_nuclear_patrols",
+      "variable": "nuclear_patrol_network",
+      "license": "Open Strategic Cartography",
+      "canonical_domain": "DERIVED_INTELLIGENCE",
+      "canonical_group": "experimental_legacy",
+      "scientific_role": "EXPERIMENTAL_CONTEXT",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "grey_zones",
+          "old_label": "Submarinos Nucleares & Red Hidroacústica CTBTO"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "grey_zones_defense",
+      "label": "Zonas Grises en Seguridad y Defensa (Infraestructura Dual & Brechas AIS)",
+      "description": "Monitoreo de radomos satelitales duales, prospección sísmica profunda (Madrid Art. 7), brechas AIS y fricción de soberanía.",
+      "provider": "AMOH Strategic Defense & Open ATS Inspection Network",
+      "dataset": "grey_zones_defense",
+      "variable": "strategic_threat_points",
+      "license": "Open Strategic Cartography",
+      "canonical_domain": "DERIVED_INTELLIGENCE",
+      "canonical_group": "risk_intelligence",
+      "scientific_role": "DERIVED",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "grey_zones",
+          "old_label": "Zonas Grises en Seguridad y Defensa (Infraestructura Dual & Brechas AIS)"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "grey_zones_buffers",
+      "label": "Zonas de Cobertura SIGINT, Radares & Buffers de Exclusión",
+      "description": "Radios de intercepción electromagnética (100–600 km), conos de cobertura BeiDou/KSAT y zonas de prospección 2D.",
+      "provider": "AMOH Tactical Radar & EW Cones",
+      "dataset": "grey_zones_buffers",
+      "variable": "tactical_exclusion_buffers",
+      "license": "Open Tactical Cartography",
+      "canonical_domain": "DERIVED_INTELLIGENCE",
+      "canonical_group": "risk_intelligence",
+      "scientific_role": "DERIVED",
+      "former_placements": [
+        {
+          "old_domain": "GOVERNANCE",
+          "old_subdomain": "grey_zones",
+          "old_label": "Zonas de Cobertura SIGINT, Radares & Buffers de Exclusión"
+        }
+      ],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "PRESERVE_ID_RECLASSIFY"
+    },
+    {
+      "id": "antgg_gravity_anomaly",
+      "label": "AntGG2021 — Anomalía de Gravedad",
+      "description": "Antarctic Gravity Grid 2021; anomalía de gravedad, 5 km, EPSG:3031.",
+      "provider": "IAG AntGG / PANGAEA",
+      "dataset": "AntGG2021",
+      "variable": "gravity_anomaly_mgal",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "PHYSICAL_EARTH",
+      "canonical_group": "seismicity_geophysics",
+      "scientific_role": "PHYSICAL_PREDICTOR",
+      "former_placements": [],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "DOWNLOAD_IF_MISSING"
+    },
+    {
+      "id": "antgg_bouguer_anomaly",
+      "label": "AntGG2021 — Anomalía de Bouguer",
+      "description": "Contexto crustal/estructural; uso exploratorio.",
+      "provider": "IAG AntGG / PANGAEA",
+      "dataset": "AntGG2021",
+      "variable": "bouguer_anomaly_mgal",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "PHYSICAL_EARTH",
+      "canonical_group": "seismicity_geophysics",
+      "scientific_role": "CONDITIONAL_CONTEXT",
+      "former_placements": [],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "DOWNLOAD_IF_MISSING"
+    },
+    {
+      "id": "admap2b_magnetic_anomaly",
+      "label": "ADMAP2B — Anomalía Magnética Observada",
+      "description": "Near-surface magnetic compilation; preserves observation gaps.",
+      "provider": "SCAR ADMAP / PANGAEA",
+      "dataset": "ADMAP2B",
+      "variable": "magnetic_anomaly_nt",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "PHYSICAL_EARTH",
+      "canonical_group": "seismicity_geophysics",
+      "scientific_role": "PHYSICAL_PREDICTOR",
+      "former_placements": [],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "DOWNLOAD_IF_MISSING"
+    },
+    {
+      "id": "admap2s_magnetic_anomaly",
+      "label": "ADMAP2S — Anomalía Magnética + Gap-Fill",
+      "description": "Magnetic context with satellite gap-fill; not a replacement for near-surface observations.",
+      "provider": "SCAR ADMAP / PANGAEA",
+      "dataset": "ADMAP2S",
+      "variable": "magnetic_anomaly_nt",
+      "license": "CC-BY-4.0",
+      "canonical_domain": "PHYSICAL_EARTH",
+      "canonical_group": "seismicity_geophysics",
+      "scientific_role": "CONDITIONAL_CONTEXT",
+      "former_placements": [],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "DOWNLOAD_IF_MISSING"
+    },
+    {
+      "id": "research_vessel_webcams",
+      "label": "Webcams Oficiales de Buques de Investigación",
+      "description": "Live visual context joined to vessel geometry.",
+      "provider": "BAS / National Antarctic Programs",
+      "dataset": "research_vessel_webcam_bindings",
+      "variable": "live_visual_context",
+      "license": "Source-specific",
+      "canonical_domain": "OBSERVATIONS_EVIDENCE",
+      "canonical_group": "live_cameras",
+      "scientific_role": "LIVE_CONTEXT",
+      "former_placements": [],
+      "deduplicated_from_multiple_ui_locations": false,
+      "status": "ADD_CONTEXT_LAYER"
+    }
+  ],
+  "compatibility_aliases": {
+    "maris_radionuclides": "maris_radionuclides",
+    "research_vessels": "research_vessels",
+    "webcams": "live_webcams",
+    "cctv_cams": "live_webcams"
+  },
+  "download_policy": {
+    "open_authoritative_missing_data": "AUTO_DOWNLOAD",
+    "webcam_images": "DO_NOT_SCRAPE_OR_REHOST",
+    "provenance_required": true
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "type": "FeatureCollection",
+  "name": "iaato_landing_sites",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.57,
+          -62.97
+        ]
+      },
+      "properties": {
+        "id": "SITE-DEC-01",
+        "name": "Isla Decepción: Bahía Balleneros & Fumarolas",
+        "region": "Islas Shetland del Sur",
+        "category": "Sitio Histórico & Geotérmico",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Pingüinos de barbijo, lobos marinos antárticos",
+        "historical_significance": "Factoría ballenera noruega Hektor (1912-1931), Base B británica y cementerio de balleneros.",
+        "h5n1_protocol": "Desinfección de botas y trípodes al desembarcar y reembarcar; prohibición de sentarse en la arena volcánica."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67,
+          -62.92
+        ]
+      },
+      "properties": {
+        "id": "SITE-DEC-02",
+        "name": "Isla Decepción: Bahía Telefón",
+        "region": "Islas Shetland del Sur",
+        "category": "Cráter Volcánico",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Skaus polares, petreles damero",
+        "historical_significance": "Punto de partida de expedición de Charcot (1908-1910).",
+        "h5n1_protocol": "Distancia mínima de 5 metros a cualquier ave marina."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.91,
+          -62.59
+        ]
+      },
+      "properties": {
+        "id": "SITE-HLF-03",
+        "name": "Isla Media Luna (Half Moon Island)",
+        "region": "Islas Shetland del Sur",
+        "category": "Colonia de Aves Silvestres",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Pingüinos de barbijo (colonia masiva), gaviotines antárticos, cormoranes de ojos azules",
+        "historical_significance": "Cámara de la Base Teniente Cámara (Argentina, estival).",
+        "h5n1_protocol": "Monitoreo diario de letargia o mortalidad en la pingüinera antes de permitir el primer desembarco."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.61,
+          -62.65
+        ]
+      },
+      "properties": {
+        "id": "SITE-HAN-04",
+        "name": "Hannah Point (Isla Livingston)",
+        "region": "Islas Shetland del Sur",
+        "category": "Santuario de Mamíferos y Aves",
+        "max_pax_on_shore": 50,
+        "primary_wildlife": "Elefantes marinos del sur, pingüinos macaroni (penacho amarillo), pingüinos papúa",
+        "historical_significance": "Sitio de fosilíferos del Cretácico y refugio de foqueros del siglo XIX.",
+        "h5n1_protocol": "Capacidad reducida a 50 personas simultáneas por alta sensibilidad faunística."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.49,
+          -64.82
+        ]
+      },
+      "properties": {
+        "id": "SITE-LCK-05",
+        "name": "Port Lockroy (Isla Goudier)",
+        "region": "Archipiélago Palmer / Península",
+        "category": "Museo Histórico & Oficina Postal",
+        "max_pax_on_shore": 60,
+        "primary_wildlife": "Pingüinos papúa (estudiados desde 1996 para medir el impacto de visitantes)",
+        "historical_significance": "Base A de la Operación Tabarin (1944). Famosa oficina de correos Penguin Post Office.",
+        "h5n1_protocol": "Uso obligatorio de mascarilla en el interior de la choza museo; senderos estrictamente balizados."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25,
+          -65.25
+        ]
+      },
+      "properties": {
+        "id": "SITE-VER-06",
+        "name": "Base Vernadsky (Isla Galíndez, Islas Argentine)",
+        "region": "Península Antártica",
+        "category": "Estación Científica Activa & Museo",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Pingüinos adelia, pingüinos papúa, focas de Weddell",
+        "historical_significance": "Antigua Base Faraday (donde se descubrió el agujero en la capa de ozono en 1985). Bar Faraday.",
+        "h5n1_protocol": "Desinfección antes de acceder al laboratorio meteorológico y museo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.54,
+          -64.83
+        ]
+      },
+      "properties": {
+        "id": "SITE-NEK-07",
+        "name": "Neko Harbour (Bahía Andvord)",
+        "region": "Costa Danco (Continente Antártico)",
+        "category": "Desembarco Continental",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Pingüinos papúa, petreles gigantes, focas leopardo",
+        "historical_significance": "Uno de los pocos desembarcos en la roca madre del continente antártico.",
+        "h5n1_protocol": "Ruta de ascenso hacia el mirador glaciar con distanciamiento riguroso a los nidos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.88,
+          -64.89
+        ]
+      },
+      "properties": {
+        "id": "SITE-PAR-08",
+        "name": "Bahía Paraíso (Base Brown & Waterboat Point)",
+        "region": "Costa Danco (Continente Antártico)",
+        "category": "Desembarco Continental & Base Estival",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Cormoranes antárticos, pingüinos papúa, rorcuales jorobados en el fiordo",
+        "historical_significance": "Base Almirante Brown (Argentina) y Base González Videla (Chile).",
+        "h5n1_protocol": "Desinfección estricta de raquetas de nieve y botas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.63,
+          -64.68
+        ]
+      },
+      "properties": {
+        "id": "SITE-CUV-09",
+        "name": "Isla Cuverville",
+        "region": "Canal Errera / Estrecho de Gerlache",
+        "category": "Colonia Masiva de Fauna",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Más de 6.500 parejas reproductoras de pingüinos papúa",
+        "historical_significance": "Descubierta por la expedición de Adrien de Gerlache en 1898.",
+        "h5n1_protocol": "Barrera sanitaria en la playa de piedras; prohibición de caminar sobre autopistas de pingüinos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.14,
+          -65.17
+        ]
+      },
+      "properties": {
+        "id": "SITE-PET-10",
+        "name": "Isla Petermann",
+        "region": "Sur del Canal Lemaire",
+        "category": "Colonia Mixta de Pingüinos",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Pingüinos de Adelia y pingüinos papúa, cormoranes de ojos azules",
+        "historical_significance": "Lugar de invernada del Pourquoi-Pas ? de Jean-Baptiste Charcot (1909).",
+        "h5n1_protocol": "Senderos guiados para evitar la erosión del musgo antártico y proteger nidos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.47,
+          -66.87
+        ]
+      },
+      "properties": {
+        "id": "SITE-DET-11",
+        "name": "Isla Detaille (Base W)",
+        "region": "Bahía Loubet (Sur del Círculo Polar)",
+        "category": "Sitio Histórico HSM N° 83",
+        "max_pax_on_shore": 40,
+        "primary_wildlife": "Focas cangrejeras sobre témpanos, petreles níveos",
+        "historical_significance": "Base W del FIDS británico abandonada apresuradamente en 1959 debido al bloqueo de hielo.",
+        "h5n1_protocol": "Acceso restringido a 12 personas dentro de la choza histórica simultáneamente."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98,
+          -63.53
+        ]
+      },
+      "properties": {
+        "id": "SITE-BRW-12",
+        "name": "Brown Bluff",
+        "region": "Estrecho Antarctic / Mar de Weddell",
+        "category": "Desembarco Continental & Tuya Volcánica",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "20.000 parejas de pingüino de Adelia, gaviotas cocineras, petreles damero",
+        "historical_significance": "Estructura geológica volcánica subglacial de toba.",
+        "h5n1_protocol": "Inspección visual previa de aves caídas por H5N1 antes del desembarco."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.78,
+          -63.58
+        ]
+      },
+      "properties": {
+        "id": "SITE-PAU-13",
+        "name": "Isla Paulet",
+        "region": "Mar de Weddell Septentrional",
+        "category": "Colonia Gigante de Adelia & Ruinas",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Más de 100.000 parejas de pingüinos de Adelia",
+        "historical_significance": "Refugio de piedra de los náufragos del Antarctic (expedición Nordenskjöld, 1903).",
+        "h5n1_protocol": "Zona de alta densidad; prohibición estricta de acercamiento a menos de 5 metros."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2,
+          -64.5
+        ]
+      },
+      "properties": {
+        "id": "SITE-SNO-14",
+        "name": "Isla Snow Hill (Colonia Pingüino Emperador)",
+        "region": "Mar de Weddell Meridional",
+        "category": "Colonia de Pingüino Emperador",
+        "max_pax_on_shore": 50,
+        "primary_wildlife": "Pingüinos emperador (Aptenodytes forsteri) con pichones",
+        "historical_significance": "Cabaña de madera de Nordenskjöld (1902).",
+        "h5n1_protocol": "Aterrizaje de helicóptero a mínimo 1.000 m de la colonia; aproximación a pie en silencio."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.51,
+          -54.28
+        ]
+      },
+      "properties": {
+        "id": "SITE-GRY-15",
+        "name": "Grytviken (Georgia del Sur)",
+        "region": "Islas Georgias del Sur",
+        "category": "Patrimonio Ballenero & Tumba Shackleton",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Elefantes marinos, lobos marinos de dos pelos, pingüinos rey",
+        "historical_significance": "Tumba de Sir Ernest Shackleton, Iglesia Noruega y Museo de Georgia del Sur.",
+        "h5n1_protocol": "Biólogos del gobierno de Georgia del Sur inspeccionan cada prenda y mochila al desembarcar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.0,
+          -54.43
+        ]
+      },
+      "properties": {
+        "id": "SITE-STA-16",
+        "name": "Bahía San Andrés (St. Andrews Bay, Georgia del Sur)",
+        "region": "Islas Georgias del Sur",
+        "category": "Colonia Mega-Biodiversidad",
+        "max_pax_on_shore": 100,
+        "primary_wildlife": "Más de 300.000 pingüinos rey, 6.000 elefantes marinos del sur",
+        "historical_significance": "Uno de los espectáculos de vida silvestre más densos del planeta.",
+        "h5n1_protocol": "Desinfección obligatoria de calzado en pediluvios con Virkon S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.23,
+          -71.28
+        ]
+      },
+      "properties": {
+        "id": "SITE-ADA-17",
+        "name": "Cabo Adare (Mar de Ross)",
+        "region": "Tierra Victoria / Mar de Ross",
+        "category": "Sitio Histórico HSM N° 22",
+        "max_pax_on_shore": 60,
+        "primary_wildlife": "250.000 parejas de pingüinos de Adelia",
+        "historical_significance": "Primera choza en el continente antártico levantada por Carsten Borchgrevink (1899).",
+        "h5n1_protocol": "Protegido por el Antarctic Heritage Trust de Nueva Zelanda."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.4,
+          -77.63
+        ]
+      },
+      "properties": {
+        "id": "SITE-ROY-18",
+        "name": "Cabo Royds (Mar de Ross)",
+        "region": "Isla de Ross",
+        "category": "Sitio Histórico HSM N° 15",
+        "max_pax_on_shore": 40,
+        "primary_wildlife": "Colonia de pingüino de Adelia más austral del planeta",
+        "historical_significance": "Choza intacta de la expedición Nimrod de Shackleton (1907-1909).",
+        "h5n1_protocol": "Límite de 8 personas dentro de la choza simultáneamente para preservar microclima."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.41,
+          -77.64
+        ]
+      },
+      "properties": {
+        "id": "SITE-EVA-19",
+        "name": "Cabo Evans (Choza de Scott)",
+        "region": "Isla de Ross",
+        "category": "Sitio Histórico HSM N° 16",
+        "max_pax_on_shore": 40,
+        "primary_wildlife": "Focas de Weddell, skuas polares",
+        "historical_significance": "Base de operaciones de la expedición Terra Nova de Robert Falcon Scott (1910-1913).",
+        "h5n1_protocol": "Monitoreo del aire interior y descalzado de botas exteriores."
+      }
+    }
+  ]
+}

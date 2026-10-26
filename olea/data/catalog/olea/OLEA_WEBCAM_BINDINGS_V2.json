@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "entity_enrichment_model": "webcams are attributes of stations/vessels where possible, not duplicate geometry layers",
+  "bindings": [
+    {
+      "entity_type": "research_vessel",
+      "canonical_entity_name": "RRS Sir David Attenborough",
+      "join_candidates": [
+        {
+          "field": "callsign",
+          "value": "ZDLQ3"
+        },
+        {
+          "field": "name_normalized",
+          "value": "sir david attenborough"
+        }
+      ],
+      "preferred_webcam_source": {
+        "provider": "British Antarctic Survey",
+        "url": "https://www.bas.ac.uk/data/our-data/images/webcams/rrs-sir-david-attenborough-webcam/"
+      },
+      "official_facility_page": "https://www.bas.ac.uk/polar-operations/sites-and-facilities/facility/rrs-sir-david-attenborough/",
+      "secondary_discovery_reference": {
+        "provider": "Cruising Earth",
+        "url": "https://www.cruisingearth.com/ship-webcams/british-antarctic-survey/sir-david-attenborough/"
+      },
+      "metadata_from_secondary_reference": {
+        "callsign": "ZDLQ3",
+        "homeport": "Port Stanley, Falkland Islands",
+        "camera_view": "Bridge (Forward)"
+      },
+      "scientific_role": "LIVE_VISUAL_CONTEXT",
+      "geometry_policy": "join_to_live_or_cached_vessel_position; never invent coordinates from webcam URL"
+    }
+  ]
+}

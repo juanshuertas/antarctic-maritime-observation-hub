@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.0.0",
+  "packs": [
+    {
+      "id": "wap_environmental_benchmark",
+      "label": "WAP Environmental Benchmark",
+      "layers": [
+        "sea_ice_concentration",
+        "southern_ocean_fronts",
+        "ocean_currents",
+        "quantarctica_bathymetry",
+        "glacier_velocity",
+        "field_observations"
+      ]
+    },
+    {
+      "id": "geophysics_bouchaala",
+      "label": "Geophysics / Bouchaala",
+      "layers": [
+        "quantarctica_bathymetry",
+        "seismic_events",
+        "antgg_gravity_anomaly",
+        "antgg_bouguer_anomaly",
+        "admap2b_magnetic_anomaly",
+        "admap2s_magnetic_anomaly"
+      ]
+    },
+    {
+      "id": "maris_radiotracers",
+      "label": "MARIS Radiotracers",
+      "layers": [
+        "maris_radionuclides"
+      ]
+    },
+    {
+      "id": "biodiversity_sensitivity",
+      "label": "Biodiversity Sensitivity",
+      "layers": [
+        "obis_biodiversity",
+        "penguin_colonies",
+        "emperor_penguin_colonies",
+        "important_bird_areas"
+      ]
+    },
+    {
+      "id": "maritime_pressure",
+      "label": "Maritime Pressure",
+      "layers": [
+        "ais_vessels",
+        "gfw_vessel_presence",
+        "gfw_sar_detections",
+        "gfw_fishing_effort",
+        "iaato_routes"
+      ]
+    },
+    {
+      "id": "research_vessel_live_context",
+      "label": "Research Vessel Live Context",
+      "layers": [
+        "research_vessels",
+        "research_vessel_webcams",
+        "live_webcams"
+      ]
+    },
+    {
+      "id": "pb124_field_evidence",
+      "label": "PB124 Field Evidence",
+      "layers": [
+        "field_observations",
+        "satellite_tracking"
+      ]
+    },
+    {
+      "id": "governance_conservation",
+      "label": "Governance & Conservation",
+      "layers": [
+        "aspa",
+        "asma",
+        "ccamlr_mpas",
+        "ccamlr_statistical_areas",
+        "bbnj_high_seas"
+      ]
+    }
+  ]
+}

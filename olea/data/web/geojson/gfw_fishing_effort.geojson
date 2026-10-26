@@ -1,0 +1,1484 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "gfw-afe-481-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.7,
+              -62.65
+            ],
+            [
+              -57.7,
+              -62.65
+            ],
+            [
+              -57.7,
+              -62.15
+            ],
+            [
+              -58.7,
+              -62.15
+            ],
+            [
+              -58.7,
+              -62.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-481-01",
+        "lat": -62.4,
+        "lon": -58.2,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 142.5,
+        "vessel_count": 4,
+        "flag_states": [
+          "NOR",
+          "CHL",
+          "CHN"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.1",
+        "sector_name": "Antarctic Peninsula & Drake Passage",
+        "mean_depth_m": -420.0,
+        "ice_concentration_pct": 12.0,
+        "biomass_density_g_m2": 185.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-481-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.0,
+              -63.05
+            ],
+            [
+              -60.0,
+              -63.05
+            ],
+            [
+              -60.0,
+              -62.55
+            ],
+            [
+              -61.0,
+              -62.55
+            ],
+            [
+              -61.0,
+              -63.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-481-02",
+        "lat": -62.8,
+        "lon": -60.5,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 98.2,
+        "vessel_count": 3,
+        "flag_states": [
+          "NOR",
+          "KOR"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.1",
+        "sector_name": "Bransfield Strait",
+        "mean_depth_m": -850.0,
+        "ice_concentration_pct": 8.0,
+        "biomass_density_g_m2": 240.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-481-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.5,
+              -63.55
+            ],
+            [
+              -61.5,
+              -63.55
+            ],
+            [
+              -61.5,
+              -63.05
+            ],
+            [
+              -62.5,
+              -63.05
+            ],
+            [
+              -62.5,
+              -63.55
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-481-03",
+        "lat": -63.3,
+        "lon": -62.0,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 64.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "CHL"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.1",
+        "sector_name": "Gerlache Strait",
+        "mean_depth_m": -510.0,
+        "ice_concentration_pct": 15.0,
+        "biomass_density_g_m2": 195.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-481-04",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.5,
+              -61.45
+            ],
+            [
+              -54.5,
+              -61.45
+            ],
+            [
+              -54.5,
+              -60.95
+            ],
+            [
+              -55.5,
+              -60.95
+            ],
+            [
+              -55.5,
+              -61.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-481-04",
+        "lat": -61.2,
+        "lon": -55.0,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 185.0,
+        "vessel_count": 5,
+        "flag_states": [
+          "NOR",
+          "CHN",
+          "CHL"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.1",
+        "sector_name": "Elephant Island Shelf",
+        "mean_depth_m": -320.0,
+        "ice_concentration_pct": 4.0,
+        "biomass_density_g_m2": 310.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-481-05",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.5,
+              -58.75
+            ],
+            [
+              -63.5,
+              -58.75
+            ],
+            [
+              -63.5,
+              -58.25
+            ],
+            [
+              -64.5,
+              -58.25
+            ],
+            [
+              -64.5,
+              -58.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-481-05",
+        "lat": -58.5,
+        "lon": -64.0,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 42.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "CHL",
+          "ARG"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Micromesistius australis (Southern Blue Whiting)",
+        "ccamlr_division": "48.1",
+        "sector_name": "Northern Drake Passage",
+        "mean_depth_m": -1200.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 85.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-482-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.0,
+              -60.85
+            ],
+            [
+              -45.0,
+              -60.85
+            ],
+            [
+              -45.0,
+              -60.35
+            ],
+            [
+              -46.0,
+              -60.35
+            ],
+            [
+              -46.0,
+              -60.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-482-01",
+        "lat": -60.6,
+        "lon": -45.5,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 210.4,
+        "vessel_count": 6,
+        "flag_states": [
+          "NOR",
+          "KOR",
+          "CHN"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.2",
+        "sector_name": "South Orkney Shelf Edge",
+        "mean_depth_m": -280.0,
+        "ice_concentration_pct": 6.0,
+        "biomass_density_g_m2": 350.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-482-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -44.3,
+              -61.05
+            ],
+            [
+              -43.3,
+              -61.05
+            ],
+            [
+              -43.3,
+              -60.55
+            ],
+            [
+              -44.3,
+              -60.55
+            ],
+            [
+              -44.3,
+              -61.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-482-02",
+        "lat": -60.8,
+        "lon": -43.8,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 130.8,
+        "vessel_count": 3,
+        "flag_states": [
+          "CHN",
+          "CHL"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.2",
+        "sector_name": "Coronation Island Margin",
+        "mean_depth_m": -350.0,
+        "ice_concentration_pct": 10.0,
+        "biomass_density_g_m2": 280.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-482-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.7,
+              -59.75
+            ],
+            [
+              -45.7,
+              -59.75
+            ],
+            [
+              -45.7,
+              -59.25
+            ],
+            [
+              -46.7,
+              -59.25
+            ],
+            [
+              -46.7,
+              -59.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-482-03",
+        "lat": -59.5,
+        "lon": -46.2,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 88.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "NOR",
+          "UKR"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.2",
+        "sector_name": "Scotia Basin South",
+        "mean_depth_m": -2200.0,
+        "ice_concentration_pct": 2.0,
+        "biomass_density_g_m2": 170.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-483-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -38.0,
+              -54.45
+            ],
+            [
+              -37.0,
+              -54.45
+            ],
+            [
+              -37.0,
+              -53.95
+            ],
+            [
+              -38.0,
+              -53.95
+            ],
+            [
+              -38.0,
+              -54.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-483-01",
+        "lat": -54.2,
+        "lon": -37.5,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 188.5,
+        "vessel_count": 4,
+        "flag_states": [
+          "GBR",
+          "NZL",
+          "NOR"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus eleginoides (Patagonian Toothfish)",
+        "ccamlr_division": "48.3",
+        "sector_name": "South Georgia North Slope",
+        "mean_depth_m": -1450.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 120.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-483-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.5,
+              -54.85
+            ],
+            [
+              -35.5,
+              -54.85
+            ],
+            [
+              -35.5,
+              -54.35
+            ],
+            [
+              -36.5,
+              -54.35
+            ],
+            [
+              -36.5,
+              -54.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-483-02",
+        "lat": -54.6,
+        "lon": -36.0,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 142.0,
+        "vessel_count": 3,
+        "flag_states": [
+          "GBR",
+          "CHL"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus eleginoides (Patagonian Toothfish)",
+        "ccamlr_division": "48.3",
+        "sector_name": "South Georgia Southeast Banks",
+        "mean_depth_m": -1650.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 110.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-483-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.5,
+              -54.05
+            ],
+            [
+              -40.5,
+              -54.05
+            ],
+            [
+              -40.5,
+              -53.55
+            ],
+            [
+              -41.5,
+              -53.55
+            ],
+            [
+              -41.5,
+              -54.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-483-03",
+        "lat": -53.8,
+        "lon": -41.0,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 95.0,
+        "vessel_count": 3,
+        "flag_states": [
+          "NOR",
+          "CHL"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.3",
+        "sector_name": "Shag Rocks Krill Vortex",
+        "mean_depth_m": -220.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 410.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-483-04",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -27.0,
+              -57.75
+            ],
+            [
+              -26.0,
+              -57.75
+            ],
+            [
+              -26.0,
+              -57.25
+            ],
+            [
+              -27.0,
+              -57.25
+            ],
+            [
+              -27.0,
+              -57.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-483-04",
+        "lat": -57.5,
+        "lon": -26.5,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 62.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "GBR",
+          "ZAF"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus eleginoides (Patagonian Toothfish)",
+        "ccamlr_division": "48.3",
+        "sector_name": "South Sandwich Trench Arc",
+        "mean_depth_m": -2100.0,
+        "ice_concentration_pct": 5.0,
+        "biomass_density_g_m2": 75.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-485-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -45.75,
+              -68.25
+            ],
+            [
+              -44.25,
+              -68.25
+            ],
+            [
+              -44.25,
+              -67.75
+            ],
+            [
+              -45.75,
+              -67.75
+            ],
+            [
+              -45.75,
+              -68.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-485-01",
+        "lat": -68.0,
+        "lon": -45.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 35.0,
+        "vessel_count": 1,
+        "flag_states": [
+          "NOR"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.5",
+        "sector_name": "Weddell Sea Continental Slope",
+        "mean_depth_m": -1800.0,
+        "ice_concentration_pct": 35.0,
+        "biomass_density_g_m2": 130.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-485-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -32.75,
+              -71.75
+            ],
+            [
+              -31.25,
+              -71.75
+            ],
+            [
+              -31.25,
+              -71.25
+            ],
+            [
+              -32.75,
+              -71.25
+            ],
+            [
+              -32.75,
+              -71.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-485-02",
+        "lat": -71.5,
+        "lon": -32.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 18.5,
+        "vessel_count": 1,
+        "flag_states": [
+          "RUS"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus mawsoni (Antarctic Toothfish)",
+        "ccamlr_division": "48.5",
+        "sector_name": "Eastern Weddell Sea Shelf",
+        "mean_depth_m": -920.0,
+        "ice_concentration_pct": 45.0,
+        "biomass_density_g_m2": 60.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-485-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -50.75,
+              -65.45
+            ],
+            [
+              -49.25,
+              -65.45
+            ],
+            [
+              -49.25,
+              -64.95
+            ],
+            [
+              -50.75,
+              -64.95
+            ],
+            [
+              -50.75,
+              -65.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-485-03",
+        "lat": -65.2,
+        "lon": -50.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 55.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "NOR",
+          "KOR"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "48.5",
+        "sector_name": "Northwestern Weddell Drift",
+        "mean_depth_m": -2400.0,
+        "ice_concentration_pct": 20.0,
+        "biomass_density_g_m2": 160.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-486-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.25,
+              -67.65
+            ],
+            [
+              12.75,
+              -67.65
+            ],
+            [
+              12.75,
+              -67.15
+            ],
+            [
+              11.25,
+              -67.15
+            ],
+            [
+              11.25,
+              -67.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-486-01",
+        "lat": -67.4,
+        "lon": 12.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 42.0,
+        "vessel_count": 1,
+        "flag_states": [
+          "ZAF",
+          "JPN"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus mawsoni (Antarctic Toothfish)",
+        "ccamlr_division": "48.6",
+        "sector_name": "Astrid Ridge / Queen Maud Land",
+        "mean_depth_m": -1350.0,
+        "ice_concentration_pct": 25.0,
+        "biomass_density_g_m2": 80.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-486-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.9,
+              -54.65
+            ],
+            [
+              3.9,
+              -54.65
+            ],
+            [
+              3.9,
+              -54.15
+            ],
+            [
+              2.9,
+              -54.15
+            ],
+            [
+              2.9,
+              -54.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-486-02",
+        "lat": -54.4,
+        "lon": 3.4,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 36.0,
+        "vessel_count": 1,
+        "flag_states": [
+          "NOR"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus eleginoides (Patagonian Toothfish)",
+        "ccamlr_division": "48.6",
+        "sector_name": "Bouvet Island Ridge",
+        "mean_depth_m": -1100.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 95.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-584-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.25,
+              -65.75
+            ],
+            [
+              76.75,
+              -65.75
+            ],
+            [
+              76.75,
+              -65.25
+            ],
+            [
+              75.25,
+              -65.25
+            ],
+            [
+              75.25,
+              -65.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-584-01",
+        "lat": -65.5,
+        "lon": 76.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 118.0,
+        "vessel_count": 3,
+        "flag_states": [
+          "AUS",
+          "JPN",
+          "CHN"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "58.4.2",
+        "sector_name": "Prydz Bay / Amery Trough",
+        "mean_depth_m": -680.0,
+        "ice_concentration_pct": 18.0,
+        "biomass_density_g_m2": 290.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-584-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.25,
+              -64.45
+            ],
+            [
+              82.75,
+              -64.45
+            ],
+            [
+              82.75,
+              -63.95
+            ],
+            [
+              81.25,
+              -63.95
+            ],
+            [
+              81.25,
+              -64.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-584-02",
+        "lat": -64.2,
+        "lon": 82.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 85.5,
+        "vessel_count": 2,
+        "flag_states": [
+          "CHN",
+          "NOR"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "58.4.2",
+        "sector_name": "Davis Sea Margin",
+        "mean_depth_m": -1400.0,
+        "ice_concentration_pct": 14.0,
+        "biomass_density_g_m2": 210.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-584-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              111.25,
+              -65.25
+            ],
+            [
+              112.75,
+              -65.25
+            ],
+            [
+              112.75,
+              -64.75
+            ],
+            [
+              111.25,
+              -64.75
+            ],
+            [
+              111.25,
+              -65.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-584-03",
+        "lat": -65.0,
+        "lon": 112.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 54.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "AUS",
+          "FRA"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus mawsoni (Antarctic Toothfish)",
+        "ccamlr_division": "58.4.1",
+        "sector_name": "Wilkes Land / Casey Slope",
+        "mean_depth_m": -1600.0,
+        "ice_concentration_pct": 22.0,
+        "biomass_density_g_m2": 90.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-585-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.0,
+              -50.45
+            ],
+            [
+              71.0,
+              -50.45
+            ],
+            [
+              71.0,
+              -49.95
+            ],
+            [
+              70.0,
+              -49.95
+            ],
+            [
+              70.0,
+              -50.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-585-01",
+        "lat": -50.2,
+        "lon": 70.5,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 165.0,
+        "vessel_count": 4,
+        "flag_states": [
+          "FRA",
+          "AUS"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus eleginoides (Patagonian Toothfish)",
+        "ccamlr_division": "58.5.1",
+        "sector_name": "Kerguelen Plateau Central",
+        "mean_depth_m": -1150.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 145.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-585-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.3,
+              -53.35
+            ],
+            [
+              74.3,
+              -53.35
+            ],
+            [
+              74.3,
+              -52.85
+            ],
+            [
+              73.3,
+              -52.85
+            ],
+            [
+              73.3,
+              -53.35
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-585-02",
+        "lat": -53.1,
+        "lon": 73.8,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 124.0,
+        "vessel_count": 3,
+        "flag_states": [
+          "AUS"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus eleginoides (Patagonian Toothfish)",
+        "ccamlr_division": "58.5.2",
+        "sector_name": "Heard & McDonald Islands EEZ",
+        "mean_depth_m": -980.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 160.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-585-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              158.4,
+              -54.75
+            ],
+            [
+              159.4,
+              -54.75
+            ],
+            [
+              159.4,
+              -54.25
+            ],
+            [
+              158.4,
+              -54.25
+            ],
+            [
+              158.4,
+              -54.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-585-03",
+        "lat": -54.5,
+        "lon": 158.9,
+        "dlat": 0.5,
+        "dlon": 1.0,
+        "hours": 72.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "AUS"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus eleginoides (Patagonian Toothfish)",
+        "ccamlr_division": "58.5.2",
+        "sector_name": "Macquarie Ridge Complex",
+        "mean_depth_m": -1750.0,
+        "ice_concentration_pct": 0.0,
+        "biomass_density_g_m2": 115.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-881-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.25,
+              -72.75
+            ],
+            [
+              174.75,
+              -72.75
+            ],
+            [
+              174.75,
+              -72.25
+            ],
+            [
+              173.25,
+              -72.25
+            ],
+            [
+              173.25,
+              -72.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-881-01",
+        "lat": -72.5,
+        "lon": 174.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 115.0,
+        "vessel_count": 3,
+        "flag_states": [
+          "NZL",
+          "KOR",
+          "NOR"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus mawsoni (Antarctic Toothfish)",
+        "ccamlr_division": "88.1",
+        "sector_name": "Ross Sea Slope (Outside General Protection Zone)",
+        "mean_depth_m": -1100.0,
+        "ice_concentration_pct": 30.0,
+        "biomass_density_g_m2": 180.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-881-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              177.75,
+              -74.25
+            ],
+            [
+              179.25,
+              -74.25
+            ],
+            [
+              179.25,
+              -73.75
+            ],
+            [
+              177.75,
+              -73.75
+            ],
+            [
+              177.75,
+              -74.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-881-02",
+        "lat": -74.0,
+        "lon": 178.5,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 94.2,
+        "vessel_count": 2,
+        "flag_states": [
+          "NZL",
+          "ESP"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus mawsoni (Antarctic Toothfish)",
+        "ccamlr_division": "88.1",
+        "sector_name": "Pennell Bank / Iselin Bank",
+        "mean_depth_m": -850.0,
+        "ice_concentration_pct": 38.0,
+        "biomass_density_g_m2": 165.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-881-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              169.75,
+              -71.25
+            ],
+            [
+              171.25,
+              -71.25
+            ],
+            [
+              171.25,
+              -70.75
+            ],
+            [
+              169.75,
+              -70.75
+            ],
+            [
+              169.75,
+              -71.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-881-03",
+        "lat": -71.0,
+        "lon": 170.5,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 52.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "KOR",
+          "UKR"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus mawsoni (Antarctic Toothfish)",
+        "ccamlr_division": "88.1",
+        "sector_name": "Cape Adare Continental Rise",
+        "mean_depth_m": -1950.0,
+        "ice_concentration_pct": 20.0,
+        "biomass_density_g_m2": 105.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-882-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -166.0,
+              -70.45
+            ],
+            [
+              -164.0,
+              -70.45
+            ],
+            [
+              -164.0,
+              -69.95
+            ],
+            [
+              -166.0,
+              -69.95
+            ],
+            [
+              -166.0,
+              -70.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-882-01",
+        "lat": -70.2,
+        "lon": -165.0,
+        "dlat": 0.5,
+        "dlon": 2.0,
+        "hours": 76.4,
+        "vessel_count": 2,
+        "flag_states": [
+          "NZL",
+          "USA"
+        ],
+        "gear_type": "SET_LONGLINES",
+        "target_species": "Dissostichus mawsoni (Antarctic Toothfish)",
+        "ccamlr_division": "88.2",
+        "sector_name": "Marie Byrd Land Slope",
+        "mean_depth_m": -1600.0,
+        "ice_concentration_pct": 40.0,
+        "biomass_density_g_m2": 110.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-883-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.75,
+              -69.75
+            ],
+            [
+              -84.25,
+              -69.75
+            ],
+            [
+              -84.25,
+              -69.25
+            ],
+            [
+              -85.75,
+              -69.25
+            ],
+            [
+              -85.75,
+              -69.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-883-01",
+        "lat": -69.5,
+        "lon": -85.0,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 48.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "CHL",
+          "NOR"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "88.3",
+        "sector_name": "Peter I Island Shelf",
+        "mean_depth_m": -750.0,
+        "ice_concentration_pct": 28.0,
+        "biomass_density_g_m2": 140.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-afe-883-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.25,
+              -67.45
+            ],
+            [
+              -77.75,
+              -67.45
+            ],
+            [
+              -77.75,
+              -66.95
+            ],
+            [
+              -79.25,
+              -66.95
+            ],
+            [
+              -79.25,
+              -67.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "gfw-afe-883-02",
+        "lat": -67.2,
+        "lon": -78.5,
+        "dlat": 0.5,
+        "dlon": 1.5,
+        "hours": 62.0,
+        "vessel_count": 2,
+        "flag_states": [
+          "NOR",
+          "KOR"
+        ],
+        "gear_type": "TRAWLERS",
+        "target_species": "Euphausia superba (Antarctic Krill)",
+        "ccamlr_division": "88.3",
+        "sector_name": "Marguerite Bay Outer Margin",
+        "mean_depth_m": -620.0,
+        "ice_concentration_pct": 16.0,
+        "biomass_density_g_m2": 220.0
+      }
+    }
+  ]
+}

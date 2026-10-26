@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.45,
+          -63.15
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-001",
+        "latitude": -63.15,
+        "longitude": -59.45,
+        "timestamp_utc": "2026-03-18T04:12:00Z",
+        "satellite_platform": "Sentinel-1A (C-SAR)",
+        "orbit_mode": "IW_GRDH_1SDV (Desc)",
+        "rcs_db": 28.4,
+        "estimated_length_m": 86.0,
+        "estimated_width_m": 16.2,
+        "confidence": "HIGH",
+        "ais_matched": true,
+        "matched_shipname": "ANTARCTIC ENDURANCE",
+        "matched_mmsi": "257400000",
+        "matched_imo": "9827891",
+        "matched_flag": "NOR",
+        "vessel_status": "AUTHORIZED_CCAMLR_VESSEL",
+        "ccamlr_division": "48.1",
+        "sea_state": "MODERATE (Beaufort 4)",
+        "anomaly_score": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.8,
+          -61.4
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-002",
+        "latitude": -61.4,
+        "longitude": -56.8,
+        "timestamp_utc": "2026-03-17T22:30:00Z",
+        "satellite_platform": "Sentinel-1B (C-SAR)",
+        "orbit_mode": "IW_GRDH_1SDV (Asc)",
+        "rcs_db": 34.1,
+        "estimated_length_m": 120.0,
+        "estimated_width_m": 22.0,
+        "confidence": "HIGH",
+        "ais_matched": true,
+        "matched_shipname": "SAGA SEA",
+        "matched_mmsi": "259539000",
+        "matched_imo": "7390416",
+        "matched_flag": "NOR",
+        "vessel_status": "AUTHORIZED_CCAMLR_VESSEL",
+        "ccamlr_division": "48.1",
+        "sea_state": "ROUGH (Beaufort 6)",
+        "anomaly_score": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.1,
+          -60.2
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-003",
+        "latitude": -60.2,
+        "longitude": -44.1,
+        "timestamp_utc": "2026-03-16T11:45:00Z",
+        "satellite_platform": "RADARSAT-Constellation",
+        "orbit_mode": "Medium Resolution 50m",
+        "rcs_db": 22.0,
+        "estimated_length_m": 65.0,
+        "estimated_width_m": 11.5,
+        "confidence": "MEDIUM",
+        "ais_matched": false,
+        "matched_shipname": null,
+        "matched_mmsi": null,
+        "matched_imo": null,
+        "matched_flag": "DARK_UNKNOWN",
+        "vessel_status": "UNMATCHED_RADAR_TARGET (Investigating Dark Fleet)",
+        "ccamlr_division": "48.2",
+        "sea_state": "HIGH (Beaufort 7)",
+        "anomaly_score": 0.94
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.2,
+          -73.1
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-004",
+        "latitude": -73.1,
+        "longitude": 176.2,
+        "timestamp_utc": "2026-03-15T08:15:00Z",
+        "satellite_platform": "Sentinel-1A (C-SAR)",
+        "orbit_mode": "EW_GRDM_1SDH (Desc)",
+        "rcs_db": 30.5,
+        "estimated_length_m": 58.0,
+        "estimated_width_m": 12.0,
+        "confidence": "HIGH",
+        "ais_matched": true,
+        "matched_shipname": "SAN AOTEA II",
+        "matched_mmsi": "512008000",
+        "matched_imo": "9057111",
+        "matched_flag": "NZL",
+        "vessel_status": "AUTHORIZED_CCAMLR_VESSEL",
+        "ccamlr_division": "88.1",
+        "sea_state": "CALM / ICE FREE LEADS",
+        "anomaly_score": 0.04
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.2,
+          -54.1
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-005",
+        "latitude": -54.1,
+        "longitude": -38.2,
+        "timestamp_utc": "2026-03-14T19:05:00Z",
+        "satellite_platform": "Sentinel-1A (C-SAR)",
+        "orbit_mode": "IW_GRDH_1SDV (Asc)",
+        "rcs_db": 31.8,
+        "estimated_length_m": 54.0,
+        "estimated_width_m": 10.8,
+        "confidence": "HIGH",
+        "ais_matched": true,
+        "matched_shipname": "ARGOS GEORGIA",
+        "matched_mmsi": "232008450",
+        "matched_imo": "9814636",
+        "matched_flag": "GBR",
+        "vessel_status": "AUTHORIZED_CCAMLR_VESSEL",
+        "ccamlr_division": "48.3",
+        "sea_state": "VERY ROUGH (Beaufort 8)",
+        "anomaly_score": 0.03
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9,
+          -52.8
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-006",
+        "latitude": -52.8,
+        "longitude": -48.9,
+        "timestamp_utc": "2026-03-13T03:22:00Z",
+        "satellite_platform": "Sentinel-1B (C-SAR)",
+        "orbit_mode": "IW_GRDH_1SDV (Desc)",
+        "rcs_db": 25.3,
+        "estimated_length_m": 72.0,
+        "estimated_width_m": 13.0,
+        "confidence": "HIGH",
+        "ais_matched": false,
+        "matched_shipname": null,
+        "matched_mmsi": null,
+        "matched_imo": null,
+        "matched_flag": "DARK_UNKNOWN",
+        "vessel_status": "UNMATCHED_RADAR_TARGET (Falklands / Malvinas Gap Dark Vessel)",
+        "ccamlr_division": "48.3",
+        "sea_state": "MODERATE (Beaufort 4)",
+        "anomaly_score": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8,
+          -65.2
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-007",
+        "latitude": -65.2,
+        "longitude": 75.8,
+        "timestamp_utc": "2026-03-12T14:40:00Z",
+        "satellite_platform": "Sentinel-1A (C-SAR)",
+        "orbit_mode": "EW_GRDM_1SDH (Asc)",
+        "rcs_db": 36.2,
+        "estimated_length_m": 118.0,
+        "estimated_width_m": 19.5,
+        "confidence": "HIGH",
+        "ais_matched": true,
+        "matched_shipname": "LONG TENG",
+        "matched_mmsi": "412539000",
+        "matched_imo": "8706325",
+        "matched_flag": "CHN",
+        "vessel_status": "AUTHORIZED_CCAMLR_VESSEL",
+        "ccamlr_division": "58.4.2",
+        "sea_state": "LIGHT AIR (Beaufort 2)",
+        "anomaly_score": 0.01
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-sar-2026-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8,
+          -50.1
+        ]
+      },
+      "properties": {
+        "sar_id": "gfw-sar-2026-008",
+        "latitude": -50.1,
+        "longitude": 70.8,
+        "timestamp_utc": "2026-03-11T09:50:00Z",
+        "satellite_platform": "Sentinel-1A (C-SAR)",
+        "orbit_mode": "IW_GRDH_1SDV (Asc)",
+        "rcs_db": 29.7,
+        "estimated_length_m": 56.0,
+        "estimated_width_m": 11.2,
+        "confidence": "HIGH",
+        "ais_matched": true,
+        "matched_shipname": "LE SAINT ANDRE",
+        "matched_mmsi": "228038600",
+        "matched_imo": "9426984",
+        "matched_flag": "FRA",
+        "vessel_status": "AUTHORIZED_CCAMLR_VESSEL",
+        "ccamlr_division": "58.5.1",
+        "sea_state": "MODERATE (Beaufort 4)",
+        "anomaly_score": 0.02
+      }
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "type": "FeatureCollection",
+  "name": "AMOH_Polar_Friction_Sectors",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.0,
+              -82.0
+            ],
+            [
+              -20.0,
+              -82.0
+            ],
+            [
+              -20.0,
+              -60.0
+            ],
+            [
+              -65.0,
+              -60.0
+            ],
+            [
+              -65.0,
+              -82.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "weddell_sea",
+        "sector_id": "weddell_sea",
+        "name": "Cuenca del Mar de Weddell & Plataforma Filchner",
+        "polar_friction_index": 78.5,
+        "tension_level": "CRITICAL",
+        "color": "#ef4444",
+        "primary_driver": "Prospección Sísmica Marina No Notificada & Centro Satelital Belgrano II",
+        "treaty_articles": [
+          "Protocolo de Madrid Art. 7",
+          "Tratado Antártico Art. I y VII"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.0,
+              -74.0
+            ],
+            [
+              85.0,
+              -74.0
+            ],
+            [
+              85.0,
+              -65.0
+            ],
+            [
+              65.0,
+              -65.0
+            ],
+            [
+              65.0,
+              -74.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "prydz_bay",
+        "sector_id": "prydz_bay",
+        "name": "Bahía Prydz & Larsemann Hills",
+        "polar_friction_index": 81.0,
+        "tension_level": "CRITICAL",
+        "color": "#ef4444",
+        "primary_driver": "Radomos Satelitales BeiDou de Doble Uso y Red de Sensores Zhongshan",
+        "treaty_articles": [
+          "Tratado Antártico Art. I",
+          "Tratado Antártico Art. VII"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.0,
+              -70.0
+            ],
+            [
+              -55.0,
+              -70.0
+            ],
+            [
+              -55.0,
+              -61.0
+            ],
+            [
+              -75.0,
+              -61.0
+            ],
+            [
+              -75.0,
+              -70.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "antarctic_peninsula",
+        "sector_id": "antarctic_peninsula",
+        "name": "Península Antártica & Estrecho de Bransfield",
+        "polar_friction_index": 74.0,
+        "tension_level": "ELEVATED",
+        "color": "#f59e0b",
+        "primary_driver": "Interferencia GNSS Bransfield, Saturación RF King George y Fricción de Reclamaciones",
+        "treaty_articles": [
+          "Tratado Antártico Art. IV",
+          "Convenio SOLAS Cap. V"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              160.0,
+              -84.0
+            ],
+            [
+              -165.0,
+              -84.0
+            ],
+            [
+              -165.0,
+              -70.0
+            ],
+            [
+              160.0,
+              -70.0
+            ],
+            [
+              160.0,
+              -84.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ross_sea",
+        "sector_id": "ross_sea",
+        "name": "Mar de Ross & Cuenca Central",
+        "polar_friction_index": 72.5,
+        "tension_level": "ELEVATED",
+        "color": "#f59e0b",
+        "primary_driver": "Evaluación Geofísica de Hidrocarburos y Enlace Satelital Black Island McMurdo",
+        "treaty_articles": [
+          "Protocolo de Madrid Art. 7",
+          "CCAMLR AMP Mar de Ross"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.0,
+              -60.0
+            ],
+            [
+              -30.0,
+              -60.0
+            ],
+            [
+              -30.0,
+              -52.0
+            ],
+            [
+              -48.0,
+              -52.0
+            ],
+            [
+              -48.0,
+              -60.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "scotia_arc",
+        "sector_id": "scotia_arc",
+        "name": "Arco de Scotia & Georgias del Sur",
+        "polar_friction_index": 70.0,
+        "tension_level": "ELEVATED",
+        "color": "#f59e0b",
+        "primary_driver": "Flota Pesquera Oscura, Apagado de Transpondedores AIS en Límite CCAMLR 48.3",
+        "treaty_articles": [
+          "Convención CCAMLR Sistema de Inspección"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.0,
+              -62.5
+            ],
+            [
+              -54.0,
+              -62.5
+            ],
+            [
+              -54.0,
+              -55.0
+            ],
+            [
+              -72.0,
+              -55.0
+            ],
+            [
+              -72.0,
+              -62.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "drake_passage",
+        "sector_id": "drake_passage",
+        "name": "Corredor Estratégico Pasaje de Drake",
+        "polar_friction_index": 61.0,
+        "tension_level": "ELEVATED",
+        "color": "#f59e0b",
+        "primary_driver": "Chokepoint Marítimo Global, Sensores Acústicos Submarinos Dual-Use",
+        "treaty_articles": [
+          "UNCLOS Parte VII",
+          "Tratado Antártico Art. VI"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.0,
+              -76.0
+            ],
+            [
+              -100.0,
+              -76.0
+            ],
+            [
+              -100.0,
+              -70.0
+            ],
+            [
+              -135.0,
+              -70.0
+            ],
+            [
+              -135.0,
+              -76.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "amundsen_sea",
+        "sector_id": "amundsen_sea",
+        "name": "Mar de Amundsen & Talud Continental",
+        "polar_friction_index": 58.0,
+        "tension_level": "ELEVATED",
+        "color": "#f59e0b",
+        "primary_driver": "Pesca INDNR de Merluza Negra en Talud Aislado sin Observador",
+        "treaty_articles": [
+          "CCAMLR Art. XXIV"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -20.0,
+              -78.0
+            ],
+            [
+              45.0,
+              -78.0
+            ],
+            [
+              45.0,
+              -68.0
+            ],
+            [
+              -20.0,
+              -68.0
+            ],
+            [
+              -20.0,
+              -78.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "queen_maud_land",
+        "sector_id": "queen_maud_land",
+        "name": "Tierra de la Reina Maud (Dronning Maud Land)",
+        "polar_friction_index": 56.5,
+        "tension_level": "ELEVATED",
+        "color": "#f59e0b",
+        "primary_driver": "TrollSat KSAT Polar Ground Station, Downlink de Satélites Militares LEO",
+        "treaty_articles": [
+          "Tratado Antártico Art. I"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.0,
+              -72.0
+            ],
+            [
+              135.0,
+              -72.0
+            ],
+            [
+              135.0,
+              -64.0
+            ],
+            [
+              90.0,
+              -64.0
+            ],
+            [
+              90.0,
+              -72.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "wilkes_land",
+        "sector_id": "wilkes_land",
+        "name": "Tierra de Wilkes & Cuenca Subglacial",
+        "polar_friction_index": 44.0,
+        "tension_level": "MODERATE",
+        "color": "#38bdf8",
+        "primary_driver": "Campañas Geofísicas de Reconocimiento Subglacial",
+        "treaty_articles": [
+          "Protocolo de Madrid Art. 7"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.0,
+              -75.0
+            ],
+            [
+              -75.0,
+              -75.0
+            ],
+            [
+              -75.0,
+              -68.0
+            ],
+            [
+              -100.0,
+              -68.0
+            ],
+            [
+              -100.0,
+              -75.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bellingshausen_sea",
+        "sector_id": "bellingshausen_sea",
+        "name": "Mar de Bellingshausen & Isla Alejandro I",
+        "polar_friction_index": 37.0,
+        "tension_level": "MODERATE",
+        "color": "#38bdf8",
+        "primary_driver": "Tránsito Logístico y Científico Regular",
+        "treaty_articles": [
+          "Tratado Antártico Art. II"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.0,
+              -72.0
+            ],
+            [
+              65.0,
+              -72.0
+            ],
+            [
+              65.0,
+              -65.0
+            ],
+            [
+              45.0,
+              -65.0
+            ],
+            [
+              45.0,
+              -72.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "enderby_land",
+        "sector_id": "enderby_land",
+        "name": "Tierra de Enderby & Bahía Casey",
+        "polar_friction_index": 32.5,
+        "tension_level": "MODERATE",
+        "color": "#38bdf8",
+        "primary_driver": "Operaciones Científicas Estándar y Meteorología Costera",
+        "treaty_articles": [
+          "Tratado Antártico Art. III"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180.0,
+              -90.0
+            ],
+            [
+              180.0,
+              -90.0
+            ],
+            [
+              180.0,
+              -84.0
+            ],
+            [
+              -180.0,
+              -84.0
+            ],
+            [
+              -180.0,
+              -90.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "south_pole_interior",
+        "sector_id": "south_pole_interior",
+        "name": "Meseta Polar Interior & Polo Sur",
+        "polar_friction_index": 31.0,
+        "tension_level": "MODERATE",
+        "color": "#38bdf8",
+        "primary_driver": "Comunicaciones Satelitales y Astrofísica Polar Amundsen-Scott",
+        "treaty_articles": [
+          "Tratado Antártico Art. I y VII"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.0,
+              -84.0
+            ],
+            [
+              -40.0,
+              -84.0
+            ],
+            [
+              -40.0,
+              -75.0
+            ],
+            [
+              -85.0,
+              -75.0
+            ],
+            [
+              -85.0,
+              -84.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ronne_filchner",
+        "sector_id": "ronne_filchner",
+        "name": "Barrera de Hielo Ronne-Filchner & Dorsal Berkner",
+        "polar_friction_index": 30.5,
+        "tension_level": "MODERATE",
+        "color": "#38bdf8",
+        "primary_driver": "Sondeos Gravimétricos y de Penetración de Hielo",
+        "treaty_articles": [
+          "Protocolo de Madrid Art. 7"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              135.0,
+              -72.0
+            ],
+            [
+              160.0,
+              -72.0
+            ],
+            [
+              160.0,
+              -65.0
+            ],
+            [
+              135.0,
+              -65.0
+            ],
+            [
+              135.0,
+              -72.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "george_v_land",
+        "sector_id": "george_v_land",
+        "name": "Tierra de Jorge V & Tierra Adelia",
+        "polar_friction_index": 29.0,
+        "tension_level": "LOW",
+        "color": "#10b981",
+        "primary_driver": "Operaciones Científicas Regulares en Dumont d Urville",
+        "treaty_articles": [
+          "Tratado Antártico Art. III"
+        ],
+        "type": "POLAR_FRICTION_SECTOR"
+      }
+    }
+  ]
+}

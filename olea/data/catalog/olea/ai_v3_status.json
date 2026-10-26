@@ -1,0 +1,7 @@
+{
+  "status": "TRAINED_EXPLORATORY_QA",
+  "scientific_claims_validated": false,
+  "qa_groups_trained": 16,
+  "review_flags": 257,
+  "role": "EXPLORATORY_MARIS_QA_ONLY"
+}

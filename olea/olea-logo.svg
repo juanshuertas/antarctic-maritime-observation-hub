@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <defs>
+    <!-- SDG Gradients -->
+    <linearGradient id="olea-ice-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#26BDE2" />  <!-- SDG 6: Agua Limpia -->
+      <stop offset="100%" stop-color="#0A97D9" /> <!-- SDG 14: Vida Submarina -->
+    </linearGradient>
+
+    <linearGradient id="olea-climate-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#72E0B5" />
+      <stop offset="100%" stop-color="#3F7E44" /> <!-- SDG 13: Acción por el Clima -->
+    </linearGradient>
+
+    <linearGradient id="olea-warm-energy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCC30B" />  <!-- SDG 7: Energía Limpia -->
+      <stop offset="100%" stop-color="#FD6925" /> <!-- SDG 9: Innovación -->
+    </linearGradient>
+
+    <linearGradient id="olea-peace-deep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#19486A" />  <!-- SDG 17: Alianzas -->
+      <stop offset="100%" stop-color="#00689D" /> <!-- SDG 16: Paz y Justicia -->
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="olea-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- ISOTIPO OLEA (Polar SDG Hexagon & Circumpolar Compass) -->
+  <g transform="translate(15, 10)">
+    <!-- Circumpolar Orbit Rings (SDG Colors) -->
+    <circle cx="50" cy="50" r="46" stroke="#19486A" stroke-width="2.5" stroke-dasharray="4 4" opacity="0.6" />
+    
+    <!-- Outer SDG Hexagonal Shield -->
+    <path d="M50 8 L86 28 L86 72 L50 92 L14 72 L14 28 Z" 
+          stroke="url(#olea-ice-blue)" 
+          stroke-width="2" 
+          fill="#061422" 
+          fill-opacity="0.85" />
+
+    <!-- Antarctic Iceberg / Apex Peak (SDG 13 Climate & SDG 14 Oceans) -->
+    <path d="M50 18 L76 68 L50 60 L24 68 Z" 
+          fill="url(#olea-ice-blue)" 
+          opacity="0.95" />
+    
+    <!-- Deep Water Facet (SDG 16 Paz Polar) -->
+    <path d="M50 60 L76 68 L50 84 L24 68 Z" 
+          fill="url(#olea-peace-deep)" 
+          opacity="0.9" />
+
+    <!-- Scientific Pulse / Coral Vitality Arc (SDG 9 & SDG 13) -->
+    <path d="M24 50 C 35 42, 65 42, 76 50" 
+          stroke="url(#olea-climate-green)" 
+          stroke-width="3" 
+          stroke-linecap="round" />
+          
+    <path d="M28 58 C 40 52, 60 52, 72 58" 
+          stroke="url(#olea-warm-energy)" 
+          stroke-width="2.5" 
+          stroke-linecap="round" />
+
+    <!-- Central Polar Observation Point (Compass Core) -->
+    <circle cx="50" cy="50" r="3.5" fill="#FFFFFF" filter="url(#olea-glow)" />
+    <circle cx="50" cy="50" r="1.5" fill="#FD6925" />
+  </g>
+
+  <!-- LOGOTIPO OLEA (Wordmark & Acronym) -->
+  <g transform="translate(130, 25)">
+    <!-- OLEA Main Typography -->
+    <text x="0" y="48" 
+          font-family="'Space Grotesk', 'Poppins', 'Segoe UI', sans-serif" 
+          font-size="48" 
+          font-weight="900" 
+          letter-spacing="4" 
+          fill="#FFFFFF">
+      OL<tspan fill="url(#olea-ice-blue)">E</tspan><tspan fill="url(#olea-climate-green)">A</tspan>
+    </text>
+
+    <!-- Polar Status Tag -->
+    <rect x="175" y="16" width="68" height="20" rx="10" fill="#0A97D9" fill-opacity="0.2" stroke="#26BDE2" stroke-width="1" />
+    <text x="209" y="30" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#26BDE2" text-anchor="middle" letter-spacing="1">POLAR 4D</text>
+
+    <!-- Subtitle: Full Definition & Author Legacy -->
+    <text x="2" y="68" 
+          font-family="'Poppins', sans-serif" 
+          font-size="11" 
+          font-weight="600" 
+          letter-spacing="1.5" 
+          fill="#8FA3BD">
+      OCEANIC LOGISTICS &amp; ECOSYSTEM ANALYTICS
+    </text>
+
+    <!-- ODS & Huertas Olea Signature Line -->
+    <text x="2" y="82" 
+          font-family="'JetBrains Mono', monospace" 
+          font-size="8.5" 
+          font-weight="500" 
+          letter-spacing="0.8" 
+          fill="#3F7E44">
+      ● UN SDG 14·13·16·9 · AMOH HUB · HUERTAS OLEA FOUNDATION
+    </text>
+  </g>
+</svg>

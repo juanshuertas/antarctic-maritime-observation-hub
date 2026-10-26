@@ -1,0 +1,5391 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Aves Marinas Pelágicas y Costeras Antárticas",
+    "count": 163,
+    "generated_at": "2026-09-23T03:27:23.418865+00:00",
+    "circumpolar_sectors": 18,
+    "crs": "EPSG:4326"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.8,
+          -49.5
+        ]
+      },
+      "properties": {
+        "id": "anchor-0031",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante (Islas Kerguelen)",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5,
+          -71.8
+        ]
+      },
+      "properties": {
+        "id": "anchor-0032",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves (Nunataks de Jutulsessen (Reina Maud))",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5,
+          -74.0
+        ]
+      },
+      "properties": {
+        "id": "anchor-0033",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves (Montes Hudson (Mar de Amundsen))",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.7,
+          -77.8
+        ]
+      },
+      "properties": {
+        "id": "anchor-0034",
+        "scientific_name": "Stercorarius maccormicki",
+        "common_name": "Págalo Antártico / Skúa Polar (Península Hut Point)",
+        "common_name_es": "Págalo Antártico / Skúa Polar",
+        "common_name_en": "South Polar Skua",
+        "category": "seabirds",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "LC",
+        "trophic_role": "Depredador costero agresivo",
+        "event_date": "2024-MONITORING",
+        "basis_of_record": "SCAR / CCAMLR Reference Survey",
+        "institution": "SCAR Antarctic Portal",
+        "source": "AMOH Verified Reference",
+        "depth_m": 0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.543,
+          -56.365
+        ]
+      },
+      "properties": {
+        "id": "obis-00002397-bcea-41a6-ba2c-aef785bc08ca",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "1997-11-20T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.697,
+          -57.897
+        ]
+      },
+      "properties": {
+        "id": "obis-000092fe-bb94-4179-b277-d4f37d5009a8",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2002-02-10T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.021,
+          -61.157
+        ]
+      },
+      "properties": {
+        "id": "obis-0000f2e6-90f0-44d3-92a1-4afb89ffd252",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2002-01-07T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.802,
+          -57.404
+        ]
+      },
+      "properties": {
+        "id": "obis-00026283-2e19-478d-b14b-16ee2e407d82",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2002-02-17T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.279,
+          -60.501
+        ]
+      },
+      "properties": {
+        "id": "obis-0002fccd-b977-423e-a1d8-f963164d0b63",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-01-08T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6567,
+          -60.95
+        ]
+      },
+      "properties": {
+        "id": "obis-00044eb6-5ecb-418d-b6b1-e16c577dded7",
+        "scientific_name": "Macronectes giganteus",
+        "common_name": "Petrel Gigante del Sur",
+        "common_name_es": "Petrel Gigante del Sur",
+        "common_name_en": "Southern Giant Petrel",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Carroñero y cazador oportunista",
+        "event_date": "1984-12-13T14:00:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "Dr. S.Z. El-Sayed",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.069,
+          -55.041
+        ]
+      },
+      "properties": {
+        "id": "obis-0005429b-0f00-4062-9bb6-3474010267b3",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2000-11-28T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.06,
+          -57.176
+        ]
+      },
+      "properties": {
+        "id": "obis-0005eb5c-ee94-4258-8478-2e42cf049889",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2002-02-22T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.717,
+          -56.521
+        ]
+      },
+      "properties": {
+        "id": "obis-00079936-e037-4970-bfb6-e8a46fca6558",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "1997-11-12T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67,
+          -56.45
+        ]
+      },
+      "properties": {
+        "id": "obis-00114c40-f855-45ae-a6e8-565b6d8332d6",
+        "scientific_name": "Oceanites oceanicus",
+        "common_name": "Paíño de Wilson",
+        "common_name_es": "Paíño de Wilson",
+        "common_name_en": "Wilson's Storm Petrel",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Planctívoro de superficie",
+        "event_date": "1997-02-11T15:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "Private",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.971,
+          -60.366
+        ]
+      },
+      "properties": {
+        "id": "obis-0012b3b6-9779-4f17-9857-5605c6cfc057",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "1999-12-14T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.044,
+          -56.882
+        ]
+      },
+      "properties": {
+        "id": "obis-0013274f-6d19-4cbc-8ff4-022d26808433",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-02-20T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.709,
+          -56.522
+        ]
+      },
+      "properties": {
+        "id": "obis-00143a57-57d0-48cd-a45a-92804cdf5a7b",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2002-01-05T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9792,
+          -60.6958
+        ]
+      },
+      "properties": {
+        "id": "obis-0014e9b1-b9fb-452a-80b3-5754486ae081",
+        "scientific_name": "Oceanites oceanicus",
+        "common_name": "Paíño de Wilson",
+        "common_name_es": "Paíño de Wilson",
+        "common_name_en": "Wilson's Storm Petrel",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Planctívoro de superficie",
+        "event_date": "1981-02-26T21:15:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "Dr. S.Z. El-Sayed",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.168,
+          -60.051
+        ]
+      },
+      "properties": {
+        "id": "obis-00171d69-4201-478d-8f22-5d5443027f27",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-01-11T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.648,
+          -56.552
+        ]
+      },
+      "properties": {
+        "id": "obis-001e6052-b0b0-4447-a17e-48035ae7bd8e",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-12-20T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8192,
+          -61.0036
+        ]
+      },
+      "properties": {
+        "id": "obis-00238c1a-f17a-4b09-a2ff-e553eea7ae36",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "1983-12-21T06:50:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "Dr. S.Z. El-Sayed",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.834,
+          -63.413
+        ]
+      },
+      "properties": {
+        "id": "obis-00271cfd-f5e8-4735-b3ff-98fcfaed8fb2",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-02-17T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6574,
+          -67.1493
+        ]
+      },
+      "properties": {
+        "id": "obis-0027484a-d51e-4e31-b05e-c667914063a6",
+        "scientific_name": "Oceanites oceanicus",
+        "common_name": "Paíño de Wilson",
+        "common_name_es": "Paíño de Wilson",
+        "common_name_en": "Wilson's Storm Petrel",
+        "category": "seabirds",
+        "sector_id": 1,
+        "sector_slug": "peninsula-drake",
+        "sector_name": "Antarctic Peninsula / Drake Passage",
+        "sector_name_es": "Península Antártica / Pasaje de Drake",
+        "iucn_status": "LC",
+        "trophic_role": "Planctívoro de superficie",
+        "event_date": "2026-02-07T10:27:00-03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "iNaturalist",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -31.6519,
+          -60.7979
+        ]
+      },
+      "properties": {
+        "id": "obis-0009a852-e5b8-40a7-a73e-ef8c908417ee",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2014-01-15T15:36:20",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.2,
+          -61.046
+        ]
+      },
+      "properties": {
+        "id": "obis-000f4b7b-af97-4e6e-9bb9-384f4d9952bc",
+        "scientific_name": "Macronectes giganteus",
+        "common_name": "Petrel Gigante del Sur",
+        "common_name_es": "Petrel Gigante del Sur",
+        "common_name_en": "Southern Giant Petrel",
+        "category": "seabirds",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "trophic_role": "Carroñero y cazador oportunista",
+        "event_date": "1998-12-04T20:44:44Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.886,
+          -50.338
+        ]
+      },
+      "properties": {
+        "id": "obis-001d9542-2792-433d-9849-38c46db3d140",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-02-05T23:12:20Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.9018,
+          -60.8108
+        ]
+      },
+      "properties": {
+        "id": "obis-00203770-1e80-4984-85a6-8ae738e82ae4",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2008-02-18T04:15:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.1638,
+          -61.815
+        ]
+      },
+      "properties": {
+        "id": "obis-0026ec74-ac57-4c4e-b386-7941497cb758",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 2,
+        "sector_slug": "weddell-sea",
+        "sector_name": "Weddell Sea",
+        "sector_name_es": "Mar de Weddell",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2012-02-07T18:44:54",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3675,
+          -51.8873
+        ]
+      },
+      "properties": {
+        "id": "obis-00069128-c6ef-4b24-9dd1-1aabec0f80cb",
+        "scientific_name": "Larus dominicanus",
+        "common_name": "Gaviota Cocinera Antártica",
+        "common_name_es": "Gaviota Cocinera Antártica",
+        "common_name_en": "Kelp Gull",
+        "category": "seabirds",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "LC",
+        "trophic_role": "Oportunista costero",
+        "event_date": "2025-04-12T14:59:14-03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "iNaturalist",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.2984,
+          -51.2625
+        ]
+      },
+      "properties": {
+        "id": "obis-000e5e41-cc0d-401c-b76e-789f7b1fef38",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2012-01-30T19:46:10",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.963,
+          -51.829
+        ]
+      },
+      "properties": {
+        "id": "obis-000f5ec8-d87e-42bc-88ad-fcf55ef7bd18",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2000-07-04T08:22:35Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.51,
+          -53.9521
+        ]
+      },
+      "properties": {
+        "id": "obis-002707ec-cde4-48a5-b8f3-ed76bedc69ef",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 3,
+        "sector_slug": "ronne-filchner",
+        "sector_name": "Ronne-Filchner Ice Shelf",
+        "sector_name_es": "Barrera de Hielo Ronne-Filchner",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2012-01-24T03:19:47",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9915,
+          -53.5979
+        ]
+      },
+      "properties": {
+        "id": "obis-000fd410-c004-44f3-bdcf-b889b9a69c66",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2011-05-15T11:11:29",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6024,
+          -56.1341
+        ]
+      },
+      "properties": {
+        "id": "obis-001170bc-5b3c-4c0d-bbdd-12475c81d939",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2009-01-01T11:11:08",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7057,
+          -55.9471
+        ]
+      },
+      "properties": {
+        "id": "obis-00124cc0-d52c-4e1c-bfb4-70aa4c907a3a",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2009-01-23T14:04:58",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8561,
+          -55.6044
+        ]
+      },
+      "properties": {
+        "id": "obis-00140c9d-4c73-4bc5-86df-e1a54df46f3d",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 4,
+        "sector_slug": "ross-sea-mcmurdo",
+        "sector_name": "Ross Sea / McMurdo Sound (MPA)",
+        "sector_name_es": "Mar de Ross / Estrecho de McMurdo (AMP)",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2009-01-24T00:04:58",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.2997,
+          -54.691
+        ]
+      },
+      "properties": {
+        "id": "obis-000a5e28-8357-4fe6-a599-25dc5c296b9e",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2011-08-14T04:51:55",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.1322,
+          -51.8239
+        ]
+      },
+      "properties": {
+        "id": "obis-00125b79-e43c-4d4e-ad44-639a57e0fb74",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2012-05-03T19:58:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.5052,
+          -52.3533
+        ]
+      },
+      "properties": {
+        "id": "obis-001be173-b7ee-4e32-9f51-5510e3bff312",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 5,
+        "sector_slug": "amundsen-thwaites",
+        "sector_name": "Amundsen Sea / Thwaites Glacier",
+        "sector_name_es": "Mar de Amundsen / Glaciar Thwaites",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2013-11-28T10:09:28",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.97,
+          -61.681
+        ]
+      },
+      "properties": {
+        "id": "obis-00040e70-4b18-4817-8bfb-966ecdd5915e",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2001-01-26T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.417,
+          -57.334
+        ]
+      },
+      "properties": {
+        "id": "obis-000791bd-e440-41a7-8a69-c7cc15600c4a",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-11-26T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.014,
+          -61.7
+        ]
+      },
+      "properties": {
+        "id": "obis-000b6747-9341-43f0-99f8-aac6079bc865",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "1997-12-08T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.6926,
+          -69.0735
+        ]
+      },
+      "properties": {
+        "id": "obis-000da05d-3255-43c7-a556-230d800f3e1d",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "2001-05-18T17:12:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "University of Wisconsin",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.247,
+          -58.157
+        ]
+      },
+      "properties": {
+        "id": "obis-00139e62-3e2d-4ef3-b5a9-3455b276e3e7",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2001-11-18T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.886,
+          -50.853
+        ]
+      },
+      "properties": {
+        "id": "obis-001f61fb-5e04-40bb-9b29-4d497217e5b5",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-12-07T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6833,
+          -56.3631
+        ]
+      },
+      "properties": {
+        "id": "obis-0020a10a-0ebf-462d-a66e-7b0d99498802",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2011-09-28T04:51:55",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.703,
+          -57.174
+        ]
+      },
+      "properties": {
+        "id": "obis-0028bf35-00b4-48a7-a352-32f166184bba",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 6,
+        "sector_slug": "bellingshausen-sea",
+        "sector_name": "Bellingshausen Sea",
+        "sector_name_es": "Mar de Bellingshausen",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2001-11-22T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.631,
+          -67.0121
+        ]
+      },
+      "properties": {
+        "id": "obis-0001e291-2ebb-47be-8c5e-0e94ab29c350",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-12-29T16:11:49",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2477,
+          -68.5461
+        ]
+      },
+      "properties": {
+        "id": "obis-0002c0ac-9db0-4718-8933-9f65952dbdc4",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2014-01-25T06:26:54",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7374,
+          -66.6345
+        ]
+      },
+      "properties": {
+        "id": "obis-0002e8a2-b822-4192-8c3e-8a484eb3ebe5",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-12-28T07:58:34",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1162,
+          -66.7238
+        ]
+      },
+      "properties": {
+        "id": "obis-00033f2d-d3ea-46b8-a291-93c5855f68ae",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-01-20T10:50:47",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.94,
+          -70.735
+        ]
+      },
+      "properties": {
+        "id": "obis-000a89bf-7987-4782-a1ff-4ca5dec1ac52",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2008-12-07/2009-01-14",
+        "basis_of_record": "HumanObservation",
+        "institution": "RBINS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8501,
+          -67.633
+        ]
+      },
+      "properties": {
+        "id": "obis-0011fb53-b095-4304-bb3d-c4d4167e87cf",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2014-01-15T13:25:28",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8344,
+          -67.6159
+        ]
+      },
+      "properties": {
+        "id": "obis-0013d77e-6135-45ee-9aa0-572d27f77992",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-12-11T13:53:21",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0124,
+          -67.626
+        ]
+      },
+      "properties": {
+        "id": "obis-00142de4-6136-4a92-9f70-73b32056a058",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-12-15T05:31:26",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7198,
+          -66.0553
+        ]
+      },
+      "properties": {
+        "id": "obis-00152bd1-9d05-4734-b829-924afc86995e",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-12-27T15:32:02",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7732,
+          -70.0536
+        ]
+      },
+      "properties": {
+        "id": "obis-0015708f-36f2-4bb6-b7da-6303ea2e0c26",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-02-15T06:54:10",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1317,
+          -71.9042
+        ]
+      },
+      "properties": {
+        "id": "obis-0016b896-4416-48ae-8d0b-8d2d5316129b",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-01-23T19:03:56",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5052,
+          -69.6269
+        ]
+      },
+      "properties": {
+        "id": "obis-001a3bfe-a89d-4429-bc4f-4f43e7b95884",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2014-01-15T14:55:24",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3856,
+          -70.0946
+        ]
+      },
+      "properties": {
+        "id": "obis-0022914c-4c3f-4b85-9d5d-fc3b78dcf3ab",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 7,
+        "sector_slug": "dornning-maud-east",
+        "sector_name": "Queen Maud Land / Lazarev Sea",
+        "sector_name_es": "Tierra de la Reina Maud / Mar de Lázarev",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-02-11T22:56:24",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3259,
+          -64.8468
+        ]
+      },
+      "properties": {
+        "id": "obis-0005e6fa-4d1b-4a3b-8633-2bb3c8a8b73a",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-12-13T09:29:03",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3345,
+          -65.3192
+        ]
+      },
+      "properties": {
+        "id": "obis-00121aec-3064-4e79-a47f-273225f85940",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2013-12-14T04:28:06",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.9824,
+          -66.1569
+        ]
+      },
+      "properties": {
+        "id": "obis-001c89e0-214b-41f5-bddd-22dea224488f",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "1993-02-07 05:06:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.7345,
+          -52.4356
+        ]
+      },
+      "properties": {
+        "id": "obis-00212479-76b6-4bed-92fb-ea7d49ecc0c5",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2008-11-26T07:16:58",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.9601,
+          -53.5832
+        ]
+      },
+      "properties": {
+        "id": "obis-0024a267-38f6-49ba-bfa5-27be532df396",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2012-11-23T07:55:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.3102,
+          -52.888
+        ]
+      },
+      "properties": {
+        "id": "obis-0025fd83-7c48-4505-84e9-b390f8e2e470",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2009-06-15T20:34:29",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4072,
+          -52.3891
+        ]
+      },
+      "properties": {
+        "id": "obis-00270124-599f-461f-9827-0e8322145e98",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 8,
+        "sector_slug": "enderby-land",
+        "sector_name": "Enderby Land / Cosmonaut Sea",
+        "sector_name_es": "Tierra de Enderby / Mar de los Cosmonautas",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2013-12-26T07:49:22",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8255,
+          -59.3799
+        ]
+      },
+      "properties": {
+        "id": "obis-0001788f-ca91-4c15-98d1-7a99f60ad4f1",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2011-08-17T07:17:32",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.0193,
+          -52.5143
+        ]
+      },
+      "properties": {
+        "id": "obis-00027766-674e-4dda-acf4-df7a784846b0",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2004-01-25T20:25:34",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9003,
+          -63.928
+        ]
+      },
+      "properties": {
+        "id": "obis-00038431-3249-4c8b-84fd-71c3b7bdf3d5",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2003-12-24T14:20:51",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.85,
+          -68.6333
+        ]
+      },
+      "properties": {
+        "id": "obis-0003a630-eac0-49c4-a858-6237179244ca",
+        "scientific_name": "Macronectes giganteus",
+        "common_name": "Petrel Gigante del Sur",
+        "common_name_es": "Petrel Gigante del Sur",
+        "common_name_en": "Southern Giant Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Carroñero y cazador oportunista",
+        "event_date": "1976-11-04 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0252,
+          -55.988
+        ]
+      },
+      "properties": {
+        "id": "obis-0004592c-afbe-437d-8260-d52201d382c8",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-09-20T07:03:53",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.0188,
+          -65.2214
+        ]
+      },
+      "properties": {
+        "id": "obis-0005bfa0-b163-48f6-a78a-82cc52fe034f",
+        "scientific_name": "Oceanites oceanicus",
+        "common_name": "Paíño de Wilson",
+        "common_name_es": "Paíño de Wilson",
+        "common_name_en": "Wilson's Storm Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Planctívoro de superficie",
+        "event_date": "2001-01-12 04:55:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7667,
+          -62.3833
+        ]
+      },
+      "properties": {
+        "id": "obis-0007ee07-35e5-403b-b931-c1a2b61a82ad",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1990-10-24 07:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0275,
+          -50.5963
+        ]
+      },
+      "properties": {
+        "id": "obis-000959f2-7392-48b7-8542-4036d464e6d7",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2003-12-22 03:32:49+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.935,
+          -64.5417
+        ]
+      },
+      "properties": {
+        "id": "obis-000ac289-9845-459f-b1da-9e0eb93583f9",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2002-01-15 03:53:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.0841,
+          -63.7225
+        ]
+      },
+      "properties": {
+        "id": "obis-000b6e1c-0b83-4945-9d37-8094f4473b57",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-10-06T18:12:00",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2713,
+          -61.5658
+        ]
+      },
+      "properties": {
+        "id": "obis-001020f0-6ec5-45f7-be9b-ed2948edf63a",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-10-27T07:19:01",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.7828,
+          -63.079
+        ]
+      },
+      "properties": {
+        "id": "obis-00123935-a520-45f0-8fae-55ac886b9f31",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2004-01-02T19:38:03",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8958,
+          -62.8718
+        ]
+      },
+      "properties": {
+        "id": "obis-00148701-b9fd-4e5a-be2c-6626fd3bf84f",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2011-09-26T19:24:33",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.9266,
+          -67.5592
+        ]
+      },
+      "properties": {
+        "id": "obis-0017464e-edb2-475b-b8e6-67f53827c05f",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "2004-12-19 20:05:26+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9767,
+          -64.9683
+        ]
+      },
+      "properties": {
+        "id": "obis-00178447-308b-4b8c-af17-73b7bce74204",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "1992-03-05 04:30:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.7838,
+          -63.6569
+        ]
+      },
+      "properties": {
+        "id": "obis-0018e449-1a75-4378-985c-15f1300e1379",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2012-10-28T07:15:49",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.522,
+          -63.27
+        ]
+      },
+      "properties": {
+        "id": "obis-00190916-956c-4136-b077-08455e3fce04",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "1998-04-29 04:21:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2667,
+          -59.6667
+        ]
+      },
+      "properties": {
+        "id": "obis-00196405-27f4-41c6-8029-a5545b060dfe",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "1999-12-01 12:30:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.9333,
+          -64.8167
+        ]
+      },
+      "properties": {
+        "id": "obis-001aac57-a591-44e6-a72f-624ae4d12b11",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "1984-04-04T09:40:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "Dr. S.Z. El-Sayed",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.1667,
+          -65.0333
+        ]
+      },
+      "properties": {
+        "id": "obis-001ad669-a5cf-43c9-adb4-642bcfb8c4cc",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1988-12-27 06:30:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7,
+          -68.75
+        ]
+      },
+      "properties": {
+        "id": "obis-001ae69f-5fb3-4d14-bb7d-2f4cd3be5ed2",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1991-12-18 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.0024,
+          -62.4175
+        ]
+      },
+      "properties": {
+        "id": "obis-001c4651-8755-4e42-9332-294429aec07e",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2013-10-14T08:03:16",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9984,
+          -65.2253
+        ]
+      },
+      "properties": {
+        "id": "obis-001c5bb7-d555-493d-b89f-df8cc6334298",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1996-10-25 01:45:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.8267,
+          -67.1333
+        ]
+      },
+      "properties": {
+        "id": "obis-001d3df3-0f19-4d03-8a40-bc108932300a",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "1981-02-04T23:00:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "Dr. S.Z. El-Sayed",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.0467,
+          -52.6767
+        ]
+      },
+      "properties": {
+        "id": "obis-001d8873-a5a4-4a71-b0cf-51c1a912f305",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 9,
+        "sector_slug": "prydz-bay-amery",
+        "sector_name": "Prydz Bay / Amery Ice Shelf",
+        "sector_name_es": "Bahía Prydz / Barrera de Amery",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "1992-01-27 09:50:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.834,
+          -65.0801
+        ]
+      },
+      "properties": {
+        "id": "obis-00074685-071c-4f49-a2ac-2f8b36b1f681",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "1995-01-03 03:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.5214,
+          -66.2802
+        ]
+      },
+      "properties": {
+        "id": "obis-000899f3-4631-497d-ada0-b99e67744617",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "1994-12-28 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7548,
+          -63.0072
+        ]
+      },
+      "properties": {
+        "id": "obis-000d5841-df5b-4891-b273-85fbebe30c9b",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1998-04-24 23:59:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6333,
+          -64.7333
+        ]
+      },
+      "properties": {
+        "id": "obis-000e1eb2-c18d-4609-ac31-d9232aec1963",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1985-01-26 09:30:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.557,
+          -66.4707
+        ]
+      },
+      "properties": {
+        "id": "obis-0014180d-35be-4eb3-8b17-7dbb1af49271",
+        "scientific_name": "Pagodroma nivea",
+        "common_name": "Petrel de las Nieves",
+        "common_name_es": "Petrel de las Nieves",
+        "common_name_en": "Snow Petrel",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Especialista en hielo marino",
+        "event_date": "2002-11-26 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7667,
+          -57.6833
+        ]
+      },
+      "properties": {
+        "id": "obis-001441b5-fa40-4cdf-a847-773d107d7210",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1998-09-23 02:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6878,
+          -58.9946
+        ]
+      },
+      "properties": {
+        "id": "obis-002575c8-e4f9-4fe7-b2bc-468d2017275a",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2011-09-14T07:26:02",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7237,
+          -55.5022
+        ]
+      },
+      "properties": {
+        "id": "obis-002716a8-d595-4182-b357-91e2b46ef245",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 10,
+        "sector_slug": "wilkes-land",
+        "sector_name": "Wilkes Land / Davis Sea",
+        "sector_name_es": "Tierra de Wilkes / Mar de Davis",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2009-10-08T06:56:04",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.0592,
+          -50.0334
+        ]
+      },
+      "properties": {
+        "id": "obis-000f8e45-fc3d-4b92-aafd-3fa5ac154476",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2007-09-09T07:26:49",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4983,
+          -66.0183
+        ]
+      },
+      "properties": {
+        "id": "obis-0011f630-bbb7-4998-8d99-bbeef3e4ad53",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "1996-03-18 07:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8353,
+          -54.6958
+        ]
+      },
+      "properties": {
+        "id": "obis-001ecb71-bc3b-4071-adbd-8b8e87a319b3",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 11,
+        "sector_slug": "adelie-coast",
+        "sector_name": "Adélie Coast / Dumont d'Urville",
+        "sector_name_es": "Costa Adelia / Base Dumont d'Urville",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2009-08-16T22:00:08",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.94,
+          -54.4991
+        ]
+      },
+      "properties": {
+        "id": "obis-00023e78-34f9-45eb-8517-d7be608eaa1d",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2018-08-28 11:25:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "CLO",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.7013,
+          -55.1894
+        ]
+      },
+      "properties": {
+        "id": "obis-00039322-823a-4a2b-95b7-14785bbf7df6",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2013-10-25T17:08:38",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.35,
+          -52.6667
+        ]
+      },
+      "properties": {
+        "id": "obis-0012326a-ecaf-4bc0-8386-dfd52b68f2cc",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "1986-11-06T19:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "CSIRO",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.844,
+          -54.515
+        ]
+      },
+      "properties": {
+        "id": "obis-00182bdf-ec67-46a7-8e06-0252ad0b44c7",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "1992-11-28T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.5897,
+          -54.3682
+        ]
+      },
+      "properties": {
+        "id": "obis-001b5dcd-bbc3-4e05-9fcf-32da7a2a0623",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2000-01-01T20:38:32",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.8514,
+          -56.3199
+        ]
+      },
+      "properties": {
+        "id": "obis-001bc2c1-f9ff-46be-9908-7444f879b580",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2013-11-15T14:13:28",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.1147,
+          -56.7931
+        ]
+      },
+      "properties": {
+        "id": "obis-001cf83a-7eb0-499b-b7ab-61a8f5c0a050",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2006-05-11T20:53:09",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.1967,
+          -51.0267
+        ]
+      },
+      "properties": {
+        "id": "obis-001e7db0-424f-4d8f-9062-a71e3b63b067",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "1996-01-12 10:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.5725,
+          -58.6585
+        ]
+      },
+      "properties": {
+        "id": "obis-001fe005-efbc-4eb2-8a45-98a9575bcf30",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2013-10-20T18:48:13",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.8189,
+          -54.7327
+        ]
+      },
+      "properties": {
+        "id": "obis-002716bc-d3e7-418f-bab3-27e71955ae78",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2002-12-28T23:31:02",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.0125,
+          -56.1502
+        ]
+      },
+      "properties": {
+        "id": "obis-0028aa84-66b2-40e7-ad6f-3ad3a321ff4c",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 12,
+        "sector_slug": "george-v-land",
+        "sector_name": "George V Land / Mertz Glacier",
+        "sector_name_es": "Tierra de Jorge V / Glaciar Mertz",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2013-11-09T04:44:56",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5131,
+          -53.2493
+        ]
+      },
+      "properties": {
+        "id": "obis-00096366-361a-49cf-ba74-bca30c329525",
+        "scientific_name": "Macronectes giganteus",
+        "common_name": "Petrel Gigante del Sur",
+        "common_name_es": "Petrel Gigante del Sur",
+        "common_name_en": "Southern Giant Petrel",
+        "category": "seabirds",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "LC",
+        "trophic_role": "Carroñero y cazador oportunista",
+        "event_date": "1984-12-17T18:00:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "Dr. S.Z. El-Sayed",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9562,
+          -53.6943
+        ]
+      },
+      "properties": {
+        "id": "obis-0024a1ca-4639-4c02-b867-cd2eca25b1c1",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 13,
+        "sector_slug": "south-shetland-islands",
+        "sector_name": "South Shetland Islands (King George)",
+        "sector_name_es": "Islas Shetland del Sur (Isla Rey Jorge)",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2006-07-26T04:00:12",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.742,
+          -50.11
+        ]
+      },
+      "properties": {
+        "id": "obis-00009b97-3384-4b22-ac77-a0db5a6f2c27",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "1992-03-18T07:17:25Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.8398,
+          -50.3501
+        ]
+      },
+      "properties": {
+        "id": "obis-0003919f-4216-4dab-af94-0210cdcdc7e6",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2006-07-07T10:50:05",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.793,
+          -53.163
+        ]
+      },
+      "properties": {
+        "id": "obis-000ad126-3617-4c9c-93eb-456f429fdbc0",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2003-01-07T03:06:47Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.466,
+          -53.281
+        ]
+      },
+      "properties": {
+        "id": "obis-000b3e14-2b6a-4f4b-bb7f-f1c05b4431de",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "1991-09-21T04:23:47Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.8464,
+          -52.8828
+        ]
+      },
+      "properties": {
+        "id": "obis-001b9dc5-4212-4d6a-b747-d4baf73f1631",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2009-05-09T08:10:18",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2,
+          -58.5167
+        ]
+      },
+      "properties": {
+        "id": "obis-001ce0f1-36d8-4ced-80bc-8835a6a6c9d7",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "1981-01-30T08:03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "Dr. S.Z. El-Sayed",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.9304,
+          -53.4959
+        ]
+      },
+      "properties": {
+        "id": "obis-002020d6-d040-40af-9ba7-340897df0dc0",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2006-07-13T10:00:30",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.116,
+          -59.369
+        ]
+      },
+      "properties": {
+        "id": "obis-002104c3-012b-4ce3-9c99-bdd2e4f63350",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 14,
+        "sector_slug": "south-orkney-islands",
+        "sector_name": "South Orkney Islands (Signy)",
+        "sector_name_es": "Islas Orcadas del Sur (Signy)",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2003-02-01T04:30:47Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.126,
+          -53.913
+        ]
+      },
+      "properties": {
+        "id": "obis-00012eef-340e-4b7f-ba6c-e3914f52d4cf",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "1990-09-16T05:16:08Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.58,
+          -53.69
+        ]
+      },
+      "properties": {
+        "id": "obis-000fd02c-d1b1-4970-a25f-8c81fbe5e845",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2023-02-15",
+        "basis_of_record": "HumanObservation",
+        "institution": "LPoE",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.0907,
+          -53.1914
+        ]
+      },
+      "properties": {
+        "id": "obis-0010fcad-7314-4d72-ba70-39a5cf0ce7df",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2012-02-13T05:38:47",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.38,
+          -54.014
+        ]
+      },
+      "properties": {
+        "id": "obis-0012c163-a7a5-47b2-905a-6381ebd6651c",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "1999-06-18T18:16:41Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.285,
+          -50.248
+        ]
+      },
+      "properties": {
+        "id": "obis-001dfaf6-ab00-4ee6-901e-bdf8eba21293",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2002-03-03T06:46:50Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.1595,
+          -53.9129
+        ]
+      },
+      "properties": {
+        "id": "obis-0023f417-6e20-4880-90fd-52d7ea4c91ed",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2009-05-13T01:41:04",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.766,
+          -50.072
+        ]
+      },
+      "properties": {
+        "id": "obis-0027d6c9-7c90-46c5-aee3-9ac5e9c558bc",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 15,
+        "sector_slug": "subantarctic-scotia-arc",
+        "sector_name": "Subantarctic Scotia Arc / South Georgia",
+        "sector_name_es": "Arco de Scotia Subantártico / Georgias del Sur",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "1998-06-04T06:00:56Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "BAS",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.81,
+          -51.7399
+        ]
+      },
+      "properties": {
+        "id": "obis-00006a76-50cd-4881-8e8f-babb221e5fd4",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-10-26T07:31:50",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2667,
+          -53.0167
+        ]
+      },
+      "properties": {
+        "id": "obis-0003e21f-8144-433b-a0d4-bbaab3686b1b",
+        "scientific_name": "Macronectes giganteus",
+        "common_name": "Petrel Gigante del Sur",
+        "common_name_es": "Petrel Gigante del Sur",
+        "common_name_en": "Southern Giant Petrel",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Carroñero y cazador oportunista",
+        "event_date": "1963-02-20 00:00:00+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.132,
+          -48.7556
+        ]
+      },
+      "properties": {
+        "id": "obis-00044c5d-6fa5-4c4c-b585-711e1aa38d4a",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2011-02-02T19:31:12",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.3355,
+          -52.9933
+        ]
+      },
+      "properties": {
+        "id": "obis-000476db-503e-49ab-9c0a-6e6dae872712",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2004-01-04T16:45:47",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.1937,
+          -53.6515
+        ]
+      },
+      "properties": {
+        "id": "obis-0004f046-02cb-49fd-a85d-6dfe74ccfebe",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2008-08-28T18:05:45",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.2548,
+          -54.373
+        ]
+      },
+      "properties": {
+        "id": "obis-0004fc8d-eb89-4e9a-9d3f-2819bca3cb90",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2011-03-10T07:04:21",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8762,
+          -52.7267
+        ]
+      },
+      "properties": {
+        "id": "obis-0005217e-c9e6-4226-a9d1-f874e81286c8",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2004-01-24 12:32:54+00",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.6167,
+          -56.8833
+        ]
+      },
+      "properties": {
+        "id": "obis-00072b90-ce21-4efd-98bd-76c8cdea4d4c",
+        "scientific_name": "Thalassarche chrysostoma",
+        "common_name": "Albatros de Cabeza Gris",
+        "common_name_es": "Albatros de Cabeza Gris",
+        "common_name_en": "Grey-headed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "EN",
+        "trophic_role": "Cazador pelágico de calamares",
+        "event_date": "2005-04-28T13:40:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "CSIRO",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.044,
+          -52.995
+        ]
+      },
+      "properties": {
+        "id": "obis-00074a4f-09a8-4ef8-95d4-e3f15faa8771",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2003-12-26T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.0558,
+          -53.3876
+        ]
+      },
+      "properties": {
+        "id": "obis-000762d8-886c-47cb-89f7-04e80396e383",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2009-11-03T08:17:02",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7509,
+          -53.7185
+        ]
+      },
+      "properties": {
+        "id": "obis-00090c91-2094-4878-b122-1e740247a51c",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2003-12-23T20:22:51",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.3403,
+          -53.0011
+        ]
+      },
+      "properties": {
+        "id": "obis-00093ef4-378a-483f-b25f-0ff42cf620a4",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2004-01-09T14:22:16",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.6316,
+          -49.7607
+        ]
+      },
+      "properties": {
+        "id": "obis-000c2cc5-67ea-4253-914f-b4a2759d4ffc",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-02-07T18:42:38",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.0071,
+          -51.4378
+        ]
+      },
+      "properties": {
+        "id": "obis-000e4133-f6fd-43e4-b869-744a79a63119",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2012-11-23T19:31:35",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6408,
+          -52.4122
+        ]
+      },
+      "properties": {
+        "id": "obis-000ee2ed-aced-4cf2-9c3e-9346025dd129",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2011-02-26T19:21:52",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.4388,
+          -55.3498
+        ]
+      },
+      "properties": {
+        "id": "obis-000f03c1-065a-4180-b984-6278c05a0936",
+        "scientific_name": "Diomedea exulans",
+        "common_name": "Albatros Viajero / Errante",
+        "common_name_es": "Albatros Viajero / Errante",
+        "common_name_en": "Wandering Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "VU",
+        "trophic_role": "Planeador oceánico de largo alcance",
+        "event_date": "2008-11-14T20:17:39",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9752,
+          -48.8259
+        ]
+      },
+      "properties": {
+        "id": "obis-000f8a77-4d61-410c-b7b3-7d7afb79d824",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2011-12-07T07:31:12",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8234,
+          -52.2386
+        ]
+      },
+      "properties": {
+        "id": "obis-00107a88-7226-48fe-8be5-8a5554189018",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2009-11-02T07:08:09",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9194,
+          -49.0238
+        ]
+      },
+      "properties": {
+        "id": "obis-0011a781-0368-47eb-8cb6-35195179fc42",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2012-01-13T07:04:46",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4254,
+          -49.0087
+        ]
+      },
+      "properties": {
+        "id": "obis-00126398-63aa-4a4a-8075-f3f0cb165b2e",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2012-02-01T07:31:35",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.2431,
+          -49.6864
+        ]
+      },
+      "properties": {
+        "id": "obis-0012d82e-cab9-43fd-ac99-0c4d5d506901",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-12-22",
+        "basis_of_record": "humanObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.4332,
+          -48.0073
+        ]
+      },
+      "properties": {
+        "id": "obis-0012f51e-3e5b-4e95-913d-733fd26599a2",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-12-17T19:03:53",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7615,
+          -52.0899
+        ]
+      },
+      "properties": {
+        "id": "obis-0013287e-7a85-4487-bbd4-b73e95938e93",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-08-30T07:00:35",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.4929,
+          -48.5285
+        ]
+      },
+      "properties": {
+        "id": "obis-00169692-17b8-4021-99ae-be0da89c0d42",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2012-01-24T19:21:18",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.9806,
+          -49.8693
+        ]
+      },
+      "properties": {
+        "id": "obis-0019c5f6-b905-41c4-a75a-d2d1d242e547",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 16,
+        "sector_slug": "kerguelen-plateau",
+        "sector_name": "Kerguelen Plateau / Heard Island",
+        "sector_name_es": "Meseta de Kerguelen / Isla Heard",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2010-01-19T06:49:50",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0147,
+          -58.9367
+        ]
+      },
+      "properties": {
+        "id": "obis-0001368f-3183-44a8-939f-6b8d6d5c9635",
+        "scientific_name": "Thalassoica antarctica",
+        "common_name": "Petrel Antártico",
+        "common_name_es": "Petrel Antártico",
+        "common_name_en": "Antarctic Petrel",
+        "category": "seabirds",
+        "sector_id": 17,
+        "sector_slug": "polar-plateau-central",
+        "sector_name": "South Pole / Interior Ice Sheet",
+        "sector_name_es": "Polo Sur / Casquete Interior Glaciar",
+        "iucn_status": "LC",
+        "trophic_role": "Forrajeador en enjambres",
+        "event_date": "2012-12-30T10:48:05",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2501,
+          -59.1608
+        ]
+      },
+      "properties": {
+        "id": "obis-0013adb7-2fec-4d15-b542-8d15d30bd9f9",
+        "scientific_name": "Phoebetria palpebrata",
+        "common_name": "Albatros Tiznado",
+        "common_name_es": "Albatros Tiznado",
+        "common_name_en": "Light-mantled Albatross",
+        "category": "seabirds",
+        "sector_id": 17,
+        "sector_slug": "polar-plateau-central",
+        "sector_name": "South Pole / Interior Ice Sheet",
+        "sector_name_es": "Polo Sur / Casquete Interior Glaciar",
+        "iucn_status": "NT",
+        "trophic_role": "Acróbata aéreo de acantilados",
+        "event_date": "2008-05-02T21:11:08",
+        "basis_of_record": "MachineObservation",
+        "institution": "SCAR Antarctic Portal",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.6987,
+          -53.7757
+        ]
+      },
+      "properties": {
+        "id": "obis-00000d42-420e-4ce8-a1ad-a377428a43f7",
+        "scientific_name": "Larus dominicanus",
+        "common_name": "Gaviota Cocinera Antártica",
+        "common_name_es": "Gaviota Cocinera Antártica",
+        "common_name_en": "Kelp Gull",
+        "category": "seabirds",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Oportunista costero",
+        "event_date": "2021-03-14T12:41:00-03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "iNaturalist",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3058,
+          -54.8076
+        ]
+      },
+      "properties": {
+        "id": "obis-000aef42-fac1-47af-a68e-3d6fdfa62f9c",
+        "scientific_name": "Larus dominicanus",
+        "common_name": "Gaviota Cocinera Antártica",
+        "common_name_es": "Gaviota Cocinera Antártica",
+        "common_name_en": "Kelp Gull",
+        "category": "seabirds",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Oportunista costero",
+        "event_date": "2026-02-03T14:31:59-03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "iNaturalist",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3901,
+          -54.983
+        ]
+      },
+      "properties": {
+        "id": "obis-001dd8fd-87d1-46b1-a929-ee090a9fe50e",
+        "scientific_name": "Macronectes giganteus",
+        "common_name": "Petrel Gigante del Sur",
+        "common_name_es": "Petrel Gigante del Sur",
+        "common_name_en": "Southern Giant Petrel",
+        "category": "seabirds",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Carroñero y cazador oportunista",
+        "event_date": "2023-03-12T09:52:00-03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "iNaturalist",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975,
+          -54.043
+        ]
+      },
+      "properties": {
+        "id": "obis-00263ca7-5298-409c-93a1-e6b8a046954c",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2000-12-22T12:00:00Z",
+        "basis_of_record": "HumanObservation",
+        "institution": "AADC",
+        "source": "OBIS",
+        "depth_m": 0.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5363,
+          -54.8072
+        ]
+      },
+      "properties": {
+        "id": "obis-00287b83-b6b2-40a9-9581-82722027a29f",
+        "scientific_name": "Thalassarche melanophris",
+        "common_name": "Albatros de Ceja Negra",
+        "common_name_es": "Albatros de Ceja Negra",
+        "common_name_en": "Black-browed Albatross",
+        "category": "seabirds",
+        "sector_id": 18,
+        "sector_slug": "gateway-magallanes",
+        "sector_name": "Magellanic Gateway / Cabo de Hornos",
+        "sector_name_es": "Acceso Magallánico / Cabo de Hornos",
+        "iucn_status": "LC",
+        "trophic_role": "Piscívoro pelágico",
+        "event_date": "2025-03-09T11:53:00-03:00",
+        "basis_of_record": "HumanObservation",
+        "institution": "iNaturalist",
+        "source": "OBIS",
+        "depth_m": 25.0,
+        "population_estimate": null,
+        "icon": "icon-seabird",
+        "color": "#a78bfa",
+        "freshness": "MEASURED"
+      }
+    }
+  ]
+}

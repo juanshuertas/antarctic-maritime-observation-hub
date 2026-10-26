@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "gfw-enc-2026-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2,
+          -59.8
+        ]
+      },
+      "properties": {
+        "encounter_id": "gfw-enc-2026-001",
+        "latitude": -59.8,
+        "longitude": -48.2,
+        "start_time_utc": "2026-03-14T14:00:00Z",
+        "end_time_utc": "2026-03-14T22:30:00Z",
+        "duration_hours": 8.5,
+        "vessel_1_name": "ANTARCTIC ENDURANCE",
+        "vessel_1_type": "KRILL TRAWLER",
+        "vessel_1_flag": "NOR",
+        "vessel_1_mmsi": "257400000",
+        "vessel_2_name": "STAR REEF",
+        "vessel_2_type": "REEFER CARGO",
+        "vessel_2_flag": "PAN",
+        "vessel_2_mmsi": "352001450",
+        "event_type": "TRANSSHIPMENT",
+        "product_transferred": "Frozen Krill Meal & Krill Oil (Approx. 450 MT)",
+        "authorized_by_ccamlr": true,
+        "loitering_distance_m": 42.0,
+        "average_speed_knots": 0.4,
+        "ccamlr_division": "48.2",
+        "location_description": "Scotia Sea Transshipment Corridor (South of 60\u00b0S)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-enc-2026-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.0,
+          -70.5
+        ]
+      },
+      "properties": {
+        "encounter_id": "gfw-enc-2026-002",
+        "latitude": -70.5,
+        "longitude": 172.0,
+        "start_time_utc": "2026-03-12T06:00:00Z",
+        "end_time_utc": "2026-03-12T12:00:00Z",
+        "duration_hours": 6.0,
+        "vessel_1_name": "SAN AOTEA II",
+        "vessel_1_type": "TOOTHFISH LONGLINER",
+        "vessel_1_flag": "NZL",
+        "vessel_1_mmsi": "512008000",
+        "vessel_2_name": "POLAR SUPPLY IV",
+        "vessel_2_type": "FUEL TANKER",
+        "vessel_2_flag": "LBR",
+        "vessel_2_mmsi": "636015780",
+        "event_type": "BUNKERING",
+        "product_transferred": "Marine Gas Oil (MGO Low Sulfur - 120,000 L)",
+        "authorized_by_ccamlr": true,
+        "loitering_distance_m": 35.0,
+        "average_speed_knots": 0.2,
+        "ccamlr_division": "88.1",
+        "location_description": "Ross Sea / Cape Adare Bunkering Rendezvous"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-enc-2026-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4,
+          -54.9
+        ]
+      },
+      "properties": {
+        "encounter_id": "gfw-enc-2026-003",
+        "latitude": -54.9,
+        "longitude": -58.4,
+        "start_time_utc": "2026-03-10T02:15:00Z",
+        "end_time_utc": "2026-03-10T11:45:00Z",
+        "duration_hours": 9.5,
+        "vessel_1_name": "FU RONG HAI",
+        "vessel_1_type": "KRILL TRAWLER",
+        "vessel_1_flag": "CHN",
+        "vessel_1_mmsi": "413204000",
+        "vessel_2_name": "HAI FENG 718",
+        "vessel_2_type": "REEFER CARGO",
+        "vessel_2_flag": "CHN",
+        "vessel_2_mmsi": "413345890",
+        "event_type": "TRANSSHIPMENT",
+        "product_transferred": "Frozen Whole Krill / Krill Paste (620 MT)",
+        "authorized_by_ccamlr": true,
+        "loitering_distance_m": 48.0,
+        "average_speed_knots": 0.5,
+        "ccamlr_division": "48.1",
+        "location_description": "Drake Passage Northern Approaches / Burdwood Bank Margin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-enc-2026-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.8,
+          -53.2
+        ]
+      },
+      "properties": {
+        "encounter_id": "gfw-enc-2026-004",
+        "latitude": -53.2,
+        "longitude": -42.8,
+        "start_time_utc": "2026-03-08T18:00:00Z",
+        "end_time_utc": "2026-03-09T01:30:00Z",
+        "duration_hours": 7.5,
+        "vessel_1_name": "BETANZOS",
+        "vessel_1_type": "FACTORY TRAWLER",
+        "vessel_1_flag": "CHL",
+        "vessel_1_mmsi": "725000540",
+        "vessel_2_name": "SILVER ICE",
+        "vessel_2_type": "REEFER CARGO",
+        "vessel_2_flag": "BHS",
+        "vessel_2_mmsi": "311000845",
+        "event_type": "TRANSSHIPMENT",
+        "product_transferred": "Packaged Krill Tails & Tail Meat (310 MT)",
+        "authorized_by_ccamlr": true,
+        "loitering_distance_m": 40.0,
+        "average_speed_knots": 0.3,
+        "ccamlr_division": "48.3",
+        "location_description": "Shag Rocks Northwest High Seas Boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gfw-enc-2026-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.2,
+          -51.8
+        ]
+      },
+      "properties": {
+        "encounter_id": "gfw-enc-2026-005",
+        "latitude": -51.8,
+        "longitude": -56.2,
+        "start_time_utc": "2026-03-05T09:00:00Z",
+        "end_time_utc": "2026-03-05T14:20:00Z",
+        "duration_hours": 5.3,
+        "vessel_1_name": "ARGOS NORDIC",
+        "vessel_1_type": "TOOTHFISH LONGLINER",
+        "vessel_1_flag": "GBR",
+        "vessel_1_mmsi": "232024560",
+        "vessel_2_name": "GREEN COOLER",
+        "vessel_2_type": "REEFER CARGO",
+        "vessel_2_flag": "BHS",
+        "vessel_2_mmsi": "308000412",
+        "event_type": "TRANSSHIPMENT",
+        "product_transferred": "HGT Patagonian Toothfish Frozen (180 MT)",
+        "authorized_by_ccamlr": true,
+        "loitering_distance_m": 38.0,
+        "average_speed_knots": 0.4,
+        "ccamlr_division": "48.3",
+        "location_description": "Falkland Sound / Malvinas Offshore Transshipment Zone"
+      }
+    }
+  ]
+}

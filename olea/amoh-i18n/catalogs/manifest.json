@@ -1,0 +1,28 @@
+{
+  "version": "AMOH_GLOBAL_I18N_V1_1_RESUME_FIX",
+  "artifact_source": "C:\\AMOH\\artifacts\\global_i18n\\20261002_170407",
+  "catalog_dir": "C:\\AMOH\\app\\public\\amoh-i18n\\catalogs",
+  "locales": [
+    "es",
+    "en",
+    "ja",
+    "nb",
+    "zh-Hans",
+    "ar"
+  ],
+  "counts": {
+    "es": 11690,
+    "en": 2,
+    "ja": 2,
+    "nb": 2,
+    "zh-Hans": 2,
+    "ar": 2
+  },
+  "source_union": 11690,
+  "files_used": [
+    "C:\\AMOH\\artifacts\\global_i18n\\20261002_170407\\catalog_report.json"
+  ],
+  "translation_failures_file": "C:\\AMOH\\artifacts\\global_i18n\\20261002_170407\\translation_failures.json",
+  "translation_failure_count": null,
+  "network_translation_performed": false
+}

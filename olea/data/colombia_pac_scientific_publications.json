@@ -1,0 +1,1006 @@
+{
+  "total_publications": 111,
+  "years_span": "1976 - 2026",
+  "source": "Programa Antartico Colombiano (PAC) / wpDataTable CCO",
+  "publications": [
+    {
+      "id": "PAC-PUB-001",
+      "year": 2026,
+      "title": "Chemical Composition, Antioxidant, and Anti-Inflammatory Activity of the Antarctic Lichen Leptogium puberulum: A Combination of Metabolomic, In Vitro, and In Silico Approaches",
+      "keywords": "Antarctica; extract; bioactive compounds; metabolomics; biological potential; pharmacokinetic properties; molecular docking; COX-2 inhibition",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-002",
+      "year": 2026,
+      "title": "Phytochemical Profiling and Antioxidant and Enzymatic Evaluation of Extracts from the Antarctic Lichens Polycauliona candelaria and Placopsis antarctica",
+      "keywords": "chemical characterization; bioactive compounds; extracts; Antarctic lichens; screening biological; antioxidant activity; enzymatic inhibition",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-003",
+      "year": 2026,
+      "title": "Integrating Antarctic Education into Innovation and Improved Practices in Military Education",
+      "keywords": "Antarctica; Military education; Geopolitics; Polar science.",
+      "category": "Governance, Geopolitics & Education",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 16
+    },
+    {
+      "id": "PAC-PUB-004",
+      "year": 2026,
+      "title": "Microfitoplancton a lo largo del Pacífico sudoriental y al norte de la península Antártica Occidental, verano austral 2023-2024",
+      "keywords": "Microfitoplancton; Península Antártica Occidental; biomasa de carbono; variabilidad espacial; El Niño.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-005",
+      "year": 2026,
+      "title": "Deception Island (Antarctica) as an analog environment for human space missions: A comparative analysis of Gabriel de Castilla base (Spain) and Decepción base (Argentine)",
+      "keywords": "Analog missions; Extreme environments; Human space exploration; Habitat design; Antarctic field research; Polar environments",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-006",
+      "year": 2026,
+      "title": "Surface ozone concentration variability across pristine and populated sites of the Antarctic Peninsula",
+      "keywords": "Surface ozone; Antarctic Peninsula; Ozone titration; Pristine environments",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-007",
+      "year": 2025,
+      "title": "Phosphate solubilization by microorganisms in pyroclastic material from Half Moon Island in Antarctica: perspectives for astrobiology",
+      "keywords": "Phosphorus cycle; Acid phosphatase; Alkaline phosphatase; Nutrient cycling",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-008",
+      "year": 2025,
+      "title": "The potential of Deception Island, Antarctica, as a multifunctional Martian analogue of astrobiological interest",
+      "keywords": "basalts; biofilms; cold environments; extremophiles; habitability",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-009",
+      "year": 2025,
+      "title": "Antioxidant and Antidiabetic Potential of the Antarctic Lichen Gondwania regalis Ethanolic Extract: Metabolomic Profile and In Vitro and In Silico Evaluation",
+      "keywords": "Gondwania regalis; ethanolic extraction; metabolomic profiling; antioxidant capacity; antidiabetic activity; in vitro assays; molecular docking and dynamics",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-010",
+      "year": 2025,
+      "title": "Influence of ENSO and SAM on the occurrence of absolute extremes and behavior of Ta, SST, and SIC anomalies in the western Antarctic Peninsula",
+      "keywords": "ERA5; correlation; spectral density; Bransfield; Gerlache",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-011",
+      "year": 2025,
+      "title": "Summertime Marine Fog Variability in King George Island, Antarctic Peninsula using Special Upper-air Observations and Cloud-Resolving Simulations",
+      "keywords": "Antarctic Peninsula; King George Island; simulations; Forecasting model",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-012",
+      "year": 2025,
+      "title": "Antarctic tardigrades a biological model for geobiology and astrobiology studies: a review",
+      "keywords": "biodiversity; cryptobiosis; evolutionary adaptations; extreme environment; polar ecology.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-013",
+      "year": 2024,
+      "title": "De novo transcriptome sequencing and annotation of the Antarctic polychaete Microspio moorei (Spionidae) with its characterization of the heat stress-related proteins (HSP, SOD & CAT)",
+      "keywords": "Antarctic invertebrates; Climate change; Heat-stress proteins; Ocean warming; Protein structures; RNA-seq",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-014",
+      "year": 2024,
+      "title": "Sex-specific mercury levels in skin samples of southern elephant seals (Mirounga leonina) at Isla 25 de Mayo (King George Island), Antarctic Peninsula",
+      "keywords": "Antarctica; contamination; elephant seal; heavy metals; Hg; mercury; pinnipeds; South Shetland Islands",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-015",
+      "year": 2024,
+      "title": "Identification of tardigrades from the Half Moon Island, Antarctic",
+      "keywords": "Antarctica; biodiversity; occurrence; extreme environment; lichen.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-016",
+      "year": 2023,
+      "title": "Psychrobacter sp: perchlorate reducing bacteria, isolated from marine sediments from Margarita Bay, Antarctica",
+      "keywords": "Extreme environments; halotolerant bacteria; marine sediments; polar environments; toxicity.",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-017",
+      "year": 2023,
+      "title": "Propiedades sísmicas del permafrost a través del método de relaciones espectrales horizontal/vertical en la isla Seymour-Marambio de la Antártida",
+      "keywords": "Relaciones espectrales H/V; respuesta sísmica; permafrost; Marambio; Antártida; saturación de fluidos.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-018",
+      "year": 2023,
+      "title": "Retaining natural vegetation to safeguard biodiversity and humanity",
+      "keywords": "Biodiversity; Convention on Biological Diversity; Convention to Combat Desertification; ecosystems; Framework Convention on Climate Change; post-2020; retention; sustainable development goals; targets.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-019",
+      "year": 2023,
+      "title": "A surplus no more? Variation in krill availability impacts reproductive rates of Antarctic baleen whales",
+      "keywords": "Antarctica; climate change; conservation; humpback whale; krill; pregnancy rates.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-020",
+      "year": 2023,
+      "title": "Baseline concentrations, spatial distribution and origin of trace elements in marine surface sediments of the northern Antarctic Peninsula",
+      "keywords": "Contamination; FP-XRF; ICP-MS; Southern Ocean; Trace metals",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-021",
+      "year": 2023,
+      "title": "Evidencing Fluid Migration of the Crust during the Seismic Swarm by Using 1D Magnetotelluric Monitoring",
+      "keywords": "Antarctic Peninsula; apparent resistivity; earthquakes; electromagnetic anomalies; magnetotellurics; Orca submarine volcano; Seymour–Marambio Island.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-022",
+      "year": 2022,
+      "title": "Iceberg Motion in the Gerlache Strait",
+      "keywords": "gerlache strait; hydrodynamic model; icebergs.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-023",
+      "year": 2022,
+      "title": "Estudio de riesgos en escenarios naturales colombianos con potencial uso para misiones espaciales análogas",
+      "keywords": "Desierto; Ecosistema; Escenarios; Innovación; Riesgo.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-024",
+      "year": 2022,
+      "title": "Pseudomonas strains from the Livingston Island, Antarctica: a source of cold-active hydrolytic enzymes",
+      "keywords": "Amylase; cellulose; extracellular enzymes; polar environments; protease.",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-025",
+      "year": 2022,
+      "title": "Variation in blubber cortisol levels in a recovering humpback whale population inhabiting a rapidly changing environment",
+      "keywords": "Humpback whales; cortisol; blubber; stress biomarkers; Western Antarctic Peninsula; climate change",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-026",
+      "year": 2022,
+      "title": "Evolutionary and Biogeographical History of Penguins (Sphenisciformes): Review of the Dispersal Patterns and Adaptations in a Geologic and Paleoecological Context",
+      "keywords": "Aves; paleobiogeography; penguins; phylogenies; Sphenisciformes.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-027",
+      "year": 2022,
+      "title": "Swell Conditions at Potential Sites for the Colombian Antarctic Research Station",
+      "keywords": "Antarctic Station; Bransfield Strait; South Shetland Islands; Swell; Wave model.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-028",
+      "year": 2022,
+      "title": "Perchlorate-reducing bacteria from Antarctic marine sediments",
+      "keywords": "Extremophiles; Halotolerant bacteria; Perchlorate biodegradation; Psychrophilic bacteria; Psychrotolerant microorganism; Toxicity.",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-029",
+      "year": 2022,
+      "title": "Changes in rainfall seasonality inferred from weathering and pedogenic trends in mid-Miocene paleosols of La Tatacoa, Colombia",
+      "keywords": "Mi-4 glacial event; Mid-Miocene paleosols; Paleotropics; Pebas system; Rainfall seasonality; Red beds.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-030",
+      "year": 2022,
+      "title": "Redescription of Microspio moorei (Gravier, 1911) (Annelida: Spionidae) with inclusion of a taxonomic key for all the species of the genus",
+      "keywords": "Antarctic Peninsula; morphological variation; Programa Antártico Colombiano; Taxonomy.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-031",
+      "year": 2022,
+      "title": "The EOSC-Synergy cloud services implementation for the Latin American Giant Observatory (LAGO)",
+      "keywords": "Atmospheric pressure; Computer architecture; Cosmic rays; Cosmology; Data mining; Geomagnetism; Sea level; Web services.",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-032",
+      "year": 2022,
+      "title": "Seismic properties of the permafrost layer using the HVSR method in Seymour-Marambio Island, Antarctica",
+      "keywords": "Antarctic fluids' saturation; H/V spectral ratio; Marambio; permafrost; seismic response.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-033",
+      "year": 2022,
+      "title": "Spatial distribution of meso- and macro-zooplankton in the Bransfield Strait and around Elephant Island, Antarctic Peninsula, during the 2019–2020 austral summer",
+      "keywords": "Antarctic peninsula; Copepoda; Euphausia superba; Salpa thompsoni; Zooplankton.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-034",
+      "year": 2022,
+      "title": "UHPLC-MS Metabolomic Fingerprinting, Antioxidant, and Enzyme Inhibition Activities of Himantormia lugubris from Antarctica",
+      "keywords": "Alzheimer; Antarctica; antioxidant; depsides; dibenzofurans; enzyme inhibition; Himantormia; native lichens; phenolics",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-035",
+      "year": 2022,
+      "title": "Presence of perchlorate in marine sediments from Antarctica during 2017–2020",
+      "keywords": "Endocrine disruptor; Environmental fate; Occurrence assessment; Selective electrode; South Shetland Islands; Toxicology.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-036",
+      "year": 2022,
+      "title": "A phylogenetic study to assess the link between biome specialization and diversification in swallowtail butterflies",
+      "keywords": "bioclimatology; ecological specialization; macroecology; macroevolution; Papilionidae; resource-use; speciation.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-037",
+      "year": 2021,
+      "title": "Interannual Climate Variability in the West Antarctic Peninsula under Austral Summer Conditions",
+      "keywords": "climate variability; West Antarctic Peninsula (WAP); SST; multi-sensor LAC imagery; five-year warm cycle; Southern Annular Mode (SAM); Southern Oscillation Index (SOI); GEO.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-038",
+      "year": 2021,
+      "title": "Site Selection of the Colombian Antarctic Research Station Based on Fuzzy-Topsis Algorithm",
+      "keywords": "Site selection; Fuzzy TOPSIS; Antarctic station; multi-criteria analysis.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-039",
+      "year": 2021,
+      "title": "Contributions to the knowledge of macroalgae of the Gerlache Strait - Antarctica",
+      "keywords": "Macroalgas; Antártica; Estrecho de Gerlache; Rhodophyta; Ochrophyta; Cambio climático.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-040",
+      "year": 2021,
+      "title": "Flujos de sedimento glaciomarino en pequeñas bahías de la costa de Danco, península Antártica",
+      "keywords": "Ambiente glaciomarino; plumas de sedimentos; turbidez; variables oceanográficas; glaciar de marea.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-041",
+      "year": 2021,
+      "title": "Relatos del confín del mundo (y del Universo). En busca de Antártida, el último lugar de la Tierra. Una ventana al cosmos",
+      "keywords": "Divulgación científica; Astronomía polar; Exploración antártica.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-042",
+      "year": 2021,
+      "title": "Peligros de la operación aérea en la Antártida para gestionar la seguridad operacional de la Fuerza Aérea Colombiana",
+      "keywords": "Antártida; evaluación de riesgos; panorama de riesgos; seguridad operacional; FAC.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-043",
+      "year": 2021,
+      "title": "Annotated and illustrated list of echinoderms collected during the Colombian scientific expeditions to the Antarctica (2016-2019)",
+      "keywords": "Asteroidea; Biogerlache project; Crinoidea; Holothuroidea; Ophiuroidea.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-044",
+      "year": 2021,
+      "title": "Epipelagic euphausiids assemblage in the Gerlache Strait (Antarctic Peninsula) during January 2015",
+      "keywords": "Antarctic Ocean; Austral summer; Euphausiacea; Salinity; Temperature.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-045",
+      "year": 2021,
+      "title": "Ornithogenic Factor of Soil Formation in Antarctica: A Review",
+      "keywords": "Antarctic soil formation; biogeochemistry; ornithochory; ornithogenic soils; penguin guano.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-046",
+      "year": 2021,
+      "title": "Submeso-scale mixing features in the Gerlache Strait Bays (Antarctica)",
+      "keywords": "Antarctic Ocean dynamics; Diapycnal mixing; Gerlache Strait; Mixing; Sea ice.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-047",
+      "year": 2021,
+      "title": "Water Cherenkov detector optimization for space weather studies in Antarctic",
+      "keywords": "Cherenkov detector; Cosmic rays; Space weather; LAGO project; Marambio.",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-048",
+      "year": 2021,
+      "title": "Characterization of radionuclides in the marine sediments of Orca Seamount, Admiralty Bay, and Mackellar Cove",
+      "keywords": "137Cs; 40K; Antarctic; Radiation monitoring; Radioactive contamination.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-049",
+      "year": 2021,
+      "title": "Study of the Lange Glacier and its impact due to temperature increase in Admiralty Bay, King George Island, Antarctica",
+      "keywords": "Antarctica; Calving flux; Climate change; Lange Glacier; Melting.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-050",
+      "year": 2021,
+      "title": "Benthic polychaetes collected in the III expedición “Admiral Padilla” Austral Summer 2016-2017, to the north of the Antarctic Peninsula",
+      "keywords": "Annelida; Biodiversity; Biogerlache; Macrofauna; Marine benthos.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-051",
+      "year": 2021,
+      "title": "A hole in the nematosphere: tardigrades and rotifers dominate the cryoconite hole environment, whereas nematodes are missing",
+      "keywords": "Distribution; ecological selection; extremophiles; glaciers; Nematoda; psychrophiles; Rotifera; Tardigrada.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-052",
+      "year": 2021,
+      "title": "General description of some meteo-marine variables of surface waters adjacent to the Palmer Archipelago, Antarctic Peninsula, during 1979-2018 based on Era5 data",
+      "keywords": "Bismarck Strait; Climatology; Gerlache Strait; Sea ice cover; Trends.",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-053",
+      "year": 2021,
+      "title": "Glacimarine sediment flows in small bays on the danco coast, Antarctic Peninsula",
+      "keywords": "Glacimarine environment; Oceanographic Variable; Sediment plume; Tidewater Glacier; Turbidity",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-054",
+      "year": 2021,
+      "title": "Identification of phytoplankton blooms in the Gerlache Strait, West Antarctic Peninsula",
+      "keywords": "Absorption coefficients; Gerlache Strait; Inherent optical properties index; Phytoplankton; Size index",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-055",
+      "year": 2021,
+      "title": "Benthic molluscs collected in Western Antarctica during the “Caldas”, “Admiral Padilla” and “Admiral Campos” expeditions, southern summers 2014-2015, 2016-2017 and 2018-2019",
+      "keywords": "Bransfield Strait; Gerlache Strait; Mollusca; Southern Ocean; West Antarctica.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-056",
+      "year": 2021,
+      "title": "Migratory connections among breeding grounds off the Eastern Pacific and feeding areas in the Antarctic Peninsula based on genotype matching",
+      "keywords": "Genotyping; Megaptera novaeangliae; Microsatellite; Migratory connectivity; Southeastern Pacific; Gorgona.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-057",
+      "year": 2021,
+      "title": "Insights into the genetic diversity of the leopard seal (Hydrurga leptonyx), inferred from mitochondrial DNa analysis, at Danco Coast, antarctic Peninsula",
+      "keywords": "Antarctica; Control Region; MtDNA; Pinnipeds; Leopard Seal.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-058",
+      "year": 2021,
+      "title": "Copepods, hydromedusae and siphonophores: Diversity and distribution in the Gerlache Strait, Antarctic Peninsula",
+      "keywords": "Antarctic Ocean; Dimophyes arctica; Diversity; Metridia gerlachei; Zooplankton",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-059",
+      "year": 2020,
+      "title": "Beach litter distribution in Admiralty Bay, King George Island, Antarctica",
+      "keywords": "Wood fragments; Plastic items; Foam; Raman spectroscopy; Microplastics.",
+      "category": "Pollution & Ecotoxicology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-060",
+      "year": 2020,
+      "title": "Colombia in the Antarctica: Approaches to a scientific/social investigation. A call to the academy/state/society",
+      "keywords": "Antártida; proyecto de país; enfoque diferencial; política polar.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-061",
+      "year": 2020,
+      "title": "Diversity and Functioning of Antarctic Seaweed Microbiomes",
+      "keywords": "Seaweeds; Microbiome; Metagenomics; Polar coastal ecosystems.",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-062",
+      "year": 2020,
+      "title": "Estructura y distribución de la comunidad microfitoplanctónica a lo largo del estrecho de Gerlache durante el verano austral 2018-2019",
+      "keywords": "microfitoplancton; estructura; Antártica; estrecho de Gerlache.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-063",
+      "year": 2020,
+      "title": "From Space to Earth: physical and biological impacts of glacier dynamics in the marine system by means of Remote Sensing at Almirantazgo Bay, Antarctica",
+      "keywords": "Antarctica; Radar tracking; Remote sensing; Spaceborne radar; Sea surface; Ocean temperature; MODIS.",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-064",
+      "year": 2020,
+      "title": "Installing a prototype wind turbine to produce energy in Antarctica to allow a permanent Colombian scientific base to be established",
+      "keywords": "Wind energy; renewable energy; Marambio Station; Seymour Island; Colombia Antarctic Program.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-065",
+      "year": 2020,
+      "title": "Projected shifts in the foraging habitat of crabeater seals along the Antarctic Peninsula",
+      "keywords": "Crabeater seal; Lobodon carcinophaga; Habitat modeling; Sea ice dynamics.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-066",
+      "year": 2020,
+      "title": "Stereo-Photogrammetric Measurement Of Spatio-Temporal Velocity Fields At Lange Glacier, King George Island",
+      "keywords": "Cameras; Antarctica; Image sequences; Ice; Surface treatment; Radar tracking; Remote sensing.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-067",
+      "year": 2020,
+      "title": "Latitudinal gradients of haemosporidian parasites: Prevalence, diversity and drivers of infection in the Thorn-tailed Rayadito (Aphrastura spinicauda)",
+      "keywords": "Haemoproteus; Haemosporidian parasites; Latitudinal gradient; Plasmodium; South American temperate forests.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-068",
+      "year": 2020,
+      "title": "Humpback whales extend their stay in a breeding ground in the Tropical Eastern Pacific",
+      "keywords": "breeding site; Cetacea; Colombian Pacific; conservation; environmental changes; G-stock; Gorgona National Park; Megaptera novaeangliae; migration time.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-069",
+      "year": 2020,
+      "title": "Hydrographic conditions during two austral summer situations (2015 and 2017) in the Gerlache and Bismarck straits, northern Antarctic Peninsula",
+      "keywords": "Antarctic peninsula; OMP analysis; Water masses; theta-S diagram.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-070",
+      "year": 2019,
+      "title": "Effects of an Explosive Polar Cyclone Crossing the Antarctic Marginal Ice Zone",
+      "keywords": "Polar cyclone; Marginal Ice Zone; Wave-ice interaction; Storm surge.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-071",
+      "year": 2019,
+      "title": "How are we getting there? The present and future of South America’s Antarctic fleet",
+      "keywords": "Polar Vessels; Shipyards; Peru; Chile; Argentina; Brazil; Colombia; Icebreaker; COTECMAR.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-072",
+      "year": 2019,
+      "title": "Zooplankton composition and taxonomic abundance from South Pacific until Antarctic Peninsula 2016-2017",
+      "keywords": "Antarctica; Connectivity; South Pacific; Zooplankton.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-073",
+      "year": 2019,
+      "title": "Mesozooplankton biomass and epipelagic copepod assemblages in the Gerlache Strait (Antarctica) during the 2015 austral summer",
+      "keywords": "Aetideus armatus; Antarctic Peninsula; Bellingshausen Sea; Oithona similis; Zooplankton.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-074",
+      "year": 2018,
+      "title": "An initial approximation to the meteo-marine conditions of south bay (Doumer island) and comparison of the meteorological behavior between Doumer and Anvers islands, Antarctica (austral summer 2016-2017)",
+      "keywords": "Western Antarctic Peninsula; Palmer Archipelago; meteorology; seawater temperature.",
+      "category": "Space Analog & Planetary Science",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-075",
+      "year": 2018,
+      "title": "Hielo. Bitácora de una expedicionaria antártica",
+      "keywords": "Narrativa de expedición; Divulgación; Mujeres en la ciencia polar.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-076",
+      "year": 2018,
+      "title": "An overview of Colombia’s Antarctic programme",
+      "keywords": "Colombia; navy; Antarctica; Latin America; ARC 20 de Julio; PAC.",
+      "category": "Governance, Geopolitics & Education",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 16
+    },
+    {
+      "id": "PAC-PUB-077",
+      "year": 2018,
+      "title": "Detenerse a respirar en el fin del mundo: Colombia en Antártida",
+      "keywords": "Arte; Antártida; conservación; programa antártico colombiano.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-078",
+      "year": 2018,
+      "title": "Temporal stability and mixed-stock analyses of humpback whales (Megaptera novaeangliae) in the nearshore waters of the Western Antarctic Peninsula",
+      "keywords": "Antarctic Peninsula; Climate change; DNA markers; Humpback whales; Mixed-stock analysis; Population structure.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-079",
+      "year": 2018,
+      "title": "First record of Juncaceicola as endophytic fungi associated with Deschampsia antarctica Desv.",
+      "keywords": "Antarctic; Fungi Isolation; Mycodiversity; Phylogeny Taxonomy; Deschampsia antarctica.",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-080",
+      "year": 2018,
+      "title": "Geographic and temporal patterns of non-lethal attacks on humpback whales by killer whales in the eastern South Pacific and the Antarctic Peninsula",
+      "keywords": "Eastern South Pacific; Humpback whale; Killer whale; Megaptera novaeangliae; Migration; Non-lethal attacks; Orcinus orca; Rake scars.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-081",
+      "year": 2018,
+      "title": "Distribucion Espacial de la Variable densidad de los estrechos de Gerlache y Bransfield durante el verano austral entre 1979-2019",
+      "keywords": "Tratado Antartico; Gerlache; Bransfield; Densidad; Control de Calidad; Verano Austral.",
+      "category": "Governance, Geopolitics & Education",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 16
+    },
+    {
+      "id": "PAC-PUB-082",
+      "year": 2017,
+      "title": "Efectos del ejercicio aeróbico en la composición corporal, resistencia cardiovascular, ciclo circadiano, síndrome T3 Polar en la primera misión de Colombia a la Antártida",
+      "keywords": "Composición corporal; ejercicio; temperaturas extremas; Medicina polar; Síndrome T3.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-083",
+      "year": 2017,
+      "title": "Colombia En El Continente Blanco [Colombia in the White Continent]",
+      "keywords": "Antártida; vinculación; miembro consultivo y política internacional.",
+      "category": "Governance, Geopolitics & Education",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 16
+    },
+    {
+      "id": "PAC-PUB-084",
+      "year": 2017,
+      "title": "COLOMBIA Y ANTÁRTICA: Enlazadas por el mar y su biodiversidad",
+      "keywords": "Biodiversidad; Teleconexiones; Pacífico colombiano; Océano Austral.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-085",
+      "year": 2017,
+      "title": "Migratory interchange of humpback whales (Megaptera novaeangliae) among breeding grounds of Oceania and connections to Antarctic feeding areas based on genotype matching",
+      "keywords": "Humpback; Megaptera novaeangliae; Migration; Genotyping.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-086",
+      "year": 2017,
+      "title": "Mercury concentrations in wild humpback whales (Megaptera novaeangliae) sampled in the Colombian Pacific and in Antarctic Peninsula",
+      "keywords": "Total mercury; Heavy metals; Bioaccumulation; Megaptera novaeangliae; Feeding grounds.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-087",
+      "year": 2017,
+      "title": "Revisiting the andean tropical glacier behavior during the Antarctic cold reversal",
+      "keywords": "Tropical glaciers; ACR; Younger Dryas; Cosmogenic nuclides; Climate models.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-088",
+      "year": 2017,
+      "title": "Climate change effects on Antarctic benthos: a spatially explicit model approach",
+      "keywords": "Benthos; Climate change; Ecological modeling; Southern Ocean.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-089",
+      "year": 2017,
+      "title": "Migratory preferences of humpback whales between feeding and breeding grounds in the eastern South Pacific",
+      "keywords": "Megaptera novaeangliae; Migration corridors; South Pacific; Photo-identification.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-090",
+      "year": 2016,
+      "title": "Genetic differentiation between humpback whales (Megaptera novaeangliae) from Atlantic and Pacific breeding grounds of South America",
+      "keywords": "Population genetics; mtDNA; Microsatellites; Humpback whales.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-091",
+      "year": 2016,
+      "title": "Expression pattern of heat shock proteins during acute thermal stress in the Antarctic sea urchin, Sterechinus neumayeri",
+      "keywords": "Sterechinus neumayeri; Heat shock proteins; HSP70; Ocean warming; Transcriptomics.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-092",
+      "year": 2016,
+      "title": "The Antarctic Circumpolar Current as a diversification trigger for deep-sea octocorals",
+      "keywords": "Antarctic Circumpolar Current; Deep-sea octocorals; Speciation; Gene flow.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-093",
+      "year": 2016,
+      "title": "Phylogenomics and historical biogeography of the monocot order Liliales: out of Australia and through Antarctica",
+      "keywords": "Biogeography; Liliales; Gondwana; Phylogenomics.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-094",
+      "year": 2016,
+      "title": "Orchid historical biogeography, diversification, Antarctica and the paradox of orchid dispersal",
+      "keywords": "Orchidaceae; Biogeography; Gondwana break-up; Dispersal.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-095",
+      "year": 2015,
+      "title": "Un modelo hidrodinámico del estrecho de Gerlache (Antártida) para el verano del hemisferio sur",
+      "keywords": "Modelo hidrodinámico; Estrecho de Gerlache; Verano austral; Corrientes marinas.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-096",
+      "year": 2015,
+      "title": "Avistamiento de Hielos sobre el Mar en la Bahía de Fildes y el Estrecho de Gerlache durante el Verano Austral 2015",
+      "keywords": "Avistamiento de hielo; Bahía Fildes; Gerlache; Navegación polar.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-097",
+      "year": 2015,
+      "title": "Characterization of the Antarctic sea urchin (Sterechinus neumayeri) transcriptome and mitogenome: a molecular resource for phylogenetics, ecophysiology and global change biology",
+      "keywords": "Sterechinus neumayeri; Mitogenome; Transcriptome; Ocean acidification.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-098",
+      "year": 2015,
+      "title": "Colombia: ¿Miembro Consultativo del Tratado Antartico?",
+      "keywords": "Tratado Antártico; Miembro Consultativo; Artículo IX.2; Política exterior de Colombia.",
+      "category": "Governance, Geopolitics & Education",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 16
+    },
+    {
+      "id": "PAC-PUB-099",
+      "year": 2015,
+      "title": "Distinct composition signatures of archaeal and bacterial phylotypes in the Wanda Glacier forefield, Antarctic Peninsula",
+      "keywords": "Microbial diversity; Wanda Glacier; Glacial retreat; Soil colonization.",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-100",
+      "year": 2014,
+      "title": "Molecular systematics of the deep-sea bamboo corals (Octocorallia: Isididae: Keratoisidinae) from New Zealand with descriptions of two new species of Keratoisis",
+      "keywords": "Octocorallia; Keratoisis; Deep-sea corals; Systematics.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-101",
+      "year": 2014,
+      "title": "A major advance of tropical Andean glaciers during the Antarctic cold reversal",
+      "keywords": "Tropical glaciers; Andes; Antarctic Cold Reversal; Teleconnections.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    },
+    {
+      "id": "PAC-PUB-102",
+      "year": 2013,
+      "title": "La Bioprospección Antártica: indefiniciones e incompatibilidades con el sistema del tratado Antártico",
+      "keywords": "Bioprospección; Propiedad intelectual; Tratado Antártico; Protocolo de Madrid.",
+      "category": "Bioprospecting & Extremophile Microbiology",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 3
+    },
+    {
+      "id": "PAC-PUB-103",
+      "year": 2012,
+      "title": "Genetic diversity and population structure of humpback whales (Megaptera novaeangliae) from Ecuador based on mitochondrial DNA analyses",
+      "keywords": "Megaptera novaeangliae; mtDNA; Genetic diversity; Stock G.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-104",
+      "year": 2008,
+      "title": "Migratory round-trip of individually identified humpback whales at the Strait of Magellan: clues on transit times and phylopatry to destinations",
+      "keywords": "Strait of Magellan; Photo-ID; Transit times; Feeding areas.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-105",
+      "year": 2008,
+      "title": "Using Mitochondrial DNA and Mixed-Stock Analysis to estimate Migratory Allocation of Humpback Whales from Antarctic Feeding Areas to South Pacific Breeding Grounds",
+      "keywords": "Mixed-stock analysis; mtDNA; Feeding grounds; Breeding grounds.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-106",
+      "year": 2007,
+      "title": "Migratory destinations of humpback whales from the Magellan Strait feeding ground, Southeast Pacific",
+      "keywords": "Photo-identification; Migratory destinations; Southeast Pacific.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-107",
+      "year": 2004,
+      "title": "Migrations of individually identified humpback whales between the Antarctic Peninsula and South America",
+      "keywords": "Individual identification; Fluke matching; Migration routes.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-108",
+      "year": 2003,
+      "title": "Late Devonian acanthodians from Colombia",
+      "keywords": "Paleontology; Acanthodians; Cuche Formation; Devonian; Gondwana connections.",
+      "category": "General Polar Science & Exploration",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 9
+    },
+    {
+      "id": "PAC-PUB-109",
+      "year": 2001,
+      "title": "Genetic characterisation of the Colombian Pacific Coast humpback whale population using RAPD and mitochondrial DNA sequences",
+      "keywords": "RAPD; mtDNA; Colombian Pacific; Gorgona; Humpback population.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-110",
+      "year": 1990,
+      "title": "Whale migration record",
+      "keywords": "Cetacean historical records; Southern Ocean migration.",
+      "category": "Marine Biology & Biodiversity",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 14
+    },
+    {
+      "id": "PAC-PUB-111",
+      "year": 1976,
+      "title": "Relationship of Radiolarian Assemblages to Sediment Types and Physical Oceanography in the Atlantic and Western Indian Ocean Sectors of the Antarctic Ocean",
+      "keywords": "Radiolaria; Micropaleontology; Paleoceanography; Southern Ocean sediments.",
+      "category": "Oceanography, Glaciology & Climate",
+      "institution_framework": "Programa Antártico Colombiano (PAC) / Comisión Colombiana del Océano (CCO) / Armada de Colombia",
+      "sdg_alignment": 13
+    }
+  ]
+}

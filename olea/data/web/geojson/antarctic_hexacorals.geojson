@@ -1,0 +1,5689 @@
+{
+  "type": "FeatureCollection",
+  "name": "Antarctic hexacorals",
+  "source_url": "https://ipt.biodiversity.aq/resource?r=baso_hexacorallia",
+  "scientific_role": "PRESENCE_ONLY_NO_ABSENCE",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.67,
+          -62.522
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinernus antarcticus",
+        "occurrenceID": "94f9127a-00ec-48e0-b4e2-47f661804ddf",
+        "eventDate": "",
+        "minimumDepthInMeters": 3800.0,
+        "maximumDepthInMeters": 3800.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.115,
+          -63.013
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Aulactinia sulcata",
+        "occurrenceID": "47c36eff-6659-4a4f-8940-a567d06f227b",
+        "eventDate": "",
+        "minimumDepthInMeters": 621.0,
+        "maximumDepthInMeters": 621.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.652,
+          -60.919
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Aulactinia sulcata",
+        "occurrenceID": "2a27fde4-4831-4dbd-9b93-09c8da0624e5",
+        "eventDate": "",
+        "minimumDepthInMeters": 164.0,
+        "maximumDepthInMeters": 164.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.956,
+          -60.992
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Aulactinia sulcata",
+        "occurrenceID": "ee295da2-0cd8-4f33-b8b2-78b7a6d28163",
+        "eventDate": "",
+        "minimumDepthInMeters": 289.0,
+        "maximumDepthInMeters": 306.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.585,
+          -61.822
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Aulactinia sulcata",
+        "occurrenceID": "2653585f-82b1-454b-857a-188acb10dd59",
+        "eventDate": "",
+        "minimumDepthInMeters": 321.0,
+        "maximumDepthInMeters": 398.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.444,
+          -62.57
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Aulactinia sulcata",
+        "occurrenceID": "6bfb0fcd-9ffe-4e25-a6ad-66ae58f84313",
+        "eventDate": "",
+        "minimumDepthInMeters": 151.0,
+        "maximumDepthInMeters": 160.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.64,
+          -71.285
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Aulactinia sulcata",
+        "occurrenceID": "ce16603f-8a0e-477a-9360-d1d9b592ab23",
+        "eventDate": "",
+        "minimumDepthInMeters": 416.0,
+        "maximumDepthInMeters": 421.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.216,
+          -74.601
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "d3081dfa-c206-4167-ade8-692ddeeeef01",
+        "eventDate": "",
+        "minimumDepthInMeters": 1523.0,
+        "maximumDepthInMeters": 1549.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.345,
+          -75.061
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "d2aa85d6-d625-45f0-89dd-7fa426fe26ed",
+        "eventDate": "",
+        "minimumDepthInMeters": 407.0,
+        "maximumDepthInMeters": 407.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.183,
+          -61.565
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "41ba12e8-ad26-43b4-be8e-a7aa4f29af72",
+        "eventDate": "",
+        "minimumDepthInMeters": 416.0,
+        "maximumDepthInMeters": 417.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.951,
+          -62.498
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "f048a1e0-5c8e-49ef-8f52-b3d0e38fff6b",
+        "eventDate": "",
+        "minimumDepthInMeters": 869.0,
+        "maximumDepthInMeters": 880.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.115,
+          -63.013
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "85ae42f4-88e0-4127-80af-7d4f9bf1cf0a",
+        "eventDate": "",
+        "minimumDepthInMeters": 618.0,
+        "maximumDepthInMeters": 621.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.173,
+          -63.038
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "ead358d9-c882-42b6-8cf9-e2e648e3093c",
+        "eventDate": "",
+        "minimumDepthInMeters": 666.0,
+        "maximumDepthInMeters": 673.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "ff049292-7e5e-45c8-bda1-b47521931a84",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.631,
+          -62.111
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "a9eb938b-f8f6-44bd-b469-65b24ca8c6ba",
+        "eventDate": "",
+        "minimumDepthInMeters": 200.0,
+        "maximumDepthInMeters": 204.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.345,
+          -62.015
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "dd621a7b-1460-48fe-8d54-013d1c785c2d",
+        "eventDate": "",
+        "minimumDepthInMeters": 338.0,
+        "maximumDepthInMeters": 374.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.118,
+          -61.096
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "6f0658da-347d-4add-978e-f7dbc047e9a6",
+        "eventDate": "",
+        "minimumDepthInMeters": 442.0,
+        "maximumDepthInMeters": 458.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.757,
+          -61.762
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "8ec95715-588f-48c9-b070-07b9b96bd7bd",
+        "eventDate": "",
+        "minimumDepthInMeters": 2754.0,
+        "maximumDepthInMeters": 2754.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.403,
+          -61.392
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "44dcfc5c-8cd0-4315-9abd-5acf23a44e3e",
+        "eventDate": "",
+        "minimumDepthInMeters": 297.0,
+        "maximumDepthInMeters": 363.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.381,
+          -65.298
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "bc022f41-38c2-4421-a5d5-efe64638aaac",
+        "eventDate": "",
+        "minimumDepthInMeters": 2084.0,
+        "maximumDepthInMeters": 2087.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -24.367,
+          -58.251
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "e2c2eb67-afe3-4640-9dfc-5a42b4dd6304",
+        "eventDate": "",
+        "minimumDepthInMeters": 3931.0,
+        "maximumDepthInMeters": 3947.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.008,
+          -54.033
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "5fb3679f-e78e-4319-8a82-886fe02d5166",
+        "eventDate": "",
+        "minimumDepthInMeters": 271.0,
+        "maximumDepthInMeters": 272.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.136,
+          -54.503
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "e0bbc790-c145-424f-a221-8b2745099ec7",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 290.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.148,
+          -54.52
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "93b7378c-39de-4953-884f-9d5dbc6cbc36",
+        "eventDate": "",
+        "minimumDepthInMeters": 277.0,
+        "maximumDepthInMeters": 296.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.359,
+          -70.798
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Bolocera kerguelensis",
+        "occurrenceID": "eb5a2d4d-4285-48fc-88c5-9fae2c87d1bb",
+        "eventDate": "",
+        "minimumDepthInMeters": 1488.0,
+        "maximumDepthInMeters": 1516.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.405,
+          -70.86
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "d2864e44-bda2-4733-9e4a-cccdb6099d67",
+        "eventDate": "",
+        "minimumDepthInMeters": 283.0,
+        "maximumDepthInMeters": 283.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.468,
+          -70.893
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "098e3ea6-4ae0-484a-a118-255589749fb4",
+        "eventDate": "",
+        "minimumDepthInMeters": 235.0,
+        "maximumDepthInMeters": 241.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.476,
+          -70.821
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "deddaee6-a14e-495e-be70-ffec0e49fdfe",
+        "eventDate": "",
+        "minimumDepthInMeters": 281.0,
+        "maximumDepthInMeters": 301.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.478,
+          -71.161
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "7ee2efc0-324b-4623-9e7c-e731b27f3153",
+        "eventDate": "",
+        "minimumDepthInMeters": 341.0,
+        "maximumDepthInMeters": 360.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.313,
+          -72.846
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "b0e56012-db89-4884-ad27-418fe082249c",
+        "eventDate": "",
+        "minimumDepthInMeters": 395.0,
+        "maximumDepthInMeters": 417.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.263,
+          -72.85
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "c8038a3e-c10e-496d-a4f7-7d0f05509681",
+        "eventDate": "",
+        "minimumDepthInMeters": 391.0,
+        "maximumDepthInMeters": 395.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.255,
+          -73.558
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "70c0fdd8-917c-41c9-9728-406b56cf9e70",
+        "eventDate": "",
+        "minimumDepthInMeters": 866.0,
+        "maximumDepthInMeters": 920.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.726,
+          -71.67
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "3b518657-44a0-4c11-a647-1f67fd52abef",
+        "eventDate": "",
+        "minimumDepthInMeters": 244.0,
+        "maximumDepthInMeters": 248.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.605,
+          -71.283
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "7b5a6af6-87b5-480b-bf50-cf3c03754a64",
+        "eventDate": "",
+        "minimumDepthInMeters": 416.0,
+        "maximumDepthInMeters": 416.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.591,
+          -70.843
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "20c391f6-41a6-4a88-bf8a-5e0b07c3acb2",
+        "eventDate": "",
+        "minimumDepthInMeters": 636.0,
+        "maximumDepthInMeters": 643.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.103,
+          -61.446
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "7e219a0e-fb46-4519-a2bf-80050b522b0e",
+        "eventDate": "",
+        "minimumDepthInMeters": 1047.0,
+        "maximumDepthInMeters": 1227.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.183,
+          -61.565
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "10c5c58a-cb03-4c2c-a432-5211512bfaeb",
+        "eventDate": "",
+        "minimumDepthInMeters": 416.0,
+        "maximumDepthInMeters": 417.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.8,
+          -71.293
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "1b32ab2b-eed7-4349-b63f-e41e0a0b637c",
+        "eventDate": "",
+        "minimumDepthInMeters": 615.0,
+        "maximumDepthInMeters": 648.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.256,
+          -71.188
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "e6833c1d-d0bd-4687-8ae9-67febe769d9c",
+        "eventDate": "",
+        "minimumDepthInMeters": 309.0,
+        "maximumDepthInMeters": 318.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.361,
+          -71.198
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "087de13a-a48f-4d78-b54b-7d8268a74f49",
+        "eventDate": "",
+        "minimumDepthInMeters": 312.0,
+        "maximumDepthInMeters": 323.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.586,
+          -70.84
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "273613af-3c24-4b0c-b8e6-8264df925cb5",
+        "eventDate": "",
+        "minimumDepthInMeters": 226.0,
+        "maximumDepthInMeters": 266.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.173,
+          -63.038
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "c48b7da3-9b7f-4f97-9cd7-71d1f7cbaf95",
+        "eventDate": "",
+        "minimumDepthInMeters": 666.0,
+        "maximumDepthInMeters": 673.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.556,
+          -61.163
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "4e6ecc1b-058d-471f-9cf0-b8dac7b1a24a",
+        "eventDate": "",
+        "minimumDepthInMeters": 277.0,
+        "maximumDepthInMeters": 343.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.23,
+          -61.346
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "0d164dc5-3a0b-443f-93ea-6336d56fb5bf",
+        "eventDate": "",
+        "minimumDepthInMeters": 264.0,
+        "maximumDepthInMeters": 270.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.044,
+          -61.355
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "32305fc7-9df4-490f-9463-5b316667e220",
+        "eventDate": "",
+        "minimumDepthInMeters": 352.0,
+        "maximumDepthInMeters": 355.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.216,
+          -61.289
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "73a8d2ac-5a2e-4731-9e19-f7569f194f1c",
+        "eventDate": "",
+        "minimumDepthInMeters": 317.0,
+        "maximumDepthInMeters": 327.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.038,
+          -61.297
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "d8d4252b-dbbb-4112-9e26-9663052c5d71",
+        "eventDate": "",
+        "minimumDepthInMeters": 304.0,
+        "maximumDepthInMeters": 317.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.522,
+          -60.856
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "4e18a4c1-754b-4fd7-88f3-4c4f47a496a2",
+        "eventDate": "",
+        "minimumDepthInMeters": 279.0,
+        "maximumDepthInMeters": 292.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.659,
+          -60.823
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "409b6521-c310-4d54-889b-792ecda4c77c",
+        "eventDate": "",
+        "minimumDepthInMeters": 454.0,
+        "maximumDepthInMeters": 454.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.494,
+          -60.875
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "9637ad16-5a3a-4355-aed2-9e768e5f8b4e",
+        "eventDate": "",
+        "minimumDepthInMeters": 242.0,
+        "maximumDepthInMeters": 250.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.652,
+          -60.919
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "414e8530-0c8f-4aa9-bb58-2aea9c41db40",
+        "eventDate": "",
+        "minimumDepthInMeters": 164.0,
+        "maximumDepthInMeters": 164.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.983,
+          -61.023
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "d0c51788-c1d1-45c8-a672-2250a18d212f",
+        "eventDate": "",
+        "minimumDepthInMeters": 272.0,
+        "maximumDepthInMeters": 338.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.907,
+          -60.962
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "45887888-0327-4a4e-91d1-85e482b41ac9",
+        "eventDate": "",
+        "minimumDepthInMeters": 202.0,
+        "maximumDepthInMeters": 212.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.795,
+          -60.98
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "2e911943-8b06-49a1-bf13-eb797d2b919e",
+        "eventDate": "",
+        "minimumDepthInMeters": 160.0,
+        "maximumDepthInMeters": 187.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.769,
+          -61.016
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "5e4d2e87-1564-4f81-9d31-62a488912d72",
+        "eventDate": "",
+        "minimumDepthInMeters": 153.0,
+        "maximumDepthInMeters": 184.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.449,
+          -61.39
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "aa86a88c-6cc0-4f94-92c3-e103965b7c98",
+        "eventDate": "",
+        "minimumDepthInMeters": 276.0,
+        "maximumDepthInMeters": 282.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.595,
+          -70.835
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "ad4fda19-e2af-42cc-81fb-1ef318b24b79",
+        "eventDate": "",
+        "minimumDepthInMeters": 268.0,
+        "maximumDepthInMeters": 269.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.526,
+          -70.94
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "e17a0c2c-3ace-4125-a5ce-77cf389a0421",
+        "eventDate": "",
+        "minimumDepthInMeters": 244.0,
+        "maximumDepthInMeters": 284.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.543,
+          -70.947
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "a0bbd08f-1c3f-470e-8c87-1126d051d1b9",
+        "eventDate": "",
+        "minimumDepthInMeters": 258.0,
+        "maximumDepthInMeters": 338.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.531,
+          -70.942
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "72d6bd9a-a565-438d-9324-8087e7b354f3",
+        "eventDate": "",
+        "minimumDepthInMeters": 253.0,
+        "maximumDepthInMeters": 296.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.71,
+          -70.945
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "fe6ff313-6124-4770-aa57-ff2d6c8df56d",
+        "eventDate": "",
+        "minimumDepthInMeters": 318.0,
+        "maximumDepthInMeters": 337.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.507,
+          -71.091
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "d722bd9a-44e1-4241-affe-bbce1a8a85b3",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 287.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.878,
+          -70.879
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "c3bc5ef5-df47-4d9c-a8a3-ea5a8d90d038",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 295.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.728,
+          -70.869
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "0121a3c2-520c-4e5b-aef2-f6f704a7f81e",
+        "eventDate": "",
+        "minimumDepthInMeters": 288.0,
+        "maximumDepthInMeters": 291.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.462,
+          -71.107
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "b640c62c-10a0-467e-bf8b-2885af0c7497",
+        "eventDate": "",
+        "minimumDepthInMeters": 268.0,
+        "maximumDepthInMeters": 277.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.441,
+          -71.12
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "2ecaac52-24c0-4de2-86b1-7096242c93b6",
+        "eventDate": "",
+        "minimumDepthInMeters": 191.0,
+        "maximumDepthInMeters": 228.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.81,
+          -72.857
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Epiactis georgiana",
+        "occurrenceID": "75d90869-60cd-433d-ad8b-c6839829fc99",
+        "eventDate": "",
+        "minimumDepthInMeters": 576.0,
+        "maximumDepthInMeters": 598.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.49,
+          -70.871
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "56962977-6cdb-4fcb-b2c9-526b8b838935",
+        "eventDate": "",
+        "minimumDepthInMeters": 247.0,
+        "maximumDepthInMeters": 247.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.116,
+          -73.606
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "7b54c463-9973-4278-993b-65a9aa33ce76",
+        "eventDate": "",
+        "minimumDepthInMeters": 440.0,
+        "maximumDepthInMeters": 444.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.246,
+          -73.558
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "8b5d74dd-a533-4848-9986-24be9af6f5ad",
+        "eventDate": "",
+        "minimumDepthInMeters": 826.0,
+        "maximumDepthInMeters": 928.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.003,
+          -74.633
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "c48ae8b2-e4c9-46eb-9ec6-8066679e5477",
+        "eventDate": "",
+        "minimumDepthInMeters": 710.0,
+        "maximumDepthInMeters": 758.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.695,
+          -75.438
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "905da26c-b3ec-4686-a86e-f74454ecafd3",
+        "eventDate": "",
+        "minimumDepthInMeters": 228.0,
+        "maximumDepthInMeters": 233.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.71,
+          -71.006
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "1d1090d9-6db6-4f93-8ba2-0d3aa40257bc",
+        "eventDate": "",
+        "minimumDepthInMeters": 594.0,
+        "maximumDepthInMeters": 602.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.591,
+          -70.843
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "f7455e1b-eecb-422b-8623-7ee123751ac9",
+        "eventDate": "",
+        "minimumDepthInMeters": 636.0,
+        "maximumDepthInMeters": 643.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.586,
+          -70.84
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "a61b808d-d0e2-44e1-b19b-fdc957e84fd3",
+        "eventDate": "",
+        "minimumDepthInMeters": 226.0,
+        "maximumDepthInMeters": 266.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.578,
+          -70.836
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "20deaadc-457b-4023-9a0e-50c8c14c3201",
+        "eventDate": "",
+        "minimumDepthInMeters": 273.0,
+        "maximumDepthInMeters": 274.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.59,
+          -70.836
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "ee3c2d27-6356-4c0d-8a8a-925b5a68378f",
+        "eventDate": "",
+        "minimumDepthInMeters": 251.0,
+        "maximumDepthInMeters": 271.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.555,
+          -63.08
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "21ef2656-664d-4df7-8afb-477d41a9a296",
+        "eventDate": "",
+        "minimumDepthInMeters": 93.0,
+        "maximumDepthInMeters": 97.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.533,
+          -63.08
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "87961f39-4960-493c-9155-128250b1341e",
+        "eventDate": "",
+        "minimumDepthInMeters": 97.0,
+        "maximumDepthInMeters": 97.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.526,
+          -63.078
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "452f18a6-62ed-4747-9b96-f17e2a474694",
+        "eventDate": "",
+        "minimumDepthInMeters": 94.0,
+        "maximumDepthInMeters": 95.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "c80f94ef-6093-4a26-a52c-021f9ebd446b",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.631,
+          -62.111
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "a58b529d-78fe-4033-99db-401230626b60",
+        "eventDate": "",
+        "minimumDepthInMeters": 200.0,
+        "maximumDepthInMeters": 204.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.345,
+          -62.015
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "3c3b11c9-0146-432e-8397-7ba03a9f6878",
+        "eventDate": "",
+        "minimumDepthInMeters": 338.0,
+        "maximumDepthInMeters": 347.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.044,
+          -61.355
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "89725f63-be53-4bbb-a6a9-5cf395282b79",
+        "eventDate": "",
+        "minimumDepthInMeters": null,
+        "maximumDepthInMeters": null,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.189,
+          -60.985
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "597b64fb-8a01-42b9-945a-160ffa8c5fb1",
+        "eventDate": "",
+        "minimumDepthInMeters": 196.0,
+        "maximumDepthInMeters": 269.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.779,
+          -60.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "fa7bd9e6-6d3a-44e1-a4dc-9667d5f2d670",
+        "eventDate": "",
+        "minimumDepthInMeters": 158.0,
+        "maximumDepthInMeters": 189.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.586,
+          -61.766
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "d3d00161-86f4-4255-8a99-3ebd7d599f5f",
+        "eventDate": "",
+        "minimumDepthInMeters": 281.0,
+        "maximumDepthInMeters": 284.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.739,
+          -62.438
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "53d2ffbd-19ca-44f3-9328-ddf15dd717c4",
+        "eventDate": "",
+        "minimumDepthInMeters": 217.0,
+        "maximumDepthInMeters": 220.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.444,
+          -62.57
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "9345943f-d1b5-4048-b8af-776b8bfbc172",
+        "eventDate": "",
+        "minimumDepthInMeters": 151.0,
+        "maximumDepthInMeters": 160.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.613,
+          -54.407
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "0a21dce3-18be-46b3-88f4-9ba2adcba480",
+        "eventDate": "",
+        "minimumDepthInMeters": 278.0,
+        "maximumDepthInMeters": 280.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.926,
+          -60.136
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "c8b1938e-835d-42ce-9b1e-cb5faf36291f",
+        "eventDate": "",
+        "minimumDepthInMeters": 374.0,
+        "maximumDepthInMeters": 379.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.293,
+          -54.374
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "3122fb18-0db1-4892-8007-2392327cf20c",
+        "eventDate": "",
+        "minimumDepthInMeters": 122.0,
+        "maximumDepthInMeters": 134.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.526,
+          -70.94
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "c4154b6a-7781-4f1e-904a-a4b31ad84d3b",
+        "eventDate": "",
+        "minimumDepthInMeters": 244.0,
+        "maximumDepthInMeters": 284.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.529,
+          -70.942
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "6c05758c-7655-4c12-8082-ac0f2aaa540c",
+        "eventDate": "",
+        "minimumDepthInMeters": 256.0,
+        "maximumDepthInMeters": 290.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.563,
+          -71.316
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "0248930f-2648-4089-a454-a3356bbb3e25",
+        "eventDate": "",
+        "minimumDepthInMeters": 844.0,
+        "maximumDepthInMeters": 848.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.71,
+          -70.945
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Glyphoperidium bursa",
+        "occurrenceID": "7305d253-1d70-4290-a4fb-0443e18e240f",
+        "eventDate": "",
+        "minimumDepthInMeters": 318.0,
+        "maximumDepthInMeters": 337.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.139,
+          -54.74
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Isotealia antarctica",
+        "occurrenceID": "8a22754e-d7af-44b7-81dc-665058cf3200",
+        "eventDate": "",
+        "minimumDepthInMeters": 574.0,
+        "maximumDepthInMeters": 575.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.42,
+          -71.323
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "74ff8b55-21c0-497a-b1a7-2befc3630de3",
+        "eventDate": "",
+        "minimumDepthInMeters": 182.0,
+        "maximumDepthInMeters": 191.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.496,
+          -70.868
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "a0c4ee91-d8ab-47a2-ac02-683ceb25b860",
+        "eventDate": "",
+        "minimumDepthInMeters": 243.0,
+        "maximumDepthInMeters": 247.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.476,
+          -70.821
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "efc3314d-97dc-4ff2-b939-5bffc3b501fd",
+        "eventDate": "",
+        "minimumDepthInMeters": 281.0,
+        "maximumDepthInMeters": 301.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.345,
+          -75.061
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "224cd843-8005-439c-849b-59f41768cc23",
+        "eventDate": "",
+        "minimumDepthInMeters": 407.0,
+        "maximumDepthInMeters": 407.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.173,
+          -63.038
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "b8548171-b4a9-44ba-90cb-d7aa9c7d6d3e",
+        "eventDate": "",
+        "minimumDepthInMeters": 666.0,
+        "maximumDepthInMeters": 673.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "2c5e59c9-7acb-42f3-b9d2-6822fd2fcfb6",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.631,
+          -62.111
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "1f9aa3bc-02cc-4e31-acec-a8cf6be42a93",
+        "eventDate": "",
+        "minimumDepthInMeters": 200.0,
+        "maximumDepthInMeters": 204.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.345,
+          -62.015
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "f1fadef1-e037-4c02-a3ac-cc5fd1338d52",
+        "eventDate": "",
+        "minimumDepthInMeters": 338.0,
+        "maximumDepthInMeters": 374.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.118,
+          -61.096
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "f6c49546-6500-4dfb-9798-b3d742e8b813",
+        "eventDate": "",
+        "minimumDepthInMeters": 442.0,
+        "maximumDepthInMeters": 458.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.848,
+          -61.399
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "7763a165-478c-4a1c-bacd-0154ba7de167",
+        "eventDate": "",
+        "minimumDepthInMeters": 2228.0,
+        "maximumDepthInMeters": 2228.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.235,
+          -54.501
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "6367019a-84ba-408d-9472-c7a7167a602c",
+        "eventDate": "",
+        "minimumDepthInMeters": 247.0,
+        "maximumDepthInMeters": 260.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.728,
+          -70.869
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Capnea georgiana",
+        "occurrenceID": "0b1d7504-16bc-4ec4-8f56-88baa6455f5c",
+        "eventDate": "",
+        "minimumDepthInMeters": 288.0,
+        "maximumDepthInMeters": 291.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.345,
+          -62.454
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stephanthus antarcticus",
+        "occurrenceID": "b4f70fb7-d57a-4096-b293-abe6606770d9",
+        "eventDate": "",
+        "minimumDepthInMeters": 213.0,
+        "maximumDepthInMeters": 220.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.701,
+          -64.63
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stephanthus antarcticus",
+        "occurrenceID": "fecc394d-6f43-488d-ab3f-8a56e6668b50",
+        "eventDate": "",
+        "minimumDepthInMeters": 292.0,
+        "maximumDepthInMeters": 292.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.67,
+          -62.522
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Liponema multipora",
+        "occurrenceID": "b0036291-c120-4030-bf1a-388e849d1b26",
+        "eventDate": "",
+        "minimumDepthInMeters": 3800.0,
+        "maximumDepthInMeters": 3800.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.391,
+          -62.92
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Dactylanthus antarcticus",
+        "occurrenceID": "2d475140-bf0e-48b3-a199-01751fa8e043",
+        "eventDate": "",
+        "minimumDepthInMeters": 214.0,
+        "maximumDepthInMeters": 218.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.556,
+          -61.163
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Dactylanthus antarcticus",
+        "occurrenceID": "94665e40-6969-4391-b49c-c03b55df5a87",
+        "eventDate": "",
+        "minimumDepthInMeters": 277.0,
+        "maximumDepthInMeters": 343.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.696,
+          -54.457
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Dactylanthus antarcticus",
+        "occurrenceID": "b99be094-86c4-4dcc-90e2-47d778b2aa0c",
+        "eventDate": "",
+        "minimumDepthInMeters": 249.0,
+        "maximumDepthInMeters": 256.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.136,
+          -54.503
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinostola crassicornis",
+        "occurrenceID": "08edae3f-b1ec-49b0-813f-af49c89688eb",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 290.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.148,
+          -54.52
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinostola crassicornis",
+        "occurrenceID": "f83b7613-50a4-413d-88f8-2c9e3e809650",
+        "eventDate": "",
+        "minimumDepthInMeters": 277.0,
+        "maximumDepthInMeters": 296.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinostola georgiana",
+        "occurrenceID": "5b6f64ec-f497-4dd9-b300-353a2b984f3f",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.615,
+          -54.407
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinostola georgiana",
+        "occurrenceID": "df03b3f7-cb00-44a1-b06c-a57641fb149d",
+        "eventDate": "",
+        "minimumDepthInMeters": 278.0,
+        "maximumDepthInMeters": 280.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.696,
+          -54.457
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinostola georgiana",
+        "occurrenceID": "5eff2625-8872-4ba3-8f7e-d737b3ed2522",
+        "eventDate": "",
+        "minimumDepthInMeters": 249.0,
+        "maximumDepthInMeters": 256.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.457,
+          -60.986
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinostola georgiana",
+        "occurrenceID": "02a9e373-2208-4553-962c-c7714c281f95",
+        "eventDate": "",
+        "minimumDepthInMeters": 399.0,
+        "maximumDepthInMeters": 402.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.235,
+          -54.501
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinostola georgiana",
+        "occurrenceID": "9e597ce0-9d3d-4b39-98ac-45dec3ffa13e",
+        "eventDate": "",
+        "minimumDepthInMeters": 247.0,
+        "maximumDepthInMeters": 260.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.988,
+          -74.645
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormosoma scotti",
+        "occurrenceID": "d85f186b-d2d6-4825-aa80-aab8e9598f6e",
+        "eventDate": "",
+        "minimumDepthInMeters": 569.0,
+        "maximumDepthInMeters": 583.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.256,
+          -71.188
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormosoma scotti",
+        "occurrenceID": "1f54cf4e-8bd6-4164-a62d-720ca1b44317",
+        "eventDate": "",
+        "minimumDepthInMeters": 309.0,
+        "maximumDepthInMeters": 318.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.541,
+          -71.113
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormosoma scotti",
+        "occurrenceID": "317f6ed8-f90d-44b9-bfe1-ab4ef46c8387",
+        "eventDate": "",
+        "minimumDepthInMeters": 166.0,
+        "maximumDepthInMeters": 175.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.71,
+          -70.945
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormosoma scotti",
+        "occurrenceID": "d3d9326a-b0d4-4917-8da8-12d4fcbb403c",
+        "eventDate": "",
+        "minimumDepthInMeters": 318.0,
+        "maximumDepthInMeters": 337.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.462,
+          -71.107
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormosoma scotti",
+        "occurrenceID": "46857b58-7e5e-4c96-ae4c-842920e2a791",
+        "eventDate": "",
+        "minimumDepthInMeters": 268.0,
+        "maximumDepthInMeters": 277.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.566,
+          -70.863
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "884d5930-078e-4e60-ab12-8b1b826ef832",
+        "eventDate": "",
+        "minimumDepthInMeters": 227.0,
+        "maximumDepthInMeters": 229.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.405,
+          -70.86
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "b5748333-2687-4897-8f0a-91e5d1c15291",
+        "eventDate": "",
+        "minimumDepthInMeters": 283.0,
+        "maximumDepthInMeters": 283.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.476,
+          -70.821
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "bd690f1e-5727-419b-a5d6-3bb499cb0b9b",
+        "eventDate": "",
+        "minimumDepthInMeters": 281.0,
+        "maximumDepthInMeters": 301.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.313,
+          -72.846
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "5bf1a172-7099-49e1-b6ff-ccdfbbf6b7fa",
+        "eventDate": "",
+        "minimumDepthInMeters": 395.0,
+        "maximumDepthInMeters": 417.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.263,
+          -72.85
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "1e83e99c-2978-484b-af87-5fa696440aaf",
+        "eventDate": "",
+        "minimumDepthInMeters": 391.0,
+        "maximumDepthInMeters": 395.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.215,
+          -73.596
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "54c34408-6f35-4562-b146-1fa810a4b1dd",
+        "eventDate": "",
+        "minimumDepthInMeters": 629.0,
+        "maximumDepthInMeters": 659.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.116,
+          -73.606
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "3f395b4f-cac9-4c26-9ad3-afe5b2b487ba",
+        "eventDate": "",
+        "minimumDepthInMeters": 440.0,
+        "maximumDepthInMeters": 444.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.988,
+          -74.645
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "8b982220-e472-4d8f-8b13-557979390dac",
+        "eventDate": "",
+        "minimumDepthInMeters": 569.0,
+        "maximumDepthInMeters": 583.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.726,
+          -71.67
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "89ea2799-2ad4-4dd1-bced-4227fdf709b5",
+        "eventDate": "",
+        "minimumDepthInMeters": 244.0,
+        "maximumDepthInMeters": 248.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.59,
+          -70.84
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "79b5c07a-53b4-475f-86da-e8d916346900",
+        "eventDate": "",
+        "minimumDepthInMeters": 236.0,
+        "maximumDepthInMeters": 272.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.591,
+          -70.843
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "a7d04cda-33df-4ad1-8eeb-8ecd9deceb7d",
+        "eventDate": "",
+        "minimumDepthInMeters": 234.0,
+        "maximumDepthInMeters": 267.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.598,
+          -62.338
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "84716b34-07a6-4042-926c-c419b3a6b2de",
+        "eventDate": "",
+        "minimumDepthInMeters": 636.0,
+        "maximumDepthInMeters": 643.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.103,
+          -61.446
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "e7ab5421-59be-4f74-8e6b-02f06120be7e",
+        "eventDate": "",
+        "minimumDepthInMeters": 1047.0,
+        "maximumDepthInMeters": 1227.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.361,
+          -71.198
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "7ffb7d2e-46da-474e-9835-aca8d96f655f",
+        "eventDate": "",
+        "minimumDepthInMeters": 312.0,
+        "maximumDepthInMeters": 323.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.586,
+          -70.84
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "f8f16613-f01b-4169-b9a4-c46097b3e709",
+        "eventDate": "",
+        "minimumDepthInMeters": 226.0,
+        "maximumDepthInMeters": 266.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.59,
+          -70.843
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "c546e1cf-d5db-40fa-be76-ce028c9c52ed",
+        "eventDate": "",
+        "minimumDepthInMeters": 247.0,
+        "maximumDepthInMeters": 269.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.578,
+          -70.836
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "e2dd7384-aebf-45e2-859a-c5e1dae9c0eb",
+        "eventDate": "",
+        "minimumDepthInMeters": 247.0,
+        "maximumDepthInMeters": 269.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.575,
+          -70.836
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "a564ff1e-af23-41b0-bd79-4f5dbaab0f5d",
+        "eventDate": "",
+        "minimumDepthInMeters": 273.0,
+        "maximumDepthInMeters": 274.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.59,
+          -70.836
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "91eaf4f9-70ca-4930-bd4f-fffe9428b369",
+        "eventDate": "",
+        "minimumDepthInMeters": 266263.0,
+        "maximumDepthInMeters": 266263.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.115,
+          -63.013
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "2556f564-a5aa-49f1-aef5-f1f5b2cc8ce1",
+        "eventDate": "",
+        "minimumDepthInMeters": 251.0,
+        "maximumDepthInMeters": 271.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.173,
+          -63.038
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "60868b5f-38ef-4e1c-aa18-30506ed347b3",
+        "eventDate": "",
+        "minimumDepthInMeters": 666.0,
+        "maximumDepthInMeters": 673.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.935,
+          -62.973
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "6c441356-0292-4c44-9514-871edbe8ca01",
+        "eventDate": "",
+        "minimumDepthInMeters": 1020.0,
+        "maximumDepthInMeters": 1026.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "8102a841-7c5a-45f8-aafd-3d395e4b0209",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.631,
+          -62.111
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "14506b37-e452-45cf-8468-a7c78cc99a67",
+        "eventDate": "",
+        "minimumDepthInMeters": 200.0,
+        "maximumDepthInMeters": 204.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.216,
+          -61.289
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "ab465e05-8147-4dd5-81cb-62e38a80ebd7",
+        "eventDate": "",
+        "minimumDepthInMeters": 317.0,
+        "maximumDepthInMeters": 327.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.217,
+          -54.526
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "7248936e-b558-4a48-82c7-14ca6874a6b5",
+        "eventDate": "",
+        "minimumDepthInMeters": 365.0,
+        "maximumDepthInMeters": 377.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.541,
+          -71.113
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Stomphia selaginella",
+        "occurrenceID": "8d5bca94-dc04-4036-b1df-5ec57397bcfd",
+        "eventDate": "",
+        "minimumDepthInMeters": 166.0,
+        "maximumDepthInMeters": 175.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.091,
+          -65.325
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Galatheanthemum profundale",
+        "occurrenceID": "185214d6-c5bd-4337-a882-44f575c254bd",
+        "eventDate": "",
+        "minimumDepthInMeters": 4060.0,
+        "maximumDepthInMeters": 4065.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.775,
+          -63.771
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Galatheanthemum profundale",
+        "occurrenceID": "b3060580-a8a4-4606-867e-11b9f2846656",
+        "eventDate": "",
+        "minimumDepthInMeters": 4973.0,
+        "maximumDepthInMeters": 4975.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.851,
+          -62.962
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Galatheanthemum profundale",
+        "occurrenceID": "146a8397-89bd-43c8-87de-c5c79ec3c200",
+        "eventDate": "",
+        "minimumDepthInMeters": 4543.0,
+        "maximumDepthInMeters": 4545.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.062,
+          -67.506
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Galatheanthemum profundale",
+        "occurrenceID": "c4a2fe5c-e9ff-4019-abf8-e4f779e8650b",
+        "eventDate": "",
+        "minimumDepthInMeters": 4647.0,
+        "maximumDepthInMeters": 4648.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.408,
+          -68.059
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Galatheanthemum profundale",
+        "occurrenceID": "17416858-c384-4d94-a108-599520e2c28a",
+        "eventDate": "",
+        "minimumDepthInMeters": 4928.0,
+        "maximumDepthInMeters": 4930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.097,
+          -66.634
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Galatheanthemum profundale",
+        "occurrenceID": "b1e2d1d4-9cd3-4ecb-b91b-dfad41d72e0b",
+        "eventDate": "",
+        "minimumDepthInMeters": 4992.0,
+        "maximumDepthInMeters": 4995.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.482,
+          -65.59
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Galatheanthemum profundale",
+        "occurrenceID": "ab98188d-e4e7-414e-b7f8-6f20a782ee5a",
+        "eventDate": "",
+        "minimumDepthInMeters": 4793.0,
+        "maximumDepthInMeters": 4797.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71,
+          -61.728
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinoscyphia plebeia",
+        "occurrenceID": "fdb86d0c-64be-4154-b6c6-9035bdb59142",
+        "eventDate": "",
+        "minimumDepthInMeters": 2853.0,
+        "maximumDepthInMeters": 2856.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Eltaninactis infundibulum",
+        "occurrenceID": "74e53b5d-9a6f-49bf-8ec4-13d63944aea4",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinauge verrillii",
+        "occurrenceID": "d9642a6f-a8e6-494d-b5bf-cde553264827",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.659,
+          -60.823
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinauge verrillii",
+        "occurrenceID": "afbbdc21-b5bf-456d-b60a-c3794e2916d8",
+        "eventDate": "",
+        "minimumDepthInMeters": 454.0,
+        "maximumDepthInMeters": 454.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.76,
+          -61.005
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinauge verrillii",
+        "occurrenceID": "4fc70c39-15a4-47b1-9685-20ed24e36aa1",
+        "eventDate": "",
+        "minimumDepthInMeters": 122.0,
+        "maximumDepthInMeters": 158.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71,
+          -61.728
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Actinauge verrillii",
+        "occurrenceID": "377817a3-8526-4f29-8cba-73cbc2aec374",
+        "eventDate": "",
+        "minimumDepthInMeters": 2853.0,
+        "maximumDepthInMeters": 2856.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.148,
+          -61.423
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "aeae0a48-0cf8-40fd-aa51-63f41f3c4cbd",
+        "eventDate": "",
+        "minimumDepthInMeters": 298.0,
+        "maximumDepthInMeters": 326.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.659,
+          -60.823
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "21be19dd-9be2-4c99-9dca-7465ac61b0bc",
+        "eventDate": "",
+        "minimumDepthInMeters": 454.0,
+        "maximumDepthInMeters": 454.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.983,
+          -61.023
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "673ac052-8fb7-408a-9ffe-87f5ae195745",
+        "eventDate": "",
+        "minimumDepthInMeters": 272.0,
+        "maximumDepthInMeters": 338.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.907,
+          -60.962
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "026d8621-273c-43ba-b666-7ddcacfb195d",
+        "eventDate": "",
+        "minimumDepthInMeters": 202.0,
+        "maximumDepthInMeters": 212.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.806,
+          -61.65
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "7b73548c-aeb0-4269-8218-fc3e2145a4d3",
+        "eventDate": "",
+        "minimumDepthInMeters": 339.0,
+        "maximumDepthInMeters": 384.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.541,
+          -71.113
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "97ce530d-82f4-474a-befb-b69317f1cd88",
+        "eventDate": "",
+        "minimumDepthInMeters": 166.0,
+        "maximumDepthInMeters": 175.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.595,
+          -70.835
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "c3958130-5ea2-4076-8364-bff3e11e8e34",
+        "eventDate": "",
+        "minimumDepthInMeters": 268.0,
+        "maximumDepthInMeters": 269.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.598,
+          -70.847
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "43882c4d-018e-4cbe-967d-ae4f9ae5af5e",
+        "eventDate": "",
+        "minimumDepthInMeters": 254.0,
+        "maximumDepthInMeters": 264.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.878,
+          -70.879
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "ddf00def-4237-489e-833a-832adeffde28",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 295.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.462,
+          -71.107
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "799af69b-a933-48cd-87a8-b94b9cd23274",
+        "eventDate": "",
+        "minimumDepthInMeters": 268.0,
+        "maximumDepthInMeters": 277.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.441,
+          -71.12
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "c5541c0d-1c82-4312-824b-57a368189294",
+        "eventDate": "",
+        "minimumDepthInMeters": 191.0,
+        "maximumDepthInMeters": 228.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.531,
+          -70.943
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "f040876a-57ab-481b-b40a-f11094cfcbcd",
+        "eventDate": "",
+        "minimumDepthInMeters": 276.0,
+        "maximumDepthInMeters": 281.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.801,
+          -70.516
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia armata",
+        "occurrenceID": "00074800-4a12-4f09-943b-534be2eec2fe",
+        "eventDate": "",
+        "minimumDepthInMeters": 297.0,
+        "maximumDepthInMeters": 297.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.566,
+          -70.863
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "49f565d0-81a8-4fa8-a196-d0f30d392bff",
+        "eventDate": "",
+        "minimumDepthInMeters": 227.0,
+        "maximumDepthInMeters": 229.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.476,
+          -70.821
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "eb666687-0716-4de6-b5b7-75ba9cd30c96",
+        "eventDate": "",
+        "minimumDepthInMeters": 281.0,
+        "maximumDepthInMeters": 301.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.263,
+          -72.85
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "2632ece5-3073-4439-a841-e4f00d5e4a31",
+        "eventDate": "",
+        "minimumDepthInMeters": 391.0,
+        "maximumDepthInMeters": 395.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.345,
+          -75.061
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "1ff9e624-29c8-404b-897e-fd0abd60ce70",
+        "eventDate": "",
+        "minimumDepthInMeters": 407.0,
+        "maximumDepthInMeters": 407.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.726,
+          -71.67
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "3ce09b7d-f067-40ed-8165-9da6049379d1",
+        "eventDate": "",
+        "minimumDepthInMeters": 244.0,
+        "maximumDepthInMeters": 248.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.605,
+          -71.283
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "e50daef6-4a3d-4534-b599-f5b1bcde32e0",
+        "eventDate": "",
+        "minimumDepthInMeters": 416.0,
+        "maximumDepthInMeters": 416.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.59,
+          -70.84
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "fadf11a9-eb49-40ad-b962-acf4213ebe34",
+        "eventDate": "",
+        "minimumDepthInMeters": 236.0,
+        "maximumDepthInMeters": 272.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.591,
+          -70.843
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "2df883b2-36dd-4ce5-a28a-b057330bcb60",
+        "eventDate": "",
+        "minimumDepthInMeters": 636.0,
+        "maximumDepthInMeters": 643.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.103,
+          -61.446
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "3379550a-8d46-4c6e-8bce-7d5ff4b31c70",
+        "eventDate": "",
+        "minimumDepthInMeters": 1047.0,
+        "maximumDepthInMeters": 1227.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.466,
+          -71.125
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "d29fee28-eed4-4f2f-bc63-aacf9fb5da5e",
+        "eventDate": "",
+        "minimumDepthInMeters": 105.0,
+        "maximumDepthInMeters": 93.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.586,
+          -70.84
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "633fdaa6-e414-4899-80ce-615361057353",
+        "eventDate": "",
+        "minimumDepthInMeters": 226.0,
+        "maximumDepthInMeters": 266.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.59,
+          -70.843
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "e3687558-83fe-45c9-a003-e453f2cd9e7d",
+        "eventDate": "",
+        "minimumDepthInMeters": 247.0,
+        "maximumDepthInMeters": 269.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.578,
+          -70.836
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "11c46651-00b1-49fc-acc7-9c41a50af899",
+        "eventDate": "",
+        "minimumDepthInMeters": 273.0,
+        "maximumDepthInMeters": 274.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.59,
+          -70.836
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "6a2b7210-ba34-4c61-a566-3f11a8061079",
+        "eventDate": "",
+        "minimumDepthInMeters": 251.0,
+        "maximumDepthInMeters": 271.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.93,
+          -62.5
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "0b6252eb-7e1c-47ed-b003-93101dbb6e69",
+        "eventDate": "",
+        "minimumDepthInMeters": 909.0,
+        "maximumDepthInMeters": 911.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.526,
+          -63.078
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "f6d70003-0155-40aa-9e50-f42c47651356",
+        "eventDate": "",
+        "minimumDepthInMeters": 94.0,
+        "maximumDepthInMeters": 95.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.115,
+          -63.013
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "0ba069d0-5ae4-47a2-b336-2b2025928a45",
+        "eventDate": "",
+        "minimumDepthInMeters": 618.0,
+        "maximumDepthInMeters": 621.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.821,
+          -62.825
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "d80e84ec-230c-4eb7-9463-4a04912a27f9",
+        "eventDate": "",
+        "minimumDepthInMeters": 200.0,
+        "maximumDepthInMeters": 202.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.311,
+          -61.975
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "4c4d0743-e359-4e31-b47f-5eefb384c5bd",
+        "eventDate": "",
+        "minimumDepthInMeters": 804.0,
+        "maximumDepthInMeters": 930.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.631,
+          -62.111
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "d973caf5-0d52-431c-9f55-454daeb8edea",
+        "eventDate": "",
+        "minimumDepthInMeters": 200.0,
+        "maximumDepthInMeters": 204.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.345,
+          -62.015
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "84c02d78-4642-429d-8b78-efdd08844cb8",
+        "eventDate": "",
+        "minimumDepthInMeters": 338.0,
+        "maximumDepthInMeters": 347.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.613,
+          -61.069
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "6b03902e-f95a-49ec-81a8-e520903506a2",
+        "eventDate": "",
+        "minimumDepthInMeters": 189.0,
+        "maximumDepthInMeters": 190.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.69,
+          -61.195
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "e81adfb2-48c5-4e20-8441-9dda23f6962c",
+        "eventDate": "",
+        "minimumDepthInMeters": 272.0,
+        "maximumDepthInMeters": 306.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.841,
+          -61.2
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "67cd6f26-934c-4c55-adf0-9781eb28fb80",
+        "eventDate": "",
+        "minimumDepthInMeters": 62.0,
+        "maximumDepthInMeters": 94.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.28,
+          -61.2
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "ff1a52d4-375d-40e2-adb7-b2edab321200",
+        "eventDate": "",
+        "minimumDepthInMeters": 117.0,
+        "maximumDepthInMeters": 159.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.216,
+          -61.289
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "e172ad7b-c0d9-4af9-906f-26f05df6686c",
+        "eventDate": "",
+        "minimumDepthInMeters": 317.0,
+        "maximumDepthInMeters": 327.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.46,
+          -60.931
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "5ab66537-02c8-48f1-b474-1e7bde03b93a",
+        "eventDate": "",
+        "minimumDepthInMeters": 114.0,
+        "maximumDepthInMeters": 181.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.651,
+          -60.919
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "94ed46f0-d280-4dc5-baa2-4f3308b88f0b",
+        "eventDate": "",
+        "minimumDepthInMeters": 164.0,
+        "maximumDepthInMeters": 164.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.956,
+          -60.992
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "aee5df22-60c1-4b57-a513-1a37b83e746c",
+        "eventDate": "",
+        "minimumDepthInMeters": 289.0,
+        "maximumDepthInMeters": 306.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.879,
+          -60.971
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "fefb8699-5200-420f-9ddb-4cf73ef1532a",
+        "eventDate": "",
+        "minimumDepthInMeters": 161.0,
+        "maximumDepthInMeters": 193.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.76,
+          -61.001
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "0d12ea93-d23c-4297-9c84-926ba9e18f9e",
+        "eventDate": "",
+        "minimumDepthInMeters": 122.0,
+        "maximumDepthInMeters": 158.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.769,
+          -61.016
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "8b8f2e0a-01c5-47f9-b1da-34eb52afdb18",
+        "eventDate": "",
+        "minimumDepthInMeters": 153.0,
+        "maximumDepthInMeters": 184.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.118,
+          -61.095
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "d9df9265-a706-4e43-99c9-97c3c1d89da9",
+        "eventDate": "",
+        "minimumDepthInMeters": 442.0,
+        "maximumDepthInMeters": 458.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.585,
+          -61.822
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "15be3533-afe1-499e-aeb0-0d1942b86960",
+        "eventDate": "",
+        "minimumDepthInMeters": 321.0,
+        "maximumDepthInMeters": 398.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.017,
+          -61.748
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "f42435ff-fe4c-4a45-9e55-f909ab78c98c",
+        "eventDate": "",
+        "minimumDepthInMeters": 256.0,
+        "maximumDepthInMeters": 296.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.806,
+          -61.65
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "7e3a73df-7431-43e4-923b-5ec0aed1ca9d",
+        "eventDate": "",
+        "minimumDepthInMeters": 339.0,
+        "maximumDepthInMeters": 384.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.534,
+          -61.633
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "6ac82407-502e-4bca-902f-98fbbd78bd4f",
+        "eventDate": "",
+        "minimumDepthInMeters": 424.0,
+        "maximumDepthInMeters": 427.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.047,
+          -61.655
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "056af24d-2057-4090-a671-b6ac96dba109",
+        "eventDate": "",
+        "minimumDepthInMeters": 465.0,
+        "maximumDepthInMeters": 470.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.854,
+          -61.671
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "66b53003-737a-4ec2-9590-306492df2d86",
+        "eventDate": "",
+        "minimumDepthInMeters": 371.0,
+        "maximumDepthInMeters": 408.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.501,
+          -62.174
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "cbe93f7f-2c0a-4b43-abfe-296df6ed6c6d",
+        "eventDate": "",
+        "minimumDepthInMeters": 173.0,
+        "maximumDepthInMeters": 198.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.403,
+          -61.392
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "768fbbec-1c96-464d-ab84-c5c3b211bd00",
+        "eventDate": "",
+        "minimumDepthInMeters": 297.0,
+        "maximumDepthInMeters": 363.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.613,
+          -54.407
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "0cf296a0-00fa-4b9c-a0a2-db428c52667e",
+        "eventDate": "",
+        "minimumDepthInMeters": 278.0,
+        "maximumDepthInMeters": 280.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.696,
+          -54.457
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "e47bd36c-6505-4b4a-a951-97c0ae3f2bf6",
+        "eventDate": "",
+        "minimumDepthInMeters": 249.0,
+        "maximumDepthInMeters": 256.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.926,
+          -60.136
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "8058c531-da66-49b0-a4a7-a38f156657ec",
+        "eventDate": "",
+        "minimumDepthInMeters": 374.0,
+        "maximumDepthInMeters": 379.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.541,
+          -71.113
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "f6ff6438-a76d-4158-9f12-8fe7de6f7916",
+        "eventDate": "",
+        "minimumDepthInMeters": 166.0,
+        "maximumDepthInMeters": 175.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.951,
+          -70.558
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "9d684157-d1b7-44d0-8e85-9d3984ec31ee",
+        "eventDate": "",
+        "minimumDepthInMeters": 457.0,
+        "maximumDepthInMeters": 457.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.595,
+          -70.835
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "3466403b-a5fc-44bc-a70c-6be20041df12",
+        "eventDate": "",
+        "minimumDepthInMeters": 268.0,
+        "maximumDepthInMeters": 269.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.526,
+          -70.94
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "bb3ee6d9-1737-4df0-99f4-bf40aae780f7",
+        "eventDate": "",
+        "minimumDepthInMeters": 244.0,
+        "maximumDepthInMeters": 284.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.71,
+          -70.945
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "e4afa73e-3f10-4456-905d-cb9a912524b3",
+        "eventDate": "",
+        "minimumDepthInMeters": 318.0,
+        "maximumDepthInMeters": 337.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.507,
+          -71.091
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "6ed0c604-8504-4b3c-acd2-f09f99e32ec8",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 287.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.533,
+          -70.942
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "789495bd-bf57-4b39-9005-87ae1cb0a787",
+        "eventDate": "",
+        "minimumDepthInMeters": 300.0,
+        "maximumDepthInMeters": 333.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.878,
+          -70.879
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "f3304535-01ca-40aa-b617-5a2673b8c9c7",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 295.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.728,
+          -70.869
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "bff82e31-be67-4417-b0e9-10a6515eff89",
+        "eventDate": "",
+        "minimumDepthInMeters": 288.0,
+        "maximumDepthInMeters": 291.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.462,
+          -71.107
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "96d22f22-b85d-419d-845e-da9ffdd36dc4",
+        "eventDate": "",
+        "minimumDepthInMeters": 268.0,
+        "maximumDepthInMeters": 277.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.499,
+          -71.125
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "2da8e829-c782-4c30-afb3-064538bdca24",
+        "eventDate": "",
+        "minimumDepthInMeters": 119.0,
+        "maximumDepthInMeters": 120.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.498,
+          -71.124
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "59ef4c69-d0a1-48e3-9718-f14cb578e377",
+        "eventDate": "",
+        "minimumDepthInMeters": 120.0,
+        "maximumDepthInMeters": 120.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.441,
+          -71.12
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "6ba712ba-8e1e-4d51-ad75-caa90bae7eea",
+        "eventDate": "",
+        "minimumDepthInMeters": 191.0,
+        "maximumDepthInMeters": 228.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.531,
+          -70.943
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Hormathia lacunifera",
+        "occurrenceID": "f6237e04-afd9-4cd2-aaf6-67fa89d2f874",
+        "eventDate": "",
+        "minimumDepthInMeters": 276.0,
+        "maximumDepthInMeters": 281.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.419,
+          -57.675
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Corallimorphus profundus",
+        "occurrenceID": "f89225dd-9c46-42b0-a74b-02999cb0cba9",
+        "eventDate": "",
+        "minimumDepthInMeters": 289.0,
+        "maximumDepthInMeters": 309.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.423,
+          -57.676
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Corallimorphus profundus",
+        "occurrenceID": "dab330f2-672c-4cd6-96ff-416dadb5e315",
+        "eventDate": "",
+        "minimumDepthInMeters": 286.0,
+        "maximumDepthInMeters": 301.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.464,
+          -57.672
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Corallimorphus profundus",
+        "occurrenceID": "76535558-a4b0-4cfa-b0ff-10409f0d0358",
+        "eventDate": "",
+        "minimumDepthInMeters": 514.0,
+        "maximumDepthInMeters": 587.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.95,
+          -59.709
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Corallimorphus profundus",
+        "occurrenceID": "2ed2e69c-cdef-43f5-b13b-ee9a0d3b1177",
+        "eventDate": "",
+        "minimumDepthInMeters": 332.0,
+        "maximumDepthInMeters": 340.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.472,
+          -59.916
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Corallimorphus profundus",
+        "occurrenceID": "107c61de-928c-4512-9015-7de7ea2ecfbe",
+        "eventDate": "",
+        "minimumDepthInMeters": 518.0,
+        "maximumDepthInMeters": 521.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.926,
+          -60.136
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Corallimorphus profundus",
+        "occurrenceID": "97e8fb3a-2c51-4fb6-b3e0-80dcc733a555",
+        "eventDate": "",
+        "minimumDepthInMeters": 374.0,
+        "maximumDepthInMeters": 379.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.062,
+          -67.506
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Corallimorphus rigidus",
+        "occurrenceID": "ed057751-e406-4efd-b0ee-e6d920598570",
+        "eventDate": "",
+        "minimumDepthInMeters": 4647.0,
+        "maximumDepthInMeters": 4648.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.71,
+          -61.728
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Iosactis antarctica",
+        "occurrenceID": "e700b66e-e54d-4682-8099-96f70786cb30",
+        "eventDate": "",
+        "minimumDepthInMeters": 2853.0,
+        "maximumDepthInMeters": 2856.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.933,
+          -56.066
+        ]
+      },
+      "properties": {
+        "source_id": "baso_hexacorallia",
+        "dataset": "Antarctic hexacorals",
+        "scientificName": "Iosactis antarctica",
+        "occurrenceID": "4f87285b-4d14-46e7-88c0-fcb53bcc127e",
+        "eventDate": "",
+        "minimumDepthInMeters": 3138.0,
+        "maximumDepthInMeters": 3239.0,
+        "basisOfRecord": "HumanObservation",
+        "recordedBy": "",
+        "license": "CC-BY-4.0",
+        "scientific_role": "PRESENCE_ONLY_NO_ABSENCE"
+      }
+    }
+  ]
+}

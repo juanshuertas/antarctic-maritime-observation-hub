@@ -1,0 +1,1300 @@
+{
+  "type": "FeatureCollection",
+  "name": "treaty_claims",
+  "description": "Reclamaciones Territoriales Históricas bajo el Artículo IV del Tratado Antártico de 1959",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "claim-chile",
+      "properties": {
+        "id": "chile_sector",
+        "name": "Territorio Chileno Antártico",
+        "claimant": "Chile",
+        "country_code": "CL",
+        "sector": "53°W – 90°W",
+        "west_limit": -90,
+        "east_limit": -53,
+        "color": "#dc2626",
+        "fill_opacity": 0.18,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Decreto Supremo Nº 1747 (1940). Enclave soberano histórico.",
+        "bases": [
+          "Base Frei",
+          "Base O'Higgins",
+          "Base Prat",
+          "Base Escudero"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90,
+              -90
+            ],
+            [
+              -90,
+              -60
+            ],
+            [
+              -88,
+              -60
+            ],
+            [
+              -86,
+              -60
+            ],
+            [
+              -84,
+              -60
+            ],
+            [
+              -82,
+              -60
+            ],
+            [
+              -80,
+              -60
+            ],
+            [
+              -78,
+              -60
+            ],
+            [
+              -76,
+              -60
+            ],
+            [
+              -74,
+              -60
+            ],
+            [
+              -72,
+              -60
+            ],
+            [
+              -70,
+              -60
+            ],
+            [
+              -68,
+              -60
+            ],
+            [
+              -66,
+              -60
+            ],
+            [
+              -64,
+              -60
+            ],
+            [
+              -62,
+              -60
+            ],
+            [
+              -60,
+              -60
+            ],
+            [
+              -58,
+              -60
+            ],
+            [
+              -56,
+              -60
+            ],
+            [
+              -54,
+              -60
+            ],
+            [
+              -53,
+              -60
+            ],
+            [
+              -53,
+              -90
+            ],
+            [
+              -90,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-argentina",
+      "properties": {
+        "id": "argentina_sector",
+        "name": "Antártida Argentina",
+        "claimant": "Argentina",
+        "country_code": "AR",
+        "sector": "25°W – 74°W",
+        "west_limit": -74,
+        "east_limit": -25,
+        "color": "#0284c7",
+        "fill_opacity": 0.18,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Presencia ininterrumpida desde 1904 (Base Orcadas).",
+        "bases": [
+          "Marambio",
+          "Esperanza",
+          "San Martín",
+          "Belgrano II",
+          "Orcadas"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74,
+              -90
+            ],
+            [
+              -74,
+              -60
+            ],
+            [
+              -72,
+              -60
+            ],
+            [
+              -70,
+              -60
+            ],
+            [
+              -68,
+              -60
+            ],
+            [
+              -66,
+              -60
+            ],
+            [
+              -64,
+              -60
+            ],
+            [
+              -62,
+              -60
+            ],
+            [
+              -60,
+              -60
+            ],
+            [
+              -58,
+              -60
+            ],
+            [
+              -56,
+              -60
+            ],
+            [
+              -54,
+              -60
+            ],
+            [
+              -52,
+              -60
+            ],
+            [
+              -50,
+              -60
+            ],
+            [
+              -48,
+              -60
+            ],
+            [
+              -46,
+              -60
+            ],
+            [
+              -44,
+              -60
+            ],
+            [
+              -42,
+              -60
+            ],
+            [
+              -40,
+              -60
+            ],
+            [
+              -38,
+              -60
+            ],
+            [
+              -36,
+              -60
+            ],
+            [
+              -34,
+              -60
+            ],
+            [
+              -32,
+              -60
+            ],
+            [
+              -30,
+              -60
+            ],
+            [
+              -28,
+              -60
+            ],
+            [
+              -26,
+              -60
+            ],
+            [
+              -25,
+              -60
+            ],
+            [
+              -25,
+              -90
+            ],
+            [
+              -74,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-uk",
+      "properties": {
+        "id": "uk_sector",
+        "name": "British Antarctic Territory",
+        "claimant": "Reino Unido",
+        "country_code": "GB",
+        "sector": "20°W – 80°W",
+        "west_limit": -80,
+        "east_limit": -20,
+        "color": "#4f46e5",
+        "fill_opacity": 0.15,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Cartas Patentes de 1908 y 1917. Superposición con Chile y Argentina.",
+        "bases": [
+          "Rothera",
+          "Halley VI",
+          "Signy"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80,
+              -90
+            ],
+            [
+              -80,
+              -60
+            ],
+            [
+              -78,
+              -60
+            ],
+            [
+              -76,
+              -60
+            ],
+            [
+              -74,
+              -60
+            ],
+            [
+              -72,
+              -60
+            ],
+            [
+              -70,
+              -60
+            ],
+            [
+              -68,
+              -60
+            ],
+            [
+              -66,
+              -60
+            ],
+            [
+              -64,
+              -60
+            ],
+            [
+              -62,
+              -60
+            ],
+            [
+              -60,
+              -60
+            ],
+            [
+              -58,
+              -60
+            ],
+            [
+              -56,
+              -60
+            ],
+            [
+              -54,
+              -60
+            ],
+            [
+              -52,
+              -60
+            ],
+            [
+              -50,
+              -60
+            ],
+            [
+              -48,
+              -60
+            ],
+            [
+              -46,
+              -60
+            ],
+            [
+              -44,
+              -60
+            ],
+            [
+              -42,
+              -60
+            ],
+            [
+              -40,
+              -60
+            ],
+            [
+              -38,
+              -60
+            ],
+            [
+              -36,
+              -60
+            ],
+            [
+              -34,
+              -60
+            ],
+            [
+              -32,
+              -60
+            ],
+            [
+              -30,
+              -60
+            ],
+            [
+              -28,
+              -60
+            ],
+            [
+              -26,
+              -60
+            ],
+            [
+              -24,
+              -60
+            ],
+            [
+              -22,
+              -60
+            ],
+            [
+              -20,
+              -60
+            ],
+            [
+              -20,
+              -90
+            ],
+            [
+              -80,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-norway",
+      "properties": {
+        "id": "norway_sector",
+        "name": "Dronning Maud Land",
+        "claimant": "Noruega",
+        "country_code": "NO",
+        "sector": "20°W – 45°E",
+        "west_limit": -20,
+        "east_limit": 45,
+        "color": "#059669",
+        "fill_opacity": 0.15,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Proclamación real de 1939. Sin límite sur formalmente definido.",
+        "bases": [
+          "Troll",
+          "Tor"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -20,
+              -90
+            ],
+            [
+              -20,
+              -60
+            ],
+            [
+              -18,
+              -60
+            ],
+            [
+              -16,
+              -60
+            ],
+            [
+              -14,
+              -60
+            ],
+            [
+              -12,
+              -60
+            ],
+            [
+              -10,
+              -60
+            ],
+            [
+              -8,
+              -60
+            ],
+            [
+              -6,
+              -60
+            ],
+            [
+              -4,
+              -60
+            ],
+            [
+              -2,
+              -60
+            ],
+            [
+              0,
+              -60
+            ],
+            [
+              2,
+              -60
+            ],
+            [
+              4,
+              -60
+            ],
+            [
+              6,
+              -60
+            ],
+            [
+              8,
+              -60
+            ],
+            [
+              10,
+              -60
+            ],
+            [
+              12,
+              -60
+            ],
+            [
+              14,
+              -60
+            ],
+            [
+              16,
+              -60
+            ],
+            [
+              18,
+              -60
+            ],
+            [
+              20,
+              -60
+            ],
+            [
+              22,
+              -60
+            ],
+            [
+              24,
+              -60
+            ],
+            [
+              26,
+              -60
+            ],
+            [
+              28,
+              -60
+            ],
+            [
+              30,
+              -60
+            ],
+            [
+              32,
+              -60
+            ],
+            [
+              34,
+              -60
+            ],
+            [
+              36,
+              -60
+            ],
+            [
+              38,
+              -60
+            ],
+            [
+              40,
+              -60
+            ],
+            [
+              42,
+              -60
+            ],
+            [
+              44,
+              -60
+            ],
+            [
+              45,
+              -60
+            ],
+            [
+              45,
+              -90
+            ],
+            [
+              -20,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-australia-west",
+      "properties": {
+        "id": "australia_west_sector",
+        "name": "Australian Antarctic Territory (Oeste)",
+        "claimant": "Australia",
+        "country_code": "AU",
+        "sector": "45°E – 136°E",
+        "west_limit": 45,
+        "east_limit": 136,
+        "color": "#d97706",
+        "fill_opacity": 0.15,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Australian Antarctic Territory Act 1933.",
+        "bases": [
+          "Mawson",
+          "Davis"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45,
+              -90
+            ],
+            [
+              45,
+              -60
+            ],
+            [
+              47,
+              -60
+            ],
+            [
+              49,
+              -60
+            ],
+            [
+              51,
+              -60
+            ],
+            [
+              53,
+              -60
+            ],
+            [
+              55,
+              -60
+            ],
+            [
+              57,
+              -60
+            ],
+            [
+              59,
+              -60
+            ],
+            [
+              61,
+              -60
+            ],
+            [
+              63,
+              -60
+            ],
+            [
+              65,
+              -60
+            ],
+            [
+              67,
+              -60
+            ],
+            [
+              69,
+              -60
+            ],
+            [
+              71,
+              -60
+            ],
+            [
+              73,
+              -60
+            ],
+            [
+              75,
+              -60
+            ],
+            [
+              77,
+              -60
+            ],
+            [
+              79,
+              -60
+            ],
+            [
+              81,
+              -60
+            ],
+            [
+              83,
+              -60
+            ],
+            [
+              85,
+              -60
+            ],
+            [
+              87,
+              -60
+            ],
+            [
+              89,
+              -60
+            ],
+            [
+              91,
+              -60
+            ],
+            [
+              93,
+              -60
+            ],
+            [
+              95,
+              -60
+            ],
+            [
+              97,
+              -60
+            ],
+            [
+              99,
+              -60
+            ],
+            [
+              101,
+              -60
+            ],
+            [
+              103,
+              -60
+            ],
+            [
+              105,
+              -60
+            ],
+            [
+              107,
+              -60
+            ],
+            [
+              109,
+              -60
+            ],
+            [
+              111,
+              -60
+            ],
+            [
+              113,
+              -60
+            ],
+            [
+              115,
+              -60
+            ],
+            [
+              117,
+              -60
+            ],
+            [
+              119,
+              -60
+            ],
+            [
+              121,
+              -60
+            ],
+            [
+              123,
+              -60
+            ],
+            [
+              125,
+              -60
+            ],
+            [
+              127,
+              -60
+            ],
+            [
+              129,
+              -60
+            ],
+            [
+              131,
+              -60
+            ],
+            [
+              133,
+              -60
+            ],
+            [
+              135,
+              -60
+            ],
+            [
+              136,
+              -60
+            ],
+            [
+              136,
+              -90
+            ],
+            [
+              45,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-france",
+      "properties": {
+        "id": "france_sector",
+        "name": "Terre Adélie",
+        "claimant": "Francia",
+        "country_code": "FR",
+        "sector": "136°E – 142°E",
+        "west_limit": 136,
+        "east_limit": 142,
+        "color": "#2563eb",
+        "fill_opacity": 0.22,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Descubierta por Dumont d'Urville en 1840. Distrito TAAF.",
+        "bases": [
+          "Dumont d'Urville",
+          "Concordia (conjunta)"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              136,
+              -90
+            ],
+            [
+              136,
+              -60
+            ],
+            [
+              138,
+              -60
+            ],
+            [
+              140,
+              -60
+            ],
+            [
+              142,
+              -60
+            ],
+            [
+              142,
+              -90
+            ],
+            [
+              136,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-australia-east",
+      "properties": {
+        "id": "australia_east_sector",
+        "name": "Australian Antarctic Territory (Este)",
+        "claimant": "Australia",
+        "country_code": "AU",
+        "sector": "142°E – 160°E",
+        "west_limit": 142,
+        "east_limit": 160,
+        "color": "#d97706",
+        "fill_opacity": 0.15,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Sector oriental del territorio antártico australiano.",
+        "bases": [
+          "Casey"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              142,
+              -90
+            ],
+            [
+              142,
+              -60
+            ],
+            [
+              144,
+              -60
+            ],
+            [
+              146,
+              -60
+            ],
+            [
+              148,
+              -60
+            ],
+            [
+              150,
+              -60
+            ],
+            [
+              152,
+              -60
+            ],
+            [
+              154,
+              -60
+            ],
+            [
+              156,
+              -60
+            ],
+            [
+              158,
+              -60
+            ],
+            [
+              160,
+              -60
+            ],
+            [
+              160,
+              -90
+            ],
+            [
+              142,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-new-zealand",
+      "properties": {
+        "id": "new_zealand_sector",
+        "name": "Ross Dependency",
+        "claimant": "Nueva Zelanda",
+        "country_code": "NZ",
+        "sector": "160°E – 150°W",
+        "west_limit": 160,
+        "east_limit": -150,
+        "color": "#16a34a",
+        "fill_opacity": 0.15,
+        "legal_basis": "Tratado Antártico Artículo IV (Reclamación en suspenso / Paz y Ciencia)",
+        "sovereignty_note": "Orden en Consejo Imperial británica de 1923.",
+        "bases": [
+          "Scott Base",
+          "McMurdo (USAP coordinación)"
+        ],
+        "status": "Article IV Abeyance"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              160,
+              -90
+            ],
+            [
+              160,
+              -60
+            ],
+            [
+              162,
+              -60
+            ],
+            [
+              164,
+              -60
+            ],
+            [
+              166,
+              -60
+            ],
+            [
+              168,
+              -60
+            ],
+            [
+              170,
+              -60
+            ],
+            [
+              172,
+              -60
+            ],
+            [
+              174,
+              -60
+            ],
+            [
+              176,
+              -60
+            ],
+            [
+              178,
+              -60
+            ],
+            [
+              180,
+              -60
+            ],
+            [
+              -180,
+              -60
+            ],
+            [
+              -178,
+              -60
+            ],
+            [
+              -176,
+              -60
+            ],
+            [
+              -174,
+              -60
+            ],
+            [
+              -172,
+              -60
+            ],
+            [
+              -170,
+              -60
+            ],
+            [
+              -168,
+              -60
+            ],
+            [
+              -166,
+              -60
+            ],
+            [
+              -164,
+              -60
+            ],
+            [
+              -162,
+              -60
+            ],
+            [
+              -160,
+              -60
+            ],
+            [
+              -158,
+              -60
+            ],
+            [
+              -156,
+              -60
+            ],
+            [
+              -154,
+              -60
+            ],
+            [
+              -152,
+              -60
+            ],
+            [
+              -150,
+              -60
+            ],
+            [
+              -150,
+              -90
+            ],
+            [
+              160,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "claim-unclaimed",
+      "properties": {
+        "id": "unclaimed_sector",
+        "name": "Marie Byrd Land (Sector No Reclamado)",
+        "claimant": "Terra Nullius / Patrimonio Común",
+        "country_code": "XX",
+        "sector": "90°W – 150°W",
+        "west_limit": -150,
+        "east_limit": -90,
+        "color": "#94a3b8",
+        "fill_opacity": 0.1,
+        "legal_basis": "Sector Antártico sin reclamación formal soberana previa a 1959",
+        "sovereignty_note": "La mayor porción terrestre de Terra Nullius del planeta Tierra.",
+        "bases": [
+          "Byrd Station (histórica/verano)"
+        ],
+        "status": "Unclaimed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -150,
+              -90
+            ],
+            [
+              -150,
+              -60
+            ],
+            [
+              -148,
+              -60
+            ],
+            [
+              -146,
+              -60
+            ],
+            [
+              -144,
+              -60
+            ],
+            [
+              -142,
+              -60
+            ],
+            [
+              -140,
+              -60
+            ],
+            [
+              -138,
+              -60
+            ],
+            [
+              -136,
+              -60
+            ],
+            [
+              -134,
+              -60
+            ],
+            [
+              -132,
+              -60
+            ],
+            [
+              -130,
+              -60
+            ],
+            [
+              -128,
+              -60
+            ],
+            [
+              -126,
+              -60
+            ],
+            [
+              -124,
+              -60
+            ],
+            [
+              -122,
+              -60
+            ],
+            [
+              -120,
+              -60
+            ],
+            [
+              -118,
+              -60
+            ],
+            [
+              -116,
+              -60
+            ],
+            [
+              -114,
+              -60
+            ],
+            [
+              -112,
+              -60
+            ],
+            [
+              -110,
+              -60
+            ],
+            [
+              -108,
+              -60
+            ],
+            [
+              -106,
+              -60
+            ],
+            [
+              -104,
+              -60
+            ],
+            [
+              -102,
+              -60
+            ],
+            [
+              -100,
+              -60
+            ],
+            [
+              -98,
+              -60
+            ],
+            [
+              -96,
+              -60
+            ],
+            [
+              -94,
+              -60
+            ],
+            [
+              -92,
+              -60
+            ],
+            [
+              -90,
+              -60
+            ],
+            [
+              -90,
+              -90
+            ],
+            [
+              -150,
+              -90
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "type": "FeatureCollection",
+  "name": "iaato_tourism_routes",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -66.5,
+            -56.2
+          ],
+          [
+            -64.0,
+            -58.5
+          ],
+          [
+            -61.5,
+            -61.2
+          ],
+          [
+            -62.2,
+            -58.96
+          ],
+          [
+            -60.57,
+            -62.97
+          ],
+          [
+            -62.5,
+            -64.8
+          ],
+          [
+            -63.5,
+            -64.82
+          ],
+          [
+            -64.05,
+            -65.1
+          ],
+          [
+            -64.1,
+            -65.25
+          ],
+          [
+            -64.0,
+            -58.5
+          ],
+          [
+            -68.3,
+            -54.8
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-NATGEO-01",
+        "name": "Península Clásica e Islas Shetland del Sur",
+        "family": "CLASSIC_PENINSULA",
+        "operator": "Lindblad Expeditions / National Geographic",
+        "vessel": "National Geographic Resolution",
+        "pax_capacity": 126,
+        "iaato_category": "Category 1 (≤200 pax)",
+        "season": "2026-27",
+        "gateways": "Ushuaia, Argentina",
+        "route_description": "Navegación clásica cruzando el Paso de Drake con desembarcos diarios en Zodiac, kayak polar y observación de cetáceos en Estrecho de Gerlache.",
+        "overlap_warnings": "Cruce de corredor de alimentación de Ballenas Jorobadas en Estrecho de Gerlache."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -65.0,
+            -57.5
+          ],
+          [
+            -56.9,
+            -63.5
+          ],
+          [
+            -55.78,
+            -63.58
+          ],
+          [
+            -53.2,
+            -64.5
+          ],
+          [
+            -55.5,
+            -63.9
+          ],
+          [
+            -58.4,
+            -63.3
+          ],
+          [
+            -60.8,
+            -62.4
+          ],
+          [
+            -64.0,
+            -58.5
+          ],
+          [
+            -68.3,
+            -54.8
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-QUARK-02",
+        "name": "Mar de Weddell Profundo y Pingüino Emperador",
+        "family": "WEDDELL_SEA",
+        "operator": "Quark Expeditions",
+        "vessel": "Ultramarine",
+        "pax_capacity": 199,
+        "iaato_category": "Category 1 (≤200 pax)",
+        "season": "2026-27",
+        "gateways": "Ushuaia, Argentina",
+        "route_description": "Incursión en campos de banquisa pesada del Mar de Weddell asistida por dos helicópteros Airbus H145 para avistamiento en Snow Hill Island.",
+        "overlap_warnings": "Límite estricto de helicóptero a 1.000 m sobre colonia reproductiva de Snow Hill."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -63.2,
+            -62.5
+          ],
+          [
+            -64.05,
+            -65.1
+          ],
+          [
+            -65.25,
+            -65.3
+          ],
+          [
+            -67.5,
+            -66.55
+          ],
+          [
+            -68.1,
+            -67.0
+          ],
+          [
+            -68.8,
+            -67.5
+          ],
+          [
+            -64.0,
+            -58.5
+          ],
+          [
+            -68.3,
+            -54.8
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-AURORA-03",
+        "name": "Expedición Extremo Sur Más Allá del Círculo Polar (66°33′ S)",
+        "family": "POLAR_CIRCLE",
+        "operator": "Aurora Expeditions",
+        "vessel": "Douglas Mawson (X-BOW)",
+        "pax_capacity": 154,
+        "iaato_category": "Category 1 (≤200 pax)",
+        "season": "2027-28",
+        "gateways": "Ushuaia, Argentina",
+        "route_description": "Navegación al sur del Círculo Polar Antártico explorando la Bahía Margarita y sitios históricos de la Base W y Base E.",
+        "overlap_warnings": "Monitoreo continuo de pack-ice a la deriva y áreas de descanso de focas cangrejeras."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.92,
+            -53.16
+          ],
+          [
+            -66.0,
+            -58.0
+          ],
+          [
+            -58.98,
+            -62.19
+          ],
+          [
+            -59.2,
+            -62.3
+          ],
+          [
+            -62.5,
+            -64.8
+          ],
+          [
+            -62.86,
+            -64.85
+          ],
+          [
+            -58.98,
+            -62.19
+          ],
+          [
+            -70.92,
+            -53.16
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-ANT21-04",
+        "name": "Fly & Cruise: Puente Aéreo Antártico Express",
+        "family": "FLY_AND_CRUISE",
+        "operator": "Antarctica21",
+        "vessel": "Magellan Discoverer (Híbrido)",
+        "pax_capacity": 76,
+        "iaato_category": "Category 1 (≤200 pax)",
+        "season": "2026-27",
+        "gateways": "Punta Arenas, Chile",
+        "route_description": "Vuelo de 2 horas en avión BAE-146 / RJ85 desde Punta Arenas evitando el cruce en barco del Drake; embarque inmediato en Rey Jorge.",
+        "overlap_warnings": "Sujeto a techos de visibilidad meteorológica en aeródromo Teniente Marsh."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -67.6,
+            -54.93
+          ],
+          [
+            -67.0,
+            -55.8
+          ],
+          [
+            -64.0,
+            -58.5
+          ],
+          [
+            -60.5,
+            -63.0
+          ],
+          [
+            -63.5,
+            -64.82
+          ],
+          [
+            -62.86,
+            -64.85
+          ],
+          [
+            -62.0,
+            -64.4
+          ],
+          [
+            -67.6,
+            -54.93
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-SILVER-05",
+        "name": "Antarctica Bridge Luxury Explorer",
+        "family": "FLY_AND_CRUISE",
+        "operator": "Silversea Expeditions",
+        "vessel": "Silver Endeavour (PC6)",
+        "pax_capacity": 200,
+        "iaato_category": "Category 1 (≤200 pax)",
+        "season": "2026-27",
+        "gateways": "Puerto Williams, Chile / Punta Arenas",
+        "route_description": "Ruta de expedición de ultralujo con base logística privada en Puerto Williams y conexión aérea business class sobre el Paso Drake.",
+        "overlap_warnings": "Coordinación de muelle preferente y protocolos de bioseguridad en Isla Navarino."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -57.85,
+            -51.7
+          ],
+          [
+            -60.5,
+            -51.3
+          ],
+          [
+            -42.0,
+            -53.5
+          ],
+          [
+            -36.5,
+            -54.28
+          ],
+          [
+            -36.0,
+            -54.4
+          ],
+          [
+            -37.3,
+            -54.0
+          ],
+          [
+            -45.5,
+            -60.7
+          ],
+          [
+            -56.9,
+            -63.5
+          ],
+          [
+            -62.5,
+            -64.8
+          ],
+          [
+            -68.3,
+            -54.8
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-HURTI-06",
+        "name": "Gran Circuito Austral: Malvinas, Georgias del Sur y Península",
+        "family": "GRAND_ARC",
+        "operator": "HX Expeditions (Hurtigruten)",
+        "vessel": "MS Roald Amundsen (Híbrido Baterías)",
+        "pax_capacity": 250,
+        "iaato_category": "Category 2 (201-500 pax)",
+        "season": "2027-28",
+        "gateways": "Ushuaia, Argentina / Buenos Aires",
+        "route_description": "Gran travesía de 21 días que combina las colonias gigantescas de pingüinos rey de Georgias del Sur con la fauna y glaciares de la Península.",
+        "overlap_warnings": "Inspección biológica obligatoria de calzado antes de cualquier desembarco en Georgia del Sur (Protocolo Roedores/Plantas Invasoras)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -60.0,
+            -63.0
+          ],
+          [
+            -50.0,
+            -65.0
+          ],
+          [
+            -40.0,
+            -70.0
+          ],
+          [
+            -30.0,
+            -73.0
+          ],
+          [
+            -50.0,
+            -65.0
+          ],
+          [
+            -68.3,
+            -54.8
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-PONANT-07",
+        "name": "Expedición Transpolar y Hielo Marino Extremo",
+        "family": "WEDDELL_SEA",
+        "operator": "Ponant",
+        "vessel": "Le Commandant Charcot (PC2 Rompehielos GNL)",
+        "pax_capacity": 245,
+        "iaato_category": "Category 2 (201-500 pax)",
+        "season": "2026-27",
+        "gateways": "Ushuaia, Argentina",
+        "route_description": "Ruta de exploración extrema en hielo de varios años alcanzando zonas inaccesibles para buques convencionales con propulsión híbrida GNL.",
+        "overlap_warnings": "Operación sujeta a aprobación científica en zonas prístinas de hielo de plataforma."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            172.72,
+            -43.6
+          ],
+          [
+            169.15,
+            -52.55
+          ],
+          [
+            158.95,
+            -54.5
+          ],
+          [
+            170.23,
+            -71.28
+          ],
+          [
+            168.0,
+            -75.0
+          ],
+          [
+            166.4,
+            -77.63
+          ],
+          [
+            166.75,
+            -77.85
+          ],
+          [
+            175.0,
+            -78.0
+          ],
+          [
+            147.32,
+            -42.88
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-SCENIC-08",
+        "name": "Odisea Histórica en el Mar de Ross y Antártida Oriental",
+        "family": "ROSS_SEA",
+        "operator": "Scenic Luxury Cruises & Tours",
+        "vessel": "Scenic Eclipse II (Discovery Yacht)",
+        "pax_capacity": 200,
+        "iaato_category": "Category 1 (≤200 pax)",
+        "season": "2027-28",
+        "gateways": "Lyttelton/Dunedin, Nueva Zelanda -> Hobart, Australia",
+        "route_description": "Expedición de 25 días a las chozas de los pioneros de la edad heroica, con vuelos en helicóptero EC130 y sumergible Cruise Sub 7.",
+        "overlap_warnings": "Permiso especial de acceso a Zonas Antárticas Especialmente Protegidas (ZAEP) en chozas de Scott y Shackleton."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.92,
+            -53.16
+          ],
+          [
+            -75.0,
+            -65.0
+          ],
+          [
+            -82.87,
+            -79.77
+          ],
+          [
+            -60.0,
+            -82.0
+          ],
+          [
+            0.0,
+            -90.0
+          ],
+          [
+            -82.87,
+            -79.77
+          ],
+          [
+            -70.92,
+            -53.16
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-ALE-09",
+        "name": "Puente Aéreo al Interior Profundo, Polo Sur y Macizo Vinson",
+        "family": "FLY_IN_INTERIOR",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "vessel": "Boeing 757-200 / Basler BT-67 / Twin Otter",
+        "pax_capacity": 45,
+        "iaato_category": "Air-Land Operator",
+        "season": "2026-27",
+        "gateways": "Punta Arenas, Chile",
+        "route_description": "Vuelo intercontinental en reactor privado hacia pista de hielo azul natural en los Montes Ellsworth; conexiones al Polo Sur y colonias de pingüinos emperador en Gould Bay.",
+        "overlap_warnings": "Protocolo de aislamiento estricto y contingencia por tormentas de nieve catabáticas en el plateau."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.42,
+            -33.92
+          ],
+          [
+            12.0,
+            -50.0
+          ],
+          [
+            8.5,
+            -70.5
+          ],
+          [
+            8.65,
+            -71.5
+          ],
+          [
+            0.0,
+            -90.0
+          ],
+          [
+            8.5,
+            -70.5
+          ],
+          [
+            18.42,
+            -33.92
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-WHITEDESERT-10",
+        "name": "Ultralujo Antártico: Campamentos Echo y Whichaway",
+        "family": "FLY_IN_INTERIOR",
+        "operator": "White Desert Antarctica",
+        "vessel": "Gulfstream G550 / Airbus A340 / Basler BT-67",
+        "pax_capacity": 24,
+        "iaato_category": "Air-Land Operator",
+        "season": "2026-27",
+        "gateways": "Ciudad del Cabo, Sudáfrica",
+        "route_description": "Vuelos privados sin escalas desde Sudáfrica a cúpulas geodésicas de lujo (Sky Pods) en Tierra de la Reina Maud.",
+        "overlap_warnings": "Bioseguridad aeroespacial: desinfección ultravioleta de equipaje y vestimenta polar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.38,
+            -34.6
+          ],
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -64.0,
+            -58.5
+          ],
+          [
+            -55.2,
+            -61.1
+          ],
+          [
+            -56.9,
+            -63.5
+          ],
+          [
+            -62.5,
+            -64.8
+          ],
+          [
+            -64.05,
+            -65.1
+          ],
+          [
+            -71.62,
+            -33.04
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-CELEBRITY-11",
+        "name": "Navegación Escénica sin Desembarco (Crucero Polar Categoría 3)",
+        "family": "CRUISE_ONLY",
+        "operator": "Celebrity Cruises / Princess Cruises",
+        "vessel": "Celebrity Eclipse / Sapphire Princess",
+        "pax_capacity": 2850,
+        "iaato_category": "Category 3 (Cruise-only >500 pax)",
+        "season": "2027-28",
+        "gateways": "Buenos Aires, Argentina -> Valparaíso, Chile",
+        "route_description": "Crucero turístico de gran escala sin desembarco en lanchas zodiac. Navegación panorámica entre fiordos y glaciares costeros.",
+        "overlap_warnings": "PROHIBIDO EL DESEMBARCO: Buque >500 pax. Distancia mínima a costa y velocidad máx 10 nudos en áreas de cetáceos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.21,
+            -33.86
+          ],
+          [
+            150.0,
+            -50.0
+          ],
+          [
+            142.0,
+            -67.0
+          ],
+          [
+            136.0,
+            -66.5
+          ],
+          [
+            140.0,
+            -66.66
+          ],
+          [
+            151.21,
+            -33.86
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-QANTAS-12",
+        "name": "Sobrevuelo Panorámico Antártico sin Aterrizaje",
+        "family": "SCENIC_FLIGHT",
+        "operator": "Antarctica Flights / Qantas",
+        "vessel": "Boeing 787-9 Dreamliner",
+        "pax_capacity": 230,
+        "iaato_category": "Air-Land Operator",
+        "season": "2026-27",
+        "gateways": "Sídney / Melbourne / Perth, Australia",
+        "route_description": "Vuelo de 12 horas en el día sobrevolando el casquete de hielo oriental antártico a baja altitud (10.000 pies).",
+        "overlap_warnings": "Altitud mínima de sobrevuelo para protección acústica de colonias de fauna silvestre."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.62,
+            -33.04
+          ],
+          [
+            -72.8,
+            -45.45
+          ],
+          [
+            -70.92,
+            -53.16
+          ],
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -60.0,
+            -56.0
+          ],
+          [
+            -20.0,
+            -50.0
+          ],
+          [
+            18.42,
+            -33.92
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-PEACEBOAT-13",
+        "name": "Tránsito Circumpolar Austral y Océano del Sur",
+        "family": "GRAND_ARC",
+        "operator": "Peace Boat (Catálogo AMOH)",
+        "vessel": "Pacific World",
+        "pax_capacity": 2400,
+        "iaato_category": "Category 3 (Cruise-only >500 pax)",
+        "season": "2026-27",
+        "gateways": "Valparaíso -> Ushuaia -> Ciudad del Cabo",
+        "route_description": "Travesía global de paz y sostenibilidad ambiental navegando por los confines australes de América y África bordeando aguas subantárticas.",
+        "overlap_warnings": "Cumplimiento estricto del Código Polar en aguas por debajo de los 50°S."
+      }
+    }
+  ]
+}

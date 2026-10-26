@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "name": "influencer_tourism_footprint",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-60.5667, -62.9833] },
+      "properties": {
+        "id": "INF-DEC-01",
+        "name": "Whalers Bay & Pendulum Cove",
+        "region": "Deception Island",
+        "category": "POLAR_PLUNGE",
+        "platforms": "TikTok, Instagram, YouTube",
+        "viral_tropes": "Polar plunge, volcanic steam, whaling station ruins",
+        "top_hashtag": "#polarplunge",
+        "vulnerability": "CRITICAL",
+        "black_carbon_mm": 19.8,
+        "fauna_stress": 7.5,
+        "biosecurity": "MEDIUM",
+        "drone_hazard": "HIGH",
+        "protected_status": "HSM 71 / ASPA 140",
+        "description": "Epicenter of viral TikTok polar plunges in swimwear into freezing volcanic caldera waters."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-63.4967, -64.8250] },
+      "properties": {
+        "id": "INF-LCK-02",
+        "name": "Port Lockroy & Goudier Island",
+        "region": "Palmer Archipelago",
+        "category": "PENGUIN_POST_OFFICE",
+        "platforms": "Instagram, TikTok",
+        "viral_tropes": "Mailing postcards from the end of the world, gentoo selfies",
+        "top_hashtag": "#penguinpostoffice",
+        "vulnerability": "HIGH",
+        "black_carbon_mm": 16.5,
+        "fauna_stress": 8.9,
+        "biosecurity": "HIGH",
+        "drone_hazard": "VERY HIGH",
+        "protected_status": "HSM 61",
+        "description": "High tourist density on tiny 100m islet; gentoo breeding disturbance and selfies."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-62.5400, -64.8400] },
+      "properties": {
+        "id": "INF-NEK-03",
+        "name": "Neko Harbour (Andvord Bay)",
+        "region": "Danco Coast",
+        "category": "CONTINENTAL_LANDING",
+        "platforms": "Instagram, TikTok, YouTube",
+        "viral_tropes": "Continental landing celebration, glacier calving tsunami reactions",
+        "top_hashtag": "#nekoharbour",
+        "vulnerability": "CRITICAL",
+        "black_carbon_mm": 22.4,
+        "fauna_stress": 8.2,
+        "biosecurity": "MEDIUM",
+        "drone_hazard": "HIGH",
+        "protected_status": "IAATO Cat 1/2 Landing Site",
+        "description": "Key milestone for stepping on mainland Antarctica; glacier collapse wave hazards and penguin highways."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-62.8667, -64.8900] },
+      "properties": {
+        "id": "INF-PAR-04",
+        "name": "Paradise Harbour (Bahía Paraíso)",
+        "region": "Danco Coast",
+        "category": "EXPEDITION_CAMPING",
+        "platforms": "YouTube, Instagram, TikTok",
+        "viral_tropes": "Sleeping outside in snow, snow sledding, zodiac champagne",
+        "top_hashtag": "#paradisebay",
+        "vulnerability": "HIGH",
+        "black_carbon_mm": 21.0,
+        "fauna_stress": 7.8,
+        "biosecurity": "MEDIUM",
+        "drone_hazard": "HIGH",
+        "protected_status": "IAATO Landing & Cruising Site",
+        "description": "Featured in Kara and Nate snow camping vlogs; zodiac engine acoustic footprint and vegetation trampling."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-63.9500, -65.0700] },
+      "properties": {
+        "id": "INF-LEM-05",
+        "name": "Lemaire Channel ('Kodak Gap')",
+        "region": "Graham Land",
+        "category": "SCENIC_TIMELAPSE",
+        "platforms": "TikTok, Instagram",
+        "viral_tropes": "Balcony cinematic time-lapses, 1000m sheer cliffs, iceberg reflections",
+        "top_hashtag": "#kodakgap",
+        "vulnerability": "HIGH",
+        "black_carbon_mm": 23.1,
+        "fauna_stress": 6.9,
+        "biosecurity": "LOW",
+        "drone_hazard": "VERY HIGH",
+        "protected_status": "IAATO Scenic Cruising Corridor",
+        "description": "Historic 'Kodak Gap' transformed into TikTok Reel hotspot; ship emissions and whale acoustic corridor."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-62.6300, -64.6900] },
+      "properties": {
+        "id": "INF-CUV-06",
+        "name": "Cuverville Island",
+        "region": "Errera Channel",
+        "category": "PENGUIN_SUPER_ROOKERY",
+        "platforms": "TikTok, Instagram",
+        "viral_tropes": "Walking through 6,500 gentoo pairs, ground-level POV reels",
+        "top_hashtag": "#cuvervilleisland",
+        "vulnerability": "CRITICAL",
+        "black_carbon_mm": 17.2,
+        "fauna_stress": 9.4,
+        "biosecurity": "HIGH",
+        "drone_hazard": "HIGH",
+        "protected_status": "Major Gentoo Breeding Rookery",
+        "description": "Massive colony where influencers break 5m rule for low-angle waddling clips; moss carpet trampling."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-59.9100, -62.5900] },
+      "properties": {
+        "id": "INF-HLF-07",
+        "name": "Half Moon Island",
+        "region": "South Shetland Islands",
+        "category": "CHINSTRAP_DECLINE_ZONE",
+        "platforms": "Instagram, TikTok",
+        "viral_tropes": "Chinstrap penguin bokeh portraits, crescent bay iceberg vistas",
+        "top_hashtag": "#halfmoonisland",
+        "vulnerability": "CRITICAL",
+        "black_carbon_mm": 14.8,
+        "fauna_stress": 9.1,
+        "biosecurity": "MEDIUM",
+        "drone_hazard": "HIGH",
+        "protected_status": "Declining Chinstrap Colony",
+        "description": "Chinstrap penguins undergoing >50% climate-induced population drop; tourism stress compounds vulnerability."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.9167, -79.7667] },
+      "properties": {
+        "id": "INF-BEA-08",
+        "name": "Union Glacier & Heritage Range ('Shopify Mtn')",
+        "region": "Ellsworth Mountains",
+        "category": "VIRAL_STUNT_CHALLENGE",
+        "platforms": "YouTube, TikTok, X",
+        "viral_tropes": "MrBeast 50-hour extreme challenge, naming unnamed peak, IL-76 fly-in",
+        "top_hashtag": "#mrbeastantarctica",
+        "vulnerability": "CRITICAL",
+        "black_carbon_mm": 8.5,
+        "fauna_stress": 1.2,
+        "biosecurity": "HIGH",
+        "drone_hazard": "HIGH",
+        "protected_status": "Inland Expedition Hub / ALE",
+        "description": "MrBeast survival stunt (>140M views); ultra-high aviation carbon footprint and extreme SAR isolation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [11.6178, -70.7642] },
+      "properties": {
+        "id": "INF-WHI-09",
+        "name": "Whichaway Camp & Wolf's Fang",
+        "region": "Queen Maud Land",
+        "category": "ULTRA_LUXURY_GLAMPING",
+        "platforms": "Instagram, TikTok",
+        "viral_tropes": "Geodesic space pods, ice saunas, Cape Town private jet flights",
+        "top_hashtag": "#whitedesertantarctica",
+        "vulnerability": "HIGH",
+        "black_carbon_mm": 12.0,
+        "fauna_stress": 6.8,
+        "biosecurity": "CRITICAL",
+        "drone_hazard": "MEDIUM",
+        "protected_status": "Air-Land Operator (White Desert)",
+        "description": "Glamping for millionaires/influencers in Queen Maud Land; direct intercontinental flight biosecurity hazard."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-58.9600, -62.2000] },
+      "properties": {
+        "id": "INF-FIL-10",
+        "name": "Bahía Fildes & Villa Las Estrellas",
+        "region": "King George Island",
+        "category": "CIVILIAN_ANTARCTIC_HUB",
+        "platforms": "TikTok, YouTube, Instagram",
+        "viral_tropes": "Civilian Antarctic town, fly-cruise airport, penguin island border",
+        "top_hashtag": "#villalasestrellas",
+        "vulnerability": "CRITICAL",
+        "black_carbon_mm": 28.5,
+        "fauna_stress": 8.7,
+        "biosecurity": "CRITICAL",
+        "drone_hazard": "HIGH",
+        "protected_status": "ASMA 1 / ASPA 150 Adjacent",
+        "description": "Highest cumulative human footprint and soot deposition in Antarctica; fly-cruise tourist transfer corridor."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [166.7680, -77.8490] },
+      "properties": {
+        "id": "INF-SCO-11",
+        "name": "Scott Base & McMurdo Sound",
+        "region": "Ross Island",
+        "category": "POLAR_SCIENCE_INFLUENCER",
+        "platforms": "TikTok, Instagram, YouTube",
+        "viral_tropes": "Matty Jordan frozen food physics, wintering over, polar engineering",
+        "top_hashtag": "@mattykjordan",
+        "vulnerability": "HIGH",
+        "black_carbon_mm": 15.0,
+        "fauna_stress": 4.1,
+        "biosecurity": "MEDIUM",
+        "drone_hazard": "LOW",
+        "protected_status": "ASMA 2 (Ross Island)",
+        "description": "Viral science communication by polar staff; immense educational reach coupled with growing interest in Ross Sea."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 32" fill="none" class="w-7 h-6">
+  <!-- SCAR Mountain Peak Silhouette -->
+  <path d="M4 28L15 8L22 18L27 12L36 28H4Z" fill="#143242" stroke="#35c3c8" stroke-width="1.5" stroke-linejoin="round" />
+  <path d="M15 8L18 14L14 16L12 14L15 8Z" fill="#caf9f7" />
+  <path d="M27 12L29 16L26 18L27 12Z" fill="#caf9f7" />
+  <path d="M8 28L15 15L19 21L24 16L32 28" stroke="#72e0b5" stroke-width="1.2" stroke-linecap="round" />
+</svg>

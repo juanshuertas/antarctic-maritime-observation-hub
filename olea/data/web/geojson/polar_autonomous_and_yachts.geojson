@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "name": "AMOH Autonomous Ocean Platforms & Expedition Sailboat Corridors",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            168.0,
+            -47.0
+          ],
+          [
+            180.0,
+            -52.0
+          ],
+          [
+            -160.0,
+            -55.0
+          ],
+          [
+            -130.0,
+            -57.0
+          ],
+          [
+            -100.0,
+            -58.0
+          ],
+          [
+            -70.0,
+            -58.5
+          ],
+          [
+            -45.0,
+            -56.0
+          ],
+          [
+            -20.0,
+            -54.0
+          ],
+          [
+            10.0,
+            -53.0
+          ],
+          [
+            45.0,
+            -52.0
+          ],
+          [
+            80.0,
+            -51.5
+          ],
+          [
+            115.0,
+            -50.0
+          ],
+          [
+            150.0,
+            -48.0
+          ],
+          [
+            168.0,
+            -47.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "saildrone-antarctic-circumnavigation",
+        "name": "Misión Circumpolar Saildrone SD-1020 (Océano Austral)",
+        "operator": "Saildrone Inc. / NOAA / CSIRO",
+        "type": "autonomous_uncrewed_surface_vehicle",
+        "length_m": 7,
+        "propulsion": "100% eólica (vela rígida) + energía solar para sensores oceanográficos.",
+        "distance_km": 22000,
+        "highlights": "Primera circunnavegación autónoma de la Antártida. Sobrevivió vientos de más de 120 km/h y olas de 15 m midiendo flujo de CO2 marino."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.75,
+          -75.48
+        ]
+      },
+      "properties": {
+        "id": "auv-dive-thwaites",
+        "name": "Misión AUV Ran: Cavidad Subglacial del Glaciar Thwaites",
+        "operator": "Universidad de Gotemburgo / British Antarctic Survey / ITGC",
+        "platform": "Kongsberg Hugin / Ran AUV (Autónomo hasta 6,000 m)",
+        "type": "subglacial_auv_dive",
+        "depth_m": 1050,
+        "highlights": "Mapeo autónomo del lecho marino bajo el 'Glaciar del Juicio Final' (Thwaites), descubriendo intrusión de agua cálida circumpolar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.5,
+          -74.35
+        ]
+      },
+      "properties": {
+        "id": "auv-dive-dotson",
+        "name": "Misión AUV: Cavidad de la Plataforma de Hielo Dotson",
+        "operator": "National Science Foundation / KOPRI",
+        "platform": "AUV de Investigación Criosférica",
+        "type": "subglacial_auv_dive",
+        "depth_m": 900,
+        "highlights": "Navegación bajo 300 m de hielo flotante midiendo tasas basales de fusión térmica."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.3,
+            -54.8
+          ],
+          [
+            -67.5,
+            -55.8
+          ],
+          [
+            -65.0,
+            -58.5
+          ],
+          [
+            -63.2,
+            -61.5
+          ],
+          [
+            -62.98,
+            -64.32
+          ],
+          [
+            -62.98,
+            -64.88
+          ],
+          [
+            -63.5,
+            -64.82
+          ],
+          [
+            -64.06,
+            -65.11
+          ],
+          [
+            -64.25,
+            -65.24
+          ]
+        ]
+      },
+      "properties": {
+        "id": "yacht-ski-alpinism-route",
+        "name": "Ruta de Veleros de Expedición y Ski-Alpinismo (Península Antártica)",
+        "operator": "Chárteres de Vela IAATO Categoría 1 (Veleros Podorange, Australis, Spirit of Sydney)",
+        "vessel_types": "Veleros de acero y aluminio reforzados clase hielo (15 - 25 m)",
+        "capacity": "6 a 12 expedicionarios + tripulación",
+        "duration_days": "21 a 28 días",
+        "activities": "Ascensiones a cumbres vírgenes con esquís de montaña, descenso de pendientes glaciares hasta el mar, buceo polar y rodajes documentales.",
+        "regulation": "Directrices de Bioseguridad y Autorización Ambiental IAATO Categoría 1."
+      }
+    }
+  ]
+}

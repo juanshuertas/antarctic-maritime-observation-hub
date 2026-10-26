@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <defs>
+    <!-- Rolls-Royce Obsidian Deep Background Gradient -->
+    <radialGradient id="rr-obsidian" cx="50%" cy="50%" r="65%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#0a1828" />
+      <stop offset="60%" stop-color="#050d18" />
+      <stop offset="100%" stop-color="#02060c" />
+    </radialGradient>
+
+    <!-- Bespoke Rolls-Royce Platinum / Champagne Gold Metallic -->
+    <linearGradient id="rr-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4d8" />
+      <stop offset="25%" stop-color="#e2c57b" />
+      <stop offset="50%" stop-color="#b48c36" />
+      <stop offset="75%" stop-color="#f7e5aa" />
+      <stop offset="100%" stop-color="#8c6a22" />
+    </linearGradient>
+
+    <!-- NASA Precision Cyan & Spectrum -->
+    <linearGradient id="nasa-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58d5e3" />
+      <stop offset="100%" stop-color="#0a97d9" />
+    </linearGradient>
+
+    <!-- SDG Spectrum Arc (UN SDGs 14, 13, 16, 9, 7) -->
+    <linearGradient id="sdg-spectrum" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a97d9" />   <!-- SDG 14: Oceans -->
+      <stop offset="25%" stop-color="#3f7e44" />  <!-- SDG 13: Climate -->
+      <stop offset="50%" stop-color="#fcc30b" />  <!-- SDG 7: Energy -->
+      <stop offset="75%" stop-color="#fd6925" />  <!-- SDG 9: Innovation -->
+      <stop offset="100%" stop-color="#00689d" /> <!-- SDG 16: Peace -->
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow & Glow Filters -->
+    <filter id="crest-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="badge-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND: Outer Ring Accent -->
+  <g filter="url(#badge-shadow)">
+    <!-- NASA / Rolls-Royce Precision Outer Dial -->
+    <circle cx="250" cy="250" r="236" fill="url(#rr-obsidian)" stroke="url(#rr-gold)" stroke-width="2.5" />
+    <circle cx="250" cy="250" r="228" stroke="#19486a" stroke-width="1" stroke-dasharray="3 3" opacity="0.8" />
+    <circle cx="250" cy="250" r="222" stroke="url(#rr-gold)" stroke-width="0.75" opacity="0.6" />
+
+    <!-- HERALDIC BORDER TEXT (U.S. Polo Assn / Rolls-Royce Inspired Arch Typography) -->
+    <path id="text-arch-top" d="M 65 250 A 185 185 0 0 1 435 250" fill="none" />
+    <text font-family="'DM Serif Display', 'Cinzel', Georgia, serif" font-size="14" font-weight="700" fill="url(#rr-gold)" letter-spacing="4.5">
+      <textPath href="#text-arch-top" startOffset="50%" text-anchor="middle">
+        OCEANIC LOGISTICS &amp; ECOSYSTEM ANALYTICS
+      </textPath>
+    </text>
+
+    <path id="text-arch-bottom" d="M 435 250 A 185 185 0 0 1 65 250" fill="none" />
+    <text font-family="'JetBrains Mono', 'IBM Plex Mono', monospace" font-size="10.5" font-weight="600" fill="#8fa3bd" letter-spacing="3.5">
+      <textPath href="#text-arch-bottom" startOffset="50%" text-anchor="middle">
+        ★ ANTARCTICA 4D OBSERVATORY · HUERTAS OLEA ★
+      </textPath>
+    </text>
+
+    <!-- SDG Spectrum Calibration Ring (NASA Scientific Dial) -->
+    <circle cx="250" cy="250" r="168" stroke="url(#sdg-spectrum)" stroke-width="3.5" fill="none" />
+    <circle cx="250" cy="250" r="162" stroke="#061422" stroke-width="1.5" fill="#061422" fill-opacity="0.9" />
+
+    <!-- HERALDIC SHIELD (U.S. Polo Assn & Rolls-Royce Crest Architecture) -->
+    <g transform="translate(130, 115) scale(0.96)">
+      <!-- Shield Base -->
+      <path d="M 125 15 
+               C 185 15, 235 25, 235 60 
+               C 235 150, 195 210, 125 260 
+               C 55 210, 15 150, 15 60 
+               C 15 25, 65 15, 125 15 Z" 
+            fill="#081424" 
+            stroke="url(#rr-gold)" 
+            stroke-width="2.5" />
+
+      <!-- Left Facet: Antarctic Ice Peak (SDG 14 Life Below Water & SDG 13 Climate) -->
+      <path d="M 125 35 L 205 135 L 125 115 L 45 135 Z" fill="url(#nasa-cyan)" opacity="0.95" />
+      
+      <!-- Sub-surface Facet: Bathymetric Abyss (ODS 16 Peace & Treaty) -->
+      <path d="M 125 115 L 205 135 L 125 235 L 45 135 Z" fill="#004f75" opacity="0.9" />
+
+      <!-- Inner Monarch Monogram (OLEA in Rolls-Royce Serif Elegance) -->
+      <text x="125" y="105" 
+            font-family="'DM Serif Display', Georgia, serif" 
+            font-size="44" 
+            font-weight="700" 
+            fill="url(#rr-gold)" 
+            text-anchor="middle" 
+            letter-spacing="3" 
+            filter="url(#crest-glow)">
+        OLEA
+      </text>
+
+      <!-- AIESEC Leadership Velocity Wings & Polar Trajectory Vectors -->
+      <path d="M 45 100 C 85 85, 165 85, 205 100" stroke="url(#rr-gold)" stroke-width="1.8" stroke-linecap="round" fill="none" />
+      <path d="M 55 145 C 90 135, 160 135, 195 145" stroke="#72e0b5" stroke-width="2" stroke-linecap="round" fill="none" />
+      <path d="M 70 180 C 100 172, 150 172, 180 180" stroke="#fd6925" stroke-width="2" stroke-linecap="round" fill="none" />
+
+      <!-- NASA Mission Coordinate Telemetry Marker -->
+      <circle cx="125" cy="125" r="4.5" fill="#ffffff" filter="url(#crest-glow)" />
+      <circle cx="125" cy="125" r="2" fill="#fd6925" />
+    </g>
+
+    <!-- Precision Coordinate Quadrants (NASA Space Flight Manual Standard) -->
+    <text x="250" y="45" font-family="'JetBrains Mono', monospace" font-size="8" fill="#58d5e3" text-anchor="middle" letter-spacing="2">90°00′00″ S · 0°00′00″ E</text>
+    <text x="250" y="465" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#e2c57b" text-anchor="middle" letter-spacing="1.5">VERIFIED PEACE ARCHITECTURE · TREATY 1959</text>
+    
+    <!-- Heraldic Twin Expedition Stars (Polo Heritage) -->
+    <polygon points="105,250 108,242 116,242 110,247 112,255 105,250 98,255 100,247 94,242 102,242" fill="url(#rr-gold)" />
+    <polygon points="395,250 398,242 406,242 400,247 402,255 395,250 388,255 390,247 384,242 392,242" fill="url(#rr-gold)" />
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-60.0, -64.0]}, "properties": {"region": "Sector Península Antártica (Anomalía Ionosférica)", "intensity": "BAJA / CINTILACIÓN", "radius_km": 180, "source": "AMOH Space-Weather Auditor"}}]}

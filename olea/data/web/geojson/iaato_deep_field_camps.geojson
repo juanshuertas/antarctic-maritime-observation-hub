@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "iaato_deep_field_camps",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.87,
+          -79.77
+        ]
+      },
+      "properties": {
+        "id": "CAMP-UG-01",
+        "name": "Campamento Base Union Glacier & Pista Hielo Azul",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "type": "Blue Ice Runway & Expedition Base",
+        "elevation_m": 750,
+        "aircraft_supported": "Boeing 757-200, Ilyushin Il-76, Basler BT-67, DHC-6 Twin Otter",
+        "season_operational": "Noviembre a Enero (2026-2030)",
+        "capacity": "70 huéspedes / 50 personal",
+        "services": "Carpas climatizadas Clam Tent, cocina gourmet, comunicaciones satelitales, rescate SAR polar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.15,
+          -79.85
+        ]
+      },
+      "properties": {
+        "id": "CAMP-TG-02",
+        "name": "Three Glaciers Retreat",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "type": "Luxury Deep Field Retreat",
+        "elevation_m": 820,
+        "aircraft_supported": "Basler BT-67, Twin Otter",
+        "season_operational": "Diciembre a Enero",
+        "capacity": "16 huéspedes",
+        "services": "Suites domo privadas de alta gama, ventanales panorámicos hacia los picos de nunatak, chef privado."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.5,
+          -77.7
+        ]
+      },
+      "properties": {
+        "id": "CAMP-GB-03",
+        "name": "Campamento Bahía Gould (Gould Bay Camp)",
+        "operator": "Antarctic Logistics & Expeditions (ALE)",
+        "type": "Seasonal Sea-Ice Camp",
+        "elevation_m": 5,
+        "aircraft_supported": "Basler BT-67, Twin Otter con esquís",
+        "season_operational": "Noviembre a Diciembre",
+        "capacity": "20 huéspedes",
+        "services": "Campamento efímero sobre la banquisa del Mar de Weddell a corta distancia de colonias reproductoras de pingüino emperador."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.55,
+          -70.77
+        ]
+      },
+      "properties": {
+        "id": "CAMP-WCH-04",
+        "name": "Whichaway Camp (Oasis Schirmacher)",
+        "operator": "White Desert Antarctica",
+        "type": "Luxury Eco-Domes",
+        "elevation_m": 120,
+        "aircraft_supported": "Basler BT-67 (conexión desde Wolf's Fang)",
+        "season_operational": "Noviembre a Febrero",
+        "capacity": "12 huéspedes",
+        "services": "Cúpulas geodésicas climatizadas de vanguardia, sauna de madera sobre hielo, gastronomía con estrellas Michelin."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2,
+          -71.3
+        ]
+      },
+      "properties": {
+        "id": "CAMP-ECH-05",
+        "name": "Echo Camp (Dronning Maud Land)",
+        "operator": "White Desert Antarctica",
+        "type": "Futuristic Space-Themed Pods",
+        "elevation_m": 1500,
+        "aircraft_supported": "Basler BT-67",
+        "season_operational": "Noviembre a Febrero",
+        "capacity": "12 huéspedes",
+        "services": "Módulos futuristas Sky Pods de fibra de vidrio inspirados en bases lunares con ventanales de piso a techo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          -70.5
+        ]
+      },
+      "properties": {
+        "id": "CAMP-WF-06",
+        "name": "Pista de Hielo Azul & Campamento Wolf's Fang",
+        "operator": "White Desert Antarctica",
+        "type": "Intercontinental Blue Ice Runway & Base",
+        "elevation_m": 1130,
+        "aircraft_supported": "Airbus A340-300, Gulfstream G550, Boeing 757, Basler BT-67",
+        "season_operational": "Noviembre a Febrero",
+        "capacity": "30 huéspedes",
+        "services": "Pista privada de hielo azul para jets procedentes de Ciudad del Cabo; bar de hielo y escalada en nunataks."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          -90.0
+        ]
+      },
+      "properties": {
+        "id": "CAMP-SP-07",
+        "name": "Campamento de Expedición Polo Sur Geográfico (90° S)",
+        "operator": "ALE / White Desert (Autorizado ATCM)",
+        "type": "Polar Plateau Camp",
+        "elevation_m": 2835,
+        "aircraft_supported": "Basler BT-67, LC-130 Hercules, Twin Otter",
+        "season_operational": "Diciembre a Enero",
+        "capacity": "20 huéspedes",
+        "services": "Pernoctación en tiendas polarizadas de alta montaña adyacentes al perímetro ceremonial y geográfico de la Base Amundsen-Scott."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.98,
+          -62.19
+        ]
+      },
+      "properties": {
+        "id": "CAMP-MAR-08",
+        "name": "Aeródromo Teniente Rodolfo Marsh Martin (SCRM) / Base Frei",
+        "operator": "Fuerza Aérea de Chile / Uso Comercial IAATO",
+        "type": "Fly-Cruise Intermodal Hub",
+        "elevation_m": 45,
+        "aircraft_supported": "BAE 146, Avro RJ85, Hercules C-130, Twin Otter",
+        "season_operational": "Todo el año (Operaciones de aerocruceros: Noviembre a Marzo)",
+        "capacity": "Hub de tránsito de pasajeros hacia barcos de expedición fondeados en Bahía Fildes.",
+        "services": "Pista de grava de 1.290 m, hospital antártico de apoyo, estación meteorológica y muelle de Zodiacs en playa Fildes."
+      }
+    }
+  ]
+}

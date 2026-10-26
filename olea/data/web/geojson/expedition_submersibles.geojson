@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "name": "AMOH Antarctic Expedition Submersibles & Dive Sites",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.55,
+          -64.63
+        ]
+      },
+      "properties": {
+        "id": "sub-dive-wilhelmina",
+        "name": "Sitio de Inmersión: Bahía Wilhelmina (Whale Cavern)",
+        "max_depth_m": 300,
+        "motherships": "Scenic Eclipse I & II, Seabourn Venture",
+        "submersibles": "Scenic Neptune (U-Boat Worx Cruise Sub 7), U-Boat Worx CS7",
+        "sub_capacity": "6-7 pasajeros + 1 piloto",
+        "highlights": "Paredes de hielo sumergidas, fondos de fiordo, krill polar y forrajeo de ballenas jorobadas.",
+        "regulation": "Autorización IAATO · Zona de exclusión acústica de cetáceos 500 m."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.88,
+          -64.82
+        ]
+      },
+      "properties": {
+        "id": "sub-dive-paradise-bay",
+        "name": "Sitio de Inmersión: Puerto Paraíso (Paradise Bay)",
+        "max_depth_m": 280,
+        "motherships": "Viking Octantis, Viking Polaris, Seabourn Pursuit",
+        "submersibles": "Triton 660/9 AVA (John, Paul, George, Ringo), U-Boat Worx CS7",
+        "sub_capacity": "6-8 pasajeros",
+        "highlights": "Acantilados glaciares sumergidos, corales blandos polares, esponjas de cristal y morenas submarinas.",
+        "regulation": "Directrices IAATO para sumergibles turísticos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.03,
+          -65.12
+        ]
+      },
+      "properties": {
+        "id": "sub-dive-lemaire-channel",
+        "name": "Sitio de Inmersión: Canal Lemaire / Península Kiev",
+        "max_depth_m": 300,
+        "motherships": "Scenic Eclipse I & II",
+        "submersibles": "Scenic Neptune II (U-Boat Worx Cruise Sub 7)",
+        "sub_capacity": "6 pasajeros + piloto",
+        "highlights": "Garganta vertical submarina con caídas de más de 300 metros, estrellas canasta gigantes y gorgonias polares.",
+        "regulation": "Sujeto a corrientes y deriva de témpanos de hielo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.15,
+          -64.52
+        ]
+      },
+      "properties": {
+        "id": "sub-dive-fournier-bay",
+        "name": "Sitio de Inmersión: Bahía Fournier (Isla Anvers)",
+        "max_depth_m": 250,
+        "motherships": "Seabourn Venture & Seabourn Pursuit",
+        "submersibles": "U-Boat Worx Cruise Sub 7",
+        "sub_capacity": "6 pasajeros",
+        "highlights": "Cascadas de sedimentos glaciares, fondos de fango anóxico glaciar y fauna bentónica endémica.",
+        "regulation": "Monitoreo permanente de desprendimientos glaciares desde buque nodriza."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.65,
+          -62.97
+        ]
+      },
+      "properties": {
+        "id": "sub-dive-deception-port-foster",
+        "name": "Sitio de Inmersión: Caldera Volcánica de Isla Decepción (Port Foster)",
+        "max_depth_m": 170,
+        "motherships": "Viking Octantis, Scenic Eclipse",
+        "submersibles": "Triton 660/9 AVA, U-Boat Worx CS7",
+        "sub_capacity": "6-8 pasajeros",
+        "highlights": "Chimeneas hidrotermales submarinas activas, fuentes termales en el fondo marino y esteras microbianas extremófilas.",
+        "regulation": "Área Marina Protegida ZEPA / Protocolo de Bioseguridad Vulcanológica."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5,
+          -64.82
+        ]
+      },
+      "properties": {
+        "id": "sub-dive-port-lockroy",
+        "name": "Sitio de Inmersión: Puerto Lockroy / Puerto Dorian",
+        "max_depth_m": 120,
+        "motherships": "Scenic Eclipse, Seabourn Pursuit",
+        "submersibles": "Scenic Neptune, U-Boat Worx CS7",
+        "sub_capacity": "6 pasajeros",
+        "highlights": "Restos históricos balleneros sumergidos de principios del siglo XX, fondos de bosque de kelp subantártico.",
+        "regulation": "Respeto a límites de sitio histórico HSM N° 61."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4,
+          -62.15
+        ]
+      },
+      "properties": {
+        "id": "sub-dive-admiralty-bay",
+        "name": "Sitio de Inmersión: Bahía Almirantazgo (Isla Rey Jorge)",
+        "max_depth_m": 220,
+        "motherships": "Viking Polaris",
+        "submersibles": "Triton 660/9 AVA",
+        "sub_capacity": "8 pasajeros",
+        "highlights": "Comunidades bentónicas de fiordo antártico, fondos arenosos volcánicos e interacción científica con Estación Ferraz/Arctowski.",
+        "regulation": "Zona de Exclusión ASMA / ZEPA."
+      }
+    }
+  ]
+}
