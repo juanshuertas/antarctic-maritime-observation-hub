@@ -1,0 +1,1 @@
+{"flag_a":"NO","flag_b":"CN","mode":"DOMINANCE_OVERLAP","legend":{"a_dominant":"#00e5ff (NO Dominance)","b_dominant":"#ff1744 (CN Dominance)","co_occurrence":"#ffd600 (Balanced Co-occurrence)"},"total_overlap_cells":4,"methodology":"Quantile Bivariate Spatial Overlap Analysis"}

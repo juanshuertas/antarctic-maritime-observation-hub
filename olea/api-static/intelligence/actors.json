@@ -1,0 +1,1 @@
+{"nodes":[{"id":"USA","type":"State","label":"United States"},{"id":"SCAR","type":"Organization","label":"Scientific Committee on Antarctic Research"},{"id":"RV_Nautilus","type":"Platform","label":"RV Nautilus"}],"edges":[{"from":"USA","to":"RV_Nautilus","relation":"Operator"},{"from":"RV_Nautilus","to":"SCAR","relation":"Contributor"}]}

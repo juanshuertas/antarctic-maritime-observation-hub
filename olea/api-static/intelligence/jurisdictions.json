@@ -1,0 +1,1 @@
+[{"id":"ant_treaty_area","name":"Antarctic Treaty System Area","type":"International Treaty","geojson_ref":"bounds/ats.json","status":"Active","legal_framework":"Antarctic Treaty 1959"},{"id":"arg_eez","name":"Argentine Exclusive Economic Zone","type":"EEZ","geojson_ref":"bounds/arg_eez.json","status":"Disputed","legal_framework":"UNCLOS"}]
