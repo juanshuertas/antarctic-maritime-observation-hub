@@ -1,28 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script>(function(){var B="/antarctic-maritime-observation-hub/olea/";var of=window.fetch.bind(window);window.fetch=function(i,o){try{var m=((o&&o.method)||(i&&i.method)||'GET').toUpperCase();var u=typeof i==='string'?i:(i&&i.url)||'';if(m==='GET'&&u.indexOf('/api/')===0){var q=u.indexOf('?');var p=(q<0?u:u.slice(0,q)).slice(5).replace(/\/+$/,'');if(p.indexOf('amoh-data/')===0){return of(B+'data/'+p.slice(10),o);}if(p){return of(B+'api-static/'+p+'.json',o).then(function(r){return r.ok?r:new Response('{"detail":"sin backend: dato no incluido en el snapshot"}',{status:404,headers:{'Content-Type':'application/json'}});}).catch(function(){return new Response('{"detail":"sin backend"}',{status:503,headers:{'Content-Type':'application/json'}});});}}}catch(e){}return of(i,o);};})();</script>
+    <script>(function(){var B="/antarctic-maritime-observation-hub/olea/";var of=window.fetch.bind(window);window.fetch=function(i,o){try{var m=((o&&o.method)||(i&&i.method)||'GET').toUpperCase();var u=typeof i==='string'?i:(i&&i.url)||'';if(m==='GET'&&u.indexOf('/api/')===0){var q=u.indexOf('?');var p=(q<0?u:u.slice(0,q)).slice(5).replace(/\/+$/,'');if(p.indexOf('amoh-data/')===0){return of(B+'data/'+p.slice(10),o);}if(p.indexOf('ocean/point')===0){var ma=u.match(/lat=(-?[0-9.]+)/),mo=u.match(/lon=(-?[0-9.]+)/);if(ma&&mo){var la=Math.round(parseFloat(ma[1])/3)*3;if(la>-60)la=-60;if(la< -78)la=-78;var lo=Math.round(parseFloat(mo[1])/10)*10;if(lo>=180)lo-=360;if(lo< -180)lo+=360;return of(B+'api-static/ocean/point/'+la+'_'+lo+'.json',o);}}if(p){return of(B+'api-static/'+p+'.json',o).then(function(r){return r.ok?r:new Response('{"detail":"sin backend: dato no incluido en el snapshot"}',{status:404,headers:{'Content-Type':'application/json'}});}).catch(function(){return new Response('{"detail":"sin backend"}',{status:503,headers:{'Content-Type':'application/json'}});});}}}catch(e){}return of(i,o);};})();</script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/antarctic-maritime-observation-hub/olea/olea-symbol.svg" />
     <link rel="alternate icon" type="image/svg+xml" href="/antarctic-maritime-observation-hub/olea/olea-crest.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OLEA — Oceanic Logistics &amp; Ecosystem Analytics | Polar 4D Observatory</title>
-    <script type="module" crossorigin src="/antarctic-maritime-observation-hub/olea/assets/index-DFmLQewE.js"></script>
+    <script type="module" crossorigin src="/antarctic-maritime-observation-hub/olea/assets/index-DhbEW-ER.js"></script>
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/rolldown-runtime-Dd_uD5pT.js">
-    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-icons-Ce4SZzqR.js">
-    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-react-core-pHopef_7.js">
-    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-motion-Dkm2Tlbl.js">
-    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/jsx-runtime-DMEN9hOG.js">
+    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-icons-FCudeUiz.js">
+    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-react-core-BBNX1Isc.js">
+    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-motion-D0KfilJM.js">
+    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/jsx-runtime-DbB5KKCD.js">
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/api-DIDVU5H2.js">
-    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/i18n-BEEL4l0I.js">
+    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/i18n-D4VsHClz.js">
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-maplibre-dbiL34uc.js">
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/array-utils-flat-BL8Cekj1.js">
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/expression-E359vKZW.js">
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/get-attribute-from-layouts-Dd2gixpo.js">
     <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-utils-DCxGtJAt.js">
-    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/CommandPalette-DsF68XQ-.js">
+    <link rel="modulepreload" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/CommandPalette-zSKceLeJ.js">
     <link rel="stylesheet" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/vendor-maplibre-CKRTiAqP.css">
-    <link rel="stylesheet" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/index-BvZjCq0R.css">
+    <link rel="stylesheet" crossorigin href="/antarctic-maritime-observation-hub/olea/assets/index-D-zS9zd9.css">
   </head>
   <body>
     <div id="root"></div>

@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OLEA · Khalifa Research Track</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --panel:#ffffff; --ink:#15181d; --muted:#5b6472;
+    --line:#e2e6ec; --accent:#0b5d8f; --ok:#1d7a4c; --warn:#9a6508;
+    --bad:#9c2a2a; --code:#eef1f5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0e1116; --panel:#161b22; --ink:#e6e9ee; --muted:#9aa4b2;
+      --line:#262c36; --accent:#5aa9dd; --ok:#4cc38a; --warn:#d8a341;
+      --bad:#e5707a; --code:#1b212a;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0e1116; --panel:#161b22; --ink:#e6e9ee; --muted:#9aa4b2;
+    --line:#262c36; --accent:#5aa9dd; --ok:#4cc38a; --warn:#d8a341;
+    --bad:#e5707a; --code:#1b212a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+  .wrap{max-width:1040px;margin:0 auto;padding:32px 16px 72px}
+  header{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:28px}
+  h1{font-size:1.6rem;margin:0 0 6px;letter-spacing:-.01em}
+  h2{font-size:1.15rem;margin:34px 0 12px;letter-spacing:-.01em}
+  h3{font-size:.95rem;margin:20px 0 8px;color:var(--muted);
+     text-transform:uppercase;letter-spacing:.06em}
+  .sub{color:var(--muted);font-size:.92rem}
+  .card{background:var(--panel);border:1px solid var(--line);
+        border-radius:10px;padding:18px 20px;margin:14px 0}
+  .banner{border-left:4px solid var(--accent);border-radius:8px;
+          padding:14px 18px;margin:14px 0;background:var(--panel);
+          border-top:1px solid var(--line);border-right:1px solid var(--line);
+          border-bottom:1px solid var(--line)}
+  .banner.ok{border-left-color:var(--ok)}
+  .banner.warn{border-left-color:var(--warn)}
+  .banner.bad{border-left-color:var(--bad)}
+  .pill{display:inline-block;font-size:.74rem;font-weight:600;
+        padding:2px 9px;border-radius:999px;border:1px solid var(--line);
+        color:var(--muted);vertical-align:middle;margin-left:6px}
+  .pill.ok{color:var(--ok);border-color:var(--ok)}
+  .pill.bad{color:var(--bad);border-color:var(--bad)}
+  .pill.warn{color:var(--warn);border-color:var(--warn)}
+  /* Tables must scroll inside their card, never widen the page: a polar
+     dashboard gets read on a phone in a bunk as often as on a desk. */
+  .tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;
+           margin:0 -4px;padding:0 4px}
+  table{width:100%;border-collapse:collapse;font-size:.9rem;
+        font-variant-numeric:tabular-nums;min-width:460px}
+  pre{max-width:100%}
+  .card,.banner{overflow-wrap:anywhere}
+  th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:.78rem;
+     text-transform:uppercase;letter-spacing:.05em}
+  td.num,th.num{text-align:right}
+  tr.best td{font-weight:600}
+  code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:.86em}
+  pre{background:var(--code);padding:14px 16px;border-radius:8px;
+      overflow-x:auto;font-size:.82rem;line-height:1.5}
+  ul{padding-left:20px} li{margin:5px 0}
+  a{color:var(--accent)}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+  .stat{background:var(--panel);border:1px solid var(--line);
+        border-radius:9px;padding:13px 15px}
+  .stat .k{font-size:.74rem;color:var(--muted);text-transform:uppercase;
+           letter-spacing:.05em}
+  .stat .v{font-size:1.3rem;font-weight:650;margin-top:3px;
+           font-variant-numeric:tabular-nums}
+  .stat .n{font-size:.78rem;color:var(--muted);margin-top:2px}
+  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);
+         color:var(--muted);font-size:.85rem}
+  @media (max-width:560px){
+    .wrap{padding:22px 16px 60px} h1{font-size:1.35rem}
+    th,td{padding:6px 8px;font-size:.84rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>OLEA · Khalifa Research Track</h1>
+  <div class="sub">Espesor sedimentario antártico desde campos potenciales ·
+  Indicadores metoceánicos y de geoamenaza marina</div>
+  <div class="sub" id="gen"></div>
+</header>
+
+<div id="boot" class="banner warn">
+  <strong>Sin resultados todavía.</strong>
+  <p class="sub">Esta página lee
+  <code>data/derived/geophysics/khalifa_summary.json</code> (o el shim
+  <code>khalifa_data.js</code>). Para generarlo:</p>
+<pre>python scripts/download_geophysics.py --role label --role feature
+python scripts/run_khalifa_pipeline.py</pre>
+  <p class="sub">Si no hay red donde corres esto, el descargador lo dirá
+  explícitamente en vez de fingir. Para probar solo la mecánica:</p>
+<pre>python backend/tests/make_geophysics_fixtures.py signal /tmp/fx_signal
+python scripts/run_khalifa_pipeline.py --fixtures /tmp/fx_signal</pre>
+</div>
+
+<main id="app" hidden></main>
+
+<!-- Data shim, loaded TWICE on purpose, at the two depths this page can
+     live at:
+       local  ->  C:\AMOH\pages\khalifa\      so data is at ../../data/...
+       Pages  ->  <site>/olea/khalifa/         so data is at ./data/...
+     The deploy script copies the derived data into the page's own folder,
+     while a local checkout keeps it at the repo root. Whichever file is
+     absent 404s harmlessly; whichever exists sets window.KHALIFA_DATA.
+     This matters because fetch() of a local file is blocked over file://,
+     so the shim is the ONLY way the page renders from a bare folder. -->
+<script src="./data/derived/geophysics/khalifa_data.js"
+        onerror="console.info('no local-folder khalifa_data.js')"></script>
+<script src="../../data/derived/geophysics/khalifa_data.js"
+        onerror="console.info('no repo-root khalifa_data.js')"></script>
+
+<footer>
+  <div>OLEA / AMOH · Observatorio Antártico. Esta página es estática: no
+  necesita backend ni red una vez generados los dos archivos de datos.</div>
+  <div id="attrib" class="sub"></div>
+</footer>
+</div>
+
+<script>
+const E=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;
+  if(x!==undefined)e.textContent=x;return e;};
+const fmt=(v,d=1)=>(v===null||v===undefined||Number.isNaN(v))?"—":
+  Number(v).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct=v=>(v===null||v===undefined)?"—":(v*100>=0?"+":"")+ (v*100).toFixed(1)+"%";
+
+const DATA_PATHS=[
+  "./data/derived/geophysics/khalifa_summary.json",      // deployed layout
+  "../../data/derived/geophysics/khalifa_summary.json",  // repo checkout
+];
+async function load(){
+  for(const u of DATA_PATHS){
+    try{
+      const r=await fetch(u,{cache:"no-store"});
+      if(r.ok) return await r.json();
+    }catch(e){ /* file:// blocks fetch entirely; the shim covers that */ }
+  }
+  if(window.KHALIFA_DATA) return window.KHALIFA_DATA;
+  return null;
+}
+
+function verdictClass(res){
+  if(!res||res.status!=="ok") return "bad";
+  if(res.gates&&res.gates.materially_worse_than_mean) return "bad";
+  return res.hypothesis_supported?"ok":"warn";
+}
+
+function render(d){
+  const app=document.getElementById("app");
+  document.getElementById("boot").hidden=true;
+  app.hidden=false;
+  document.getElementById("gen").textContent=
+    "Generado "+(d.generated_at||"?")+" · catálogo verificado "+
+    ((d.catalogue&&d.catalogue.verified_on)||"?");
+
+  // ---- synthetic warning, loudest thing on the page if it applies
+  if(d.synthetic_fixtures){
+    const b=E("div","banner bad");
+    b.append(E("strong","","ATENCIÓN — datos sintéticos"));
+    b.append(E("p","sub",
+      "Esta corrida usó fixtures generados, no los datasets publicados. "+
+      "Las cifras de abajo prueban que la tubería funciona; no son un "+
+      "resultado científico y no deben citarse."));
+    app.append(b);
+  }
+
+  const res=d.result||{};
+  // ---- verdict
+  const vb=E("div","banner "+verdictClass(res));
+  vb.append(E("strong","","Veredicto"));
+  vb.append(E("p","",res.verdict||("estado: "+(res.status||"desconocido"))));
+  if(res.gate_meanings){
+    const ul=E("ul","sub");
+    Object.entries(res.gates||{}).forEach(([k,v])=>{
+      if(k==="beats_mean"||k==="materially_worse_than_mean") return;
+      const li=E("li");
+      li.append(document.createTextNode(
+        (res.gate_meanings[k]||k)+" "));
+      li.append(E("span","pill "+(v?"ok":"bad"), v?"PASA":"NO PASA"));
+      ul.append(li);
+    });
+    vb.append(ul);
+  }
+  app.append(vb);
+
+  // ---- headline stats
+  if(res.status==="ok"){
+    const g=E("div","grid");
+    const mk=(k,v,n)=>{const s=E("div","stat");s.append(E("div","k",k));
+      s.append(E("div","v",v));if(n)s.append(E("div","n",n));return s;};
+    const best=res.metrics_out_of_fold[res.best_model]||{};
+    const band=res.residual_spread_m||{};
+    g.append(mk("MAE fuera de pliegue",fmt(best.mae,0)+" m",
+      "modelo: "+res.best_model));
+    g.append(mk("Banda p05–p95",
+      fmt(band.p05,0)+" … "+fmt(band.p95,0)+" m","incertidumbre honesta"));
+    g.append(mk("Muestras",(res.validation.n_samples||0).toLocaleString(),
+      res.validation.n_spatial_blocks+" bloques espaciales"));
+    g.append(mk("Celdas descartadas por buffer",
+      (res.validation.total_train_cells_dropped_to_buffer||0).toLocaleString(),
+      "buffer "+res.validation.buffer_km+" km"));
+    app.append(g);
+
+    // ---- metrics table
+    app.append(E("h2","","Modelos y líneas base"));
+    const c1=E("div","card");
+    const t=E("table");
+    const thead=E("thead");const hr=E("tr");
+    ["Modelo / línea base","MAE (m)","RMSE (m)","R²","Skill vs modelo"]
+      .forEach((h,i)=>{const th=E("th",i?"num":"",h);hr.append(th);});
+    thead.append(hr);t.append(thead);
+    const tb=E("tbody");
+    Object.entries(res.metrics_out_of_fold).forEach(([k,m])=>{
+      const tr=E("tr",k===res.best_model?"best":"");
+      const nm=E("td","",k);
+      if(k===res.best_model) nm.append(E("span","pill ok","mejor"));
+      if(k.startsWith("baseline_")) nm.append(E("span","pill","base"));
+      tr.append(nm);
+      tr.append(E("td","num",fmt(m.mae,1)));
+      tr.append(E("td","num",fmt(m.rmse,1)));
+      tr.append(E("td","num",fmt(m.r2,3)));
+      const sk=(res.skill_scores||{})[k];
+      tr.append(E("td","num",sk===undefined?"—":pct(sk)));
+      tb.append(tr);
+    });
+    t.append(tb);const w1=E('div','tscroll');w1.append(t);c1.append(w1);
+    c1.append(E("p","sub","Validación: "+res.validation.scheme+
+      " (bloques de "+res.validation.block_km+" km, buffer "+
+      res.validation.buffer_km+" km, "+res.validation.n_folds_used+
+      " pliegues). "+res.validation.why));
+    app.append(c1);
+
+    // ---- importance
+    const imp=res.permutation_importance_mae_m||{};
+    if(Object.keys(imp).length){
+      app.append(E("h2","","Importancia por permutación"));
+      const c2=E("div","card");
+      const t2=E("table");const th2=E("thead");const hr2=E("tr");
+      ["Predictor","MAE añadido (m)"].forEach((h,i)=>hr2.append(E("th",i?"num":"",h)));
+      th2.append(hr2);t2.append(th2);
+      const tb2=E("tbody");
+      Object.entries(imp).forEach(([k,v])=>{
+        const tr=E("tr");tr.append(E("td","",k));
+        tr.append(E("td","num",(v>=0?"+":"")+fmt(v,1)));tb2.append(tr);});
+      t2.append(tb2);const w2=E('div','tscroll');w2.append(t2);c2.append(w2);
+      c2.append(E("p","sub","Cuánto empeora el error al barajar cada "+
+        "predictor, en metros. En la unidad de la etiqueta, no en un "+
+        "puntaje adimensional."));
+      app.append(c2);
+    }
+
+    // ---- caveats
+    app.append(E("h2","","Límites de esta lectura"));
+    const c3=E("div","card");const ul3=E("ul");
+    (res.caveats||[]).forEach(x=>ul3.append(E("li","",x)));
+    (d.label_units_used?[("Unidades de etiqueta declaradas: '"+
+      d.label_units_used+"'. "+((d.label_units_inspection||{})
+      .published_cross_check||""))]:[]).forEach(x=>ul3.append(E("li","",x)));
+    c3.append(ul3);app.append(c3);
+
+    // ---- data notes
+    if((res.data_notes||[]).length){
+      app.append(E("h3","","Notas del armado de datos"));
+      const c4=E("div","card");const ul4=E("ul","sub");
+      res.data_notes.forEach(x=>ul4.append(E("li","",x)));
+      c4.append(ul4);app.append(c4);
+    }
+  }
+
+  // ---- catalogue
+  const cat=d.catalogue||{};
+  app.append(E("h2","","Fuentes verificadas"));
+  const c5=E("div","card");
+  const t5=E("table");const th5=E("thead");const hr5=E("tr");
+  ["Dataset","Papel","DOI","CRS / res.","Licencia"].forEach(h=>hr5.append(E("th","",h)));
+  th5.append(hr5);t5.append(th5);
+  const tb5=E("tbody");
+  (cat.sources||[]).forEach(s=>{
+    const tr=E("tr");
+    const td0=E("td","",s.title||s.key);
+    tr.append(td0);
+    const r=E("td");
+    r.append(E("span","pill "+(s.role==="label"?"ok":
+      s.role==="baseline_only"?"bad":""),s.role));
+    tr.append(r);
+    const td2=E("td");
+    if(s.doi){const a=E("a","",s.doi);a.href=s.landing_page;a.target="_blank";
+      a.rel="noopener";td2.append(a);} else td2.textContent="—";
+    tr.append(td2);
+    tr.append(E("td","",(s.crs||"?")+" · "+(s.resolution||"?")));
+    tr.append(E("td","",s.licence||"?"));
+    tb5.append(tr);
+  });
+  t5.append(tb5);const w5=E('div','tscroll');w5.append(t5);c5.append(w5);
+  if((cat.circularity_guard||[]).length){
+    c5.append(E("p","sub","Guarda de circularidad activa sobre: "+
+      cat.circularity_guard.join(", ")+
+      " — marcado baseline_only y rechazado como predictor por código, "+
+      "porque GlobSed v3 compila las mismas rejillas de Lindeque que aquí "+
+      "son etiqueta."));
+  }
+  (cat.known_dead_endpoints||[]).forEach(x=>{
+    c5.append(E("p","sub","Endpoint muerto o inservible: "+x.url+
+      " → usar "+(x.replacement||"?")+(x.died?(" (murió "+x.died+")"):"")));
+  });
+  app.append(c5);
+
+  document.getElementById("attrib").textContent =
+    "Atribución: " + (cat.sources||[]).filter(s=>s.citation)
+      .map(s=>s.citation.split(".")[0]).join(" · ");
+}
+
+load().then(d=>{ if(d) render(d); })
+      .catch(e=>{ console.error(e); });
+</script>
+</body>
+</html>
