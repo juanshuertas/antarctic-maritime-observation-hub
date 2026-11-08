@@ -10,9 +10,9 @@ services:
       - ./backend/app:/app/app
       - ./data:/app/data
     environment:
-      - ENVIRONMENT=edge
+      - ENVIRONMENT=${ENVIRONMENT:-edge}
       - DATA_DIR=/app/data
-      - EXPEDITION_ID=NGRS-ANTA-2027
-      - JWT_SECRET=dev-secret
-      - ANON_SALT=dev-salt
+      - EXPEDITION_ID=${EXPEDITION_ID:-NGRS-ANTA-2027}
+      - JWT_SECRET=${JWT_SECRET:-}
+      - ANON_SALT=${ANON_SALT:-}
     restart: unless-stopped
