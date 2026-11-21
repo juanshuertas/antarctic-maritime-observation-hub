@@ -1,0 +1,315 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════
+   AMOH — Antarctic Maritime Observation Hub
+   "Ocean Wonder / Scientific Clarity" design tokens
+   ═══════════════════════════════════════════════════════════════ */
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Poppins-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/DMSerifDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/JetBrainsMono-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('../fonts/SourceSerif4-Variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('../fonts/SourceSans3-Variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/IBMPlexMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/IBMPlexMono-Medium.woff2') format('woff2');
+}
+
+:root {
+  color-scheme: dark;
+
+  --amoh-bg-abyss: #080e19;
+  --amoh-bg-ocean: #101626;
+  --amoh-surface: #151f32;
+  --amoh-surface-raised: #1c2940;
+  --amoh-surface-hover: #24344d;
+  --amoh-border: #35445b;
+
+  /* ═════════ ROLLS-ROYCE & NASA SOVEREIGN BASES ═════════ */
+  --olea-obsidian-deep: #02060c;
+  --olea-obsidian-card: #050d18;
+  --olea-obsidian-raised: #0a1828;
+  --olea-border-subtle: rgba(88, 213, 227, 0.18);
+  --olea-border-gold: rgba(226, 197, 123, 0.40);
+
+  /* Bespoke Platinum & Champagne Gold (Rolls-Royce) */
+  --olea-gold-pure: #e2c57b;
+  --olea-gold-light: #fdf4d8;
+  --olea-gold-deep: #b48c36;
+
+  /* ═════════ OFFICIAL UN SDG 2030 COLOR SYSTEM ═════════ */
+  --olea-sdg14-marine: #0a97d9;
+  --olea-sdg14-azure: #26bde2;
+  --olea-sdg13-climate: #3f7e44;
+  --olea-sdg13-mint: #72e0b5;
+  --olea-sdg16-peace: #00689d;
+  --olea-sdg17-alliances: #19486a;
+  --olea-sdg09-innovation: #fd6925;
+  --olea-sdg07-energy: #fcc30b;
+  --olea-sdg15-terrestrial: #56c02b;
+  --olea-sdg11-communities: #fd9d24;
+
+  --amoh-text: #f5f8fc;
+  --amoh-text-secondary: #b7c5d8;
+  --amoh-text-muted: #8fa3bd;
+
+  --amoh-paper: #f3f6f8;
+  --amoh-ink: #101626;
+
+  --amoh-science: #caf9f7;
+  --amoh-satellite: #58d5e3;
+  --amoh-maritime: #35c3c8;
+  --amoh-teal-deep: #007b89;
+  --amoh-ecology: #d0e7c8;
+  --amoh-green-deep: #1b736c;
+  --amoh-scenario: #a995ff;
+  --amoh-purple: #7646ff;
+  --amoh-community: #037ef3;
+  --amoh-action: #ff5100;
+  --amoh-warm: #ffd9b8;
+
+  --amoh-success: #72e0b5;
+  --amoh-warning: #ffc845;
+  --amoh-error: #ff827d;
+
+  --amoh-font-ui: "Poppins", "Segoe UI", Arial, sans-serif;
+  --amoh-font-data: "JetBrains Mono", "IBM Plex Mono", Consolas, monospace;
+  --amoh-font-editorial: "DM Serif Display", Georgia, serif;
+
+  --amoh-space-1: 4px;
+  --amoh-space-2: 8px;
+  --amoh-space-3: 12px;
+  --amoh-space-4: 16px;
+  --amoh-space-5: 20px;
+  --amoh-space-6: 24px;
+  --amoh-space-8: 32px;
+  --amoh-space-10: 40px;
+  --amoh-space-12: 48px;
+
+  --amoh-radius-control: 8px;
+  --amoh-radius-card: 12px;
+  --amoh-radius-panel: 16px;
+  --amoh-radius-modal: 20px;
+
+  --amoh-shadow-panel:
+    0 16px 48px rgba(0, 0, 0, 0.32);
+
+  --amoh-duration-fast: 140ms;
+  --amoh-duration-base: 220ms;
+  --amoh-duration-panel: 300ms;
+
+  --amoh-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--amoh-bg-ocean);
+  color: var(--amoh-text);
+  font-family: var(--amoh-font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   AMOH — Youthful "Polar Cyber-Glass" & SDG Visual Utilities
+   ═══════════════════════════════════════════════════════════════ */
+
+.amoh-glass {
+  background: rgba(7, 22, 35, 0.78);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.5), 0 0 24px -4px rgba(0, 229, 255, 0.08);
+}
+
+.amoh-glass-card {
+  background: rgba(10, 28, 44, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(88, 213, 227, 0.2);
+  box-shadow: 0 12px 32px -6px rgba(0, 0, 0, 0.45);
+  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.amoh-glass-card:hover {
+  border-color: rgba(0, 229, 255, 0.45);
+  box-shadow: 0 16px 40px -6px rgba(0, 0, 0, 0.55), 0 0 24px -2px rgba(0, 229, 255, 0.16);
+  transform: translateY(-2px);
+}
+
+.amoh-pill-interactive {
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.amoh-pill-interactive:hover {
+  transform: translateY(-1px) scale(1.02);
+}
+
+.amoh-pill-interactive:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.amoh-gradient-title {
+  background: linear-gradient(135deg, #00e5ff 0%, #38bdf8 45%, #72e0b5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.amoh-gradient-sdg {
+  background: linear-gradient(135deg, #ff5757 0%, #facc15 35%, #10b981 70%, #0ea5e9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.olea-gradient-gold {
+  background: linear-gradient(135deg, #fdf4d8 0%, #e2c57b 50%, #b48c36 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.olea-card-sovereign {
+  background: rgba(5, 13, 24, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(88, 213, 227, 0.22);
+  box-shadow: 0 20px 48px -10px rgba(0, 0, 0, 0.7), 0 0 20px -2px rgba(10, 151, 217, 0.12);
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.olea-card-sovereign:hover {
+  border-color: rgba(226, 197, 123, 0.55);
+  box-shadow: 0 24px 56px -8px rgba(0, 0, 0, 0.85), 0 0 28px 2px rgba(226, 197, 123, 0.18);
+  transform: translateY(-2px);
+}
+
+.olea-telemetry-stamp {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: rgba(10, 151, 217, 0.12);
+  border: 1px solid rgba(38, 189, 226, 0.35);
+  color: #58d5e3;
+}
+
+/* Sleek cyber scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(6, 18, 28, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 229, 255, 0.5);
+}
+
+
+/* OLEA i18n V20 — Arabic reads right-to-left inside each text block,
+   while the map shell (absolutely positioned controls) keeps its layout. */
+html[data-olea-dir='rtl'] :where(p, span, div, h1, h2, h3, h4, h5, h6, li, label, button, a, td, th, dd, dt, small, strong, em, option, summary) {
+  unicode-bidi: plaintext;
+}
+html[lang='ar'] body {
+  font-family: 'Segoe UI', 'Noto Sans Arabic', Tahoma, 'Poppins', sans-serif;
+}
