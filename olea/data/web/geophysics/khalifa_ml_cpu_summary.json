@@ -1,0 +1,826 @@
+{
+  "generated_at": "2026-11-21T21:08:50.788662+00:00",
+  "synthetic_fixtures": false,
+  "data_disclaimer": "results from downloaded published datasets",
+  "catalogue": {
+    "verified_on": "2026-10-31",
+    "verification_method": "publisher file tables read directly; no URL written from memory",
+    "counts": {
+      "features": 3,
+      "labels": 2,
+      "baseline_only": 1
+    },
+    "circularity_guard": [
+      "globsed_v3"
+    ],
+    "known_dead_endpoints": [
+      {
+        "url": "https://www.ngdc.noaa.gov/mgg/sedthick/",
+        "died": "2025-05-12",
+        "replacement": "PANGAEA 982339 (archival)"
+      },
+      {
+        "url": "https://doi.pangaea.de/10.1594/PANGAEA.892723",
+        "status": "alive but Geosoft .grd (proprietary)",
+        "replacement": "PANGAEA 965433 (NetCDF/GeoTIFF, EPSG:3031)"
+      }
+    ],
+    "sources": [
+      {
+        "key": "lindeque2016_sedthick",
+        "title": "Pre-glacial to glacial sediment thickness grids, Southern Pacific margin of West Antarctica",
+        "role": "label",
+        "doi": "10.1594/PANGAEA.864906",
+        "landing_page": "https://doi.pangaea.de/10.1594/PANGAEA.864906",
+        "files": [
+          {
+            "name": "sedthick_total_v2_5km_epsg3031.nc",
+            "url": "https://store.pangaea.de/Publications/WobbeF_et_al_2016/sedthick_total_v2_5km_epsg3031.nc",
+            "approx_kb": "728.8",
+            "variable_role": "y_total"
+          },
+          {
+            "name": "sedthick_pg_v1_5km_epsg3031.nc",
+            "url": "https://store.pangaea.de/Publications/WobbeF_et_al_2016/sedthick_pg_v1_5km_epsg3031.nc",
+            "approx_kb": "661.6",
+            "variable_role": "y_preglacial"
+          },
+          {
+            "name": "sedthick_t_v1_5km_epsg3031.nc",
+            "url": "https://store.pangaea.de/Publications/WobbeF_et_al_2016/sedthick_t_v1_5km_epsg3031.nc",
+            "approx_kb": "433.9",
+            "variable_role": "y_transitional"
+          },
+          {
+            "name": "sedthick_fg_v1_5km_epsg3031.nc",
+            "url": "https://store.pangaea.de/Publications/WobbeF_et_al_2016/sedthick_fg_v1_5km_epsg3031.nc",
+            "approx_kb": "344.9",
+            "variable_role": "y_fullglacial"
+          }
+        ],
+        "crs": "EPSG:3031",
+        "resolution": "5 km",
+        "units": "UNVERIFIED -- the PANGAEA record does not state grid units. The paper reports depocentres of 1.3-4.0 km, so the grids are most likely kilometres. The loader DOES NOT GUESS: it reports the observed value range and requires an explicit --label-units flag (m|km) before training.",
+        "licence": "CC-BY-3.0",
+        "citation": "Lindeque, A; Gohl, K; Wobbe, F; Uenzelmann-Neben, G (2016). Geochem. Geophys. Geosyst. 17(10), 4276-4285. doi:10.1002/2016GC006401",
+        "notes": "Derived by compiling old and new SEISMIC REFLECTION data to identify sediment sequences per depositional phase. This is why it is admissible as an independent label against gravity/magnetic predictors: the label's information source (seismic traveltime) is physically distinct from X. Coverage: Amundsen Sea Embayment, Bellingshausen Sea, Antarctic Peninsula basins -- this is what fixes the study region; the region was NOT chosen first.",
+        "needs_account": false
+      },
+      {
+        "key": "antgg2021_gravity",
+        "title": "Antarctic gravity anomaly and height anomaly grids (AntGG2021)",
+        "role": "feature",
+        "doi": "10.1594/PANGAEA.971238",
+        "landing_page": "https://doi.pangaea.de/10.1594/PANGAEA.971238",
+        "files": [
+          {
+            "name": "AntGG2021_Gravity-anomaly.nc",
+            "url": "https://download.pangaea.de/dataset/971238/files/AntGG2021_Gravity-anomaly.nc",
+            "approx_kb": "27852",
+            "variable_role": "x_gravity_anomaly"
+          },
+          {
+            "name": "AntGG2021_Bouguer-anomaly.nc",
+            "url": "https://download.pangaea.de/dataset/971238/files/AntGG2021_Bouguer-anomaly.nc",
+            "approx_kb": "27852",
+            "variable_role": "x_bouguer_anomaly"
+          },
+          {
+            "name": "AntGG2021_Standard-deviation_GA-from-LSC.nc",
+            "url": "https://download.pangaea.de/dataset/971238/files/AntGG2021_Standard-deviation_GA-from-LSC.nc",
+            "approx_kb": "27852",
+            "variable_role": "x_gravity_sigma"
+          },
+          {
+            "name": "AntGG2021_Second-radial-derivative-of-disturbing-potential.nc",
+            "url": "https://download.pangaea.de/dataset/971238/files/AntGG2021_Second-radial-derivative-of-disturbing-potential.nc",
+            "approx_kb": "27852",
+            "variable_role": "x_second_radial_deriv"
+          }
+        ],
+        "crs": "EPSG:3031",
+        "resolution": "5 km",
+        "units": "mGal (anomaly, Bouguer, sigma); E.U. (second radial derivative)",
+        "licence": "CC-BY-4.0",
+        "citation": "Scheinert, M et al. (2024). AntGG2021. doi:10.1594/PANGAEA.971238",
+        "notes": "The record does NOT use the term 'free-air anomaly'. 'Gravity anomaly (at the surface)' is the nearest equivalent; do not relabel it free-air in any write-up. The sigma grid is carried as a feature AND as an observational-confidence mask: cells where the compilation itself is uncertain should not silently carry the same weight as well-surveyed cells.",
+        "needs_account": false
+      },
+      {
+        "key": "admap2_magnetic_opensource",
+        "title": "ADMAP's Antarctic magnetic anomaly grids transformed for use with open source software",
+        "role": "feature",
+        "doi": "10.1594/PANGAEA.965433",
+        "landing_page": "https://doi.pangaea.de/10.1594/PANGAEA.965433",
+        "files": [
+          {
+            "name": "ADMAP_2S_epsg3031_gdal.nc",
+            "url": "https://download.pangaea.de/dataset/965433/files/ADMAP_2S_epsg3031_gdal.nc",
+            "variable_role": "x_magnetic_anomaly_2S"
+          },
+          {
+            "name": "ADMAP_2B_2017_epsg3031_gdal_SF0.9725.nc",
+            "url": "https://download.pangaea.de/dataset/965433/files/ADMAP_2B_2017_epsg3031_gdal_SF0.9725.nc",
+            "variable_role": "x_magnetic_anomaly_2B"
+          },
+          {
+            "name": "README",
+            "url": "https://download.pangaea.de/dataset/965433/files/README",
+            "variable_role": "doc"
+          }
+        ],
+        "crs": "EPSG:3031",
+        "resolution": "2B: 1500 m (4534x4533) \u00b7 2S: 5000 m (1334x1334)",
+        "units": "nT",
+        "licence": "CC-BY-4.0",
+        "citation": "Eagles, G et al. (2024). doi:10.1594/PANGAEA.965433. Underlying compilation: Golynsky, AV et al. (2018), Geophys. Res. Lett. 45(13), 6437-6449, doi:10.1029/2018GL078153",
+        "notes": "USE THIS INSTEAD OF PANGAEA 892723. The grids of record are Geosoft .grd (proprietary); this edition is GeoTIFF+NetCDF in EPSG:3031 and opens with free software. 2B = near-surface data only, with large gaps. 2S = gaps filled with satellite-derived data. They are NOT interchangeable: 2S is partly a model where 2B is empty, so training on 2S imports infill assumptions. The pipeline loads 2B as the primary magnetic feature and carries 2S only as an explicitly flagged gap-fill, with a 'magnetic_is_infilled' indicator column so the model cannot hide the distinction. PANGAEA states individual file downloads require a free user account; the downloader reports a 401/403 as such rather than as a dead link.",
+        "needs_account": true
+      },
+      {
+        "key": "ibcso_v2_bathymetry",
+        "title": "International Bathymetric Chart of the Southern Ocean v2",
+        "role": "feature",
+        "doi": "10.1594/PANGAEA.937574",
+        "landing_page": "https://doi.pangaea.de/10.1594/PANGAEA.937574?format=html#download",
+        "files": [
+          {
+            "name": "IBCSO.prj",
+            "url": "https://download.pangaea.de/dataset/937574/files/IBCSO.prj",
+            "variable_role": "crs_definition"
+          },
+          {
+            "name": "IBCSO_v2_coverage.gpkg",
+            "url": "https://download.pangaea.de/dataset/937574/files/IBCSO_v2_coverage.gpkg",
+            "variable_role": "context_multibeam_coverage"
+          }
+        ],
+        "crs": "EPSG:9354 (WGS 84 / IBCSO Polar Stereographic), south of 50S",
+        "resolution": "500 m",
+        "units": "m (depth, negative down)",
+        "licence": "see PANGAEA record (CC-BY family); confirm before republishing",
+        "citation": "Dorschel, B et al. (2022). Sci Data 9, 275. doi:10.1038/s41597-022-01366-7",
+        "notes": "CRS MISMATCH, handled explicitly: IBCSO v2 is EPSG:9354 at 500 m, while every other layer here is EPSG:3031 at 5 km. EPSG:9354 and EPSG:3031 are both polar stereographic but have DIFFERENT standard parallels, so they are not interchangeable and a naive overlay misregisters the coast by kilometres. Because 500 m -> 5 km is a 10x downsample, the pipeline takes block mean AND block std-dev: the std-dev is seabed roughness, which is a genuine predictor, and throwing it away by simple resampling would discard the most informative part of the bathymetry. The grid itself is large; the downloader fetches the .prj and coverage first and asks before pulling the DBM.",
+        "needs_account": false
+      },
+      {
+        "key": "globsed_v3",
+        "title": "Total sediment thickness of the world's oceans and marginal seas, version 3 (GlobSed)",
+        "role": "baseline_only",
+        "doi": "10.1594/PANGAEA.982339",
+        "landing_page": "https://doi.pangaea.de/10.1594/PANGAEA.982339",
+        "files": [],
+        "crs": "geographic (global 5 arc-minute)",
+        "resolution": "5 arc-minute",
+        "units": "m (per GlobSed convention; confirm in the record)",
+        "licence": "CC-BY-4.0",
+        "citation": "Straume, EO et al. (2025). doi:10.1594/PANGAEA.982339. Method paper: Straume et al. (2019), G-cubed, doi:10.1029/2018GC008115",
+        "notes": "MUST NOT BE USED AS A FEATURE in the Lindeque region. GlobSed v3 compiles Lindeque et al. (2016) and Wobbe et al. (2014) for the Ross/Amundsen/Bellingshausen sectors, i.e. it already contains our labels. It is loaded only to answer 'does ML on gravity+magnetics+bathymetry beat simply reading the existing compilation?', which is the honest comparison a reviewer will ask for. ACCESS NOTE: the NOAA/NCEI host https://www.ngdc.noaa.gov/mgg/sedthick/ was DECOMMISSIONED 2025-05-12. The PANGAEA record 982339 is an archival record whose attachments are an HTML/PDF snapshot of the dead NCEI page. The CaltechDATA archive provides GlobSed.zip with the version 3 NetCDF: https://doi.org/10.22002/k4070-ngc79. The published archive MD5 is 4e3f112e0cdc820bd74d3b261414e2cd.",
+        "needs_account": false
+      },
+      {
+        "key": "wobbe2014_sedthick",
+        "title": "Sediment thickness, Pacific margin of West Antarctica (Wobbe et al.)",
+        "role": "label",
+        "doi": "10.1594/PANGAEA.835589",
+        "landing_page": "https://doi.pangaea.de/10.1594/PANGAEA.835589",
+        "files": [],
+        "crs": "EPSG:3031 (to confirm against the record)",
+        "resolution": "to confirm",
+        "units": "to confirm",
+        "licence": "to confirm on the record",
+        "citation": "Wobbe, F et al. (2014). doi:10.1594/PANGAEA.835589",
+        "notes": "Companion/predecessor label set to Lindeque. Listed so the label pool can be extended, but its file table was NOT verified in this pass -- fields marked 'to confirm' are unverified and the downloader will not fetch them until a human confirms the record. Do not cite specifics from this entry.",
+        "needs_account": false
+      }
+    ]
+  },
+  "label_units_inspection": {
+    "grid": {
+      "name": "z",
+      "source_file": "data\\geophysics\\lindeque2016_sedthick\\sedthick_total_v2_5km_epsg3031.nc",
+      "shape": [
+        1151,
+        1301
+      ],
+      "dx": 5000.0,
+      "dy": 5000.0,
+      "crs_hint": null,
+      "extent": {
+        "xmin": -4600000.0,
+        "xmax": 1900000.0,
+        "ymin": -3900000.0,
+        "ymax": 1850000.0
+      },
+      "finite_fraction": 0.6553,
+      "value_min": 0.0,
+      "value_max": 8042.0,
+      "value_mean": 551.8269573946586,
+      "value_p50": 155.0
+    },
+    "raw_percentiles": {
+      "0": 0.0,
+      "1": 10.0,
+      "50": 155.0,
+      "99": 4218.0,
+      "100": 8042.0
+    },
+    "if_units_m": {
+      "max_thickness_m": 8042.0,
+      "max_in_plausible_depocentre_band": true,
+      "all_cells_in_range": true
+    },
+    "if_units_km": {
+      "max_thickness_m": 8042000.0,
+      "max_in_plausible_depocentre_band": false,
+      "all_cells_in_range": false
+    },
+    "units_consistent_with_physics": [
+      "m"
+    ],
+    "note_on_ambiguity": "exactly one unit should appear in units_consistent_with_physics. If both do, the grid maximum is near the 200 m boundary and a human MUST read the source paper before proceeding. If neither does, the grid is not what this pipeline expects.",
+    "published_cross_check": "Lindeque et al. (2016) report pre-glacial depocentres of 1.3-4.0 km. Whichever unit puts the grid maximum in the low thousands of metres is the correct one.",
+    "decision": "NOT MADE BY CODE -- pass label_units explicitly."
+  },
+  "label_units_used": "m",
+  "run_parameters": {
+    "block_km": 150.0,
+    "buffer_km": 50.0,
+    "n_folds": 5,
+    "max_points": 6000,
+    "forest_backend": "cpu"
+  },
+  "result": {
+    "status": "ok",
+    "generated_at": "2026-11-21T21:08:48.854018+00:00",
+    "catalogue_verified_on": "2026-10-31",
+    "validation": {
+      "scheme": "spatial block CV with exclusion buffer",
+      "why": "random k-fold would leak: sediment thickness is spatially autocorrelated, so a cell's neighbours would sit in the training set and the score would measure interpolation, not prediction",
+      "block_km": 150.0,
+      "buffer_km": 50.0,
+      "n_folds_requested": 5,
+      "n_folds_used": 5,
+      "n_spatial_blocks": 495,
+      "n_samples": 2108,
+      "total_train_cells_dropped_to_buffer": 661
+    },
+    "label": {
+      "name": "total_sediment_thickness",
+      "units_declared": "m",
+      "units_used": "m",
+      "y_min_m": 0.0,
+      "y_max_m": 8004.0,
+      "y_mean_m": 1062.956356736243,
+      "y_std_m": 1218.976834383327
+    },
+    "features": [
+      "x_gravity_anomaly",
+      "x_bouguer_anomaly",
+      "x_gravity_sigma",
+      "x_magnetic_anomaly",
+      "x_magnetic_blockstd",
+      "x_magnetic_is_infilled"
+    ],
+    "sklearn_available": true,
+    "models_compared": [
+      "ridge",
+      "hist_gradient_boosting",
+      "random_forest",
+      "baseline_mean",
+      "baseline_bathy_only",
+      "baseline_spatial_knn"
+    ],
+    "cuda_forest_runtime": null,
+    "metrics_out_of_fold": {
+      "ridge": {
+        "n": 2108,
+        "mae": 802.892197717592,
+        "rmse": 1157.4539347406915,
+        "r2": 0.0983945532682039,
+        "bias": -19.31309762856458
+      },
+      "hist_gradient_boosting": {
+        "n": 2108,
+        "mae": 621.4445175842557,
+        "rmse": 966.9414907113337,
+        "r2": 0.3707699033580104,
+        "bias": -6.432647011922115
+      },
+      "random_forest": {
+        "n": 2108,
+        "mae": 607.6318203567495,
+        "rmse": 960.1448966433958,
+        "r2": 0.37958448310257065,
+        "bias": -2.6313332182557065
+      },
+      "baseline_mean": {
+        "n": 2108,
+        "mae": 925.4249172182747,
+        "rmse": 1226.6430071253935,
+        "r2": -0.012617596810033271,
+        "bias": -9.02458129479189
+      },
+      "baseline_bathy_only": {
+        "n": 0,
+        "mae": null,
+        "rmse": null,
+        "r2": null,
+        "bias": null
+      },
+      "baseline_spatial_knn": {
+        "n": 2108,
+        "mae": 326.39369181556594,
+        "rmse": 637.8814692028204,
+        "r2": 0.7261649301694779,
+        "bias": 4.59640348897335
+      }
+    },
+    "best_model": "random_forest",
+    "best_baseline": "baseline_spatial_knn",
+    "skill_scores": {
+      "baseline_mean": 0.3434023559866707,
+      "baseline_bathy_only": null,
+      "baseline_spatial_knn": -0.8616530760039987
+    },
+    "gates": {
+      "beats_mean": true,
+      "materially_worse_than_mean": false,
+      "gate1_beats_bathymetry_alone": false,
+      "gate2_beats_spatial_proximity": false
+    },
+    "gate_meanings": {
+      "materially_worse_than_mean": "if true, suspect a wiring/CRS fault rather than a weak signal; scoring near the mean is the correct outcome when no signal exists",
+      "gate1_beats_bathymetry_alone": "do gravity and magnetics add anything beyond water depth?",
+      "gate2_beats_spatial_proximity": "does the model beat interpolating from the nearest existing seismic line, using coordinates alone?"
+    },
+    "hypothesis_supported": false,
+    "skill_score_vs_best_baseline": -0.8616530760039987,
+    "beats_baseline": false,
+    "verdict": "INCOMPLETE COMPARISON. random_forest has MAE 608 m against the compiled reference. Skill against bathymetry alone: n/a. Skill against spatial k-NN: -86.2%. An unavailable baseline leaves the corresponding hypothesis unevaluated.",
+    "permutation_importance_mae_m": {
+      "x_bouguer_anomaly": 595.8019157598167,
+      "x_gravity_sigma": 335.4701188383507,
+      "x_gravity_anomaly": 146.01534456656077,
+      "x_magnetic_blockstd": 64.47360932304991,
+      "x_magnetic_anomaly": 58.28514597749211,
+      "x_magnetic_is_infilled": 0.0
+    },
+    "prediction_interval": {
+      "available": true,
+      "method": "out-of-fold conformalized quantile regression (HistGradientBoosting q=0.05/0.95, widened by a spatially-blocked calibration split)",
+      "reference": "Romano, Patterson & Candes (2019), Conformalized Quantile Regression, NeurIPS",
+      "conformal_widening_m": [
+        199.2,
+        95.6,
+        326.1,
+        572.1,
+        573.3
+      ],
+      "nominal_coverage": 0.9,
+      "empirical_coverage": 0.9084,
+      "median_width_m": 2390.5305919693074,
+      "p10_width_m": 1155.7312549263265,
+      "p90_width_m": 4175.338500447859,
+      "n_evaluated": 2108,
+      "verdict": "well calibrated",
+      "why_this_beats_a_global_band": "a single p05-p95 residual band applies the same +/- metres to a 7 km depocentre and a thin shelf cell; these are conditional on the predictors, so the band widens where the model is actually unsure"
+    },
+    "optional_boosters": {
+      "lightgbm": false,
+      "xgboost": false,
+      "note": "HistGradientBoosting ships with scikit-learn and is used by default; LightGBM/XGBoost are not required"
+    },
+    "residual_spread_m": {
+      "p05": -1835.6930928438967,
+      "p50": 57.83994408784659,
+      "p95": 1341.6792187312672,
+      "note": "use the p05-p95 width as the honest uncertainty band on any predicted thickness map; it comes from out-of-fold residuals, not from the training fit"
+    },
+    "folds": [
+      {
+        "fold": 0,
+        "n_train": 1485,
+        "n_test": 458,
+        "n_dropped_to_buffer": 165,
+        "metrics": {
+          "ridge": {
+            "n": 458,
+            "mae": 818.1311837665335,
+            "rmse": 1162.9867224353106,
+            "r2": 0.14427327767517095,
+            "bias": -216.48689950057204
+          },
+          "random_forest": {
+            "n": 458,
+            "mae": 589.9791526193517,
+            "rmse": 917.0665224740568,
+            "r2": 0.467907348900904,
+            "bias": -158.48828918584476
+          },
+          "hist_gradient_boosting": {
+            "n": 458,
+            "mae": 609.5220956217869,
+            "rmse": 930.4638426162109,
+            "r2": 0.4522472283277298,
+            "bias": -157.19054235349415
+          },
+          "baseline_mean": {
+            "n": 458,
+            "mae": 976.6832120329937,
+            "rmse": 1268.8134903482564,
+            "r2": -0.018547192945898017,
+            "bias": -171.21677179362771
+          },
+          "baseline_bathy_only": {
+            "n": 0,
+            "mae": null,
+            "rmse": null,
+            "r2": null,
+            "bias": null
+          },
+          "baseline_spatial_knn": {
+            "n": 458,
+            "mae": 305.80268064566803,
+            "rmse": 563.5056808890182,
+            "r2": 0.7990989629810492,
+            "bias": -38.00373952803355
+          }
+        }
+      },
+      {
+        "fold": 1,
+        "n_train": 1559,
+        "n_test": 432,
+        "n_dropped_to_buffer": 117,
+        "metrics": {
+          "ridge": {
+            "n": 432,
+            "mae": 1008.5275065102963,
+            "rmse": 1480.2942272400098,
+            "r2": 0.09472764524972943,
+            "bias": -244.3816474846709
+          },
+          "random_forest": {
+            "n": 432,
+            "mae": 777.7948229594153,
+            "rmse": 1279.599191866208,
+            "r2": 0.3235571956849348,
+            "bias": -213.509738545599
+          },
+          "hist_gradient_boosting": {
+            "n": 432,
+            "mae": 775.6281948390086,
+            "rmse": 1249.3717155065144,
+            "r2": 0.35513841478099784,
+            "bias": -230.12986405155522
+          },
+          "baseline_mean": {
+            "n": 432,
+            "mae": 1103.62738163115,
+            "rmse": 1577.9672086459473,
+            "r2": -0.028677202320821937,
+            "bias": -263.4673520537856
+          },
+          "baseline_bathy_only": {
+            "n": 0,
+            "mae": null,
+            "rmse": null,
+            "r2": null,
+            "bias": null
+          },
+          "baseline_spatial_knn": {
+            "n": 432,
+            "mae": 420.2410578098014,
+            "rmse": 867.0896055433639,
+            "r2": 0.6893930799999948,
+            "bias": -97.57126038530211
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "n_train": 1592,
+        "n_test": 402,
+        "n_dropped_to_buffer": 114,
+        "metrics": {
+          "ridge": {
+            "n": 402,
+            "mae": 731.069604356624,
+            "rmse": 1053.2046089011242,
+            "r2": 0.17067406467280855,
+            "bias": 131.0034278452508
+          },
+          "random_forest": {
+            "n": 402,
+            "mae": 664.813995674572,
+            "rmse": 1005.8244240269198,
+            "r2": 0.2436129239023811,
+            "bias": 208.05460889013776
+          },
+          "hist_gradient_boosting": {
+            "n": 402,
+            "mae": 682.8264396136678,
+            "rmse": 1036.0860529596152,
+            "r2": 0.19741433139756237,
+            "bias": 223.32355316975818
+          },
+          "baseline_mean": {
+            "n": 402,
+            "mae": 849.782169554239,
+            "rmse": 1159.9221322722906,
+            "r2": -0.005906039608655211,
+            "bias": 88.87882509562745
+          },
+          "baseline_bathy_only": {
+            "n": 0,
+            "mae": null,
+            "rmse": null,
+            "r2": null,
+            "bias": null
+          },
+          "baseline_spatial_knn": {
+            "n": 402,
+            "mae": 349.4408280517986,
+            "rmse": 654.6883842075257,
+            "r2": 0.6795435506792982,
+            "bias": 72.40941909435101
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "n_train": 1582,
+        "n_test": 389,
+        "n_dropped_to_buffer": 137,
+        "metrics": {
+          "ridge": {
+            "n": 389,
+            "mae": 691.174027608579,
+            "rmse": 987.7131237584858,
+            "r2": -0.26115132646287975,
+            "bias": 307.00690033329937
+          },
+          "random_forest": {
+            "n": 389,
+            "mae": 494.7981665174418,
+            "rmse": 738.0090937119036,
+            "r2": 0.29590869868893577,
+            "bias": 162.3070887293023
+          },
+          "hist_gradient_boosting": {
+            "n": 389,
+            "mae": 508.6069537375781,
+            "rmse": 758.7566249038964,
+            "r2": 0.2557642215058906,
+            "bias": 138.18213235413322
+          },
+          "baseline_mean": {
+            "n": 389,
+            "mae": 821.7846141846417,
+            "rmse": 945.0135600638376,
+            "r2": -0.15446729162125905,
+            "bias": 345.6730246117149
+          },
+          "baseline_bathy_only": {
+            "n": 0,
+            "mae": null,
+            "rmse": null,
+            "r2": null,
+            "bias": null
+          },
+          "baseline_spatial_knn": {
+            "n": 389,
+            "mae": 243.76027524311456,
+            "rmse": 499.61314837863085,
+            "r2": 0.6773190915831842,
+            "bias": 55.15105148055366
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "n_train": 1553,
+        "n_test": 427,
+        "n_dropped_to_buffer": 128,
+        "metrics": {
+          "ridge": {
+            "n": 427,
+            "mae": 747.8972133959328,
+            "rmse": 1006.5142102745285,
+            "r2": 0.08065489836716566,
+            "bias": -18.916160046413548
+          },
+          "random_forest": {
+            "n": 427,
+            "mae": 503.36849849516267,
+            "rmse": 737.4594543370866,
+            "r2": 0.5064683144411215,
+            "bias": 29.277711440746128
+          },
+          "hist_gradient_boosting": {
+            "n": 427,
+            "mae": 523.2510758167883,
+            "rmse": 756.8570743596217,
+            "r2": 0.48016383007982955,
+            "bias": 33.537311257704324
+          },
+          "baseline_mean": {
+            "n": 427,
+            "mae": 855.7872094653997,
+            "rmse": 1049.7610470605505,
+            "r2": -4.5251631096476785e-05,
+            "bias": 7.0615127327782705
+          },
+          "baseline_bathy_only": {
+            "n": 0,
+            "mae": null,
+            "rmse": null,
+            "r2": null,
+            "bias": null
+          },
+          "baseline_spatial_knn": {
+            "n": 427,
+            "mae": 307.11517023716215,
+            "rmse": 525.902638707182,
+            "r2": 0.7490140303600519,
+            "bias": 43.75496544070545
+          }
+        }
+      }
+    ],
+    "data_notes": [
+      "label declared in 'm', multiplied by 1.0 to reach metres",
+      "subsampled to 6000 label cells (seed 20261031) for speed; full run should use max_points=None",
+      "MISSING feature file AntGG2021_Second-radial-derivative-of-disturbing-potential.nc -- skipped",
+      "ADMAP-2B is 1500 m against the 5000 m label grid, so it was block-aggregated: 'x_magnetic_anomaly' is the cell mean and 'x_magnetic_blockstd' the within-cell spread (a magnetic-gradient proxy). Median 0 measurements per label cell.",
+      "ADMAP-2B had gaps at 725/6000 label cells; filled from ADMAP-2S (satellite-derived) and flagged in 'x_magnetic_is_infilled'. 2S is partly a model where 2B is empty, so this column must stay visible to the reader.",
+      "MISSING bathymetry NetCDF in data/geophysics/ibcso_v2_bathymetry/ -- no bathymetry feature. This is the biggest single gap: bathymetry is the strongest physical control on margin sediment thickness.",
+      "dropped 3892/6000 label cells with at least one missing predictor (no imputation: filling a geophysical anomaly would fabricate an observation)"
+    ],
+    "grid_summaries": {
+      "label": {
+        "name": "sediment_thickness",
+        "source_file": "data\\geophysics\\lindeque2016_sedthick\\sedthick_total_v2_5km_epsg3031.nc",
+        "shape": [
+          1151,
+          1301
+        ],
+        "dx": 5000.0,
+        "dy": 5000.0,
+        "crs_hint": null,
+        "extent": {
+          "xmin": -4600000.0,
+          "xmax": 1900000.0,
+          "ymin": -3900000.0,
+          "ymax": 1850000.0
+        },
+        "finite_fraction": 0.6553,
+        "value_min": 0.0,
+        "value_max": 8042.0,
+        "value_mean": 551.8269573946586,
+        "value_p50": 155.0
+      },
+      "x_gravity_anomaly": {
+        "name": "x_gravity_anomaly",
+        "source_file": "data\\external\\geophysics\\antgg2021\\AntGG2021_Gravity-anomaly.nc",
+        "shape": [
+          1333,
+          1333
+        ],
+        "dx": 5000.0,
+        "dy": 5000.0,
+        "crs_hint": null,
+        "extent": {
+          "xmin": -3330000.0,
+          "xmax": 3330000.0,
+          "ymin": -3330000.0,
+          "ymax": 3330000.0
+        },
+        "finite_fraction": 0.7853,
+        "value_min": -250.75054951902774,
+        "value_max": 308.4772086697955,
+        "value_mean": -5.467304432296881,
+        "value_p50": -7.6188857028975026
+      },
+      "x_bouguer_anomaly": {
+        "name": "x_bouguer_anomaly",
+        "source_file": "data\\external\\geophysics\\antgg2021\\AntGG2021_Bouguer-anomaly.nc",
+        "shape": [
+          1333,
+          1333
+        ],
+        "dx": 5000.0,
+        "dy": 5000.0,
+        "crs_hint": null,
+        "extent": {
+          "xmin": -3330000.0,
+          "xmax": 3330000.0,
+          "ymin": -3330000.0,
+          "ymax": 3330000.0
+        },
+        "finite_fraction": 0.7853,
+        "value_min": -570.5099207504394,
+        "value_max": 200.35970419928714,
+        "value_mean": -149.32850870700676,
+        "value_p50": -118.19836290139523
+      },
+      "x_gravity_sigma": {
+        "name": "x_gravity_sigma",
+        "source_file": "data\\geophysics\\antgg2021_gravity\\AntGG2021_Standard-deviation_GA-from-LSC.nc",
+        "shape": [
+          1333,
+          1333
+        ],
+        "dx": 5000.0,
+        "dy": 5000.0,
+        "crs_hint": null,
+        "extent": {
+          "xmin": -3330000.0,
+          "xmax": 3330000.0,
+          "ymin": -3330000.0,
+          "ymax": 3330000.0
+        },
+        "finite_fraction": 0.7853,
+        "value_min": 1.4914727226192985,
+        "value_max": 15.497866323823745,
+        "value_mean": 10.119272015853545,
+        "value_p50": 8.898612743690071
+      },
+      "x_magnetic_anomaly_2B": {
+        "name": "x_magnetic_anomaly",
+        "source_file": "data\\geophysics\\admap2_magnetic_opensource\\ADMAP_2B_2017_epsg3031_gdal_SF0.9725.nc",
+        "shape": [
+          4534,
+          4533
+        ],
+        "dx": 1500.4149299110286,
+        "dy": 1500.4149299110286,
+        "crs_hint": null,
+        "extent": {
+          "xmin": -3398439.8162481114,
+          "xmax": 3401440.6461079335,
+          "ymin": -3399940.2311780225,
+          "ymax": 3401440.6461079335
+        },
+        "finite_fraction": 0.6434,
+        "value_min": -2762.338134765625,
+        "value_max": 3124.359130859375,
+        "value_mean": -1.266048721703123,
+        "value_p50": -13.450089931488037
+      },
+      "x_magnetic_anomaly_2S": {
+        "name": "x_magnetic_anomaly_2S",
+        "source_file": "data\\geophysics\\admap2_magnetic_opensource\\ADMAP_2S_epsg3031_gdal.nc",
+        "shape": [
+          1334,
+          1334
+        ],
+        "dx": 5000.0,
+        "dy": 5000.0,
+        "crs_hint": null,
+        "extent": {
+          "xmin": -3333245.32972,
+          "xmax": 3331754.67028,
+          "ymin": -3331753.71171,
+          "ymax": 3333246.28829
+        },
+        "finite_fraction": 0.7858,
+        "value_min": -2130.6162109375,
+        "value_max": 2269.962646484375,
+        "value_mean": -0.09932744259738367,
+        "value_p50": -7.679231643676758
+      }
+    },
+    "caveats": [
+      "Labels are a GRIDDED INTERPOLATION of seismic interpretation, not raw seismic picks. Errors in the published grid propagate into every metric here and are not quantified by this CV.",
+      "Metrics are valid only inside the Lindeque coverage (Pacific margin of West Antarctica). Applying the model elsewhere in Antarctica is extrapolation into a different tectonic setting.",
+      "A positive skill score shows statistical association, not a physical inversion. Do not present predicted thickness as a substitute for a seismic survey."
+    ]
+  },
+  "export": {
+    "path": "data\\derived\\geophysics\\khalifa-ml-cpu\\sediment_thickness_prediction.geojson",
+    "n_points": 1054,
+    "bytes": 221395
+  },
+  "export_map_layer": {
+    "path": "data\\derived\\geophysics\\khalifa-ml-cpu\\sediment_thickness_prediction_wgs84.geojson",
+    "n_points": 1054,
+    "bytes": 206277,
+    "lon_range": [
+      -180.0,
+      179.91185271644713
+    ],
+    "lat_range": [
+      -85.07637241207011,
+      -60.03496825428439
+    ],
+    "ramp_breaks_m": [
+      76.97240316805943,
+      370.0912779099127,
+      778.6718012770896,
+      1543.8005364443031,
+      3109.5137142645253
+    ]
+  }
+}
