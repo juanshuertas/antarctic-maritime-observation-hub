@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": [
+    "dist/**",
+    "public/**",
+    "node_modules/**"
+  ],
+  "categories": {
+    "correctness": "warn"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "react/set-state-in-effect": "warn",
+    "react/purity": "warn",
+    "react/only-export-components": "off",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
