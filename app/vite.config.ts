@@ -2,7 +2,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig, type Plugin } from 'vite'
 import { fileURLToPath } from 'node:url'
-import { readFileSync } from 'node:fs'
+import { maplibreWorkerAssets } from './scripts/maplibre-worker-assets.ts'
 
 // OLEA i18n V20: route the automatic JSX runtime of app sources through a thin
 // wrapper that translates display strings at render time (no DOM observer).
@@ -19,30 +19,6 @@ function oleaI18nJsx(): Plugin {
       if (from.startsWith(OLEA_JSX_DIR) || from.includes('/src/i18n/')) return null
       if (process.env.OLEA_I18N_DISABLE === '1') return null
       return OLEA_JSX_DIR + (id === 'react/jsx-runtime' ? 'jsx-runtime.ts' : 'jsx-dev-runtime.ts')
-    },
-  }
-}
-
-// MapLibre 6 resuelve su worker en tiempo de ejecucion con
-//   new URL("./maplibre-gl-worker.mjs", import.meta.url)
-// Al construirse el nombre dinamicamente, el bundler no lo detecta y el archivo
-// nunca se emite: el fetch da 404, el worker no arranca y NINGUNA fuente GeoJSON
-// llega a cargar (el mapa solo muestra el raster). En dev no pasa porque Vite
-// sirve el archivo desde node_modules, asi que el bug solo aparece al construir.
-// Lo emitimos a mano junto al chunk de maplibre, que es contra quien resuelve
-// ese import.meta.url. Mismo plugin que en vite.pages.config.ts: sin esto,
-// `npm run build` genera un dist/ con el mapa vacio.
-function maplibreWorkerAssets(): Plugin {
-  const DIST = fileURLToPath(new URL('./node_modules/maplibre-gl/dist/', import.meta.url))
-  const FILES = ['maplibre-gl-worker.mjs', 'maplibre-gl-shared.mjs']
-  return {
-    name: 'olea-maplibre-worker-assets',
-    apply: 'build',
-    generateBundle() {
-      for (const name of FILES) {
-        this.emitFile({ type: 'asset', fileName: `assets/${name}`, source: readFileSync(DIST + name) })
-      }
-      this.info(`olea-maplibre-worker-assets: emitidos ${FILES.join(', ')}`)
     },
   }
 }

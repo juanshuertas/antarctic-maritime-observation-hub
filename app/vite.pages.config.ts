@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig, type Plugin } from 'vite'
 import { fileURLToPath } from 'node:url'
-import { readFileSync } from 'node:fs'
+import { maplibreWorkerAssets } from './scripts/maplibre-worker-assets.ts'
 
 const BASE = process.env.VITE_PUBLIC_BASE || '/'
 
@@ -75,27 +75,6 @@ function oleaPagesBasePaths(): Plugin {
     },
     buildEnd() {
       this.info(`olea-pages-base-paths: ${hits} archivo(s) reescrito(s) con base ${BASE}`)
-    },
-  }
-}
-
-// MapLibre 6 resuelve su worker en tiempo de ejecucion con
-//   new URL("./maplibre-gl-worker.mjs", import.meta.url)
-// Al construirse el nombre dinamicamente, el bundler no lo detecta y el archivo
-// nunca se emite: el fetch da 404, el worker no arranca y NINGUNA fuente GeoJSON
-// llega a cargar (el mapa solo muestra el raster). Lo emitimos a mano junto al
-// chunk de maplibre, que es contra quien resuelve ese import.meta.url.
-function maplibreWorkerAssets(): Plugin {
-  const DIST = fileURLToPath(new URL('./node_modules/maplibre-gl/dist/', import.meta.url))
-  const FILES = ['maplibre-gl-worker.mjs', 'maplibre-gl-shared.mjs']
-  return {
-    name: 'olea-maplibre-worker-assets',
-    apply: 'build',
-    generateBundle() {
-      for (const name of FILES) {
-        this.emitFile({ type: 'asset', fileName: `assets/${name}`, source: readFileSync(DIST + name) })
-      }
-      this.info(`olea-maplibre-worker-assets: emitidos ${FILES.join(', ')}`)
     },
   }
 }

@@ -1,0 +1,53 @@
+name: OLEA frontend
+
+on:
+  push:
+    branches: [main]
+    paths: ['app/**', '.github/workflows/olea-ci.yml']
+  pull_request:
+    branches: [main]
+    paths: ['app/**', '.github/workflows/olea-ci.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: olea-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - name: Type-check and build OLEA
+        run: npm run build
+      - name: Build the OLEA Pages variant
+        run: npm run build:pages
+        env:
+          VITE_PUBLIC_BASE: /antarctic-maritime-observation-hub/olea/
+      - name: Build PB124
+        run: npm run build:pb124
+      - name: Verify generated entries and MapLibre workers
+        run: |
+          test -s dist/index.html
+          test -s dist-pages-olea/index.html
+          test -s dist-pb124-public/pb124-public.html
+          grep -Fq '/antarctic-maritime-observation-hub/olea/assets/' dist-pages-olea/index.html
+          for output in dist dist-pages-olea dist-pb124-public; do
+            test -s "$output/assets/maplibre-gl-worker.mjs"
+            test -s "$output/assets/maplibre-gl-shared.mjs"
+          done

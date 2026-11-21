@@ -2,11 +2,12 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import { resolve } from 'node:path';
+import { maplibreWorkerAssets } from './scripts/maplibre-worker-assets.ts';
 
 export default defineConfig({
   base: process.env.VITE_PUBLIC_BASE || '/',
   publicDir: false,
-  plugins: [react(), tailwindcss()],
+  plugins: [maplibreWorkerAssets(), react(), tailwindcss()],
   optimizeDeps: {
     exclude: ['maplibre-gl'],
   },

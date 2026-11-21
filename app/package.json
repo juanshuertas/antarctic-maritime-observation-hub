@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 5174 --strictPort",
-    "build": "tsc --noEmit && vite build",
+    "build": "npm run typecheck && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "assets:public": "node scripts/import-pages-assets.mjs",
     "build:pages": "vite build --config vite.pages.config.ts",
-    "build:pb124": "vite build --config vite.pb124.config.ts"
+    "build:pb124": "vite build --config vite.pb124.config.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json"
   },
   "dependencies": {
     "@deck.gl/aggregation-layers": "9.4.0",
