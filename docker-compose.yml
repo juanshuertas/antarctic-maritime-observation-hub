@@ -1,13 +1,13 @@
 services:
   backend:
     build:
-      context: ./backend
+      context: ./services/backend
       dockerfile: Dockerfile
     container_name: amoh-backend
     ports:
       - "8000:8000"
     volumes:
-      - ./backend/app:/app/app
+      - ./services/backend/app:/app/app
       - ./data:/app/data
     environment:
       - ENVIRONMENT=${ENVIRONMENT:-edge}
