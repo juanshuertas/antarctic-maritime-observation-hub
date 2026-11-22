@@ -38,4 +38,4 @@ Mantén las credenciales y las configuraciones de operación en el entorno priva
 
 ## Investigación y licencia
 
-AMOH es un prototipo de investigación iniciado por Juan Sebastian Huertas Olea. El código del repositorio usa la [licencia MIT](LICENSE). Los datos y recursos de terceros conservan sus licencias de origen. [Estructura del monorepo](docs/MONOREPO.md) · [Descripción científica, arquitectura y hoja de ruta](docs/project-overview.md)
+AMOH es un prototipo de investigación iniciado por Juan Sebastian Huertas Olea. El código del repositorio usa la [licencia MIT](LICENSE). Los datos y recursos de terceros conservan sus licencias de origen. [Estructura del monorepo](docs/MONOREPO.md) · [Índice de documentación](docs/README.md)

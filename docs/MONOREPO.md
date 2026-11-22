@@ -17,7 +17,8 @@ antarctic-maritime-observation-hub/
 ├── docs/
 │   ├── MONOREPO.md           # This guide
 │   ├── AUDIT_ISSUES_AND_PR_PLAN.md
-│   └── project-overview.md
+│   ├── README.md             # Documentation index (topic files: ai, passport, roadmap, ...)
+│   └── *.md                  # Topic documentation split from the former README
 ├── .github/workflows/
 │   ├── ci.yml                # pnpm typecheck/lint/build + backend pytest
 │   └── deploy-pages.yml      # Builds & deploys apps/web to GitHub Pages
