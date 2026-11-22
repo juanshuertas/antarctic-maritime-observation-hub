@@ -1,4 +1,4 @@
-# Antarctic Maritime Observation Hub
+# OBSERVATORY FOR LINKED EVIDENCE IN ANTARCTICA O.L.E.A
 
 **OLEA** es un observatorio geoespacial experimental para la Antártida y el Océano Austral. Reúne capas científicas, tráfico marítimo, expediciones y observaciones de campo en un mapa y globo interactivos.
 
