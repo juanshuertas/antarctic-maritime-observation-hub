@@ -1,0 +1,65 @@
+name: Monorepo CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monorepo-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frontend:
+    name: Typecheck, Lint & Build (pnpm)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
+      - name: Typecheck workspace
+        run: pnpm typecheck
+      - name: Lint web app
+        run: pnpm lint
+      - name: Build workspace apps
+        run: pnpm build
+      - name: Verify web build and MapLibre workers
+        run: |
+          test -s apps/web/dist/index.html
+          test -s apps/web/dist/assets/maplibre-gl-worker.mjs
+          test -f apps/web/dist/assets/maplibre-gl-shared.mjs
+
+  backend:
+    name: Backend Tests (pytest)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: services/backend
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: services/backend/requirements.txt
+      - name: Install backend dependencies and pytest
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+      - name: Run pytest
+        run: python -m pytest tests -v
