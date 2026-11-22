@@ -12,7 +12,7 @@
 | --- | --- |
 | [`app/`](app/) | Frontend editable en React, Vite y TypeScript. Incluye builds separados para OLEA y PB124. |
 | [`backend/`](backend/) | Servicio público FastAPI con DuckDB, salud y endpoints AIS. |
-| [`ecsan-ddhh-dih-toolkit/`](ecsan-ddhh-dih-toolkit/) | Microclase ECSAN, con su propio proyecto frontend. |
+| [`ecsan-ddhh-dih-toolkit`](https://github.com/juanshuertas/ecsan-ddhh-dih-toolkit) | Microclase ECSAN, con su propio proyecto frontend. |
 | [`pb124-pages`](https://github.com/juanshuertas/antarctic-maritime-observation-hub/tree/pb124-pages) | Sitio compilado que publica GitHub Pages. OLEA vive en `/olea/`, y PB124 en la raíz y en `/peaceboat/`. |
 
 ## Desarrollo local
