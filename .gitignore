@@ -31,8 +31,9 @@ models/*.onnx
 .env
 .env.local
 credentials/
-*.json
-!package.json
+credentials/*.json
+*service-account*.json
+*.secret.json
 
 # IDE
 .vscode/
