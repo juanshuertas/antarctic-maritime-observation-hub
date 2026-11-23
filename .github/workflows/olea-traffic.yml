@@ -1,0 +1,32 @@
+name: OLEA observed aircraft
+on:
+  schedule:
+    - cron: '7,17,27,37,47,57 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: olea-observed-aircraft
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect three open ADS-B sectors (432 requests per day)
+        run: python scripts/collect_open_aircraft.py "$RUNNER_TEMP/aircraft.geojson"
+      - uses: actions/checkout@v4
+        with:
+          ref: olea-traffic
+          path: traffic-output
+          fetch-depth: 1
+      - name: Publish timestamped observation snapshot
+        working-directory: traffic-output
+        run: |
+          cp "$RUNNER_TEMP/aircraft.geojson" aircraft.geojson
+          git config user.name 'OLEA traffic bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add aircraft.geojson
+          git diff --cached --quiet || git commit -m 'Refresh observed ADS-B positions'
+          git push origin HEAD:olea-traffic
