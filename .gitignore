@@ -17,7 +17,7 @@ dist/
 npm-debug.log*
 
 # Datos pesados
-data/
+/data/
 models/*.pt
 models/*.onnx
 *.duckdb

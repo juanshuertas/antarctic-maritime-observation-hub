@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+overrides:
+  "@cesium/engine": "26.4.0"
+
+allowBuilds:
+  esbuild: true

@@ -1,0 +1,20 @@
+{
+  "name": "amoh-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Antarctic Maritime Observation Hub (AMOH / OLEA) monorepo",
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev:web": "pnpm --filter @amoh/web dev",
+    "build": "pnpm -r --if-present build",
+    "build:web": "pnpm --filter @amoh/web build",
+    "build:pages": "pnpm --filter @amoh/web build:pages",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "pnpm --filter @amoh/web lint",
+    "assets:web": "pnpm --filter @amoh/web assets:public",
+    "snapshot:api": "python3 services/backend/scripts/export_api_static.py"
+  }
+}

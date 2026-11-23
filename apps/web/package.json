@@ -1,11 +1,11 @@
 {
-  "name": "amoh-app",
+  "name": "@amoh/web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 5174 --strictPort",
-    "build": "npm run typecheck && vite build",
+    "build": "pnpm run typecheck && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "assets:public": "node scripts/import-pages-assets.mjs",
@@ -14,6 +14,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json"
   },
   "dependencies": {
+    "@amoh/contracts": "workspace:*",
     "@deck.gl/aggregation-layers": "9.4.0",
     "@deck.gl/core": "9.4.0",
     "@deck.gl/layers": "9.4.0",

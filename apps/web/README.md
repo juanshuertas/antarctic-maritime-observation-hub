@@ -4,15 +4,16 @@ Frontend React, Vite y TypeScript. Usa Node.js 24, Git y tar.
 
 ## Desarrollo local
 
-Desde la raíz del repositorio:
+Desde la raíz del monorepo (usando `pnpm`):
 
 ```sh
 git fetch origin pb124-pages
-cd app
-npm ci
-npm run assets:public
-npm run dev
+pnpm install
+pnpm assets:web
+pnpm dev:web
 ```
+
+Para construir la versión de GitHub Pages localmente, ejecuta `pnpm build:pages` desde la raíz (ver [docs/MONOREPO.md](../../docs/MONOREPO.md)).
 
 Vite escucha en http://localhost:5174 y reenvía `/api` a FastAPI en `127.0.0.1:8000`
 durante el desarrollo. El backend público de este repositorio ofrece un

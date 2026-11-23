@@ -1,13 +1,13 @@
 // OLEA — build para GitHub Pages (solo lectura, no toca vite.config.ts).
-// Publica el app completo (entrada /observatory) bajo una subruta del sitio de Pages.
-// Uso:  VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/olea/ npx vite build --config vite.pages.config.ts
+// Publica el app completo bajo /antarctic-maritime-observation-hub/ (o VITE_PUBLIC_BASE).
+// Uso:  VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/ pnpm --filter @amoh/web build:pages
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig, type Plugin } from 'vite'
 import { fileURLToPath } from 'node:url'
 import { maplibreWorkerAssets } from './scripts/maplibre-worker-assets.ts'
 
-const BASE = process.env.VITE_PUBLIC_BASE || '/'
+const BASE = process.env.VITE_PUBLIC_BASE || '/antarctic-maritime-observation-hub/'
 
 // --- i18n V20 (idéntico a vite.config.ts) ---
 const OLEA_JSX_DIR = fileURLToPath(new URL('./src/i18n/jsx/', import.meta.url)).replace(/\\/g, '/')
@@ -81,9 +81,8 @@ function oleaPagesBasePaths(): Plugin {
 
 export default defineConfig({
   base: BASE,
-  // Los archivos de public/ se copian aparte en el script de despliegue
-  // (excluyendo el raster de 285 MB que GitHub rechaza).
-  publicDir: false,
+  // public/ se puebla con assets:public (sin el raster de 285 MB) + snapshot:api.
+  publicDir: 'public',
   plugins: [oleaI18nJsx(), oleaPagesBasePaths(), maplibreWorkerAssets(), react(), tailwindcss()],
   optimizeDeps: {
     exclude: ['maplibre-gl'],

@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const repoDir = fileURLToPath(new URL('../../', import.meta.url))
+const repoDir = fileURLToPath(new URL('../../../', import.meta.url))
 const publicDir = fileURLToPath(new URL('../public/', import.meta.url))
 const publishedCommit = 'cb55bb4f27b25ecfc72948d83d69dc4eeb6950e8'
 const assets = [

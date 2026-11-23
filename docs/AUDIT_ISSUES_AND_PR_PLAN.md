@@ -74,7 +74,7 @@ Here is what we found under the hood and what we’re going to do next to get th
 - **Labels:** `bug`, `geospatial`, `refactor`, `priority: high`
 - **Problem:** `behavioral_analysis.py` computes Euclidean distance on raw `lat/lon` degrees (distorted $>2.3\times$ at $65^\circ\text{S}$) and `haversine` is copy-pasted 3 times without null/bounds checks.
 - **Acceptance Criteria:**
-  - [x] Extract `backend/app/geodesy.py` with `haversine_nm`, `haversine_meters`, and coordinate validation.
+  - [x] Extract `services/backend/app/geodesy.py` with `haversine_nm`, `haversine_meters`, and coordinate validation.
   - [x] Refactor all services and scripts to use `geodesy.py`.
 
 ### Issue #4: `[Security] Fix SQL injection in CSV importer, harden secrets/CORS/headers, and run Docker container as non-root`
@@ -107,8 +107,8 @@ Here is what we found under the hood and what we’re going to do next to get th
 ### Issue #8: `[Repo Hygiene & Testing] Add comprehensive automated test suite and clean up CLI scripts`
 - **Labels:** `testing`, `maintenance`, `ci`, `priority: high`
 - **Acceptance Criteria:**
-  - [x] Add unit & integration test suite under `backend/tests/`.
-  - [x] Refactor `backend/scripts/*.py` to remove duplicate math and `sys.path` hacks.
+  - [x] Add unit & integration test suite under `services/backend/tests/`.
+  - [x] Refactor `services/backend/scripts/*.py` to remove duplicate math and `sys.path` hacks.
 
 ---
 
@@ -118,4 +118,4 @@ Here is what we found under the hood and what we’re going to do next to get th
 2. **Step 2 — Database Schema, Indexes & Offline Spatial Provisioning (`Issue #5`)**: `database.py`.
 3. **Step 3 — AIS Encounters & Scientific Integrity (`Issues #1, #2`)**: `ais_service.py`, `environmental_service.py`, `behavioral_analysis.py`.
 4. **Step 4 — Core `/api/*` Endpoints & Scientific Metrics (`Issues #6, #7`)**: `scientific_metrics.py`, `schemas.py`, `main.py`.
-5. **Step 5 — Automated Test Suite & Script Cleanup (`Issue #8`)**: `backend/tests/*`, `backend/scripts/*`.
+5. **Step 5 — Automated Test Suite & Script Cleanup (`Issue #8`)**: `services/backend/tests/*`, `services/backend/scripts/*`.
