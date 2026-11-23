@@ -1,0 +1,90 @@
+{
+  "schema_version": 3,
+  "source": "AntGG2021 DOI:10.1594/PANGAEA.971238",
+  "layers": {
+    "antgg_gravity_anomaly": {
+      "field": "gravity_anomaly_mgal",
+      "unit": "mGal",
+      "scale_type": "PERCENTILE_DATA_DRIVEN",
+      "percentile_clip": [
+        2,
+        98
+      ],
+      "percentiles": {
+        "samples": 8259,
+        "min": -238.2457660964658,
+        "max": 249.67447555701182,
+        "p02": -68.4690608153438,
+        "p25": -22.70062388758795,
+        "p50": -7.7170069407786,
+        "p75": 9.820898704283067,
+        "p98": 70.33824106719179
+      },
+      "color_stops": [
+        {
+          "value": -68.4690608153438,
+          "color": "#25377f"
+        },
+        {
+          "value": -22.70062388758795,
+          "color": "#58a9d4"
+        },
+        {
+          "value": -7.7170069407786,
+          "color": "#f7f7f7"
+        },
+        {
+          "value": 9.820898704283067,
+          "color": "#e89a7e"
+        },
+        {
+          "value": 70.33824106719179,
+          "color": "#9d2137"
+        }
+      ],
+      "note": "Sampled V2 GeoJSON display; scientific NetCDF retained; no gridded raster claim"
+    },
+    "antgg_bouguer_anomaly": {
+      "field": "bouguer_anomaly_mgal",
+      "unit": "mGal",
+      "scale_type": "PERCENTILE_DATA_DRIVEN",
+      "percentile_clip": [
+        2,
+        98
+      ],
+      "percentiles": {
+        "samples": 8259,
+        "min": -534.7161584625582,
+        "max": 195.39528870167277,
+        "p02": -457.3373124225434,
+        "p25": -317.8546400781853,
+        "p50": -117.67565870527199,
+        "p75": 19.159877233638635,
+        "p98": 167.17794892166802
+      },
+      "color_stops": [
+        {
+          "value": -457.3373124225434,
+          "color": "#25377f"
+        },
+        {
+          "value": -317.8546400781853,
+          "color": "#58a9d4"
+        },
+        {
+          "value": -117.67565870527199,
+          "color": "#f7f7f7"
+        },
+        {
+          "value": 19.159877233638635,
+          "color": "#e89a7e"
+        },
+        {
+          "value": 167.17794892166802,
+          "color": "#9d2137"
+        }
+      ],
+      "note": "Sampled V2 GeoJSON display; scientific NetCDF retained; no gridded raster claim"
+    }
+  }
+}

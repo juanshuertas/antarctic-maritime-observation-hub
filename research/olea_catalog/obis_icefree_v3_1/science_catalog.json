@@ -1,0 +1,32 @@
+{
+  "obis": {
+    "uuid": "3b7223b4-295a-43b6-bea5-82776e7e598f",
+    "source": "https://ipt.biodiversity.aq/archive.do?r=aas_4296_biodiversity_icefree_antarctica_db",
+    "scientific_role": "TERRESTRIAL_ICEFREE_OCCURRENCES_CONTEXT_NOT_MARINE",
+    "status": "IMPORTED_SOURCE_RAW",
+    "download": {
+      "status": "DOWNLOADED",
+      "bytes": 1464200,
+      "url": "https://ipt.biodiversity.aq/archive.do?r=aas_4296_biodiversity_icefree_antarctica_db",
+      "sha256": "d17c0981a108d6aa6cdd51bf72d901ae76278fc2267f07641a1ffe018eb66d93"
+    },
+    "sha256": "d17c0981a108d6aa6cdd51bf72d901ae76278fc2267f07641a1ffe018eb66d93",
+    "rows_source": 35654,
+    "rows_with_coordinates": 35654,
+    "rows_with_coordinates_south_55s": 35654,
+    "grid_cells": 965,
+    "distinct_scientific_names_source": 2079,
+    "public_geojson": "C:\\AMOH\\app\\public\\data\\web\\geojson\\obis_icefree_antarctica_grid.geojson",
+    "accepted_obis_qc_count_on_website": 22575,
+    "acceptance_warning": "Source DwCA != quality-controlled OBIS accepted records; use OBIS interpreted API separately."
+  },
+  "station_study": {
+    "id": "olea_wap_2024_microphytoplankton",
+    "type": "FIELD_SCIENCE",
+    "scientific_role": "GROUND_TRUTH_CANDIDATE_NOT_VALIDATED_MODEL",
+    "display_url": "/data/web/geojson/wap_2024_stations_verified_v3_1.geojson",
+    "source_article_doi": "10.25268/bimc.invemar.2026.55.2.1419",
+    "target_count": 26,
+    "notes": "WAP sector has 24 stations; 19 density targets; PDF table 2 used for corrected environmental measurements"
+  }
+}
