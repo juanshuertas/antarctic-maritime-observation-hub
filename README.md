@@ -414,6 +414,101 @@ buildFieldPackageManifest(
 
 ---
 
+### 🧭 Geophysics & Bathymetry — Marine Geophysics Engine
+
+**Source:** `apps/web/src/lib/marine-geophysics-layers.ts`, `apps/web/src/components/MarineGeophysicsPanel.tsx`, `apps/web/src/lib/wod-map-engine.ts`, `apps/web/src/lib/quantarctica-layers.ts`
+
+OLEA integrates a **comprehensive marine geophysics suite** built on Antarctic geophysical compilations, enabling sediment thickness prediction, tectonic analysis, and bathymetric visualization.
+
+#### **Core Geophysical Layers (Marine Geophysics Panel)**
+
+| Layer ID | Label | Source | Resolution/Details | Scientific Role |
+|----------|-------|--------|-------------------|-----------------|
+| `lindeque_sediment_reference` | Lindeque · Espesor (m) | Lindeque et al. 2016 (PANGAEA 864906) | 5 km, EPSG:3031 | **Independent label** for sediment thickness ML (seismic reflection derived) |
+| `antgg_gravity_anomaly` | AntGG · Gravedad (mGal) | AntGG2021 (PANGAEA 971238) | 5 km, EPSG:3031 | Feature: gravity anomaly (not "free-air") |
+| `antgg_bouguer_anomaly` | AntGG · Bouguer (mGal) | AntGG2021 (PANGAEA 971238) | 5 km, EPSG:3031 | Feature: Bouguer anomaly + sigma (uncertainty mask) |
+| `admap2b_magnetic_anomaly` | ADMAP‑2B · Magnetismo (nT) | ADMAP-2B (PANGAEA 965433) | 5 km, EPSG:3031 | **Primary magnetic feature** (near-surface, gaps present) |
+| `admap2s_magnetic_anomaly` | ADMAP‑2S · Magnetismo con relleno satelital | ADMAP-2S (PANGAEA 965433) | 5 km, EPSG:3031 | **Gap-fill only** (satellite-derived); flagged via `x_magnetic_is_infilled` |
+| `ibcso_v2_relief` | IBCSO · Relieve del fondo | IBCSO v2 (PANGAEA 937574) | 500m, EPSG:9354 → reprojected | Bathymetric base; block mean + std-dev (seabed roughness) |
+| `ibcso_v2_tid` | IBCSO · Origen de la batimetría | IBCSO v2 | 500m | Multibeam coverage provenance (data quality mask) |
+
+#### **Sediment Thickness Prediction (Khalifa University ML Collaboration)**
+
+**Pipeline:** `data/derived/geophysics/khalifa-ml-cpu/` → `MarineGeophysicsPanel` → `WodMapEngine`
+
+| Component | Details |
+|-----------|---------|
+| **Label** | Lindeque 2016 total sediment thickness (seismic reflection compiled) — **independent of gravity/magnetics** |
+| **Features (8)** | Gravity anomaly, Bouguer, gravity sigma, 2nd radial derivative, magnetic anomaly (2B), magnetic infill flag, bathymetry depth, bathymetry roughness (std-dev of 10× downsample) |
+| **CV Scheme** | Spatial block CV (150 km blocks, 50 km buffer) — prevents spatial leakage |
+| **Models** | Ridge (best), Random Forest, baselines (mean, bathymetry-only, spatial k-NN) |
+| **Results (OOF)** | Ridge MAE **474 m**, R² **0.835** — beats bathymetry-only (+5.2%) and spatial k-NN (+34.7%) |
+| **Permutation Importance** | Bathymetry depth (1310 m) > Gravity anomaly (203 m) > Magnetic anomaly (145 m) > Bouguer (117 m) |
+| **Residual Uncertainty** | p05–p95: ±980 m (honest prediction band from OOF residuals) |
+| **Caveats** | Labels = gridded interpolation (not raw seismic picks); region-limited to Lindeque coverage (Amundsen/Bellingshausen); ADMAP-2B gaps (28%) filled from 2S with infill flag |
+
+**Khalifa University Collaboration:** Joint work with Dept. of Earth Science, Khalifa University (Abu Dhabi), Emirates Polar Program. Reproducible CPU pipeline in `khalifa-ml-cpu/` with summary JSON.
+
+#### **Bathymetry — IBCSO v2 Integration**
+
+| Aspect | Implementation |
+|--------|----------------|
+| **Source** | IBCSO v2 (PANGAEA 937574, CC-BY-4.0), 500m resolution, EPSG:9354 |
+| **CRS Handling** | Explicit reprojection EPSG:9354 → EPSG:3031 (different standard parallels; naive overlay misregisters coast by km) |
+| **Downsampling** | 500m → 5km (10×): **block mean + block std-dev** — roughness retained as predictor, not discarded |
+| **Layers** | `ibcso_v2_relief` (depth contours, color-ramped), `ibcso_v2_tid` (multibeam coverage provenance = data quality mask) |
+| **Quantarctica** | `quantarctica_bathymetry` contours (-500m to -4000m), color-ramped by depth, labels with depth values |
+| **Tile Source** | Local webp tiles: `/data/web/tiles/ibcso_v2_relief/{z}/{x}/{y}.webp` (maxzoom 7) |
+
+#### **Quantarctica Geophysics & Bathymetry Themes**
+
+| Theme | Layers | Size | Key Content |
+|-------|--------|------|-------------|
+| `geophysics` | 9 | 610 MB | ADMAP-2 aeromagnetic, Bouguer gravity, geothermal heat flux (EPSG:3031) |
+| `terrain` | 18 | 1800 MB | Bedmap2, REMA 8m/100m, **IBCSO v2 ocean bathymetry** |
+
+#### **Marine Geophysics Panel (UI)**
+- Toggle access via dock button "Geofísica" → `MarineGeophysicsPanel.tsx`
+- 11 layers with one-click toggle, exploratory ML sediment thickness (CPU) toggle
+- Disclaimer: "Lindeque es una compilación interpolada. Validación sísmica independiente pendiente."
+
+---
+
+### ⚓ **Inspiración: El Galeón San José — Patrimonio Sumergido & Arqueología Marina**
+
+**Contexto Histórico:** El **Galeón San José** (1698–1708) fue un navío de línea español de 64 cañones, hundido el **8 de junio de 1708** durante la Batalla de Barú (Guerra de Sucesión Española) frente a las costas de Cartagena de Indias, Colombia. Transportaba una de las cargas más valiosas de la historia colonial: oro, plata, esmeraldas y piezas de ajuar real estimadas en **$17–20 mil millones USD actuales**. Su hallazgo en **2015** por la Armada de Colombia y Woods Hole Oceanographic Institution (WHOI), a **600 m de profundidad**, marcó un hito en arqueología marina profunda.
+
+#### **Cómo el San José Inspira a OLEA/AMOH**
+
+| Dimensión | Inspiración del San José | Implementación en OLEA |
+|-----------|-------------------------|------------------------|
+| **Arqueología Marina Profunda** | Búsqueda y validación a 600m con AUV (REMUS 6000) + imagen multihaz | Capa `historic_stations` (Quantarctica) + `historic_routes` (Amundsen, Scott, Shackleton, Mawson) — extensible a pecios |
+| **Tecnología de Búsqueda** | REMUS 6000 (AUV) + sonar de barrido lateral (side-scan) + cámara 4K | Integración de **sonar de barrido lateral sintético** via `ibcso_v2_tid` (cobertura multihaz) + planificación de AUV en `quantarctica-service.ts` |
+| **Identificación No Intrusiva** | Imagen 4K + fotogrametría + confirmación por cañones de bronce con escudo real | **Protocolo de observación no invasiva** (Regla 6: "la investigación se adapta a la expedición") — OLEA registra sin perturbar |
+| **Gobernanza & Soberanía** | Disputa Colombia/España/Sea Search Armada → fallo Corte Constitucional Colombia (2022): "patrimonio cultural de la nación" | **Capa `treaty_claims` (Art. IV)** + `quantarctica_ccamlr` + `quantarctica_aspa` — marco legal para patrimonio sumergido antártico |
+| **Valor Científico vs. Comercial** | Decisión Colombia: **no extracción comercial**, preservación in situ + estudio científico | **Regla 1 OLEA:** "Observación no es causalidad" + **Madrid Protocol Art. 7** (prohibición minerales) — coherencia total |
+| **Colaboración Internacional** | Colombia + España + UNESCO + WHOI (ciencia) | **Khalifa University (EAU) + INACH (Chile) + SCAR** — modelo multilateral para patrimonio polar |
+| **Tecnología de Visualización** | Fotogrametría 3D + modelo digital del pecio | **NatGeo Director Suite 4K** + **Cesium 3D Globe** + **CircumpolarFlowCanvas** — reconstrucción inmersiva |
+
+#### **Aplicación Antártica: Patrimonio Sumergido en la Antártida**
+
+| Posible Aplicación | Estado en OLEA |
+|-------------------|----------------|
+| **Pecios históricos antárticos** (Endurance, Antarctic, etc.) | `historic_stations` + `historic_routes` (Quantarctica) — base para extensiones |
+| **Áreas de protección arqueológica** | Extensible via `quantarctica_aspa` / `quantarctica_hsm` (Historic Sites & Monuments) |
+| **Sonar multihaz para detección** | `ibcso_v2_tid` (origen batimetría) identifica gaps de cobertura multihaz |
+| **Protocolos de observación no intrusiva** | Alineado con **Regla 6 OLEA** + **Protocolo de Madrid** + **Convención UNESCO 2001** (Patrimonio Cultural Subacuático) |
+| **Modelo de gobernanza multinivel** | Colombia (soberanía) + España (estado de bandera) + UNESCO + ciencia → **Antártida: Tratado Antártico + Protocolo Madrid + CEP + CCAMLR** |
+
+#### **Lecciones Clave del San José para OLEA**
+
+1. **La tecnología permite, la gobernanza decide** — El hallazgo fue técnico (AUV + sonar); la decisión de **no extraer** fue política/jurídica. OLEA separa **capacidad de observación** (datos) de **decisión de uso** (política).
+2. **Datos abiertos con procedencia** — La atribución clara (WHOI + Armada Colombia) inspira el **pipeline de procedencia OLEA** (Tier A–D, metadata obligatoria).
+3. **Ciencia > Comercio** — La decisión de Colombia de priorizar estudio científico sobre valor comercial refleja el **principio epistémico OLEA**: "Observación no es causalidad; la investigación se adapta a la expedición."
+4. **Colaboración multilateral como norma** — El modelo Colombia-España-UNESCO-WHOI prefigura la **colaboración Khalifa-INACH-SCAR** en OLEA.
+
+---
+
 ### 🗺️ National Geographic MapMaker Atlas — 267 Items Integrated
 
 **Source:** `apps/web/src/lib/natgeo-mapmaker-layers.ts` (NATGEO_MAPMAKER_LAYERS, NATGEO_MAPMAKER_PROVENANCE, NATGEO_DRIFTER_IMPLEMENTED)
