@@ -1,0 +1,4 @@
+{
+  "rule": "PENDING != PAID; only VALIDATED scientific observations may advance to reward eligibility.",
+  "claims": []
+}

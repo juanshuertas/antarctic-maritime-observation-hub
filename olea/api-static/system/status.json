@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "expedition_id": "NGRS-ANTA-2027",
+  "offline_mode": false,
+  "duckdb_spatial_loaded": true,
+  "counts": {
+    "ais_positions": 0,
+    "observations": 0
+  },
+  "providers": {
+    "ais_stream": "NOT_CONFIGURED",
+    "global_fishing_watch": "NOT_CONFIGURED",
+    "environmental_earthdata": "SIMULATION",
+    "google_earth_engine": "NOT_CONFIGURED",
+    "world_id": "NOT_CONFIGURED",
+    "pythia_local_ai": "READY",
+    "arcgis_surie": "ON_DEMAND"
+  }
+}
