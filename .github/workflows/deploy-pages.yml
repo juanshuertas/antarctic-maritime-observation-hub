@@ -14,9 +14,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -52,27 +50,62 @@ jobs:
       - name: Build GitHub Pages bundle
         run: pnpm build:pages
         env:
-          VITE_PUBLIC_BASE: /antarctic-maritime-observation-hub/
+          VITE_PUBLIC_BASE: /antarctic-maritime-observation-hub/olea/
       - name: Verify Pages bundle and MapLibre workers
         run: |
           test -s apps/web/dist-pages-olea/index.html
           test -s apps/web/dist-pages-olea/assets/maplibre-gl-worker.mjs
           test -f apps/web/dist-pages-olea/assets/maplibre-gl-shared.mjs
-          grep -Fq '/antarctic-maritime-observation-hub/assets/' apps/web/dist-pages-olea/index.html
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+          test -s apps/web/dist-pages-olea/fonts/Poppins-Regular.woff2
+          test -s apps/web/dist-pages-olea/olea-symbol.svg
+          grep -Fq '/antarctic-maritime-observation-hub/olea/assets/' apps/web/dist-pages-olea/index.html
+      - name: Upload OLEA bundle
+        uses: actions/upload-artifact@v4
         with:
+          name: olea-pages
           path: apps/web/dist-pages-olea
+          if-no-files-found: error
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  publish:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Checkout GitHub Pages source branch
+        uses: actions/checkout@v4
+        with:
+          ref: pb124-pages
+          path: pages
+          fetch-depth: 0
+      - name: Download OLEA bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: olea-pages
+          path: dist-pages-olea
+      - name: Replace only the OLEA site directory
+        run: |
+          find pages/olea -type f -name index.html -printf '%P\n' \
+            | grep -v '^index\.html$' > "$RUNNER_TEMP/olea-routes.txt"
+          mkdir -p pages/olea
+          rsync -a --delete dist-pages-olea/ pages/olea/
+          while IFS= read -r route; do
+            [ -n "$route" ] || continue
+            mkdir -p "pages/olea/$(dirname "$route")"
+            cp dist-pages-olea/index.html "pages/olea/$route"
+          done < "$RUNNER_TEMP/olea-routes.txt"
+          cp dist-pages-olea/index.html pages/olea/404.html
+          test -s pages/olea/index.html
+          test -s pages/olea/observatory/index.html
+          test -s pages/olea/404.html
+          test "$(find pages/olea -type f -name index.html | wc -l)" -gt 1
+      - name: Commit and publish OLEA to pb124-pages
+        working-directory: pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add olea
+          if git diff --cached --quiet; then
+            echo "OLEA output is already current."
+            exit 0
+          fi
+          git commit -m "deploy: publish OLEA under /olea/"
+          git push origin HEAD:pb124-pages

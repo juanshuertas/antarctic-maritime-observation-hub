@@ -141,12 +141,12 @@ docker compose up --build
 
 ## 4. Deploying to GitHub Pages
 
-The frontend (`apps/web`) is deployed automatically to GitHub Pages at `/antarctic-maritime-observation-hub/` via [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml).
+The OLEA frontend (`apps/web`) is deployed automatically to GitHub Pages at `/antarctic-maritime-observation-hub/olea/` via [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml). PB124 continues to own the Pages root and `/peaceboat/`.
 
 ### One-Time Repository Setup
 
 1. In GitHub, open **Settings → Pages**.
-2. Under **Build and deployment → Source**, select **GitHub Actions**.
+2. Under **Build and deployment → Source**, select **Deploy from a branch**, choose `pb124-pages`, and publish from `/ (root)`.
 
 ### How the Pages Build Works
 
@@ -154,10 +154,10 @@ The frontend (`apps/web`) is deployed automatically to GitHub Pages at `/antarct
 2. **Static Public Assets (`pnpm assets:web`):** Fetches `origin/pb124-pages` and extracts the curated GeoJSON, fonts, icons, and Cesium static assets via `apps/web/scripts/import-pages-assets.mjs` into `apps/web/public/` (excluding oversized >100 MB rasters).
 3. **API Snapshot Generation (`pnpm snapshot:api`):** Runs `services/backend/scripts/export_api_static.py` using FastAPI's `TestClient` against an isolated temporary `DATA_DIR` to freeze `GET /api/*` responses (`/api/health`, `/api/system/status`, `/api/network-info`, `/api/vessels`, `/api/observations`, `/api/expeditions`, `/api/forecast-rings`, `/api/passport/me`, `/api/rewards`) into `apps/web/public/api-static/*.json`.
 4. **Subpath & Fetch Shim (`apps/web/vite.pages.config.ts`):**
-   - Builds with `VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/`.
+   - Builds with `VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/olea/`.
    - Rewrites absolute `/data/...`, `/cesium/...`, and `/fonts/...` references to include the repository subpath.
    - Injects a lightweight `window.fetch` shim in `<head>` so `GET /api/*` requests resolve cleanly against `api-static/*.json` when no live backend is attached (or forward to `VITE_API_URL` / `VITE_TRAFFIC_API_URL` if configured at build time).
-5. **Deploy:** Uploads `apps/web/dist-pages-olea/` with `actions/upload-pages-artifact@v3` and publishes via `actions/deploy-pages@v4`.
+5. **Publish:** Copies the OLEA bundle into `pb124-pages/olea/`, refreshes the direct-entry HTML files and OLEA fallback page, and preserves the PB124 root and `/peaceboat/`; GitHub Pages serves the `pb124-pages` branch.
 
 ### Testing the Pages Build Locally
 
@@ -187,7 +187,7 @@ flowchart LR
     subgraph Pages["GitHub Actions: deploy-pages.yml (Push to main)"]
         Assets["pnpm assets:web\n(pulls static assets from origin/pb124-pages)"]
         Snap["pnpm snapshot:api\n(FastAPI TestClient -> public/api-static/*.json)"]
-        BuildPages["pnpm build:pages\n(VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/)"]
+        BuildPages["pnpm build:pages\n(VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/olea/)"]
         DeployPages["actions/deploy-pages@v4"]
     end
 
@@ -209,7 +209,7 @@ flowchart LR
 
 ### Component Deployment Summary
 
-- **Frontend (`apps/web`) → GitHub Pages (Automated):** Deployed on pushes to `main` via [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) into `apps/web/dist-pages-olea/`.
+- **Frontend (`apps/web`) → GitHub Pages (Automated):** Built on pushes to `main` with base `/antarctic-maritime-observation-hub/olea/` and published only to `pb124-pages/olea/` via [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml). The PB124 root and `/peaceboat/` stay intact.
 - **Backend (`services/backend`) → Container / Ship LAN (On-Demand):** Verified in CI via `pytest` ([`.github/workflows/ci.yml`](../.github/workflows/ci.yml)). Packaged with [`services/backend/Dockerfile`](../services/backend/Dockerfile) and [`docker-compose.yml`](../docker-compose.yml) for local dev, an expedition ship LAN, or a container host (Cloud Run, Fly.io, Railway). Pass `VITE_API_URL` (and optionally `VITE_TRAFFIC_API_URL`) when building `apps/web` to connect the Pages frontend to a live backend.
 - **Contracts (`packages/contracts`) → Build-Time Only:** Private workspace package (`private: true`) type-checked and bundled into `apps/web`; not deployed separately.
 
