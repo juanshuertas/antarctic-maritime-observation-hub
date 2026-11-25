@@ -54,7 +54,9 @@ VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/olea/ npm run build:pages
 El resultado queda en `dist-pages-olea/`. Para publicar, integra ese resultado
 en `olea/` de la rama `pb124-pages` junto con los recursos públicos aprobados.
 Actualiza también las entradas HTML de rutas directas, como `olea/observatory/`,
-para que referencien los nuevos archivos compilados. El build de PB124 se
+para que referencien los nuevos archivos compilados. El workflow de Pages realiza
+esta publicación de forma automática, reemplazando solo `pb124-pages/olea/` y
+manteniendo la raíz de PB124 y `/peaceboat/`. El build de PB124 se
 genera por separado con `npm run build:pb124` en `dist-pb124-public/`.
 
 `npm run typecheck` verifica el frontend y las configuraciones de Vite.

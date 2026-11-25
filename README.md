@@ -878,7 +878,7 @@ pnpm build
 ```
 
 * **CI:** GitHub Actions validates TS types + builds OLEA & PB124 on relevant changes ([CI Workflow](https://github.com/juanshuertas/antarctic-maritime-observation-hub/actions/workflows/ci.yml)).
-* **Pages Deploy:** `main` → `pb124-pages` branch via [deploy-pages.yml](.github/workflows/deploy-pages.yml) (4 steps: fetch assets → API snapshot → build with `VITE_PUBLIC_BASE` → deploy `dist-pages-olea/`).
+* **Pages Deploy:** `main` → `pb124-pages` branch via [deploy-pages.yml](.github/workflows/deploy-pages.yml) (fetch assets → API snapshot → build with `/antarctic-maritime-observation-hub/olea/` base → replace only `pb124-pages/olea/`; PB124 root and `/peaceboat/` remain intact).
 * **Security:** Private tokens, service accounts, field credentials **never** in version control. Share layers per declared redistribution permissions.
 
 ---
