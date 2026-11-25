@@ -64,3 +64,7 @@ genera por separado con `npm run build:pb124` en `dist-pb124-public/`.
 versión de Pages. Las variables `VITE_*` son visibles en el navegador.
 Conserva las credenciales de proveedores y las claves de revisión en el
 backend o en el entorno privado.
+
+## World Oceans Day & Month Colombia 2027
+
+El programa tiene un [repositorio operativo independiente](https://github.com/juanshuertas/world-oceans-day-colombia-2027), enlazado desde la navegación de OLEA. El programa utiliza OLEA como referencia científica y geoespacial; el sitio no sincroniza actualmente su presupuesto, gobernanza ni estados operativos con el repositorio. Revisa el [alcance de integración](https://github.com/juanshuertas/world-oceans-day-colombia-2027/tree/main/08-olea-colombia-2027) antes de proponer una fuente de datos compartida.

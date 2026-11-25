@@ -52,6 +52,15 @@ export default function AppNav({ online }: { online: boolean }): ReactNode {
       </div>
       <nav className="flex-1 py-2">
         {MODULES.map((m) => <NavItem key={m.to} {...m} />)}
+        <a
+          href="https://github.com/juanshuertas/world-oceans-day-colombia-2027"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block border-t mt-2 px-4 py-2.5 text-sm transition-colors"
+          style={{ borderColor: 'var(--border-default)', color: 'var(--text-primary)' }}
+        >
+          Programa oceánico Colombia 2027 ↗
+        </a>
       </nav>
       <div className="px-4 py-3 border-t" style={{ borderColor: 'var(--border-default)' }}>
         <ConnectivityIndicator online={online} />

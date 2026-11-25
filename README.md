@@ -2,7 +2,7 @@
 
 **OLEA** (*Observatory for Linked Evidence in Antarctica*), evolved from the **Antarctic Maritime Observation Hub (AMOH)**, is an open-source, offline-first geospatial research platform and data integration engine for Antarctica and the Southern Ocean. It brings together Automatic Identification System (AIS) vessel tracking, Copernicus Earth Observation imagery, Antarctic geophysical compilations, expedition telemetry, and georeferenced field observations on an interactive 2D map and 3D globe.
 
-[Live Observatory (OLEA)](https://juanshuertas.github.io/antarctic-maritime-observation-hub/olea/) · [PB124 Voyage Edition](https://juanshuertas.github.io/antarctic-maritime-observation-hub/peaceboat/) · [Video Demo](Antarctic_Maritime_Hub_compressed.mp4) · [SCAR 2026 Poster (Abstract 1820)](https://virtual.oxfordabstracts.com/event/75327/poster-gallery/grid?sort=titles&current=1820)
+[Live Observatory (OLEA)](https://juanshuertas.github.io/antarctic-maritime-observation-hub/olea/) · [World Oceans Day & Month Colombia 2027](https://github.com/juanshuertas/world-oceans-day-colombia-2027) · [PB124 Voyage Edition](https://juanshuertas.github.io/antarctic-maritime-observation-hub/peaceboat/) · [Video Demo](Antarctic_Maritime_Hub_compressed.mp4) · [SCAR 2026 Poster (Abstract 1820)](https://virtual.oxfordabstracts.com/event/75327/poster-gallery/grid?sort=titles&current=1820)
 
 ![AMOH / OLEA Overview](amoh-overview.png)
 
