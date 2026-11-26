@@ -1,0 +1,42 @@
+name: Refresh OLEA open data snapshots
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: pb124-pages
+          path: pages
+          fetch-depth: 1
+      - uses: actions/checkout@v4
+        with:
+          ref: olea-traffic
+          path: traffic
+          fetch-depth: 1
+      - name: Collect Open-Meteo model output and CelesTrak elements
+        run: python scripts/collect_open_polar_data.py pages/olea/data/live
+      - name: Preserve aircraft snapshot with its observation timestamps
+        run: |
+          if test -s traffic/aircraft.geojson; then
+            cp traffic/aircraft.geojson pages/olea/data/live/aircraft.geojson
+          fi
+      - name: Publish dated snapshots
+        working-directory: pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add olea/data/live
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'data: refresh dated OLEA public snapshots'
+          git push origin HEAD:pb124-pages
