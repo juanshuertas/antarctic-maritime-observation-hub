@@ -75,9 +75,8 @@ def main(output: Path) -> None:
         "fetched_at": fetched_at,
         "sources": {"weather": WEATHER_URL, "earth_resources_tle": TLE_URL},
         "status": status,
+        "refresh_status": "ok" if any(value == "ok" for value in status.values()) else "unavailable",
     }, indent=2), encoding="utf-8")
-    if not any(value == "ok" for value in status.values()):
-        raise RuntimeError("No open source was available; refusing to publish an empty refresh")
 
 
 if __name__ == "__main__":
