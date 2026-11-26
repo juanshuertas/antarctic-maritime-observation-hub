@@ -58,6 +58,11 @@ jobs:
           test -f apps/web/dist-pages-olea/assets/maplibre-gl-shared.mjs
           test -s apps/web/dist-pages-olea/fonts/Poppins-Regular.woff2
           test -s apps/web/dist-pages-olea/olea-symbol.svg
+          test -s apps/web/dist-pages-olea/data/web/tiles/ibcso_v2_relief/0/0/0.webp
+          test -s apps/web/dist-pages-olea/data/web/tiles/ibcso_v2_tid/0/0/0.webp
+          test -s apps/web/dist-pages-olea/data/web/tiles/gebco_2025_relief/0/0/0.webp
+          test -s apps/web/dist-pages-olea/data/web/tiles/gsfm_seafloor_geomorphology/0/0/0.webp
+          test -s apps/web/dist-pages-olea/data/web/tiles/bedmap3_ice_thickness/0/0/0.webp
           grep -Fq '/antarctic-maritime-observation-hub/olea/assets/' apps/web/dist-pages-olea/index.html
       - name: Upload OLEA bundle
         uses: actions/upload-artifact@v4

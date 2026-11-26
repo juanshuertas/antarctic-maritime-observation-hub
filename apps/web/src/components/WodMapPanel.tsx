@@ -986,6 +986,14 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
         return;
       }
       engine.setBathymetryVisible(false);
+      engine.setAntarcticReliefVisible(
+        mode === 'MAP' || mode === 'GLOBE',
+        mode === 'MAP' ? 0.58 : 0.72
+      );
+      engine.setGebcoReliefVisible(
+        mode === 'MAP' || mode === 'GLOBE',
+        0.72
+      );
 
 
 
@@ -1000,8 +1008,6 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
 
       const map = directMap;
-
-
 
       try {
 
@@ -1030,6 +1036,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
       if (mode === 'MAP') {
         // AMOH_V8 restore thematic fills in scientific 2D.
         setSatelliteFillMode(false);
+        engine.setOceanBaseVisible(true);
 
         engine.projectionMode = '2D';
 
@@ -1113,6 +1120,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
       if (mode === 'GLOBE') {
         // AMOH_SMART_GLOBE_V11
         engine.projectionMode = '3D';
+        engine.setOceanBaseVisible(false);
 
         map.setRenderWorldCopies(false);
         map.setProjection({ type: 'globe' });
@@ -1181,6 +1189,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
       if (mode === 'SAT') {
         // AMOH_SMART_SAT_V11
         engine.projectionMode = '3D';
+        engine.setOceanBaseVisible(false);
 
         map.setRenderWorldCopies(false);
         map.setProjection({ type: 'globe' });

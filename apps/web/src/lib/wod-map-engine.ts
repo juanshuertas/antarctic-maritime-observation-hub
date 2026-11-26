@@ -12,17 +12,12 @@ import { registerAmohIcons } from './map-icon-atlas';
 import { resolveLayerId } from './layer-registry';
 import { INACH_CHILEAN_TERRITORY_FC, INACH_TOPONYMY_FC } from './inach-cartography';
 
-/**
- * Standard OSIRIS Dark Matter basemap style.
- * Uses CARTO Dark raster tiles for instant, high-contrast, zero-CORS oceanography.
- */
-export function getGibsRecentDate(): string {
-  const d = new Date();
-  d.setDate(d.getDate() - 2);
-  return d.toISOString().slice(0, 10);
-}
-
-const BATHYMETRY_BASE_LAYERS = ['esri-ocean-base', 'antarctic-bathymetry-base'] as const;
+/** Mode-controlled ocean basemap with local GEBCO/IBCSO relief and Esri imagery. */
+const BATHYMETRY_BASE_LAYERS = [
+  'esri-ocean-base',
+  'gebco-2025-relief',
+  'antarctic-bathymetry-base',
+] as const;
 
 export const OSIRIS_BASEMAP_STYLE: StyleSpecification = {
   version: 8,
@@ -42,6 +37,14 @@ export const OSIRIS_BASEMAP_STYLE: StyleSpecification = {
       maxzoom: 7,
       bounds: [-180, -85.0511, 180, -50],
       attribution: 'IBCSO v2 · Dorschel et al. (2022) · CC BY 4.0',
+    },
+    'gebco-2025-relief': {
+      type: 'raster',
+      tiles: ['/data/web/tiles/gebco_2025_relief/{z}/{x}/{y}.webp'],
+      tileSize: 256,
+      maxzoom: 6,
+      bounds: [-180, -85.0511, 180, -40],
+      attribution: 'GEBCO Compilation Group (2025) · via Quantarctica 4 (NPI)',
     },
     'satellite-world': {
       type: 'raster',
@@ -531,18 +534,60 @@ export class WodMapEngine {
     }
   }
 
+  setOceanBaseVisible(visible: boolean) {
+    if (this.map.getLayer('esri-ocean-base')) {
+      this.map.setLayoutProperty(
+        'esri-ocean-base',
+        'visibility',
+        visible ? 'visible' : 'none'
+      );
+    }
+  }
+
+  setAntarcticReliefVisible(visible: boolean, opacity = 0.92) {
+    if (this.map.getLayer('antarctic-bathymetry-base')) {
+      this.map.setLayoutProperty(
+        'antarctic-bathymetry-base',
+        'visibility',
+        visible ? 'visible' : 'none'
+      );
+      if (visible) {
+        this.map.setPaintProperty('antarctic-bathymetry-base', 'raster-opacity', opacity);
+      }
+    }
+  }
+
+  setGebcoReliefVisible(visible: boolean, opacity = 0.72) {
+    if (this.map.getLayer('gebco-2025-relief')) {
+      this.map.setLayoutProperty(
+        'gebco-2025-relief',
+        'visibility',
+        visible ? 'visible' : 'none'
+      );
+      if (visible) {
+        this.map.setPaintProperty('gebco-2025-relief', 'raster-opacity', opacity);
+      }
+    }
+  }
+
   applyOsirisTheme(mode: string) {
     const apply = () => {
       try {
 
         console.info('[AMOH MAP MODE] applying:', mode);
         this.setBathymetryVisible(mode === 'BATHYMETRY');
+        this.setOceanBaseVisible(mode === 'MAP' || mode === 'BATHYMETRY');
+        const showAntarcticRelief = ['MAP', 'GLOBE', 'BATHYMETRY'].includes(mode);
+        const reliefOpacity = mode === 'BATHYMETRY' ? 0.92 : mode === 'GLOBE' ? 0.72 : 0.58;
+        this.setAntarcticReliefVisible(showAntarcticRelief, reliefOpacity);
+        this.setGebcoReliefVisible(showAntarcticRelief, mode === 'BATHYMETRY' ? 0.86 : 0.72);
 
         switch (mode) {
 
           case 'GLOBE':
             // AMOH_SMART_ENGINE_GLOBE_V11
             this.projectionMode = '3D';
+            this.setOceanBaseVisible(false);
             this.map.setRenderWorldCopies(false);
             this.map.setProjection({ type: 'globe' });
 
@@ -583,6 +628,7 @@ export class WodMapEngine {
           case 'SAT':
             // AMOH_SMART_ENGINE_SAT_V11
             this.projectionMode = '3D';
+            this.setOceanBaseVisible(false);
             this.map.setRenderWorldCopies(false);
             this.map.setProjection({ type: 'globe' });
 
@@ -620,6 +666,7 @@ export class WodMapEngine {
 
 
           case 'BATHYMETRY':
+            this.setOceanBaseVisible(true);
             this.setSatelliteVisible(false);
             this.setProjectionMode('mercator', false);
             this.setAtmosphere(false);
@@ -631,6 +678,7 @@ export class WodMapEngine {
           default:
             // Scientific 2D:
             // satellite OFF, terrain OFF, Mercator.
+            this.setOceanBaseVisible(true);
             this.setSatelliteVisible(false);
             this.setProjectionMode('mercator', false);
             this.setAtmosphere(false);

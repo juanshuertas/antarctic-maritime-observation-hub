@@ -312,15 +312,7 @@ import { SpatialCameraStore, type MapMode } from '../lib/spatial-camera-store';
 
 
 
-import { getGibsRecentDate } from '../lib/wod-map-engine';
-
-
-
-
-
-
-
-import { PanelLeft, Sparkles, Flame, X, ChevronDown, Layers, Film } from 'lucide-react';
+import { PanelLeft, Sparkles, Flame, X, ChevronDown, Layers, Film, Map as MapIcon, Globe2, Satellite, Waves } from 'lucide-react';
 
 // OLEA · modelo SIPSEM: tarjeta de punto y estado del mapa en la URL.
 import type { MapMouseEvent } from 'maplibre-gl';
@@ -4521,86 +4513,33 @@ const activeSdgCount = useMemo(() => {
 
 
 
-        {/* SAT Mode Metadata Chip */}
-
-
-
-
-
-
-
-        {activeMapMode === 'SAT' && (
-
-
-
-
-
-
-
+        {activeMapMode !== 'BATHYMETRY' && (
           <div className="absolute top-20 left-1/2 -translate-x-1/2 z-[220] flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#051119ee] border border-[#35c3c8]/40 shadow-xl backdrop-blur-md text-[10px] font-mono text-[#caf9f7]">
-
-
-
-
-
-
-
-            <span className="w-1.5 h-1.5 rounded-full bg-[#35c3c8] animate-pulse" />
-
-
-
-
-
-
-
-            <span className="font-bold text-[#58d5e3]">NASA GIBS</span>
-
-
-
-
-
-
-
-            <span className="opacity-40">·</span>
-
-
-
-
-
-
-
-            <span>VIIRS SNPP Corrected Reflectance</span>
-
-
-
-
-
-
-
-            <span className="opacity-40">·</span>
-
-
-
-
-
-
-
-            <span className="text-[#8faab5]">{getGibsRecentDate()}</span>
-
-
-
-
-
-
-
+            {activeMapMode === 'MAP' && (
+              <>
+                <MapIcon aria-hidden="true" className="h-3.5 w-3.5 text-[#58d5e3]" />
+                <span className="font-bold text-[#58d5e3]">2D · CARTOGRAFÍA OCEÁNICA</span>
+                <span className="opacity-40">·</span>
+                <span>Esri Ocean Base · GEBCO + IBCSO</span>
+              </>
+            )}
+            {activeMapMode === 'GLOBE' && (
+              <>
+                <Globe2 aria-hidden="true" className="h-3.5 w-3.5 text-[#58d5e3]" />
+                <span className="font-bold text-[#58d5e3]">GLOBO 3D</span>
+                <span className="opacity-40">·</span>
+                <span>Mapterhorn DEM · GEBCO + IBCSO</span>
+              </>
+            )}
+            {activeMapMode === 'SAT' && (
+              <>
+                <Satellite aria-hidden="true" className="h-3.5 w-3.5 text-[#58d5e3]" />
+                <span className="font-bold text-[#58d5e3]">IMAGEN SATELITAL</span>
+                <span className="opacity-40">·</span>
+                <span>Esri World Imagery · Maxar</span>
+              </>
+            )}
           </div>
-
-
-
-
-
-
-
         )}
 
 
@@ -5276,10 +5215,15 @@ const activeSdgCount = useMemo(() => {
 
         {activeMapMode === 'BATHYMETRY' && (
           <aside aria-label="Leyenda de batimetría antártica" className="absolute right-3 bottom-[132px] md:bottom-[82px] z-[220] max-w-[calc(100vw-1.5rem)] rounded-lg border border-[#1e4258] bg-[#061522f2] px-3 py-2 text-xs text-[#edf5f5]">
-            <p>Elevación del lecho respecto al nivel del mar</p>
+            <div className="flex items-center gap-2 font-semibold">
+              <Waves aria-hidden="true" className="h-4 w-4 text-cyan-300" />
+              <p>GEBCO 2025 + IBCSO v2 · relieve del lecho</p>
+            </div>
+            <p className="mt-1 text-[11px] text-[#adc5d0]">Elevación respecto al nivel del mar; bajo el hielo representa roca basal.</p>
             <div aria-hidden="true" className="my-1.5 h-2 rounded" style={{ background: 'linear-gradient(to right, #050b2e, #144f9e, #3f93d3, #e6f5fb)' }} />
-            <div className="flex justify-between"><span>−8.000 m</span><span>0 m</span></div>
-            <p className="mt-1">Pardos y grises · lecho por encima de 0 m</p>
+            <div className="flex justify-between"><span>−8.000 m</span><span>0 m</span><span>+2.000 m</span></div>
+            <p className="mt-1 text-[11px] text-[#adc5d0]">Azules: bajo 0 m · pardos: sobre 0 m. Los vacíos muestran la base oceánica.</p>
+            <p className="mt-1 text-[11px] text-[#adc5d0]">GEBCO cubre 40–50° S; IBCSO llega a 85,05° S (z7). En IBCSO, el 23,79 % del fondo está medido; activa «IBCSO TID» para ver métodos y cobertura.</p>
             <p className="mt-1 text-[#adc5d0]">
               <a className="underline" href="https://doi.org/10.1594/PANGAEA.937574" target="_blank" rel="noreferrer">IBCSO v2 · CC BY 4.0</a>
               {' · '}
@@ -5420,7 +5364,11 @@ const activeSdgCount = useMemo(() => {
 
 
 
-                <span className="whitespace-nowrap">{mode === 'BATHYMETRY' ? 'Batimetría antártica' : mode === 'MAP' ? 'MAP (2D)' : mode === 'GLOBE' ? '3D EARTH' : 'SAT'}</span>
+                {mode === 'MAP' && <MapIcon aria-hidden="true" className="h-3.5 w-3.5" />}
+                {mode === 'GLOBE' && <Globe2 aria-hidden="true" className="h-3.5 w-3.5" />}
+                {mode === 'SAT' && <Satellite aria-hidden="true" className="h-3.5 w-3.5" />}
+                {mode === 'BATHYMETRY' && <Waves aria-hidden="true" className="h-3.5 w-3.5" />}
+                <span className="whitespace-nowrap">{mode === 'BATHYMETRY' ? 'IBCSO' : mode === 'MAP' ? '2D' : mode === 'GLOBE' ? '3D' : 'Satélite'}</span>
 
 
 
