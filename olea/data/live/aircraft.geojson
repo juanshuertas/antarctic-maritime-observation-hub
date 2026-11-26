@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [], "metadata": {"generated_at": "2026-11-26T19:53:06.484582+00:00", "sectors_available": 3, "sectors": [[-56, -67], [-63, -60], [-77, 167]], "license": "ODbL-1.0", "provider": "adsb.lol", "mode": "scheduled_snapshot", "interval_minutes": 10}}
