@@ -1,0 +1,110 @@
+{
+ "id": "ibcso_v2_tid",
+ "title": "IBCSO v2 - tipo de dato por celda (TID)",
+ "source": "Dorschel et al. 2022, IBCSO v2, doi:10.1594/PANGAEA.937574, CC-BY-4.0",
+ "minzoom": 0,
+ "maxzoom": 6,
+ "format": "webp",
+ "tileSize": 256,
+ "bounds": [
+  -180,
+  -85.0511,
+  180,
+  -50
+ ],
+ "generated": "2026-11-13",
+ "origin": "ibcso_v2/IBCSO_v2_TID.tif",
+ "legend": [
+  {
+   "code": 10,
+   "color": "#ff9f1c",
+   "label": "Monohaz"
+  },
+  {
+   "code": 11,
+   "color": "#ffe14d",
+   "label": "Multihaz"
+  },
+  {
+   "code": 12,
+   "color": "#ff5d5d",
+   "label": "Sismica"
+  },
+  {
+   "code": 13,
+   "color": "#f7b267",
+   "label": "Sondeo aislado"
+  },
+  {
+   "code": 14,
+   "color": "#f7b267",
+   "label": "Sondeo de carta ENC"
+  },
+  {
+   "code": 15,
+   "color": "#b8f2e6",
+   "label": "Lidar"
+  },
+  {
+   "code": 16,
+   "color": "#b8f2e6",
+   "label": "Sensor optico"
+  },
+  {
+   "code": 17,
+   "color": "#ffd6a5",
+   "label": "Combinacion de metodos directos"
+  },
+  {
+   "code": 40,
+   "color": "#7b6fd6",
+   "label": "Predicho por gravimetria satelital"
+  },
+  {
+   "code": 41,
+   "color": "#3b4263",
+   "label": "Interpolado"
+  },
+  {
+   "code": 42,
+   "color": "#4cc9f0",
+   "label": "Isobatas digitalizadas de cartas"
+  },
+  {
+   "code": 43,
+   "color": "#4cc9f0",
+   "label": "Isobatas de ENC"
+  },
+  {
+   "code": 44,
+   "color": "#9d8df1",
+   "label": "Sondeo guiado por gravimetria"
+  },
+  {
+   "code": 45,
+   "color": "#b392f0",
+   "label": "Predicho por gravimetria aerea"
+  },
+  {
+   "code": 46,
+   "color": "#90e0ef",
+   "label": "Calado de iceberg varado"
+  },
+  {
+   "code": 70,
+   "color": "#9aa0a6",
+   "label": "Rejilla previa"
+  },
+  {
+   "code": 71,
+   "color": "#9aa0a6",
+   "label": "Fuente desconocida"
+  },
+  {
+   "code": 72,
+   "color": "#9aa0a6",
+   "label": "Puntos de guia"
+  }
+ ],
+ "unit": "m"
+}

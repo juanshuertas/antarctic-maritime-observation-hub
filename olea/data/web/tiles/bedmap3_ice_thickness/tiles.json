@@ -1,0 +1,48 @@
+{
+ "id": "bedmap3_ice_thickness",
+ "title": "Bedmap3 - espesor del hielo (500 m)",
+ "source": "Pritchard et al. 2025, Bedmap3, doi:10.5285/2d0e4791-8e20-46a3-80e4-f5f6716025d2, via Quantarctica 4 (NPI)",
+ "minzoom": 0,
+ "maxzoom": 6,
+ "format": "webp",
+ "tileSize": 256,
+ "bounds": [
+  -180,
+  -85.0511,
+  180,
+  -60
+ ],
+ "generated": "2026-11-13",
+ "origin": "quantarctica4/TerrainModels/Bedmap3/Pritchard_Bedmap3_IceThickness_500m.tif",
+ "legend": [
+  {
+   "value": 1,
+   "color": "#f1f7fb"
+  },
+  {
+   "value": 250,
+   "color": "#cfe3f1"
+  },
+  {
+   "value": 750,
+   "color": "#9cc4e4"
+  },
+  {
+   "value": 1500,
+   "color": "#5c97cf"
+  },
+  {
+   "value": 2500,
+   "color": "#2f63b0"
+  },
+  {
+   "value": 3500,
+   "color": "#243a8c"
+  },
+  {
+   "value": 4800,
+   "color": "#2a1a5e"
+  }
+ ],
+ "unit": "m"
+}
