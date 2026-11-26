@@ -731,7 +731,7 @@ export default function ControlCenter({
 
 
 
-        { id: 'maritime_vessels', label: 'Buques AIS en Vivo', desc: 'Posiciones y rumbos en tiempo real', color: '#35c3c8' },
+        { id: 'maritime_vessels', label: 'Buques AIS observados', desc: 'Posiciones con hora y cobertura del proveedor', color: '#35c3c8' },
 
 
 
