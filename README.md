@@ -4,7 +4,7 @@
 
 [Live Observatory (OLEA)](https://juanshuertas.github.io/antarctic-maritime-observation-hub/olea/) · [World Oceans Day & Month Colombia 2027](https://github.com/juanshuertas/world-oceans-day-colombia-2027) · [PB124 Voyage Edition](https://juanshuertas.github.io/antarctic-maritime-observation-hub/peaceboat/) · [Video Demo](Antarctic_Maritime_Hub_compressed.mp4) · [SCAR 2026 Poster (Abstract 1820)](https://virtual.oxfordabstracts.com/event/75327/poster-gallery/grid?sort=titles&current=1820)
 
-![AMOH / OLEA Overview](OLEA S.png)
+![AMOH / OLEA Overview](OLEA_S.png)
 
 ---
 
