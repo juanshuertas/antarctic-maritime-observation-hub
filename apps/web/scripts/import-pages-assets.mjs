@@ -10,6 +10,9 @@ const publishedCommit = 'cb55bb4f27b25ecfc72948d83d69dc4eeb6950e8'
 const assets = [
   'amoh', 'amoh-i18n', 'brand', 'cesium', 'fonts', 'sdg-icons', 'vendor',
   'data/catalog', 'data/web/geojson', 'data/web/geophysics',
+  'data/web/tiles/ibcso_v2_relief', 'data/web/tiles/ibcso_v2_tid',
+  'data/web/tiles/gebco_2025_relief', 'data/web/tiles/gsfm_seafloor_geomorphology',
+  'data/web/tiles/bedmap3_ice_thickness',
   'data/ne_antarctic_ice.json', 'data/ne_land.json', 'data/submarine-cables.json',
   'data/colombia_pac_scientific_publications.json', 'data/gistemp-southern-hemisphere-trend.json',
   'amoh-logo.png', 'amoh-logo.webp', 'amoh-master-emblem.svg', 'amoh-symbol.svg',

@@ -151,7 +151,7 @@ The OLEA frontend (`apps/web`) is deployed automatically to GitHub Pages at `/an
 ### How the Pages Build Works
 
 1. **Triggers:** Runs on every push to `main` touching `apps/web/**`, `packages/contracts/**`, `services/backend/app/**`, `services/backend/scripts/export_api_static.py`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`, or `.github/workflows/deploy-pages.yml` (and via manual `workflow_dispatch`).
-2. **Static Public Assets (`pnpm assets:web`):** Fetches `origin/pb124-pages` and extracts the curated GeoJSON, fonts, icons, and Cesium static assets via `apps/web/scripts/import-pages-assets.mjs` into `apps/web/public/` (excluding oversized >100 MB rasters).
+2. **Static Public Assets (`pnpm assets:web`):** Fetches the pinned `pb124-pages` revision and extracts curated GeoJSON, fonts, icons, Cesium assets, and the five lightweight Antarctic bathymetry/geophysics tile sets into `apps/web/public/`.
 3. **API Snapshot Generation (`pnpm snapshot:api`):** Runs `services/backend/scripts/export_api_static.py` using FastAPI's `TestClient` against an isolated temporary `DATA_DIR` to freeze `GET /api/*` responses (`/api/health`, `/api/system/status`, `/api/network-info`, `/api/vessels`, `/api/observations`, `/api/expeditions`, `/api/forecast-rings`, `/api/passport/me`, `/api/rewards`) into `apps/web/public/api-static/*.json`.
 4. **Subpath & Fetch Shim (`apps/web/vite.pages.config.ts`):**
    - Builds with `VITE_PUBLIC_BASE=/antarctic-maritime-observation-hub/olea/`.
