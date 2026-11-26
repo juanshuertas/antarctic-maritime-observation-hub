@@ -8,6 +8,7 @@ import {
   ArrowRight,
   Cpu,
 } from 'lucide-react';
+import { searchPythiaCatalog } from '../lib/pythia-local-catalog';
 
 interface AgentMeshModalProps {
   isOpen: boolean;
@@ -87,6 +88,7 @@ export default function AgentMeshModal({
   const [queryInput, setQueryInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [connectionError, setConnectionError] = useState<string | null>(null);
+  const [localCatalogReady, setLocalCatalogReady] = useState(false);
   const [pythiaResult, setPythiaResult] = useState<PythiaResponse | null>(null);
 
   useEffect(() => {
@@ -106,9 +108,17 @@ export default function AgentMeshModal({
       .then((res) => { if (!res.ok) throw new Error('Backend Pythia no disponible'); return res.json(); })
       .then((data) => {
         if (Array.isArray(data)) { setAgents(data); setConnectionError(null); }
-        else setConnectionError('El backend Pythia no devolvió una lista válida de agentes.');
+        else throw new Error('Lista de agentes inválida');
       })
-      .catch(() => setConnectionError('Pythia no está conectado a un backend público.'));
+      .catch(async () => {
+        try {
+          await searchPythiaCatalog('Antarctic');
+          setLocalCatalogReady(true);
+          setConnectionError(null);
+        } catch {
+          setConnectionError('Pythia no tiene backend ni catálogo local disponible.');
+        }
+      });
   }, [isOpen]);
 
   if (!isOpen) return null;
@@ -135,9 +145,43 @@ export default function AgentMeshModal({
       .then((res) => { if (!res.ok) throw new Error('Pythia no disponible'); return res.json(); })
       .then((data) => {
         if (data?.synthesized_response) setPythiaResult(data);
-        else setConnectionError('Pythia devolvió una respuesta inválida.');
+        else throw new Error('Respuesta Pythia inválida');
       })
-      .catch(() => setConnectionError('No se pudo consultar Pythia. Requiere un backend conectado.'))
+      .catch(async () => {
+        try {
+          const sources = await searchPythiaCatalog(q);
+          const now = new Date().toISOString();
+          const details = sources.map((source, index) =>
+            `[${index + 1}] ${source.title} (${source.organization ?? 'organización no indicada'}). ` +
+            `Uso: ${source.role ?? 'sin clasificar'}. ` +
+            `${source.status ? `Estado del catálogo: ${source.status}. ` : ''}` +
+            `${source.training_gate ? `Límite: ${source.training_gate}.` : ''}`
+          );
+          setLocalCatalogReady(true);
+          setPythiaResult({
+            analysis_id: 'CATÁLOGO LOCAL',
+            question: q,
+            synthesized_response: sources.length
+              ? `Fuentes catalogadas relacionadas con «${q}»:\n\n${details.join('\n\n')}\n\nEste índice describe fuentes; no ha consultado mediciones ni ejecutado un modelo predictivo.`
+              : `No encontré fuentes relacionadas con «${q}» en el catálogo local. Prueba con geofísica, fauna, pesca, Argo o sismicidad.`,
+            consulted_mesh_agents: [],
+            evidence_contract: {
+              evidence_ids: sources.map(source => source.id),
+              sources: sources.map(source => source.landing || source.url || ''),
+              observed_time: '',
+              retrieved_time: now,
+              model: 'búsqueda léxica local',
+              uncertainty: 'Coincidencia de términos; no verifica el contenido de cada fuente.',
+              limitations: 'El catálogo puede estar desactualizado. Sin inferencia de datos en vivo.',
+              human_review_state: 'Sin revisión humana',
+            },
+            suggested_actions: [],
+          });
+          setConnectionError(null);
+        } catch {
+          setConnectionError('No se pudo consultar el backend ni el catálogo local.');
+        }
+      })
       .finally(() => setIsLoading(false));
   };
 
@@ -159,11 +203,11 @@ export default function AgentMeshModal({
               <h2 className="text-sm font-bold text-white flex items-center gap-2">
                 <span>Malla de Agentes Locales & Pythia Everywhere</span>
                 <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#c084fc]/20 text-[#c084fc] border border-[#c084fc]/30">
-                  {connectionError ? 'SIN CONEXIÓN' : 'ESTADO POR VERIFICAR'}
+                  {connectionError ? 'SIN CONEXIÓN' : localCatalogReady ? 'CATÁLOGO LOCAL ACTIVO' : 'ESTADO POR VERIFICAR'}
                 </span>
               </h2>
               <p className="text-[11px] font-mono text-[#8faab5]">
-                Catálogo de especialistas · Estado sujeto a verificación del backend
+                Búsqueda de fuentes locales · Agentes especializados sujetos a verificación del backend
               </p>
             </div>
           </div>
@@ -233,7 +277,7 @@ export default function AgentMeshModal({
                     </span>
                   </div>
                   <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-[#00e5ff]/20 text-[#00e5ff]">
-                    EVIDENCE CONTRACT BOUND
+                    {pythiaResult.analysis_id === 'CATÁLOGO LOCAL' ? 'ÍNDICE LOCAL' : 'CONTRATO DE EVIDENCIA'}
                   </span>
                 </div>
 
@@ -242,7 +286,7 @@ export default function AgentMeshModal({
                 </p>
 
                 {/* Consulted Agents */}
-                <div className="pt-2 border-t border-[#14344a] space-y-1.5">
+                {pythiaResult.consulted_mesh_agents.length > 0 && <div className="pt-2 border-t border-[#14344a] space-y-1.5">
                   <div className="text-[10px] font-mono text-[#8faab5] uppercase">
                     Agentes Especialistas Consultados en Malla Local:
                   </div>
@@ -257,7 +301,7 @@ export default function AgentMeshModal({
                       </span>
                     ))}
                   </div>
-                </div>
+                </div>}
 
                 {/* Pythia Specialist Lenses */}
                 {pythiaResult.consulted_specialists &&
@@ -308,7 +352,9 @@ export default function AgentMeshModal({
                     <ShieldCheck className="w-3.5 h-3.5 text-[#00e676]" />
                     <span>Contrato de Evidencia Científica</span>
                   </div>
-                  <div><span className="text-[#cadde6]">Fuentes:</span> {pythiaResult.evidence_contract.sources.join(', ')}</div>
+                  <div className="flex flex-wrap gap-2"><span className="text-[#cadde6]">Fuentes:</span> {pythiaResult.evidence_contract.sources.length ? pythiaResult.evidence_contract.sources.map((source, index) =>
+                    source.startsWith('https://') ? <a key={source} href={source} target="_blank" rel="noopener noreferrer" className="text-cyan-300 underline">[{index + 1}] Abrir fuente</a> : <span key={index}>{source}</span>
+                  ) : 'Ninguna coincidencia'}</div>
                   <div><span className="text-[#cadde6]">Incertidumbre:</span> {pythiaResult.evidence_contract.uncertainty}</div>
                   <div><span className="text-[#cadde6]">Limitaciones:</span> {pythiaResult.evidence_contract.limitations}</div>
                   <div><span className="text-[#cadde6]">Estado:</span> {pythiaResult.evidence_contract.human_review_state}</div>

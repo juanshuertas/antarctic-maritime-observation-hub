@@ -1,48 +1,25 @@
 import { useEffect, useState } from 'react';
 import { Thermometer, Wind, Mountain, Compass, Sparkles } from 'lucide-react';
 
-import { api } from '../lib/api';
 import { createPoller } from '../lib/polling';
-
-interface AntarcticaNowData {
-  continent_status: string;
-  summary: string;
-  indicators: {
-    coldest_station: {
-      station: string;
-      temp_c: number;
-    };
-    strongest_wind: {
-      location: string;
-      speed_kts: number;
-    };
-    active_icebergs: Array<{
-      id: string;
-      size_km2: number;
-      status: string;
-    }>;
-    ocean_surface_temp_avg_c: number;
-    active_research_vessels: number;
-    active_argo_floats: number;
-  };
-}
+import { fetchOpenPolarWeather, type PolarWeatherPoint } from '../lib/open-polar-weather';
 
 interface AntarcticaNowStripProps {
   onOpenPythia?: () => void;
 }
 
 export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripProps) {
-  const [data, setData] = useState<AntarcticaNowData | null>(null);
+  const [weather, setWeather] = useState<PolarWeatherPoint[]>([]);
 
   useEffect(() => {
     let cancelled = false;
     async function load() {
       try {
-        const json = await api.get<AntarcticaNowData>('/api/pythia/antarctica-now');
-        if (!cancelled) setData(json);
+        const points = await fetchOpenPolarWeather();
+        if (!cancelled) setWeather(points);
       } catch (err) {
         console.warn('[AntarcticaNowStrip] Unable to load telemetry', err);
-        if (!cancelled) setData(null);
+        if (!cancelled) setWeather([]);
       }
     }
     load();
@@ -54,9 +31,11 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
     };
   }, []);
 
-  const coldest = data?.indicators?.coldest_station?.temp_c;
-  const wind = data?.indicators?.strongest_wind?.speed_kts;
-  const icebergs = data?.indicators?.active_icebergs;
+  const coldest = weather.filter(point => point.temperatureC !== null)
+    .sort((a, b) => (a.temperatureC ?? Infinity) - (b.temperatureC ?? Infinity))[0];
+  const strongestWind = weather.filter(point => point.windKts !== null)
+    .sort((a, b) => (b.windKts ?? -Infinity) - (a.windKts ?? -Infinity))[0];
+  const validAt = weather[0]?.validAt;
 
   const formatTemp = (val: number) => {
     return `${val < 0 ? '−' : '+'}${Math.abs(val).toFixed(1)}`;
@@ -66,11 +45,11 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
     <div
       className="flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#05131d]/90 border border-cyan-500/30 shadow-md backdrop-blur-xl text-xs font-mono text-[#8faab5] select-none hover:border-cyan-400/60 transition-all cursor-pointer group"
       onClick={onOpenPythia}
-      title={data ? 'Indicadores polares de Pythia · consultar fuente y fecha' : 'Indicadores polares no disponibles · consultar Pythia'}
+      title={validAt ? `Pronóstico Open-Meteo ${weather[0]?.delivery === 'snapshot' ? '· copia fechada' : '· consulta directa'}, válido ${validAt} · modelo, no observación in situ` : 'Pronóstico polar no disponible · consultar Pythia'}
     >
       <div className="flex items-center gap-1.5 text-cyan-300 font-semibold">
         <Compass className="w-3.5 h-3.5 text-cyan-400 animate-spin" style={{ animationDuration: '30s' }} />
-        <span className="uppercase">Antártida</span>
+        <span className="uppercase">Open-Meteo · modelo{weather[0]?.delivery === 'snapshot' ? ' (copia)' : ''}</span>
       </div>
 
       <span className="text-cyan-900/80">·</span>
@@ -78,7 +57,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
       <div className="flex items-center gap-1.5 text-[#caf9f7]">
         <Thermometer className="w-3.5 h-3.5 text-[#38bdf8]" />
         <span className="text-white/70">Temp:</span>
-        <span className="font-bold text-white">{coldest == null ? '—' : `${formatTemp(coldest)}°C`}</span>
+        <span className="font-bold text-white" title={coldest ? `${coldest.station} · ${coldest.validAt} · Open-Meteo` : undefined}>{coldest?.temperatureC == null ? '—' : `${formatTemp(coldest.temperatureC)}°C · ${coldest.station}`}</span>
       </div>
 
       <span className="text-cyan-900/80">·</span>
@@ -86,7 +65,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
       <div className="flex items-center gap-1.5 text-[#caf9f7]">
         <Wind className="w-3.5 h-3.5 text-[#58d5e3]" />
         <span className="text-white/70">Viento:</span>
-        <span className="font-bold text-white">{wind == null ? '—' : `${wind.toFixed(0)} kts`}</span>
+        <span className="font-bold text-white" title={strongestWind ? `${strongestWind.station} · ${strongestWind.validAt} · Open-Meteo` : undefined}>{strongestWind?.windKts == null ? '—' : `${strongestWind.windKts.toFixed(0)} kts · ${strongestWind.station}`}</span>
       </div>
 
       <span className="text-cyan-900/80">·</span>
@@ -95,7 +74,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
         <Mountain className="w-3.5 h-3.5 text-amber-300" />
         <span className="text-white/70">Icebergs:</span>
         <span className="font-bold text-amber-300">
-          {icebergs?.length ? icebergs.map((i) => i.id).join(', ') : '—'}
+          —
         </span>
       </div>
 

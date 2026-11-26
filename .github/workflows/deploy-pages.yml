@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -88,6 +88,10 @@ jobs:
           path: dist-pages-olea
       - name: Replace only the OLEA site directory
         run: |
+          if test -d pages/olea/data/live; then
+            mkdir -p dist-pages-olea/data/live
+            cp -a pages/olea/data/live/. dist-pages-olea/data/live/
+          fi
           find pages/olea -type f -name index.html -printf '%P\n' \
             | grep -v '^index\.html$' > "$RUNNER_TEMP/olea-routes.txt"
           mkdir -p pages/olea
