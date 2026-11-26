@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [], "metadata": {"generated_at": "2026-11-25T19:08:01.254450+00:00", "sectors_available": 3, "sectors": [[-56, -67], [-63, -60], [-77, 167]], "license": "ODbL-1.0", "provider": "adsb.lol", "mode": "scheduled_snapshot", "interval_minutes": 10}}
+{"type": "FeatureCollection", "features": [], "metadata": {"generated_at": "2026-11-26T02:12:27.159753+00:00", "sectors_available": 3, "sectors": [[-56, -67], [-63, -60], [-77, 167]], "license": "ODbL-1.0", "provider": "adsb.lol", "mode": "scheduled_snapshot", "interval_minutes": 10}}
