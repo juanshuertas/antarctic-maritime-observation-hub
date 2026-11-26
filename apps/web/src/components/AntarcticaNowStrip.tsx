@@ -42,6 +42,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
         if (!cancelled) setData(json);
       } catch (err) {
         console.warn('[AntarcticaNowStrip] Unable to load telemetry', err);
+        if (!cancelled) setData(null);
       }
     }
     load();
@@ -53,11 +54,9 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
     };
   }, []);
 
-  const coldest = data?.indicators?.coldest_station?.temp_c ?? -68.4;
-  const wind = data?.indicators?.strongest_wind?.speed_kts ?? 52.0;
-  const icebergs = data?.indicators?.active_icebergs ?? [{ id: 'A-23A' }, { id: 'A-83' }];
-  const sst = data?.indicators?.ocean_surface_temp_avg_c ?? -1.2;
-  void sst; // reservado: se conserva sin uso por ahora (corrección TS6133 sin cambiar comportamiento)
+  const coldest = data?.indicators?.coldest_station?.temp_c;
+  const wind = data?.indicators?.strongest_wind?.speed_kts;
+  const icebergs = data?.indicators?.active_icebergs;
 
   const formatTemp = (val: number) => {
     return `${val < 0 ? '−' : '+'}${Math.abs(val).toFixed(1)}`;
@@ -67,7 +66,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
     <div
       className="flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#05131d]/90 border border-cyan-500/30 shadow-md backdrop-blur-xl text-xs font-mono text-[#8faab5] select-none hover:border-cyan-400/60 transition-all cursor-pointer group"
       onClick={onOpenPythia}
-      title="Telemetría Polar en Vivo — Consultar Pythia AI"
+      title={data ? 'Indicadores polares de Pythia · consultar fuente y fecha' : 'Indicadores polares no disponibles · consultar Pythia'}
     >
       <div className="flex items-center gap-1.5 text-cyan-300 font-semibold">
         <Compass className="w-3.5 h-3.5 text-cyan-400 animate-spin" style={{ animationDuration: '30s' }} />
@@ -79,7 +78,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
       <div className="flex items-center gap-1.5 text-[#caf9f7]">
         <Thermometer className="w-3.5 h-3.5 text-[#38bdf8]" />
         <span className="text-white/70">Temp:</span>
-        <span className="font-bold text-white">{formatTemp(coldest)}°C</span>
+        <span className="font-bold text-white">{coldest == null ? '—' : `${formatTemp(coldest)}°C`}</span>
       </div>
 
       <span className="text-cyan-900/80">·</span>
@@ -87,7 +86,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
       <div className="flex items-center gap-1.5 text-[#caf9f7]">
         <Wind className="w-3.5 h-3.5 text-[#58d5e3]" />
         <span className="text-white/70">Viento:</span>
-        <span className="font-bold text-white">{wind.toFixed(0)} kts</span>
+        <span className="font-bold text-white">{wind == null ? '—' : `${wind.toFixed(0)} kts`}</span>
       </div>
 
       <span className="text-cyan-900/80">·</span>
@@ -96,7 +95,7 @@ export default function AntarcticaNowStrip({ onOpenPythia }: AntarcticaNowStripP
         <Mountain className="w-3.5 h-3.5 text-amber-300" />
         <span className="text-white/70">Icebergs:</span>
         <span className="font-bold text-amber-300">
-          {icebergs.map((i) => i.id).join(', ')}
+          {icebergs?.length ? icebergs.map((i) => i.id).join(', ') : '—'}
         </span>
       </div>
 

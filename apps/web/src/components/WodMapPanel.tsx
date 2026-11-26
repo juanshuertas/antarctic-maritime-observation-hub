@@ -2659,15 +2659,21 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
       let data: GeoJSON.FeatureCollection;
       let count: number | null;
       let detail: string | undefined;
+      let observedAt: string | undefined;
       try {
         if (feed === 'satellites') {
           const orbits = await (await import('../lib/observatory-orbits')).getActiveSatellitePositions();
           data = orbits.data;
           if (orbits.bundled) detail = 'Catálogo de respaldo · ' + (orbits.catalogDate ?? 'fecha desconocida');
         } else {
-          const reports = await (feed === 'vessels' ? fetchOpenVessels() : fetchOpenAircraft());
+          const reports = feed === 'vessels' ? await fetchOpenVessels() : await fetchOpenAircraft();
           data = reports.data;
           if (reports.partial) detail = 'Respuesta parcial del proveedor';
+          if (feed === 'aircraft') {
+            const aircraftReport = reports as Awaited<ReturnType<typeof fetchOpenAircraft>>;
+            detail = [detail, aircraftReport.detail].filter(Boolean).join(' · ') || undefined;
+            observedAt = aircraftReport.observedAt;
+          }
         }
         count = data.features.length;
       } catch {
@@ -2688,7 +2694,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
         }, getLayerSDGColor(layer));
       }
       engine.setLayerGroupVisible(layer, !!activeLayersRef.current?.[layer]);
-      updateTraffic(feed, count, detail);
+      updateTraffic(feed, count, detail, observedAt);
       if (count === null) throw new Error('Fuente de tráfico no disponible');
     };
     const trafficFeeds: TrafficFeed[] = ['vessels', 'aircraft', 'satellites'];

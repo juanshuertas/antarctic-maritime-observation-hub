@@ -18,6 +18,7 @@ from .behavioral_analysis import BehavioralAnalysisService
 from .config import Settings, get_settings
 from .database import get_db, is_spatial_available
 from .environmental_service import EnvironmentalService
+from .open_aircraft import collect_open_aircraft
 from .schemas import BrierWeightsRequest, GSDRequest, MatchupRequest, ObservationCreate
 from .scientific_metrics import (
     MatchupService,
@@ -143,6 +144,15 @@ def health(s: Settings = Depends(get_settings)) -> dict[str, Any]:
     }
 
 
+@app.get("/api/traffic/aircraft")
+def open_aircraft_traffic() -> dict[str, Any]:
+    """Return observed ADS-B positions with provider time and coverage."""
+    try:
+        return collect_open_aircraft()
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
 @app.get("/api/system/status")
 def system_status(
     db: duckdb.DuckDBPyConnection = Depends(get_db),
@@ -161,12 +171,12 @@ def system_status(
             "observations": obs_count,
         },
         "providers": {
-            "ais_stream": "LIVE" if s.aisstream_api_key else ("HISTORICAL" if ais_count > 0 else "NOT_CONFIGURED"),
-            "global_fishing_watch": "LIVE" if s.gfw_api_token else "NOT_CONFIGURED",
+            "ais_stream": "CONFIGURED" if s.aisstream_api_key else ("HISTORICAL" if ais_count > 0 else "NOT_CONFIGURED"),
+            "global_fishing_watch": "CONFIGURED" if s.gfw_api_token else "NOT_CONFIGURED",
             "environmental_earthdata": "SIMULATION",
-            "google_earth_engine": "LIVE" if s.gee_project else "NOT_CONFIGURED",
-            "world_id": "LIVE" if s.world_app_id else "NOT_CONFIGURED",
-            "pythia_local_ai": "READY",
+            "google_earth_engine": "CONFIGURED" if s.gee_project else "NOT_CONFIGURED",
+            "world_id": "CONFIGURED" if s.world_app_id else "NOT_CONFIGURED",
+            "pythia_local_ai": "NOT_CONNECTED",
             "arcgis_surie": "ON_DEMAND",
         },
     }

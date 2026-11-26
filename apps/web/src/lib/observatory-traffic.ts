@@ -23,18 +23,27 @@ export function getTrafficSnapshot() {
   return snapshot;
 }
 
-export function updateTraffic(feed: TrafficFeed, count: number | null, detail?: string) {
-  snapshot = { ...snapshot, [feed]: { count, detail, updated: count === null ? null : new Date().toISOString() } };
+export function updateTraffic(feed: TrafficFeed, count: number | null, detail?: string, observedAt?: string) {
+  snapshot = { ...snapshot, [feed]: { count, detail, updated: count === null ? null : observedAt ?? new Date().toISOString() } };
   listeners.forEach(listener => listener());
 }
 
-export async function fetchOpenAircraft(): Promise<{ data: FeatureCollection; partial: boolean }> {
+export async function fetchOpenAircraft(): Promise<{ data: FeatureCollection; partial: boolean; detail?: string; observedAt?: string }> {
   const path = '/api/traffic/aircraft';
   const base = import.meta.env.VITE_TRAFFIC_API_URL || import.meta.env.VITE_API_URL || window.location.origin;
-  // Absolute URLs bypass the GitHub Pages snapshot shim for operational feeds.
-  const response = await fetch(new URL(path, base), { cache: 'no-store', signal: AbortSignal.timeout(12000) });
+  // GitHub Pages has no API. Its scheduled, timestamped ADS-B snapshot is the public fallback.
+  const snapshotUrl = 'https://raw.githubusercontent.com/juanshuertas/antarctic-maritime-observation-hub/olea-traffic/aircraft.geojson';
+  let response: Response;
+  let scheduledSnapshot = false;
+  try {
+    response = await fetch(new URL(path, base), { cache: 'no-store', signal: AbortSignal.timeout(12000) });
+    if (!response.ok) throw new ApiError('Telemetría no disponible', response.status);
+  } catch {
+    response = await fetch(snapshotUrl, { cache: 'no-store', signal: AbortSignal.timeout(12000) });
+    scheduledSnapshot = true;
+  }
   if (!response.ok) throw new ApiError('Telemetría no disponible', response.status);
-  const collection: FeatureCollection & { metadata?: { sectors_available?: number } } = await response.json();
+  const collection: FeatureCollection & { metadata?: { sectors_available?: number; generated_at?: string } } = await response.json();
   if (collection.type !== 'FeatureCollection' || !Array.isArray(collection.features)) {
     throw new Error('Respuesta de telemetría inválida');
   }
@@ -51,5 +60,15 @@ export async function fetchOpenAircraft(): Promise<{ data: FeatureCollection; pa
         !['DEMO', 'SIMULATED', 'ESTIMATED'].includes(properties?.freshness);
     }),
   };
-  return { data, partial: (collection.metadata?.sectors_available ?? 3) < 3 };
+  const generatedAt = collection.metadata?.generated_at;
+  const snapshotAge = generatedAt ? now - Date.parse(generatedAt) : NaN;
+  const expired = scheduledSnapshot && (!Number.isFinite(snapshotAge) || snapshotAge > maxAge);
+  return {
+    data,
+    partial: (collection.metadata?.sectors_available ?? 3) < 3,
+    detail: scheduledSnapshot ? (expired ? 'Última captura ADS-B vencida · esperando actualización' : 'Captura ADS-B programada · no es transmisión continua') : undefined,
+    observedAt: data.features.length > 0
+      ? data.features.map(feature => feature.properties?.observed_at as string).sort().at(-1)
+      : undefined,
+  };
 }

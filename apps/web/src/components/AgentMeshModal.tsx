@@ -59,21 +59,21 @@ interface PythiaResponse {
 }
 
 const DEFAULT_MESH_AGENTS: MeshAgent[] = [
-  { id: 'agent-ocean-dynamics', name: 'Ocean Dynamics & Currents Agent', role: 'Copernicus CMEMS circulation, eddies & ACC fronts', domain: 'Oceanography', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-cryosphere', name: 'Sea Ice & Cryosphere Agent', role: 'OSI-SAF / NSIDC concentration, thickness & drift', domain: 'Cryosphere', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-fisheries', name: 'Southern Ocean Fisheries Agent', role: 'GFW 4Wings apparent fishing effort & CCAMLR compliance', domain: 'Fisheries', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-biodiversity', name: 'Polar Marine Biodiversity Agent', role: 'OBIS / GBIF taxa occurrences, benthic & pelagic fauna', domain: 'Biodiversity', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-maritime-traffic', name: 'AIS & Maritime Traffic Agent', role: 'Live circumpolar AIS tracking, spoofing detection & dead reckoning', domain: 'Maritime', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-polar-aviation', name: 'Antarctic Aviation & Airspace Agent', role: 'OpenSky Network polar flight corridors & logistic airbridges', domain: 'Aviation', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-satellite-tracking', name: 'Satellite & Space Situational Awareness Agent', role: 'CelesTrak SGP4 orbit propagation & polar footprint coverage', domain: 'Space', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-seismology', name: 'Seismology & Tectonics Agent', role: 'USGS global earthquake feed & Scotia Arc subduction dynamics', domain: 'Geophysics', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-antarctic-governance', name: 'Antarctic Treaty & ASPA Governance Agent', role: 'Secretariat of the Antarctic Treaty ASPA/ASMA legal boundaries', domain: 'Governance', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-expeditions-stations', name: 'Scientific Expeditions & Stations Agent', role: 'COMNAP national Antarctic programs & permanent year-round bases', domain: 'Operations', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-polar-tourism', name: 'Tourism & IAATO Monitoring Agent', role: 'IAATO expedition cruise routing, landing sites & passenger volumes', domain: 'Tourism', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-meteorology', name: 'Atmospheric & Meteorology Agent', role: 'ECMWF Integrated Forecasting System polar surface winds & pressure', domain: 'Meteorology', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-submarine-infra', name: 'Submarine Infrastructure & Comms Agent', role: 'TeleGeography fiber cables & SMART polar sensor repeaters', domain: 'Infrastructure', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-greyzone-defense', name: 'Polar Grey Zone & Strategic Defense Agent', role: 'Dual-use surveillance, Madrid Protocol Art. 7 violations & AIS dark fleet tracking', domain: 'Defense & Security', status: 'ONLINE_LOCAL', port: 8000 },
-  { id: 'agent-data-truth-auditor', name: 'Provenance & Feature Coherence Auditor', role: 'Continuous cross-provider validation, truth level certification & audit hash generation', domain: 'Auditing', status: 'ONLINE_LOCAL', port: 8000 },
+  { id: 'agent-ocean-dynamics', name: 'Ocean Dynamics & Currents Agent', role: 'Copernicus CMEMS circulation, eddies & ACC fronts', domain: 'Oceanography', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-cryosphere', name: 'Sea Ice & Cryosphere Agent', role: 'OSI-SAF / NSIDC concentration, thickness & drift', domain: 'Cryosphere', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-fisheries', name: 'Southern Ocean Fisheries Agent', role: 'GFW 4Wings apparent fishing effort & CCAMLR compliance', domain: 'Fisheries', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-biodiversity', name: 'Polar Marine Biodiversity Agent', role: 'OBIS / GBIF taxa occurrences, benthic & pelagic fauna', domain: 'Biodiversity', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-maritime-traffic', name: 'AIS & Maritime Traffic Agent', role: 'Live circumpolar AIS tracking, spoofing detection & dead reckoning', domain: 'Maritime', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-polar-aviation', name: 'Antarctic Aviation & Airspace Agent', role: 'OpenSky Network polar flight corridors & logistic airbridges', domain: 'Aviation', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-satellite-tracking', name: 'Satellite & Space Situational Awareness Agent', role: 'CelesTrak SGP4 orbit propagation & polar footprint coverage', domain: 'Space', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-seismology', name: 'Seismology & Tectonics Agent', role: 'USGS global earthquake feed & Scotia Arc subduction dynamics', domain: 'Geophysics', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-antarctic-governance', name: 'Antarctic Treaty & ASPA Governance Agent', role: 'Secretariat of the Antarctic Treaty ASPA/ASMA legal boundaries', domain: 'Governance', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-expeditions-stations', name: 'Scientific Expeditions & Stations Agent', role: 'COMNAP national Antarctic programs & permanent year-round bases', domain: 'Operations', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-polar-tourism', name: 'Tourism & IAATO Monitoring Agent', role: 'IAATO expedition cruise routing, landing sites & passenger volumes', domain: 'Tourism', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-meteorology', name: 'Atmospheric & Meteorology Agent', role: 'ECMWF Integrated Forecasting System polar surface winds & pressure', domain: 'Meteorology', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-submarine-infra', name: 'Submarine Infrastructure & Comms Agent', role: 'TeleGeography fiber cables & SMART polar sensor repeaters', domain: 'Infrastructure', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-greyzone-defense', name: 'Polar Grey Zone & Strategic Defense Agent', role: 'Dual-use surveillance, Madrid Protocol Art. 7 violations & AIS dark fleet tracking', domain: 'Defense & Security', status: 'NO VERIFICADO', port: 8000 },
+  { id: 'agent-data-truth-auditor', name: 'Provenance & Feature Coherence Auditor', role: 'Continuous cross-provider validation, truth level certification & audit hash generation', domain: 'Auditing', status: 'NO VERIFICADO', port: 8000 },
 ];
 
 export default function AgentMeshModal({
@@ -86,6 +86,7 @@ export default function AgentMeshModal({
   const [agents, setAgents] = useState<MeshAgent[]>(DEFAULT_MESH_AGENTS);
   const [queryInput, setQueryInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [connectionError, setConnectionError] = useState<string | null>(null);
   const [pythiaResult, setPythiaResult] = useState<PythiaResponse | null>(null);
 
   useEffect(() => {
@@ -100,12 +101,14 @@ export default function AgentMeshModal({
 
   useEffect(() => {
     if (!isOpen) return;
-    fetch('/api/v8_2/agent-mesh/agents')
-      .then((res) => (res.ok ? res.json() : null))
+    const base = import.meta.env.VITE_API_URL || window.location.origin;
+    fetch(new URL('/api/v8_2/agent-mesh/agents', base))
+      .then((res) => { if (!res.ok) throw new Error('Backend Pythia no disponible'); return res.json(); })
       .then((data) => {
-        if (Array.isArray(data)) setAgents(data);
+        if (Array.isArray(data)) { setAgents(data); setConnectionError(null); }
+        else setConnectionError('El backend Pythia no devolvió una lista válida de agentes.');
       })
-      .catch(() => {});
+      .catch(() => setConnectionError('Pythia no está conectado a un backend público.'));
   }, [isOpen]);
 
   if (!isOpen) return null;
@@ -115,7 +118,10 @@ export default function AgentMeshModal({
     if (!q.trim()) return;
 
     setIsLoading(true);
-    fetch('/api/v8_2/agent-mesh/query', {
+    setConnectionError(null);
+    setPythiaResult(null);
+    const base = import.meta.env.VITE_API_URL || window.location.origin;
+    fetch(new URL('/api/v8_2/agent-mesh/query', base), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -126,11 +132,12 @@ export default function AgentMeshModal({
         },
       }),
     })
-      .then((res) => (res.ok ? res.json() : null))
+      .then((res) => { if (!res.ok) throw new Error('Pythia no disponible'); return res.json(); })
       .then((data) => {
-        if (data) setPythiaResult(data);
+        if (data?.synthesized_response) setPythiaResult(data);
+        else setConnectionError('Pythia devolvió una respuesta inválida.');
       })
-      .catch(() => {})
+      .catch(() => setConnectionError('No se pudo consultar Pythia. Requiere un backend conectado.'))
       .finally(() => setIsLoading(false));
   };
 
@@ -152,11 +159,11 @@ export default function AgentMeshModal({
               <h2 className="text-sm font-bold text-white flex items-center gap-2">
                 <span>Malla de Agentes Locales & Pythia Everywhere</span>
                 <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#c084fc]/20 text-[#c084fc] border border-[#c084fc]/30">
-                  LOCALHOST MESH
+                  {connectionError ? 'SIN CONEXIÓN' : 'ESTADO POR VERIFICAR'}
                 </span>
               </h2>
               <p className="text-[11px] font-mono text-[#8faab5]">
-                14 Agentes Especialistas · Colaboración Local · Contrato de Evidencia
+                Catálogo de especialistas · Estado sujeto a verificación del backend
               </p>
             </div>
           </div>
@@ -170,6 +177,7 @@ export default function AgentMeshModal({
 
         {/* Query Input */}
         <div className="p-4 bg-[#081a28] border-b border-[#162f40] space-y-2">
+          {connectionError && <p role="status" className="text-xs text-amber-200">{connectionError}</p>}
           <div className="flex items-center gap-2">
             <input
               type="text"
@@ -338,7 +346,7 @@ export default function AgentMeshModal({
             /* Mesh Overview */
             <div className="space-y-3">
               <div className="text-xs font-semibold text-[#cadde6]">
-                Roster de Agentes Especialistas en Localhost (Puerto 8000):
+                Especialistas configurados · el estado se consulta al backend:
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
                 {agents.map((ag) => (
@@ -353,7 +361,7 @@ export default function AgentMeshModal({
                       <div className="text-xs font-bold text-white truncate">{ag.name}</div>
                       <div className="text-[10px] text-[#8faab5] truncate">{ag.role}</div>
                     </div>
-                    <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-[#00e676]/20 text-[#00e676] border border-[#00e676]/30">
+                    <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-[#1c3540] text-[#a8c5d2] border border-[#365565]">
                       {ag.status}
                     </span>
                   </div>
@@ -365,7 +373,7 @@ export default function AgentMeshModal({
 
         {/* Footer */}
         <div className="p-3 bg-[#030c14] border-t border-[#1f3947] flex items-center justify-between text-[11px] font-mono text-[#8faab5]">
-          <span>Malla Científica Localhost · Sin Rastreos Externos</span>
+          <span>Pythia · Verificar conexión y fuentes antes de usar resultados</span>
           <span>Contexto Actual: {currentSector}</span>
         </div>
       </div>
