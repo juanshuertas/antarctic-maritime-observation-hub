@@ -13,7 +13,7 @@
     "environmental_earthdata": "SIMULATION",
     "google_earth_engine": "NOT_CONFIGURED",
     "world_id": "NOT_CONFIGURED",
-    "pythia_local_ai": "READY",
+    "pythia_local_ai": "NOT_CONNECTED",
     "arcgis_surie": "ON_DEMAND"
   }
 }
