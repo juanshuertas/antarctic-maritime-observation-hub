@@ -1,0 +1,32 @@
+{
+  "krill_density_heatmap": {
+    "cells": 1673,
+    "source": "KRILLBASE",
+    "bytes": 256576,
+    "sha256": "98eea29041d253d8d7ff3f09e83e4a3b9e8991710cdac580816a8614263d4372"
+  },
+  "cetaceans_heatmap": {
+    "cells": 1151,
+    "source": "RAATD · posiciones diarias",
+    "bytes": 135379,
+    "sha256": "0f62d5b467c263597b15a823fae39ecbe68b5776c9fea25c602c004d850ae724"
+  },
+  "species_migration_heatmap": {
+    "cells": 1496,
+    "source": "RAATD · posiciones diarias",
+    "bytes": 252934,
+    "sha256": "4536435345b17e8f4d5921d09a57fe00e476068e32ad5389d6194095459c1423"
+  },
+  "seismic_concentration_heatmap": {
+    "cells": 6101,
+    "source": "USGS",
+    "bytes": 980383,
+    "sha256": "8b6f1194259f7e8b6b62ad481fbe72adbc0d29c885762ea175a693d5958a7517"
+  },
+  "penguin_colonies_heatmap": {
+    "cells": 46,
+    "source": "Quantarctica · pingüino emperador",
+    "bytes": 16774,
+    "sha256": "1bc3dcbe08d1b5d7698f6c100dd0d16571ec5bf5674c87674b74231eb7bda50a"
+  }
+}
