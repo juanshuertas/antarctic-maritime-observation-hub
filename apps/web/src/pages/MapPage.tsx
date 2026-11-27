@@ -316,6 +316,8 @@ import { PanelLeft, Sparkles, Flame, X, ChevronDown, Layers, Film, Map as MapIco
 
 // OLEA · modelo SIPSEM: tarjeta de punto y estado del mapa en la URL.
 import type { MapMouseEvent } from 'maplibre-gl';
+import heatmapIndex from '../../public/data/heatmaps/index.json';
+import { selectMigrationMonth } from '../lib/continuous-heatmap-runtime';
 import OceanPointCard from '../components/OceanPointCard';
 import {
   applyUrlStateToMap,
@@ -388,6 +390,7 @@ const POLAR_ZONES = [
 
 
 export default function MapPage() {
+  const [migrationMonth, setMigrationMonth] = useState(0);
   const traffic = useSyncExternalStore(subscribeTraffic, getTrafficSnapshot);
 
 
@@ -3537,6 +3540,7 @@ const activeSdgCount = useMemo(() => {
 
 
 
+    'species_migration_heatmap',
     'whales_heatmap',
 
 
@@ -6932,7 +6936,7 @@ const activeSdgCount = useMemo(() => {
 
 
 
-                { id: 'fauna_density_heatmap', label: 'Fauna Marina (Krill)', icon: '🦐' },
+                { id: 'fauna_density_heatmap', product: 'krill_density_heatmap', label: 'Fauna Marina (Krill)', icon: '🦐' },
 
 
 
@@ -6940,7 +6944,7 @@ const activeSdgCount = useMemo(() => {
 
 
 
-                { id: 'penguin_heatmap', label: 'Colonias de Pingüinos', icon: '🐧' },
+                { id: 'penguin_heatmap', product: 'penguin_colonies_heatmap', label: 'Colonias de Pingüinos', icon: '🐧' },
 
 
 
@@ -6948,7 +6952,8 @@ const activeSdgCount = useMemo(() => {
 
 
 
-                { id: 'whales_heatmap', label: 'Cetáceos / Ballenas', icon: '🐋' },
+                { id: 'species_migration_heatmap', label: 'Migración estacional · ballena jorobada', icon: '🐋', product: 'species_migration_heatmap' },
+                { id: 'whales_heatmap', product: 'cetaceans_heatmap', label: 'Cetáceos / Ballenas', icon: '🐋' },
 
 
 
@@ -6972,7 +6977,7 @@ const activeSdgCount = useMemo(() => {
 
 
 
-                { id: 'seismic_heatmap', label: 'Concentración Sísmica', icon: '🌋' },
+                { id: 'seismic_heatmap', product: 'seismic_concentration_heatmap', label: 'Concentración Sísmica', icon: '🌋' },
 
 
 
@@ -6988,6 +6993,7 @@ const activeSdgCount = useMemo(() => {
 
 
 
+                const stats = heatmapIndex[hm.product as keyof typeof heatmapIndex];
                 const isActive = !!(workspace.activeLayers as any)[hm.id];
 
 
@@ -7092,7 +7098,7 @@ const activeSdgCount = useMemo(() => {
 
 
 
-                      <span className="font-semibold text-[11px]">{hm.label}</span>
+                      <span className="font-semibold text-[11px]">{hm.label}{stats && <small className="block opacity-75">{stats.cells.toLocaleString('es-CO')} · {stats.source}</small>}</span>
 
 
 
@@ -7181,6 +7187,17 @@ const activeSdgCount = useMemo(() => {
 
 
               })}
+              {!!(workspace.activeLayers as any).species_migration_heatmap && <label className="block px-2 text-xs">Mes de observación
+                <select className="ml-2 bg-slate-900" value={migrationMonth} onChange={event => {
+                  const month = Number(event.target.value);
+                  setMigrationMonth(month);
+                  const map = mapHandleRef.current?.getMap();
+                  if (map) selectMigrationMonth(map, month);
+                }}>
+                  {['Todos','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'].map((name, i) =>
+                    <option value={i} key={name}>{name}</option>)}
+                </select>
+              </label>}
 
 
 

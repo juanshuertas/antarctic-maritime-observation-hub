@@ -248,6 +248,7 @@ class WorkspaceStoreManager {
         'grey_zones_buffers',
         'mirofish_heatmap',
         'fauna_density_heatmap',
+        'species_migration_heatmap',
         'penguin_heatmap',
         'whales_heatmap',
         'gfw_fishing_effort_heatmap',
