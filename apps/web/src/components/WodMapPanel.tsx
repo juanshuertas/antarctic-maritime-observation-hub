@@ -203,6 +203,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
   const [readout, setReadout] = useState({ lat: -84.0, lng: 0.0, zoom: 1.65 });
 
+  const [satActive, setSatActive] = useState(false);
   const [currentMap, setCurrentMap] = useState<MlMap | null>(null);
 
 
@@ -976,6 +977,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
     let requestedMapMode: MapMode = 'MAP';
     const applyMapModeDirect = (mode: MapMode) => {
       requestedMapMode = mode;
+      setSatActive(mode === 'SAT');
       if (mode === 'BATHYMETRY') {
         setSatelliteFillMode(false);
         disableTerrainDirect();
@@ -2581,6 +2583,8 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
     >
 
+      {satActive && <a className="absolute top-3 left-3 z-[220] rounded-lg bg-slate-950 px-3 py-2 text-sm text-cyan-200"
+        href={`${import.meta.env.BASE_URL}sat-atlas/`} target="_blank" rel="noreferrer">NASA GIBS · Polar / Global · 4K ↗</a>}
       {/* MapLibre WebGL Canvas */}
 
       <div ref={containerRef} className="absolute inset-0 w-full h-full" />
@@ -2623,7 +2627,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
         >
 
-          {Math.abs(readout.lat).toFixed(2)}° S · {Math.abs(readout.lng).toFixed(2)}° W · Z{readout.zoom.toFixed(1)}
+          {Math.abs(readout.lat).toFixed(2)}° {readout.lat < 0 ? 'S' : 'N'} · {Math.abs(readout.lng).toFixed(2)}° {readout.lng < 0 ? 'W' : 'E'} · Z{readout.zoom.toFixed(1)}
 
         </div>
 

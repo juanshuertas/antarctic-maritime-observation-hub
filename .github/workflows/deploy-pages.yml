@@ -100,6 +100,7 @@ jobs:
           rsync -a --delete dist-pages-olea/ pages/olea/
           while IFS= read -r route; do
             [ -n "$route" ] || continue
+            [ ! -f "dist-pages-olea/$route" ] || continue
             mkdir -p "pages/olea/$(dirname "$route")"
             cp dist-pages-olea/index.html "pages/olea/$route"
           done < "$RUNNER_TEMP/olea-routes.txt"

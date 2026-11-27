@@ -41,3 +41,4 @@ credentials/*.json
 *.swp
 .DS_Store
 Thumbs.db
+/data/external_sources/

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "natgeo_atlas/config.json",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/0cd1cdee853c413a84bfe4b9a6931f0d/data?f=json",
+    "sha256": "467169952b6b12d3861da9fa2246af6d9599e875111c04a31e8c7a08d4f3c361",
+    "bytes": 12661,
+    "retrieved_utc": "2026-11-27T03:49:47.447428+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "natgeo_atlas/item.json",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/0cd1cdee853c413a84bfe4b9a6931f0d?f=json",
+    "sha256": "b60416a9e99c3039ed5007f8bd3564a9314159da549f6bf60d4ea4fce9e26897",
+    "bytes": 1560,
+    "retrieved_utc": "2026-11-27T03:49:47.420202+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/index.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/index.html",
+    "sha256": "0b3c4e8f0985b570552bb0b2b0ce6b57281c423e18fb6ae5299f678925ff27db",
+    "bytes": 19342,
+    "retrieved_utc": "2026-11-27T03:49:48.913335+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/cover.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/cover.html",
+    "sha256": "47c65b519168ac0af5510e79b2805f337eb7406c597ea5ffb3e05184cb45fbdf",
+    "bytes": 21017,
+    "retrieved_utc": "2026-11-27T03:49:48.913239+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "repos/telemanom.zip",
+    "url": "https://codeload.github.com/khundman/telemanom/zip/HEAD",
+    "sha256": "a54d28767fb44c44dd6e28b59a1c402f92b1486294c011a8071af7bc183ea29c",
+    "bytes": 477467,
+    "retrieved_utc": "2026-11-27T03:49:48.003352+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "repos/wildflow.zip",
+    "url": "https://codeload.github.com/wildflowai/platform/zip/HEAD",
+    "sha256": "558bc022989cd45c22af0d1b265d313c620ac3a133f948da070212f19c1ec177",
+    "bytes": 747553,
+    "retrieved_utc": "2026-11-27T03:49:48.211634+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "biodiversity/obis.json",
+    "url": "https://api.obis.org/v3/occurrence?geometry=POLYGON%28%28-65%20-66,-60%20-66,-60%20-64,-65%20-64,-65%20-66%29%29&size=100",
+    "sha256": "c3cc0d328bdb8890adb79184ac526bfb819f764d8186c29c9602f2a476fa0278",
+    "bytes": 240886,
+    "retrieved_utc": "2026-11-27T03:49:49.475155+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "biodiversity/gbif.json",
+    "url": "https://api.gbif.org/v1/occurrence/search?decimalLatitude=-90,-60&hasCoordinate=true&limit=300",
+    "sha256": "01a03c0a8fbbe74b58fe7054c9b48b6ca041b0ebe83fec55aa84a5688b8f5773",
+    "bytes": 2064005,
+    "retrieved_utc": "2026-11-27T03:49:50.567671+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mapped_earth/east-pacific.html",
+    "url": "https://mapped.earth/migrations/humpback-whale-east-pacific",
+    "sha256": "e8bd4e56e9bbb8102c78ece1c2008a332d35d53fa4ec1f09b76958598446f1d8",
+    "bytes": 65275,
+    "retrieved_utc": "2026-11-27T03:49:48.912703+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mapped_earth/south-atlantic.html",
+    "url": "https://mapped.earth/migrations/humpback-whale-south-atlantic",
+    "sha256": "0d7c19d802fd3261742cad8d7617eab05b0edd5b731237f6ef139cc5e74a21c7",
+    "bytes": 65273,
+    "retrieved_utc": "2026-11-27T03:49:49.739582+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mapped_earth/west-indian.html",
+    "url": "https://mapped.earth/migrations/humpback-whale-west-indian",
+    "sha256": "b119a84365ff5b32993f53c48326607dfe8f3b11fef3dee4ac1829a32bb68c6a",
+    "bytes": 65331,
+    "retrieved_utc": "2026-11-27T03:49:49.739692+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mapped_earth/west-australia.html",
+    "url": "https://mapped.earth/migrations/humpback-whale-west-australia",
+    "sha256": "d6afc001eb9cf7afaec06fc0b5d9805e7b255c722b2649c88b824011511378be",
+    "bytes": 65267,
+    "retrieved_utc": "2026-11-27T03:49:49.739735+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mapped_earth/southwest-pacific.html",
+    "url": "https://mapped.earth/migrations/humpback-whale-southwest-pacific",
+    "sha256": "c62339fd8403fcbc021bf021307a8c6c6e4f5052e42d50fa90d8e758636bb3f2",
+    "bytes": 65347,
+    "retrieved_utc": "2026-11-27T03:49:50.509249+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "gibs/epsg3031.xml",
+    "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3031/best/1.0.0/WMTSCapabilities.xml",
+    "sha256": "213ffb3e7f826b4fb2f7bf9b01b6e2b17c560a0dd51f69497d706cb65dd60ae2",
+    "bytes": 1024956,
+    "retrieved_utc": "2026-11-27T03:49:50.750647+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "gibs/epsg3857.xml",
+    "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml",
+    "sha256": "2ab225e1ff204219d6495622e6b569c1782c46ed7a00e6a6870335b009236833",
+    "bytes": 5851783,
+    "retrieved_utc": "2026-11-27T03:49:51.000114+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  }
+]
