@@ -1,7 +1,7 @@
 {
-  "lan_ip": "10.1.0.35",
+  "lan_ip": "10.0.141.193",
   "frontend_port": 5174,
-  "qr_target_url": "http://10.1.0.35:5174/",
+  "qr_target_url": "http://10.0.141.193:5174/",
   "disallowed_hosts": [
     "localhost",
     "127.0.0.1",
