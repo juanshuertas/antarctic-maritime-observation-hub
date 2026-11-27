@@ -1,0 +1,470 @@
+[
+  {
+    "title": "1763 Proclamation Line",
+    "type": "Feature Service",
+    "url": "https://services3.arcgis.com/AdYB7LvDmN7hzWUb/arcgis/rest/services/Proclamation_of_1763/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=6fd5fb24db79436e9b57f3b35a618802"
+  },
+  {
+    "title": "1988 Yellowstone Wildfire Perimeters",
+    "type": "Feature Service",
+    "url": "https://services4.arcgis.com/3Gy6zyvWSR2Q8akX/arcgis/rest/services/yellowstone_fire_1988/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=3c83d7f73df64bd0a3a4481fd2892347"
+  },
+  {
+    "title": "American Indian Reservations",
+    "type": "Feature Service",
+    "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Federal_American_Indian_Reservations_v1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=0e43366528b848b5a4706c505779f3cd"
+  },
+  {
+    "title": "Annual Average Temperature",
+    "type": "Image Service",
+    "url": "https://tiledimageservices.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/CHELSA_Bioclimate_Projections__Annual_Mean_Temperature__Bio1_/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=30b0b1527bd04b3cbf7d5e7f8e93dcc1"
+  },
+  {
+    "title": "Average Annual Precipitation",
+    "type": "Image Service",
+    "url": "https://tiledimageservices7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/AnnualPrecip/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=6a542534e322458383831a3811090c1a"
+  },
+  {
+    "title": "Biomes",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Resolve_Ecoregions/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=0fccc890adc74032acc60ff7a66005f7"
+  },
+  {
+    "title": "Cities of the World",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/nzS0F0zdNLvs7nc8/arcgis/rest/services/UN_WorldCities_1950to2035/FeatureServer/0",
+    "item": "https://www.arcgis.com/home/item.html?id=029cb24160194f9eaa5fac3f609f8fde"
+  },
+  {
+    "title": "Civil War Battlefields",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/nzS0F0zdNLvs7nc8/arcgis/rest/services/Civil_War_Battlefields/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=5aa6dbd38e2946ecac382c3090584ff8"
+  },
+  {
+    "title": "Climate Regions (1981 to 2010)",
+    "type": "Image Service",
+    "url": "https://tiledimageservices.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/WTE_CHELSA_2015_BioclimateEnsemble/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=f78e6c20e35c4d77a6060b67bba0f29e"
+  },
+  {
+    "title": "Continents",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Continents/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=8f1bdabfd5174687aa9c6f92a06da347"
+  },
+  {
+    "title": "Coral Bleaching Heat Stress",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/Coral_Reef_Stations/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=69d0acc529824b37b245e52e6dbeb7b5"
+  },
+  {
+    "title": "Dams and Reservoirs",
+    "type": "Feature Service",
+    "url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/arcgis/rest/services/GDW_v1_epsilon_gdb/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=0b07caad2fc342b48d2cfdfed74d94cc"
+  },
+  {
+    "title": "Drought Intensity in the United States (Current)",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/US_Drought_Intensity_v1/FeatureServer/3",
+    "item": "https://www.arcgis.com/home/item.html?id=aac08de2a2674e3d81ea9ddd416a6db0"
+  },
+  {
+    "title": "Earthquakes (Last 30 Days)",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/USGS_Seismic_Data_v1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=7ab51f91c53744499e953db503805e50"
+  },
+  {
+    "title": "Earthquakes (Major)",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/BG6nSlhZSAWtExvp/arcgis/rest/services/Major_Earthquakes_2_view/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=59c6790f7eb14fe9a7e2d4e70f4403ad"
+  },
+  {
+    "title": "Elevation and Depth",
+    "type": "Image Service",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/70d65d421ec8458c95ded127fb91510f/rest/services/WorldElevation/TopoBathy/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=70d65d421ec8458c95ded127fb91510f"
+  },
+  {
+    "title": "Ethnicity in the United States",
+    "type": "Feature Service",
+    "url": "https://p3eplmys2rvchkjx.svcs.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/ACS_Race_and_Hispanic_Origin_View_Boundaries/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=3107f865ccfc48cbaceed15d6c7ab801"
+  },
+  {
+    "title": "Federal Lands in the United States",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Federal_Lands/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=20aec05b5e0b4f679a1586d28a7d02a6"
+  },
+  {
+    "title": "Generations of the United States",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Generations/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=c2f4f9ecde3f4c3990dc5668e049f80e"
+  },
+  {
+    "title": "Global Amphibian Rarity",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=bb2ad53756d74a1ea8acaafae0c26a49"
+  },
+  {
+    "title": "Global Amphibian Richness",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=d608b8f823714563a821be88743479f0"
+  },
+  {
+    "title": "Global Bird Rarity",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=3321d2c7981441df8a7672ee641c8062"
+  },
+  {
+    "title": "Global Bird Richness",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=c33453c564e94fe29599cb7ceb117ae7"
+  },
+  {
+    "title": "Global Mammal Rarity",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=17844306cfb04933b5e7b486cc92cde7"
+  },
+  {
+    "title": "Global Mammal Richness",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=6937dbf875d54fd7b2002acf348e2c5b"
+  },
+  {
+    "title": "Global Mangrove Watch",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/xuAg12SDp2ow0Fb8/arcgis/rest/services/Global_Mangrove_Watch/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=254ed9bac96845849ae07b1ef8796498"
+  },
+  {
+    "title": "Global Particulate Matter (PM) 2.5 between 1998-2016",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/Global_Air_Quality_NASA_SEDAC_PM25/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=6f0a4352597f43ac9cf77379bd72d02a"
+  },
+  {
+    "title": "Global Reptile Rarity",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=b9b70ec117734d0d9cae7cd902406a72"
+  },
+  {
+    "title": "Global Reptile Richness",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/global_terrestrial_vertebrate_richness_rarity_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=209eba8635b14ae0b900a6d71a775110"
+  },
+  {
+    "title": "Global Terrestrial Vertebrate Rarity",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/Global_Vertebrate_Richness_and_Rarity_(0.25_deg)/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=f7ba1ce0b8134473bd76fe4d7b85c346"
+  },
+  {
+    "title": "Global Terrestrial Vertebrate Richness",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/Global_Vertebrate_Richness_and_Rarity_(0.25_deg)/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=15116bc4b88642369ff87e0182b751c8"
+  },
+  {
+    "title": "Global Watersheds",
+    "type": "Vector Tile Service",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer",
+    "item": "https://www.arcgis.com/home/item.html?id=49cf0c7417bc4288a6020a3e5a1511af"
+  },
+  {
+    "title": "Heat Severity (2024)",
+    "type": "Image Service",
+    "url": "https://tiledimageservices.arcgis.com/BvefdV6XvRo2Jt72/arcgis/rest/services/Heat_Severity___USA_2024/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=484f7c68ee7e464f9df5156d57a548f1"
+  },
+  {
+    "title": "Human Footprint",
+    "type": "Image Service",
+    "url": "https://tiledimageservices.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/Human_Modified_Lands/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=326d2a6e21524d8783004cf76741c7eb"
+  },
+  {
+    "title": "Indigenous Territories",
+    "type": "Feature Service",
+    "url": "https://services6.arcgis.com/SC70xY1nSLm15pYn/arcgis/rest/services/Native_Land_Digital_territories/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=ea920e3b57ce44779e3761f4a14c18d3"
+  },
+  {
+    "title": "Indigenous Territories of North America",
+    "type": "Vector Tile Service",
+    "url": "https://vectortileservices7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/Indigenous_Territories_of_North_America_Tile_layer_JS/VectorTileServer",
+    "item": "https://www.arcgis.com/home/item.html?id=f86d9dcd1e8e42e9bdd64b9a24fa8f6c"
+  },
+  {
+    "title": "Internet Connectivity in the United States",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/ACS_Internet_Connectivity_Boundaries/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=13f6e3ed9f7d4faa97a5ddb522c37af1"
+  },
+  {
+    "title": "Key Port Cities in the American Revolution 1775-1781",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/ports_with_coordinates/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=0f26eb607f6d409aade772a4a1a4771c"
+  },
+  {
+    "title": "Land Cover",
+    "type": "Image Service",
+    "url": "https://ic.imagery1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=e5a983c82fde466a8f17ab48e82bdd8e"
+  },
+  {
+    "title": "Latitudes and Longitudes",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Latitude_and_Longitude_Grids/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=a1a9172d26184eaa8ab5ae3dcc6091f1"
+  },
+  {
+    "title": "Light Pollution",
+    "type": "Map Service",
+    "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/Earth_at_Night_2016/MapServer",
+    "item": "https://www.arcgis.com/home/item.html?id=ab7a038b51244a6b8200bb99c0abd285"
+  },
+  {
+    "title": "Marine Biodiversity",
+    "type": "Image Service",
+    "url": "https://tiledimageservices.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/210923e_biodiversity_ranking_WM_1000_masked_mrf_lerc/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=a898af7c5541489ebb12b9eb562802c4"
+  },
+  {
+    "title": "Members of the North Atlantic Treaty Organization (NATO)",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/Members of NATO/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=4af4c80e0ba446748638fc6f1325937e"
+  },
+  {
+    "title": "Meridians and Major Parallels",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/As5CFN3ThbQpy8Ph/arcgis/rest/services/LongitudesAndLatitudes/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=70b02790add94ce990ead498d974e3c9"
+  },
+  {
+    "title": "National Biodiversity Report Card",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/Country_SPI_and_Biodiversity_Summaries/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=3532ba1ac2bf4a8da230106ead3dbd9a"
+  },
+  {
+    "title": "Ocean Currents in Motion",
+    "type": "Image Service",
+    "url": "https://tiledimageservices.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/annual_drifter_mean_v3/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=b5b41304a18049f28325674dcdaf5dd3"
+  },
+  {
+    "title": "Ocean Surface Currents",
+    "type": "Feature Service",
+    "url": "https://services2.arcgis.com/j80Jz20at6Bi0thr/arcgis/rest/services/OceanSurfaceCurrents/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=3f6faee01d2b47c18694137091d3373b"
+  },
+  {
+    "title": "Oregon Trail",
+    "type": "Feature Service",
+    "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/OREG_NHT/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=9a9aa67585ab46d7a56f6e79115cc912"
+  },
+  {
+    "title": "Pittsburgh, Pennsylvania (1903-1906)",
+    "type": "Map Service",
+    "url": "https://tiles.arcgis.com/tiles/jIL9msH9OI208GCb/arcgis/rest/services/Pittsburgh1903/MapServer",
+    "item": "https://www.arcgis.com/home/item.html?id=fe6beed32fd24141a03abede895a200b"
+  },
+  {
+    "title": "Political Boundaries - States and Provinces",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Administrative_Divisions/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=cccd798cdd6443da9346be7185ffdcbc"
+  },
+  {
+    "title": "PrevailingWinds",
+    "type": "Map Service",
+    "url": "https://tiles.arcgis.com/tiles/BG6nSlhZSAWtExvp/arcgis/rest/services/PrevailingWinds/MapServer",
+    "item": "https://www.arcgis.com/home/item.html?id=9cd264556bc04e9ab24bbdd37e55166b"
+  },
+  {
+    "title": "Protected Areas",
+    "type": "Feature Service",
+    "url": "https://data-gis.unep-wcmc.org/server/rest/services/ProtectedSites/The_World_Database_of_Protected_Areas/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=9bdfd8e27dd943c3a46d510263744f13"
+  },
+  {
+    "title": "Railroads 1826 to 1911",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/RR1826_1911Modified103123/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=694a76f1ebe241088e3ed39fb494a8e2"
+  },
+  {
+    "title": "Redlining",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/ak2bo87wLfUpMrt1/arcgis/rest/services/MappingInequalityRedliningAreas_231211/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=d23f9d9eedec45eca8f83e735ccd9ac2"
+  },
+  {
+    "title": "Revolutionary War Battles",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/Revolutionary_War_Battles_copy_edits/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=fb2bcd7497aa41ac8c5f58c89e9c523e"
+  },
+  {
+    "title": "Satellite Imagery (2014)",
+    "type": "WMTS",
+    "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10/%7Blevel%7D/%7Brow%7D/%7Bcol%7D",
+    "item": "https://www.arcgis.com/home/item.html?id=cc731d27bc3a49229b1a6dce71334ece"
+  },
+  {
+    "title": "Slingshot Challenge Awardees",
+    "type": "Feature Service",
+    "url": "https://services3.arcgis.com/AdYB7LvDmN7hzWUb/arcgis/rest/services/2025_Slingshot_Award_Recipient_Projects/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=f4ceded015934c7f9da3fc232b0c9e2b"
+  },
+  {
+    "title": "Smoke Forecast for the United States",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/NDGD_SmokeForecast_v1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=27e33718adbb4316bbdf015e47b4449b"
+  },
+  {
+    "title": "Sub-Regions of the World",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Regions/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=49f0b18797cc466294081c03973ae584"
+  },
+  {
+    "title": "Tectonic Plate Boundaries",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/Tectonic_Plates_and_Boundaries/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=3e46ebfddc2c4e3cb710cee7508c9d80"
+  },
+  {
+    "title": "Tectonic Plates",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/Tectonic_Plates_and_Boundaries/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=a552cee5c09b4a8cb4b8c6cce90c4e14"
+  },
+  {
+    "title": "Terrestrial Biodiversity",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/GlobalTerrRaR_025deg/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=da22ea18e4244df4ba8ec8e7d277a813"
+  },
+  {
+    "title": "Terrestrial Vertebrate Conservation Priority",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/IkktFdUAcY3WrH25/arcgis/rest/services/Global_Terrestrial_Vertebrate_Priority/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=f05f3e52dd9e4de2adc03670cd0f67cb"
+  },
+  {
+    "title": "Time Zones",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Time_Zones/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=3069fa7e198344349f9d64a45e8e79a5"
+  },
+  {
+    "title": "Tornado Tracks",
+    "type": "Feature Service",
+    "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Tornado_Tracks_1950_2017_1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=773e3706200044be82e1a50db9c4ef60"
+  },
+  {
+    "title": "Trails West",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/Trails_West/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=ea5131a967e04b1aae92c2eee08bb876"
+  },
+  {
+    "title": "Transportation in the United States",
+    "type": "Feature Service",
+    "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Transportation_v1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=1414372e794545f5814539d1d0c7b4d1"
+  },
+  {
+    "title": "Transportation Noise in the United States",
+    "type": "Image Service",
+    "url": "https://tiledimageservices.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Transportation_Noise___Rail_Road_and_Aviation_2020/ImageServer",
+    "item": "https://www.arcgis.com/home/item.html?id=70519e42639e48148d6af00ed7b4787b"
+  },
+  {
+    "title": "Tropical Cyclone Tracks",
+    "type": "Feature Service",
+    "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/IBTrACS_ALL_list_v04r00_lines_1/FeatureServer/0",
+    "item": "https://www.arcgis.com/home/item.html?id=aecb782e07fe4841be3cc123de7c3b65"
+  },
+  {
+    "title": "U.S. 119th Congressional Districts",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_119th_Congressional_Districts/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=930f9f68739f48bab91e500711c80dc4"
+  },
+  {
+    "title": "United States Apportionment 2020",
+    "type": "Feature Service",
+    "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/2020_Census_State_Apportionment/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=0b851ea28ac3470e9f882678470c4f83"
+  },
+  {
+    "title": "United States National Register of Historic Places",
+    "type": "Feature Service",
+    "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/nrhp_points_v1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=818d5ef9168b420cb3fee99f7aef7760"
+  },
+  {
+    "title": "Volcanic Eruptions (Significant) ",
+    "type": "Feature Service",
+    "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/test_Significant_Global_Volcanic_Eruptions_1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=0f0685fd69314656b2443aad7e05968d"
+  },
+  {
+    "title": "Volcanoes Around the World",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/Smithsonian_Global_Volcanism_Program_Holocene_Volcano_List_/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=bab2ae2ce18f47e5a41a3522bf1e1399"
+  },
+  {
+    "title": "Water Risk Index",
+    "type": "Feature Service",
+    "url": "https://services7.arcgis.com/iFGeGXTAJXnjq0YN/arcgis/rest/services/Water_Risk_Index_with_Population/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=f5db73366e174fe6a0d352b47a1403f5"
+  },
+  {
+    "title": "Wilderness Areas in the United States",
+    "type": "Feature Service",
+    "url": "https://services1.arcgis.com/ERdCHt0sNM6dENSD/arcgis/rest/services/Wilderness_Areas_in_the_United_States/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=f9d28286e9584532b09d4651f1e2e67a"
+  },
+  {
+    "title": "Wildfire Incidents and Perimeters in the United States",
+    "type": "Feature Service",
+    "url": "https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/USA_Wildfires_v1/FeatureServer",
+    "item": "https://www.arcgis.com/home/item.html?id=7e5bd1bf054643dd8a133da49a927b1c"
+  },
+  {
+    "title": "World Heritage Sites",
+    "type": "Feature Service",
+    "url": "https://services6.arcgis.com/eMd5K6XXEvJETxfQ/arcgis/rest/services/prd_whc_sites_dossiers_elements_v2_view/FeatureServer/0",
+    "item": "https://www.arcgis.com/home/item.html?id=7c67c3b39fcc4d808aa5cfc954a4002c"
+  }
+]

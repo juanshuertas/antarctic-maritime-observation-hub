@@ -203,6 +203,8 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
   const [readout, setReadout] = useState({ lat: -84.0, lng: 0.0, zoom: 1.65 });
 
+  const [satActive, setSatActive] = useState(false);
+  const [showSceneAtlas, setShowSceneAtlas] = useState(true);
   const [currentMap, setCurrentMap] = useState<MlMap | null>(null);
 
 
@@ -976,6 +978,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
     let requestedMapMode: MapMode = 'MAP';
     const applyMapModeDirect = (mode: MapMode) => {
       requestedMapMode = mode;
+      setSatActive(mode === 'SAT');
       if (mode === 'BATHYMETRY') {
         setSatelliteFillMode(false);
         disableTerrainDirect();
@@ -2581,6 +2584,16 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
     >
 
+      {satActive && <div className={showSceneAtlas
+        ? 'absolute inset-0 z-[220] flex flex-col bg-slate-950'
+        : 'absolute left-3 top-3 z-[220]'}>
+        <button className="self-start rounded bg-slate-950 px-3 py-2 text-sm text-cyan-200"
+          onClick={() => setShowSceneAtlas(!showSceneAtlas)}>
+          {showSceneAtlas ? 'Ver capas del observatorio' : 'Abrir atlas satelital 4K'}
+        </button>
+        {showSceneAtlas && <iframe className="min-h-0 w-full flex-1 border-0"
+          title="Atlas satelital OLEA" src={`${import.meta.env.BASE_URL}sat-atlas/`} />}
+      </div>}
       {/* MapLibre WebGL Canvas */}
 
       <div ref={containerRef} className="absolute inset-0 w-full h-full" />
@@ -2623,7 +2636,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
         >
 
-          {Math.abs(readout.lat).toFixed(2)}° S · {Math.abs(readout.lng).toFixed(2)}° W · Z{readout.zoom.toFixed(1)}
+          {Math.abs(readout.lat).toFixed(2)}° {readout.lat < 0 ? 'S' : 'N'} · {Math.abs(readout.lng).toFixed(2)}° {readout.lng < 0 ? 'W' : 'E'} · Z{readout.zoom.toFixed(1)}
 
         </div>
 

@@ -2466,11 +2466,11 @@ export function installCesiumSatOrbitalV16(
           overlay,
           {
             baseLayer: false,
-            shouldAnimate: false,
+            shouldAnimate: true,
             sceneMode:
               Cesium.SceneMode.SCENE3D,
             requestRenderMode: true,
-            maximumRenderTimeChange: Infinity,
+            maximumRenderTimeChange: 60,
           },
         );
 
