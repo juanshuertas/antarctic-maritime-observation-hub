@@ -190,6 +190,9 @@ def main():
         if product.is_file():
             data = product.read_bytes()
             index[filename] = {"bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()}
+    for asset in sorted((products.parent / 'heatmaps').glob('*.json')):
+        payload = asset.read_bytes()
+        index['../heatmaps/' + asset.name] = {'bytes': len(payload), 'sha256': hashlib.sha256(payload).hexdigest()}
     write_json(products / "scientific_products.json", index)
 
 

@@ -26,5 +26,29 @@
   "mapped_earth_migrations.json": {
     "bytes": 1192,
     "sha256": "235d097afafa06fd007683491359302adb24e3fbe0a4fcaf6af42a5360179c1e"
+  },
+  "../heatmaps/cetaceans_heatmap.json": {
+    "bytes": 135379,
+    "sha256": "0f62d5b467c263597b15a823fae39ecbe68b5776c9fea25c602c004d850ae724"
+  },
+  "../heatmaps/index.json": {
+    "bytes": 1008,
+    "sha256": "d851650ed75e6522c0102883fe925428783bfc37d7d6021983b5d3e26ee7c6e5"
+  },
+  "../heatmaps/krill_density_heatmap.json": {
+    "bytes": 256576,
+    "sha256": "98eea29041d253d8d7ff3f09e83e4a3b9e8991710cdac580816a8614263d4372"
+  },
+  "../heatmaps/penguin_colonies_heatmap.json": {
+    "bytes": 16774,
+    "sha256": "1bc3dcbe08d1b5d7698f6c100dd0d16571ec5bf5674c87674b74231eb7bda50a"
+  },
+  "../heatmaps/seismic_concentration_heatmap.json": {
+    "bytes": 980383,
+    "sha256": "8b6f1194259f7e8b6b62ad481fbe72adbc0d29c885762ea175a693d5958a7517"
+  },
+  "../heatmaps/species_migration_heatmap.json": {
+    "bytes": 252934,
+    "sha256": "4536435345b17e8f4d5921d09a57fe00e476068e32ad5389d6194095459c1423"
   }
 }
