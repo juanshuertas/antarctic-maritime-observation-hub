@@ -7,7 +7,7 @@
       "lifecycle_state": "PROPOSAL",
       "region": "Antarctic Peninsula",
       "method_version": "v1.0",
-      "created_at": "2026-11-27 03:36:56.423000"
+      "created_at": "2026-11-27 03:41:55.887000"
     },
     {
       "expedition_id": "PAC-COL-ANTA",
@@ -16,7 +16,7 @@
       "lifecycle_state": "PLANNING",
       "region": "Southern Ocean & Antarctic Peninsula",
       "method_version": "v1.1",
-      "created_at": "2026-11-27 03:36:56.423000"
+      "created_at": "2026-11-27 03:41:55.887000"
     }
   ]
 }
