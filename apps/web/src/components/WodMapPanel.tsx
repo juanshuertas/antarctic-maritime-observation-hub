@@ -2657,6 +2657,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
     const pollTraffic = async (feed: TrafficFeed) => {
       if (cancelled) return;
       let data: GeoJSON.FeatureCollection;
+      let satelliteTracks: GeoJSON.FeatureCollection = EMPTY_FC;
       let count: number | null;
       let detail: string | undefined;
       let observedAt: string | undefined;
@@ -2664,7 +2665,8 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
         if (feed === 'satellites') {
           const orbits = await (await import('../lib/observatory-orbits')).getActiveSatellitePositions();
           data = orbits.data;
-          if (orbits.bundled) detail = 'Catálogo de respaldo · ' + (orbits.catalogDate ?? 'fecha desconocida');
+          satelliteTracks = orbits.tracks;
+          detail = `${orbits.bundled ? 'Instantánea pública' : 'CelesTrak directo'} · época TLE ${orbits.catalogDate ?? 'desconocida'} · posición calculada SGP4`;
         } else {
           const reports = feed === 'vessels' ? await fetchOpenVessels() : await fetchOpenAircraft();
           data = reports.data;
@@ -2690,7 +2692,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
         });
       } else {
         engine.addPolarSatellitesLayer(layer, {
-          points: data, elevatedPoints: data, tracks: EMPTY_FC, swaths: EMPTY_FC, rings: EMPTY_FC, tethers: EMPTY_FC,
+          points: data, elevatedPoints: data, tracks: satelliteTracks, swaths: EMPTY_FC, rings: EMPTY_FC, tethers: EMPTY_FC,
         }, getLayerSDGColor(layer));
       }
       engine.setLayerGroupVisible(layer, !!activeLayersRef.current?.[layer]);
