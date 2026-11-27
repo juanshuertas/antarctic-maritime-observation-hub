@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-27T00:04:22.617522Z",
+  "fetched_at": "2026-11-27T05:22:29.113113Z",
   "sources": {
     "weather": "https://api.open-meteo.com/v1/forecast?latitude=-67.57,-77.85,-62.238&longitude=-68.13,166.67,-58.667&current=temperature_2m,wind_speed_10m&wind_speed_unit=kn&timezone=UTC",
     "earth_resources_tle": [

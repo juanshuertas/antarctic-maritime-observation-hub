@@ -1,31 +1,31 @@
 {
   "type": "weather_model",
   "source": "https://api.open-meteo.com/v1/forecast?latitude=-67.57,-77.85,-62.238&longitude=-68.13,166.67,-58.667&current=temperature_2m,wind_speed_10m&wind_speed_unit=kn&timezone=UTC",
-  "fetched_at": "2026-11-27T00:04:22.617522Z",
+  "fetched_at": "2026-11-27T05:22:29.113113Z",
   "points": [
     {
       "station": "Rothera",
       "latitude": -67.521965,
       "longitude": -68.33331,
-      "temperatureC": -3.3,
-      "windKts": 3.4,
-      "validAt": "2026-11-27T00:00:00Z"
+      "temperatureC": -6.2,
+      "windKts": 2.3,
+      "validAt": "2026-11-27T05:15:00Z"
     },
     {
       "station": "McMurdo",
       "latitude": -77.926186,
       "longitude": 166.70454,
-      "temperatureC": -6.9,
-      "windKts": 9.4,
-      "validAt": "2026-11-27T00:00:00Z"
+      "temperatureC": -7.1,
+      "windKts": 9.9,
+      "validAt": "2026-11-27T05:15:00Z"
     },
     {
       "station": "Carlini",
       "latitude": -62.17926,
       "longitude": -58.725006,
       "temperatureC": 0.2,
-      "windKts": 14.6,
-      "validAt": "2026-11-27T00:00:00Z"
+      "windKts": 17.1,
+      "validAt": "2026-11-27T05:15:00Z"
     }
   ]
 }
