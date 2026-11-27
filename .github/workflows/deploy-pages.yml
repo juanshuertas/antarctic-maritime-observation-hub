@@ -43,6 +43,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Import static public assets
         run: pnpm assets:web
+      - name: Verify Quantarctica web catalog
+        run: python scripts/sync_quantarctica_online.py --check
       - name: Export static API snapshots from backend
         run: |
           pip install -r services/backend/requirements.txt

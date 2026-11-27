@@ -246,27 +246,50 @@ export const QUANTARCTICA_SCIENTIFIC_LAYERS: QuantarcticaLayerDef[] = [
 /**
  * Fetch layer metadata list from the AMOH backend.
  */
-export async function fetchQuantarcticaLayersCatalog(): Promise<Array<{ name: string; available: boolean; source_path: string | null }>> {
+type CatalogLayer = { name: string; available: boolean; source_path: string | null; url?: string | null; license?: string };
+let catalogRequest: Promise<CatalogLayer[]> | undefined;
+
+async function loadQuantarcticaLayersCatalog(): Promise<CatalogLayer[]> {
   try {
-    const res = await fetch('/api/quantarctica/layers');
+    const res = await fetch(`${import.meta.env.BASE_URL}data/quantarctica/quantarctica_catalog.json`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     return data.layers || [];
   } catch (err) {
-    console.warn('[Quantarctica] Error fetching layer catalog from backend:', err);
+    console.warn('[Quantarctica] Static catalog unavailable:', err);
+    try {
+      const res = await fetch('/api/quantarctica/layers');
+      if (res.ok) return (await res.json()).layers || [];
+    } catch { /* Backend is optional on GitHub Pages. */ }
     return [];
   }
+}
+
+export function fetchQuantarcticaLayersCatalog(): Promise<CatalogLayer[]> {
+  return catalogRequest ??= loadQuantarcticaLayersCatalog();
 }
 
 /**
  * Fetch a specific Quantarctica GeoJSON dataset from the AMOH backend.
  */
 export async function fetchQuantarcticaGeoJson(backendName: string): Promise<FeatureCollection> {
-  const res = await fetch(`/api/quantarctica/layers/${encodeURIComponent(backendName)}`);
-  if (!res.ok) {
-    throw new Error(`Failed to load Quantarctica layer '${backendName}': HTTP ${res.status}`);
+  const catalog = await fetchQuantarcticaLayersCatalog();
+  const entry = catalog.find(layer => layer.name === backendName);
+  const published = entry?.available && entry.url ? entry : undefined;
+  if (published?.url) {
+    const res = await fetch(`${import.meta.env.BASE_URL}${published.url}`);
+    if (res.ok) {
+      const geojson = await res.json();
+      if (geojson.type === 'FeatureCollection' && Array.isArray(geojson.features)) return geojson;
+    }
   }
-  return await res.json();
+  const res = await fetch(`/api/quantarctica/layers/${encodeURIComponent(backendName)}`);
+  if (!res.ok) throw new Error(`Quantarctica layer '${backendName}' unavailable (HTTP ${res.status})`);
+  const geojson = await res.json();
+  if (geojson.type !== 'FeatureCollection' || !Array.isArray(geojson.features)) {
+    throw new Error(`Quantarctica layer '${backendName}' returned invalid GeoJSON`);
+  }
+  return geojson;
 }
 
 /**
@@ -444,7 +467,7 @@ export async function applyQuantarcticaLayersToMap(
             type: 'symbol',
             source: 'quantarctica-stations-src',
             layout: {
-              'text-field': ['get', 'name'],
+              'text-field': ['coalesce', ['get', 'name_eng'], ['get', 'name_off'], 'Estación'],
               'text-size': 10,
               'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
               'text-offset': [0, 1.4],
@@ -513,7 +536,7 @@ export async function applyQuantarcticaLayersToMap(
             type: 'symbol',
             source: 'quantarctica-aspa-src',
             layout: {
-              'text-field': ['get', 'name'],
+              'text-field': ['coalesce', ['get', 'NAME'], ['get', 'name'], 'ASPA'],
               'text-size': 9,
               'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
             },
@@ -577,7 +600,7 @@ export async function applyQuantarcticaLayersToMap(
             type: 'symbol',
             source: 'quantarctica-emperors-src',
             layout: {
-              'text-field': ['get', 'Colony'],
+              'text-field': ['coalesce', ['get', 'name'], ['get', 'Colony'], 'Colonia'],
               'text-size': 10,
               'text-font': ['Open Sans Semibold'],
               'text-offset': [0, 1.2],
