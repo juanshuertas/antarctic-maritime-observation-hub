@@ -20,9 +20,7 @@ import {
   Check,
 } from 'lucide-react';
 import { PythiaConsensusEngine, type AnalyticalCard } from '../lib/pythia-analyst';
-import { SEED_FISHING_INTEL } from '../lib/fisheries-service';
-import { SEED_TOURISM_ROUTES } from '../lib/tourism-service';
-import { SEED_MARIS_SAMPLES, HISTORICAL_NUCLEAR_CONTEXT } from '../lib/maris-service';
+import { HISTORICAL_NUCLEAR_CONTEXT } from '../lib/maris-service';
 import { QUANTARCTICA_THEMES } from '../lib/quantarctica-service';
 import { QUANTARCTICA_SCIENTIFIC_LAYERS } from '../lib/quantarctica-layers';
 import { WorkspaceStore } from '../lib/workspace-store';
@@ -347,43 +345,7 @@ export default function RightToolRail({ activeDrawer, onClose, onFlyToCoordinate
             <div className="text-[11px] text-[#8aa5af]">
               Monitoreo satelital de esfuerzo pesquero aparente (GFW API v3) y verificación de licencias de la Comisión para la Conservación de los Recursos Vivos Marinos Antárticos (CCAMLR).
             </div>
-            {SEED_FISHING_INTEL.map((v) => (
-              <div key={v.mmsi} className="p-3 rounded-lg bg-[#091b24] border border-[#213f4f] space-y-1.5 text-xs">
-                <div className="flex items-center justify-between">
-                  <span className="font-bold text-white font-mono">{v.name}</span>
-                  <span className={`px-2 py-0.5 text-[9px] font-mono rounded border ${
-                    v.ccamlrStatus === 'AUTHORIZED_RECORD_FOUND'
-                      ? 'bg-[#00e676]/15 text-[#00e676] border-[#00e676]/40'
-                      : 'bg-[#fbbf24]/15 text-[#fbbf24] border-[#fbbf24]/40'
-                  }`}>
-                    {v.ccamlrStatus === 'AUTHORIZED_RECORD_FOUND' ? 'AUTORIZADO CCAMLR' : 'SIN COINCIDENCIA PREVIA'}
-                  </span>
-                </div>
-                <div className="text-[10px] text-[#8aa5af] font-mono">
-                  MMSI: {v.mmsi} · Bandera: {v.flag} · Arte: {v.gearType}
-                </div>
-                <div className="text-[11px] text-[#8de8cd]">
-                  {v.ccamlrArea} · {v.targetSpecies}
-                </div>
-                {v.ccamlrLicenseId && (
-                  <div className="text-[10px] font-mono text-[#38bdf8]">
-                    Licencia: {v.ccamlrLicenseId}
-                  </div>
-                )}
-                <p className="text-[11px] text-[#94a3b8]">{v.notes}</p>
-                <div className="flex justify-between items-center pt-1 border-t border-[#1b3543] text-[10px] font-mono text-[#8aa5af]">
-                  <span>Esfuerzo: {v.apparentEffortHours} h</span>
-                  {onFlyToCoordinates && (
-                    <button
-                      onClick={() => onFlyToCoordinates(v.coordinates, 7)}
-                      className="text-[#00e5ff] hover:underline"
-                    >
-                      Ver en Mapa →
-                    </button>
-                  )}
-                </div>
-              </div>
-            ))}
+            <p className="text-xs text-[#8aa5af]">No hay registros pesqueros verificados cargados.</p>
           </div>
         )}
 
@@ -391,27 +353,9 @@ export default function RightToolRail({ activeDrawer, onClose, onFlyToCoordinate
         {activeDrawer === 'TOURISM' && (
           <div className="space-y-3">
             <div className="text-[11px] text-[#8aa5af]">
-              Registro oficial de itinerarios publicados de la Asociación Internacional de Operadores Turísticos de la Antártida (IAATO) temporadas 2026–2030.
+              Rutas de turismo antártico. Se mostrarán cuando exista un archivo con fuente, fecha y licencia verificadas.
             </div>
-            {SEED_TOURISM_ROUTES.map((r) => (
-              <div key={r.id} className="p-3 rounded-lg bg-[#091b24] border border-[#213f4f] space-y-1.5 text-xs">
-                <div className="flex items-center justify-between font-mono">
-                  <span className="font-bold text-white">{r.name}</span>
-                  <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#38bdf8]/20 text-[#38bdf8]">
-                    {r.season}
-                  </span>
-                </div>
-                <div className="text-[11px] text-[#8de8cd]">{r.operator}</div>
-                <div className="text-[10px] font-mono text-[#8aa5af]">
-                  Buque: {r.vesselName} · Capacidad: {r.paxCapacity} pax · {r.waypointCount} waypoints
-                </div>
-                {r.overlapWarnings.map((w, idx) => (
-                  <div key={idx} className="p-1.5 rounded bg-[#f87171]/10 border border-[#f87171]/30 text-[10px] text-[#fca5a5]">
-                    ⚠ {w}
-                  </div>
-                ))}
-              </div>
-            ))}
+            <p className="text-xs text-[#8aa5af]">No hay rutas turísticas verificadas cargadas.</p>
           </div>
         )}
 
@@ -422,20 +366,9 @@ export default function RightToolRail({ activeDrawer, onClose, onFlyToCoordinate
               {HISTORICAL_NUCLEAR_CONTEXT.treatyArticleV}
             </div>
             <div className="text-[10px] font-mono text-[#00e5ff] uppercase font-bold">
-              Muestras Recientes IAEA MARIS (Océano Austral)
+              Muestras IAEA MARIS (Océano Austral)
             </div>
-            {SEED_MARIS_SAMPLES.map((s) => (
-              <div key={s.id} className="p-3 rounded-lg bg-[#091b24] border border-[#213f4f] space-y-1 text-xs">
-                <div className="flex justify-between font-mono">
-                  <span className="font-bold text-white">{s.stationName}</span>
-                  <span className="text-[#8de8cd]">{s.radionuclide}</span>
-                </div>
-                <div className="text-[11px] text-[#38bdf8] font-mono">
-                  {s.valueBq} {s.unit} (Profundidad: {s.depthMeters} m)
-                </div>
-                <div className="text-[10px] text-[#8aa5af]">{s.referenceBaseline}</div>
-              </div>
-            ))}
+            <p className="text-xs text-[#8aa5af]">No hay muestras MARIS verificadas cargadas.</p>
             <div className="p-2.5 rounded bg-[#050e14] border border-[#1b3543] text-[10px] text-[#94a3b8]">
               <span className="font-bold text-white block mb-1">Memoria Histórica McMurdo PM-3A:</span>
               {HISTORICAL_NUCLEAR_CONTEXT.pm3aSummary}

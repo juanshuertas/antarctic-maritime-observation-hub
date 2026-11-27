@@ -28,11 +28,8 @@ import { fetchSubmarineCables } from '../lib/osiris-live-feeds';
 
 import { buildAntarcticOzoneData } from '../lib/ozone-data';
 
-import { SEED_FISHING_INTEL } from '../lib/fisheries-service';
 
-import { SEED_TOURISM_ROUTES } from '../lib/tourism-service';
 
-import { SEED_MARIS_SAMPLES } from '../lib/maris-service';
 
 import ScaleBar from './ScaleBar';
 
@@ -1859,101 +1856,13 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
 
 
-        const fisheriesData: GeoJSON.FeatureCollection = {
-
-          type: 'FeatureCollection',
-
-          features: SEED_FISHING_INTEL.map((f) => ({
-
-            type: 'Feature' as const,
-
-            geometry: { type: 'Point' as const, coordinates: f.coordinates },
-
-            properties: {
-
-              name: f.name,
-
-              mmsi: f.mmsi,
-
-              flag: f.flag,
-
-              gearType: f.gearType,
-
-              targetSpecies: f.targetSpecies,
-
-              ccamlrStatus: f.ccamlrStatus,
-
-              effort: `${f.apparentEffortHours} h`,
-
-              sarMatch: f.sarMatch ? 'Confirmado Radar SAR' : 'No coincidente',
-
-              area: f.ccamlrArea,
-
-            },
-
-          })),
-
-        };
-
-        engine.addFisheriesLayer('fisheries_effort', fisheriesData, getLayerSDGColor('fisheries_effort'));
+        engine.addFisheriesLayer('fisheries_effort', EMPTY_FC, getLayerSDGColor('fisheries_effort'));
 
 
 
-        // Add IAATO Published Tourism Expedition Routes
+        // Keep the tourism layer available until a verified route feed is configured.
 
-        const tourismData: GeoJSON.FeatureCollection = {
-
-          type: 'FeatureCollection',
-
-          features: [
-
-            ...SEED_TOURISM_ROUTES.map((r) => ({
-
-              type: 'Feature' as const,
-
-              geometry: { type: 'LineString' as const, coordinates: r.coordinates },
-
-              properties: {
-
-                name: r.name,
-
-                vessel: r.vesselName,
-
-                operator: r.operator,
-
-                pax: `${r.paxCapacity} pax`,
-
-                season: r.season,
-
-              },
-
-            })),
-
-            ...SEED_TOURISM_ROUTES.flatMap((r) =>
-
-              r.coordinates.map((coord, idx) => ({
-
-                type: 'Feature' as const,
-
-                geometry: { type: 'Point' as const, coordinates: coord },
-
-                properties: {
-
-                  name: `${r.vesselName} (WP ${idx + 1})`,
-
-                  operator: r.operator,
-
-                },
-
-              }))
-
-            ),
-
-          ],
-
-        };
-
-        engine.addTourismRoutesLayer('iaato_routes', tourismData, getLayerSDGColor('tourism_routes'));
+        engine.addTourismRoutesLayer('iaato_routes', EMPTY_FC, getLayerSDGColor('tourism_routes'));
 
 
 
@@ -2097,69 +2006,15 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
 
 
-        // Add IAEA MARIS Marine Radioactivity Monitoring Points
+        // Keep the MARIS layer available until verified samples are configured.
 
-        const marisData: GeoJSON.FeatureCollection = {
-
-          type: 'FeatureCollection',
-
-          features: SEED_MARIS_SAMPLES.map((s) => ({
-
-            type: 'Feature' as const,
-
-            geometry: { type: 'Point' as const, coordinates: s.coordinates },
-
-            properties: {
-
-              name: s.stationName,
-
-              radionuclide: s.radionuclide,
-
-              value: `${s.valueBq} ${s.unit}`,
-
-              depth: `${s.depthMeters} m`,
-
-              medium: s.medium,
-
-              baseline: s.referenceBaseline,
-
-            },
-
-          })),
-
-        };
-
-        engine.addMarisNuclearLayer('maris_nuclear', marisData, getLayerSDGColor('maris_nuclear'));
+        engine.addMarisNuclearLayer('maris_nuclear', EMPTY_FC, getLayerSDGColor('maris_nuclear'));
 
 
 
-        // Add Argo Hydrographic Water Column Profiling Floats (Circumpolar Network)
+        // Load historical Argo profiles from the bundled GeoJSON.
 
-        const argoData: GeoJSON.FeatureCollection = {
-
-          type: 'FeatureCollection',
-
-          features: [
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [-64.2, -59.5] }, properties: { name: 'Argo Float 5906421', sector: 'Pasaje de Drake', cycle: 'Ciclo 142', depth_max: '2000 m', temp: '-1.2 °C', sal: '34.6 PSU' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [-40.5, -68.2] }, properties: { name: 'Argo Float 5906883', sector: 'Mar de Weddell', cycle: 'Ciclo 98', depth_max: '2000 m', temp: '0.4 °C', sal: '34.7 PSU' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [175.2, -72.4] }, properties: { name: 'Argo Float 5907102', sector: 'Mar de Ross', cycle: 'Ciclo 215', depth_max: '2000 m', temp: '-0.8 °C', sal: '34.5 PSU' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [78.4, -66.8] }, properties: { name: 'Argo Float 6903214', sector: 'Bahía Prydz / Antártida Oriental', cycle: 'Ciclo 64', depth_max: '2000 m', temp: '-1.6 °C', sal: '34.4 PSU' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [-108.2, -71.5] }, properties: { name: 'Argo Float 6903550', sector: 'Mar de Amundsen', cycle: 'Ciclo 180', depth_max: '2000 m', temp: '-1.8 °C', sal: '34.2 PSU' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [68.5, -53.2] }, properties: { name: 'Argo Float 7900145', sector: 'Meseta de Kerguelen', cycle: 'Ciclo 112', depth_max: '2000 m', temp: '2.1 °C', sal: '33.9 PSU' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [15.0, -67.5] }, properties: { name: 'Argo Float 7900220', sector: 'Tierra de la Reina Maud', cycle: 'Ciclo 89', depth_max: '2000 m', temp: '-1.4 °C', sal: '34.5 PSU' } },
-
-          ],
-
-        };
-
-        engine.addArgoFloatsLayer('argo_floats', argoData, getLayerSDGColor('argo_floats'));
+        engine.addArgoFloatsLayer('argo_floats', EMPTY_FC, getLayerSDGColor('argo_floats'));
 
         lazyFetch('argo_floats', '/data/web/geojson/argo_floats.geojson')
 
@@ -2225,27 +2080,9 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
 
 
-        // Initial Tectonic Seismic Events (USGS Circumpolar Monitoring)
+        // Load USGS seismic events from the bundled GeoJSON.
 
-        const seismicSeed: GeoJSON.FeatureCollection = {
-
-          type: 'FeatureCollection',
-
-          features: [
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [-58.2, -62.4] }, properties: { magnitude: 4.8, place: 'Estrecho de Bransfield (Enjambre Tectónico)', depth_km: 12.4, time_str: '2026-03-12 14:22 UTC', source: 'USGS FDSN', freshness: 'MEASURED' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [-26.4, -58.9] }, properties: { magnitude: 5.6, place: 'Fosa de las Sandwich del Sur (Subducción Polar)', depth_km: 35.0, time_str: '2026-03-15 18:45 UTC', source: 'USGS FDSN', freshness: 'MEASURED' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [167.17, -77.53] }, properties: { magnitude: 3.4, place: 'Monte Erebus (Sismicidad Volcánica / Isla de Ross)', depth_km: 4.2, time_str: '2026-03-16 02:15 UTC', source: 'USGS / IRIS', freshness: 'MEASURED' } },
-
-            { type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: [163.50, -65.00] }, properties: { magnitude: 5.1, place: 'Dorsal de las Islas Balleny', depth_km: 10.0, time_str: '2026-03-17 11:30 UTC', source: 'USGS FDSN', freshness: 'MEASURED' } },
-
-          ],
-
-        };
-
-        engine.addSeismicLayer('seismic_events', seismicSeed, getLayerSDGColor('seismic_events'));
+        engine.addSeismicLayer('seismic_events', EMPTY_FC, getLayerSDGColor('seismic_events'));
 
         lazyFetch('seismic_events', '/data/web/geojson/seismic_events.geojson')
 
@@ -2265,35 +2102,9 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
 
 
-        // Initial demo field observations
+        // Field observations are populated only from the API below.
 
-        const demoPoints = [
-
-          { coords: [-63.0, -64.8], type: 'Criosfera', notes: 'Hielo a la deriva' },
-
-          { coords: [-58.0, -62.4], type: 'Actividad humana', notes: 'Encuentro marítimo' },
-
-          { coords: [-65.1, -65.3], type: 'Hidrosfera', notes: 'Superficie del océano' },
-
-        ];
-
-        const obsFeatures: GeoJSON.Feature[] = demoPoints.map((dp) => ({
-
-          type: 'Feature' as const,
-
-          geometry: { type: 'Point' as const, coordinates: dp.coords },
-
-          properties: { observation_type: dp.type, notes: dp.notes },
-
-        }));
-
-        engine.addObservationLayer('field_observations', {
-
-          type: 'FeatureCollection',
-
-          features: obsFeatures,
-
-        }, getLayerSDGColor('field_observations'));
+        engine.addObservationLayer('field_observations', EMPTY_FC, getLayerSDGColor('field_observations'));
 
 
 
@@ -2564,7 +2375,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
               type: 'FeatureCollection',
 
-              features: [...obsFeatures, ...apiObs],
+              features: apiObs,
 
             }, getLayerSDGColor('field_observations'));
 

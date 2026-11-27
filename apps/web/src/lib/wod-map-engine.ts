@@ -2340,7 +2340,7 @@ export class WodMapEngine {
       paint: {
         'circle-color': color,
         'circle-radius': [
-          'interpolate', ['linear'], ['get', 'magnitude'],
+          'interpolate', ['linear'], ['coalesce', ['get', 'magnitude'], ['get', 'mag'], 3],
           3.0, 8,
           5.0, 15,
           7.0, 26,
