@@ -23,7 +23,7 @@ import {
 
 
 
-  Plane,
+
 
 
 
@@ -1707,287 +1707,11 @@ export default function ControlCenter({
 
 
 
-  // Sample fleet
-
-
-
-  const SAMPLE_VESSELS: EntityDetail[] = [
-
-
-
-    {
-
-
-
-      id: 'v-simon-bolivar',
-
-
-
-      type: 'vessel',
-
-
-
-      title: 'ARC Simón Bolívar',
-
-
-
-      subtitle: 'Buque de Investigación Científica Marina (Colombia)',
-
-
-
-      coordinates: [-63.2, -64.8],
-
-
-
-      data: {
-
-
-
-        MMSI: '730000001',
-
-
-
-        Tipo: 'Investigación Oceanográfica',
-
-
-
-        Bandera: 'Colombia',
-
-
-
-        Velocidad: '11.4 nudos',
-
-
-
-        Rumbo: '184°',
-
-
-
-        Estado: 'Misión Antártica X / PAC',
-
-
-
-      },
-
-
-
-    },
-
-
-
-    {
-
-
-
-      id: 'v-antarctic-endurance',
-
-
-
-      type: 'vessel',
-
-
-
-      title: 'Antarctic Endurance',
-
-
-
-      subtitle: 'Buque Factoría Krill Eco-Harvesting (Noruega)',
-
-
-
-      coordinates: [-58.4, -62.1],
-
-
-
-      data: {
-
-
-
-        MMSI: '257086870',
-
-
-
-        Tipo: 'Pesca Sostenible CCAMLR',
-
-
-
-        Bandera: 'Noruega',
-
-
-
-        Velocidad: '8.2 nudos',
-
-
-
-        Rumbo: '092°',
-
-
-
-        Estado: 'Operación activa Bransfield',
-
-
-
-      },
-
-
-
-    },
-
-
-
-  ];
-
-
-
-
-
-
-
-  const SAMPLE_AIRCRAFT: EntityDetail[] = [
-
-
-
-    {
-
-
-
-      id: 'a-dap-901',
-
-
-
-      type: 'aircraft',
-
-
-
-      title: 'Aerovías DAP 901',
-
-
-
-      subtitle: 'BAe 146-200 · Puente Aéreo Punta Arenas → King George Island',
-
-
-
-      coordinates: [-58.9, -62.1],
-
-
-
-      data: {
-
-
-
-        ICAO24: 'E80214',
-
-
-
-        Altitud: '28,000 pies',
-
-
-
-        Velocidad: '380 nudos',
-
-
-
-        Ruta: 'SCCI → SCRM',
-
-
-
-        Estado: 'En crucero sobre Paso Drake',
-
-
-
-      },
-
-
-
-    },
-
-
-
-  ];
-
-
-
-
-
-
-
-  const SAMPLE_SATELLITES: EntityDetail[] = [
-
-
-
-    {
-
-
-
-      id: 's-sentinel-1a',
-
-
-
-      type: 'satellite',
-
-
-
-      title: 'Sentinel-1A (SAR-C)',
-
-
-
-      subtitle: 'ESA Copernicus · Radar de Apertura Sintética Polar',
-
-
-
-      coordinates: [-65.0, -64.0],
-
-
-
-      data: {
-
-
-
-        NORAD: '39634',
-
-
-
-        Órbita: 'Polar Heliosincrónica (SSO)',
-
-
-
-        Altitud: '693 km',
-
-
-
-        Periodo: '98.6 min',
-
-
-
-        Sensor: 'SAR Banda C (Interferometría de Hielo)',
-
-
-
-        Estado: 'PROPAGADO (SGP4)',
-
-
-
-      },
-
-
-
-    },
-
-
-
-  ];
-
-
-
-
-
-
-
   // Search filtering
 
 
 
-  const allEntities = [...SAMPLE_VESSELS, ...SAMPLE_AIRCRAFT, ...SAMPLE_SATELLITES];
+  const allEntities = monitoredVessels;
 
 
 
@@ -2917,7 +2641,7 @@ export default function ControlCenter({
 
 
 
-                  {(monitoredVessels.length > 0 ? monitoredVessels : SAMPLE_VESSELS.slice(0, 0)).map((v) => (
+                  {monitoredVessels.map((v) => (
 
 
 
@@ -3049,103 +2773,7 @@ export default function ControlCenter({
 
 
 
-                  {SAMPLE_AIRCRAFT.slice(0, 0).map((a) => (
 
-
-
-                    <button
-
-
-
-                      key={a.id}
-
-
-
-                      onClick={() => {
-
-
-
-                        onSelectEntity(a);
-
-
-
-                        if (a.coordinates) onFlyTo(a.coordinates, 6);
-
-
-
-                      }}
-
-
-
-                      className="w-full p-2.5 rounded-xl bg-[#101626] border border-[#1c2940] hover:border-[#4da8ff]/50 transition-all text-left flex items-center justify-between group"
-
-
-
-                    >
-
-
-
-                      <div className="flex items-center gap-2 min-w-0">
-
-
-
-                        <Plane className="w-3.5 h-3.5 text-[#4da8ff] shrink-0" />
-
-
-
-                        <div className="truncate">
-
-
-
-                          <div className="text-xs font-semibold text-white group-hover:text-[#4da8ff] transition-colors truncate">
-
-
-
-                            {a.title}
-
-
-
-                          </div>
-
-
-
-                          <div className="text-[10px] text-[#8fa3bd] truncate">
-
-
-
-                            {a.subtitle}
-
-
-
-                          </div>
-
-
-
-                        </div>
-
-
-
-                      </div>
-
-
-
-                      <span className="text-[10px] font-mono text-[#4da8ff] ml-2 shrink-0">
-
-
-
-                        {a.data?.Altitud}
-
-
-
-                      </span>
-
-
-
-                    </button>
-
-
-
-                  ))}
 
 
 
@@ -4277,7 +3905,7 @@ export default function ControlCenter({
 
 
 
-                    placeholder="Buscar buque, vuelo, satélite..."
+                    placeholder="Buscar buque AIS observado..."
 
 
 
@@ -4309,7 +3937,7 @@ export default function ControlCenter({
 
 
 
-                    <p className="text-[10px]">Buques AIS, vuelos ADS-B, satélites SGP4, bases</p>
+                    <p className="text-[10px]">Buques AIS observados en la captura actual</p>
 
 
 
