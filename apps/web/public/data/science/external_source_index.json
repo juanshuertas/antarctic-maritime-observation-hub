@@ -64,6 +64,78 @@
     "license": "Consult source terms; raw content stored locally"
   },
   {
+    "file": "mspglobal_2030/ch1.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch1.html",
+    "sha256": "e1cd87a9a318dde4a251700d2f96a417b81092c19e5fe52067e434af11609c59",
+    "bytes": 50115,
+    "retrieved_utc": "2026-11-27T04:14:20.976581+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/ch2.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch2.html",
+    "sha256": "dd362ad111cd69172094a2918fd2690513aadd567912c39765f3c8ec0e83adb3",
+    "bytes": 66662,
+    "retrieved_utc": "2026-11-27T04:14:21.081740+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/ch3.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch3.html",
+    "sha256": "470b1880a66036a18f496858138c5da4241e939f9fc650af2a0e99eb073c0a1e",
+    "bytes": 172392,
+    "retrieved_utc": "2026-11-27T04:14:21.266859+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/ch4.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch4.html",
+    "sha256": "e1d98e717c226b951c486be768c3e8267bdd455f24a58bd78131e6ee62f2f1e2",
+    "bytes": 47052,
+    "retrieved_utc": "2026-11-27T04:14:20.963302+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/ch5.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch5.html",
+    "sha256": "9353d4576389cb5b8d19ace9d3bfb97fe78163870c384b033f7be679de04fe69",
+    "bytes": 59900,
+    "retrieved_utc": "2026-11-27T04:14:21.136150+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/ch6.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch6.html",
+    "sha256": "fe46b19ae278e3e8d3eff470d995b9d60ef32146ba81dd96dfe374a17d4eef62",
+    "bytes": 55173,
+    "retrieved_utc": "2026-11-27T04:14:21.860541+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/ch7.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch7.html",
+    "sha256": "85501ae309d2e4b1dea00b6d25aae7edcc99c796a7eb03ab6916bac78422311c",
+    "bytes": 38456,
+    "retrieved_utc": "2026-11-27T04:14:21.779664+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/references.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/references.html",
+    "sha256": "53d9c04fa56acff322b2bca15b05554927263adf48d9169f485cc14cf301f86e",
+    "bytes": 31156,
+    "retrieved_utc": "2026-11-27T04:14:21.860979+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "mspglobal_2030/annexes.html",
+    "url": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/annexes.html",
+    "sha256": "2e4e15c75cc9b37c0d38505f3bca01102e92c2bda63df0e62cc8da49bf621d3d",
+    "bytes": 20254,
+    "retrieved_utc": "2026-11-27T04:14:21.877814+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
     "file": "mapped_earth/east-pacific.html",
     "url": "https://mapped.earth/migrations/humpback-whale-east-pacific",
     "sha256": "e8bd4e56e9bbb8102c78ece1c2008a332d35d53fa4ec1f09b76958598446f1d8",
@@ -117,6 +189,30 @@
     "sha256": "2ab225e1ff204219d6495622e6b569c1782c46ed7a00e6a6870335b009236833",
     "bytes": 5851783,
     "retrieved_utc": "2026-11-27T03:49:51.000114+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "natgeo_atlas/group_1.json",
+    "url": "https://www.arcgis.com/sharing/rest/search?q=group%3A36443e9570294a1f883b5d2c5abfe6b5&sortField=title&num=100&start=1&f=json",
+    "sha256": "c54baf6487e37dc0d665fe893d347b7817393d7ea56e83b43b823f26142dd53d",
+    "bytes": 1240221,
+    "retrieved_utc": "2026-11-27T04:14:22.168765+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "natgeo_atlas/group_101.json",
+    "url": "https://www.arcgis.com/sharing/rest/search?q=group%3A36443e9570294a1f883b5d2c5abfe6b5&sortField=title&num=100&start=101&f=json",
+    "sha256": "af11dcaf8f13b7b7c5757df86a81e5113c365532fe40f1849f0b3d82d8bcb57b",
+    "bytes": 1214301,
+    "retrieved_utc": "2026-11-27T04:14:22.706186+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
+    "file": "natgeo_atlas/group_201.json",
+    "url": "https://www.arcgis.com/sharing/rest/search?q=group%3A36443e9570294a1f883b5d2c5abfe6b5&sortField=title&num=100&start=201&f=json",
+    "sha256": "36cf835fb595a1da057f0514567aad84804a3ccef1f1dd3ddfc85db003a558e9",
+    "bytes": 19021,
+    "retrieved_utc": "2026-11-27T04:14:23.024959+00:00",
     "license": "Consult source terms; raw content stored locally"
   }
 ]

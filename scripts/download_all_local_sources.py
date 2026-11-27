@@ -24,6 +24,8 @@ SOURCES = {
     "biodiversity/obis.json": "https://api.obis.org/v3/occurrence?geometry=POLYGON%28%28-65%20-66,-60%20-66,-60%20-64,-65%20-64,-65%20-66%29%29&size=100",
     "biodiversity/gbif.json": "https://api.gbif.org/v1/occurrence/search?decimalLatitude=-90,-60&hasCoordinate=true&limit=300",
 }
+for chapter in [*(f"ch{i}" for i in range(1, 8)), "references", "annexes"]:
+    SOURCES[f"mspglobal_2030/{chapter}.html"] = MSP + chapter + ".html"
 for region in ("east-pacific", "south-atlantic", "west-indian", "west-australia", "southwest-pacific"):
     SOURCES[f"mapped_earth/{region}.html"] = "https://mapped.earth/migrations/humpback-whale-" + region
 for projection in ("3031", "3857"):
@@ -83,6 +85,31 @@ def acquire(root, name, url, refresh):
             time.sleep(2 ** attempt)
 
 
+def atlas_catalog(cache, refresh, rows):
+    config = cache / "natgeo_atlas/config.json"
+    if not config.is_file():
+        return
+    group = json.loads(config.read_bytes())["values"]["group"]
+    services = []
+    seen = set()
+    start = 1
+    while start > 0 and start not in seen:
+        seen.add(start)
+        url = f"https://www.arcgis.com/sharing/rest/search?q=group%3A{group}&sortField=title&num=100&start={start}&f=json"
+        name = f"natgeo_atlas/group_{start}.json"
+        record = acquire(cache, name, url, refresh)
+        rows.append(record)
+        if "error" in record:
+            return
+        page = json.loads((cache / name).read_bytes())
+        for item in page["results"]:
+            if (item.get("url") or "").startswith("https://"):
+                services.append({"title": item["title"], "type": item["type"], "url": item["url"],
+                                 "item": "https://www.arcgis.com/home/item.html?id=" + item["id"]})
+        start = page["nextStart"]
+    write_json(ROOT / "apps/web/public/data/science/natgeo_atlas_layers.json", services)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cache", type=Path, default=Path(r"C:\AMOH\data\external_sources"))
@@ -90,6 +117,7 @@ def main():
     args = parser.parse_args()
     with ThreadPoolExecutor(max_workers=5) as pool:
         rows = list(pool.map(lambda item: acquire(args.cache, *item, args.refresh), SOURCES.items()))
+    atlas_catalog(args.cache, args.refresh, rows)
     write_json(args.cache / "manifest.json", rows)
     write_json(ROOT / "apps/web/public/data/science/external_source_index.json", rows)
     import xml.etree.ElementTree as ET

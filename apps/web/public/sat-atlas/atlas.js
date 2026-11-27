@@ -170,3 +170,17 @@ try {
   catalog = await (await fetch('../data/science/gibs_sensors.json')).json()
   reset()
 } catch {status.textContent = 'Catálogo de sensores no disponible.'}
+el('atlas-list').ontoggle = async event => {
+  const panel = event.currentTarget, list = panel.querySelector('ul')
+  if (!panel.open || list.children.length) return
+  try {
+    const sources = await (await fetch('../data/science/natgeo_atlas_layers.json')).json()
+    list.replaceChildren(...sources.map(source => {
+      const row = document.createElement('li'), link = document.createElement('a')
+      link.href = source.item
+      link.textContent = source.title
+      row.append(link)
+      return row
+    }))
+  } catch {list.textContent = 'Catálogo no disponible.'}
+}
