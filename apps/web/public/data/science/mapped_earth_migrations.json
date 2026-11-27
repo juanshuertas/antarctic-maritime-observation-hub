@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Humpback Whale (Eastern Pacific)",
+    "route": "Costa Rica and Colombia to the Antarctic",
+    "evidence": "photo-ID sightings",
+    "source": "https://mapped.earth/migrations/humpback-whale-east-pacific"
+  },
+  {
+    "title": "Humpback Whale (South Atlantic)",
+    "route": "Brazil and West Africa to the Antarctic",
+    "evidence": "photo-ID sightings",
+    "source": "https://mapped.earth/migrations/humpback-whale-south-atlantic"
+  },
+  {
+    "title": "Humpback Whale (Western Indian Ocean)",
+    "route": "East Africa and Madagascar to the Antarctic",
+    "evidence": "photo-ID sightings",
+    "source": "https://mapped.earth/migrations/humpback-whale-west-indian"
+  },
+  {
+    "title": "Humpback Whale (Western Australia)",
+    "route": "The Kimberley to the Antarctic",
+    "evidence": "photo-ID sightings",
+    "source": "https://mapped.earth/migrations/humpback-whale-west-australia"
+  },
+  {
+    "title": "Humpback Whale (South-west Pacific)",
+    "route": "East Australia and Oceania to the Antarctic",
+    "evidence": "photo-ID sightings",
+    "source": "https://mapped.earth/migrations/humpback-whale-southwest-pacific"
+  }
+]
