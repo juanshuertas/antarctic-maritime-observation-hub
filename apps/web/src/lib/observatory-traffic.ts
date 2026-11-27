@@ -62,13 +62,14 @@ export async function fetchOpenAircraft(): Promise<{ data: FeatureCollection; pa
   };
   const generatedAt = collection.metadata?.generated_at;
   const snapshotAge = generatedAt ? now - Date.parse(generatedAt) : NaN;
-  const expired = scheduledSnapshot && (!Number.isFinite(snapshotAge) || snapshotAge > maxAge);
+  const expired = scheduledSnapshot && (!Number.isFinite(snapshotAge) || snapshotAge < -60_000 || snapshotAge > maxAge);
+  if (expired) throw new Error('Última captura ADS-B vencida · esperando actualización');
   return {
     data,
     partial: (collection.metadata?.sectors_available ?? 3) < 3,
-    detail: scheduledSnapshot ? (expired ? 'Última captura ADS-B vencida · esperando actualización' : 'Captura ADS-B programada · no es transmisión continua') : undefined,
+    detail: scheduledSnapshot ? 'Captura ADS-B programada · no es transmisión continua' : undefined,
     observedAt: data.features.length > 0
       ? data.features.map(feature => feature.properties?.observed_at as string).sort().at(-1)
-      : undefined,
+      : generatedAt,
   };
 }

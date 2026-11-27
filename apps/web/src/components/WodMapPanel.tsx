@@ -2678,9 +2678,10 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
           }
         }
         count = data.features.length;
-      } catch {
+      } catch (error) {
         data = EMPTY_FC;
         count = null;
+        detail = error instanceof Error ? error.message : 'Fuente de tráfico no disponible';
       }
       if (cancelled) return;
       const layer = TRAFFIC_LAYERS[feed];
