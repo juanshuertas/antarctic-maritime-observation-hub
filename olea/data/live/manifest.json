@@ -1,12 +1,16 @@
 {
-  "fetched_at": "2026-11-26T23:42:07.362230Z",
+  "fetched_at": "2026-11-27T00:04:22.617522Z",
   "sources": {
     "weather": "https://api.open-meteo.com/v1/forecast?latitude=-67.57,-77.85,-62.238&longitude=-68.13,166.67,-58.667&current=temperature_2m,wind_speed_10m&wind_speed_unit=kn&timezone=UTC",
-    "earth_resources_tle": "https://celestrak.org/NORAD/elements/gp.php?GROUP=earth-resources&FORMAT=tle"
+    "earth_resources_tle": [
+      "https://celestrak.org/NORAD/elements/gp.php?GROUP=resource&FORMAT=tle",
+      "https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle",
+      "https://db.satnogs.org/api/tle/?format=json"
+    ]
   },
   "status": {
     "weather": "ok",
-    "earth_resources_tle": "unavailable: ValueError"
+    "earth_resources_tle": "ok: 25 via https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle"
   },
   "refresh_status": "ok"
 }
