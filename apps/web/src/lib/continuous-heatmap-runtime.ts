@@ -35,7 +35,7 @@ type RuntimeRecord = {
 const CONFIGS: HeatConfig[] = [
   {
     id: 'grey_zones_defense_heatmap',
-    label: 'Fricción & Zonas Grises',
+    label: 'FricciÃ³n & Zonas Grises',
     urls: [
       '/data/web/geojson/grey_zones_defense.geojson'
     ],
@@ -56,7 +56,7 @@ const CONFIGS: HeatConfig[] = [
   },
   {
     id: 'polar_friction_sectors',
-    label: 'Sectores Fricción Polar (PFI)',
+    label: 'Sectores FricciÃ³n Polar (PFI)',
     urls: [
       '/data/web/geojson/polar_friction_sectors.geojson'
     ],
@@ -97,10 +97,7 @@ const CONFIGS: HeatConfig[] = [
   {
     id: 'fauna_density_heatmap',
     label: 'Fauna Marina (Krill)',
-    urls: [
-      '/data/web/geojson/fauna_krill_swarms.geojson',
-      '/data/web/geojson/fauna_krill.geojson'
-    ],
+    urls: [`${import.meta.env.BASE_URL}data/heatmaps/krill_density_heatmap.json`],
     weightKeys: [
       'biomass_density_g_m2',
       'school_biomass_tons',
@@ -118,11 +115,8 @@ const CONFIGS: HeatConfig[] = [
   },
   {
     id: 'penguin_heatmap',
-    label: 'Colonias de Pingüinos',
-    urls: [
-      '/data/web/geojson/penguin_colonies.geojson',
-      '/api/quantarctica/layers/emperor_penguin_colonies'
-    ],
+    label: 'Colonias de PingÃ¼inos',
+    urls: [`${import.meta.env.BASE_URL}data/heatmaps/penguin_colonies_heatmap.json`],
     weightKeys: [
       'population',
       'population_estimate',
@@ -139,11 +133,26 @@ const CONFIGS: HeatConfig[] = [
   },
   {
     id: 'whales_heatmap',
-    label: 'Cetáceos / Ballenas',
-    urls: [
-      '/data/web/geojson/whales.geojson',
-      '/data/web/geojson/fauna_cetaceans.geojson'
+    label: 'CetÃ¡ceos / Ballenas',
+    urls: [`${import.meta.env.BASE_URL}data/heatmaps/cetaceans_heatmap.json`],
+    weightKeys: [
+      'individuals',
+      'pod_size',
+      'count',
+      'density',
+      'weight'
     ],
+    ramp: ['#172554', '#1d4ed8', '#0284c7', '#06b6d4', '#67e8f9', '#ecfeff'],
+    baseColor: '#38bdf8',
+    edgeColor: '#bae6fd',
+    radius: [8, 25, 52],
+    intensity: 0.92,
+    opacity: 0.70
+  },
+  {
+    id: 'species_migration_heatmap',
+    label: 'MigraciÃ³n estacional',
+    urls: [`${import.meta.env.BASE_URL}data/heatmaps/species_migration_heatmap.json`],
     weightKeys: [
       'individuals',
       'pod_size',
@@ -202,11 +211,8 @@ const CONFIGS: HeatConfig[] = [
   },
   {
     id: 'seismic_heatmap',
-    label: 'Concentración Sísmica',
-    urls: [
-      '/data/web/geojson/seismic_events.geojson',
-      '/api/seismic/events'
-    ],
+    label: 'ConcentraciÃ³n SÃ­smica',
+    urls: [`${import.meta.env.BASE_URL}data/heatmaps/seismic_concentration_heatmap.json`],
     weightKeys: [
       'magnitude',
       'mag',
@@ -648,11 +654,11 @@ function prepareData(
 
   for (const feature of pointFeatures) {
     const rawValue =
-      Number(feature.properties?._amoh_weight) || 1;
+      Number(feature.properties?._amoh_weight ?? 1);
 
     feature.properties._amoh_weight_norm =
       Math.max(
-        0.05,
+        0,
         Math.min(
           1,
           Math.log1p(rawValue) /
@@ -705,6 +711,13 @@ function firstSymbol(map: MlMap) {
       layer.type === 'symbol'
     )
     ?.id;
+}
+
+const migrationMonths = new WeakMap<MlMap, number>();
+export function selectMigrationMonth(map: MlMap, month: number) {
+  migrationMonths.set(map, month);
+  const id = 'amoh-runtime-heat-species_migration_heatmap';
+  if (map.getLayer(id)) map.setFilter(id, month ? ['==', ['get', 'month'], month] : null);
 }
 
 function ids(config: HeatConfig) {
@@ -861,6 +874,8 @@ function addRuntimeLayers(
         id: x.heat,
         type: 'heatmap',
         source: x.pointSource,
+        ...(config.id === 'species_migration_heatmap' && migrationMonths.get(map)
+          ? { filter: ['==', ['get', 'month'], migrationMonths.get(map)] } : {}),
         layout: {
           visibility: 'none'
         },

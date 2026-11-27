@@ -18,6 +18,7 @@
  * si el modelo no cubre el punto, lo dice.
  */
 
+import { polarBed } from '../lib/polar-grid-point';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   NAVIGABILITY_LABELS,
@@ -80,20 +81,26 @@ export default function OceanPointCard({ lat, lon, onClose, onFlyTo }: OceanPoin
   const [state, setState] = useState<LoadState>('idle');
   const [point, setPoint] = useState<OceanPoint | null>(null);
   const [meteogram, setMeteogram] = useState<OceanMeteogram | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const [bed, setBed] = useState<Awaited<ReturnType<typeof polarBed>>>(null);
   const requestId = useRef(0);
 
   const load = useCallback(async () => {
+    const current = ++requestId.current;
+    setPoint(null);
+    setMeteogram(null);
+    setBed(null);
+    void polarBed(lat, lon).then(value => {
+      if (current === requestId.current) setBed(value);
+    }).catch(() => {});
     if (!isWithinOceanModel(lat)) {
       setState('out_of_coverage');
       return;
     }
-    const current = ++requestId.current;
     setState('loading');
-    setError(null);
     try {
       const snapshot = await oceanApi.point(lat, lon);
       if (current !== requestId.current) return;
+      if (!snapshot?.variables) throw new Error('snapshot');
       setPoint(snapshot);
       setState('ready');
       // El meteograma llega después: la tarjeta ya es útil sin él.
@@ -102,17 +109,16 @@ export default function OceanPointCard({ lat, lon, onClose, onFlyTo }: OceanPoin
       // de 45 s y la tarjeta se quedara sin meteograma.
       const serie = await oceanApi.meteogram(lat, lon, 72, undefined, [
         'water_u', 'water_v', 'water_temp',
-      ]);
+      ]).catch(() => null);
       if (current !== requestId.current) return;
-      setMeteogram(serie);
-    } catch (err) {
+      setMeteogram(Array.isArray(serie?.steps) ? serie : null);
+    } catch {
       if (current !== requestId.current) return;
-      setError(err instanceof Error ? err.message : String(err));
       setState('error');
     }
   }, [lat, lon]);
 
-  useEffect(() => { void load(); }, [load]);
+  useEffect(() => { void load(); return () => { requestId.current++; }; }, [load]);
 
   const rows = useMemo(() => {
     if (!point) return [];
@@ -180,6 +186,12 @@ export default function OceanPointCard({ lat, lon, onClose, onFlyTo }: OceanPoin
       </header>
 
       <div className="px-3 py-2.5">
+        {bed && (
+          <div className="mb-2 text-[12px]">
+            <strong>Elevación del lecho · {bed.bed.toLocaleString('es-CO')} m</strong>
+            <p className="opacity-70">IBCSO v2 · muestra de la celda de {bed.km} km respecto al nivel del mar.</p>
+          </div>
+        )}
         {state === 'out_of_coverage' && (
           <p className="text-[12px] leading-relaxed opacity-80">
             El modelo oceánico HYCOM no cubre al sur de {OCEAN_MODEL_SOUTH_LIMIT}°.
@@ -193,16 +205,7 @@ export default function OceanPointCard({ lat, lon, onClose, onFlyTo }: OceanPoin
 
         {state === 'error' && (
           <div className="text-[12px] leading-relaxed">
-            <p style={{ color: 'var(--wod-status-alert, #ff6b4a)' }}>
-              No se pudo leer el modelo en este punto.
-            </p>
-            {/* Nunca volcar la respuesta cruda: en la version publica el shim
-                devuelve un JSON de servicio que no le dice nada a nadie. */}
-            <p className="opacity-70 mt-1 break-words">
-              {/sin backend|snapshot|Failed to fetch|NetworkError/i.test(error ?? '')
-                ? 'Esta posición no está en la rejilla congelada del modelo. Prueba un punto algo más al norte o dentro del área del Océano Austral.'
-                : error}
-            </p>
+            <p>Pronóstico oceánico HYCOM no disponible para esta consulta.</p>
             <button
               type="button"
               onClick={() => void load()}
