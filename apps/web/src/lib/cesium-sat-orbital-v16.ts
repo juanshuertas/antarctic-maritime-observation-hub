@@ -11,7 +11,8 @@ import 'cesium/Build/Cesium/Widgets/widgets.css';
 type Mode = MapMode | 'SURTE' | 'UNKNOWN';
 
 const POLAR_ORBIT_HIGHLIGHTS = new Set([25994, 27424, 37849, 43613, 49260, 60989, 62261]);
-const isImmersive = (value: Mode) => value === 'GLOBE' || value === 'SAT' || value === 'SURTE';
+// SAT uses the native flat MapLibre canvas so imagery is never draped over a globe.
+const isImmersive = (value: Mode) => value === 'GLOBE' || value === 'SURTE';
 
 type Controller = {
   refresh: () => void;
@@ -2945,7 +2946,6 @@ export function installCesiumSatOrbitalV16(
           integratedV19: true,
           immersiveModes: [
             'GLOBE',
-            'SAT',
             'SURTE',
           ],
           heatCells:

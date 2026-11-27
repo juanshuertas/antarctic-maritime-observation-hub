@@ -1185,29 +1185,17 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
 
       if (mode === 'SAT') {
         // AMOH_SMART_SAT_V11
-        engine.projectionMode = '3D';
+        engine.projectionMode = '2D';
         engine.setOceanBaseVisible(false);
 
         map.setRenderWorldCopies(false);
-        map.setProjection({ type: 'globe' });
-        map.dragRotate.enable();
-        map.touchZoomRotate.enableRotation();
-        map.keyboard.enableRotation();
+        map.setProjection({ type: 'mercator' });
+        map.dragRotate.disable();
+        map.touchZoomRotate.disableRotation();
+        map.keyboard.disableRotation();
+        map.setPixelRatio(Math.min(window.devicePixelRatio || 1, 3));
 
         disableTerrainDirect();
-
-        try {
-          map.setSky({
-            'sky-color': '#00070d',
-            'sky-horizon-blend': 0.050,
-            'horizon-color': '#08a8cc',
-            'horizon-fog-blend': 0.065,
-            'fog-color': '#35d9ee',
-            'fog-ground-blend': 0.035,
-          });
-        } catch {
-          // style can be transitioning
-        }
 
         setSatelliteFillMode(true);
         setSatelliteDirect(true, true);
@@ -1216,7 +1204,7 @@ const WodMapPanel = forwardRef<WodMapPanelHandle, WodMapPanelProps>(function Wod
           center: [-38.0, -85.6],
           zoom: 1.86,
           pitch: 0,
-          bearing: -10,
+          bearing: 0,
           
           duration: 900,
           essential: true,
