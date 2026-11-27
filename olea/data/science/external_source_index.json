@@ -192,6 +192,14 @@
     "license": "Consult source terms; raw content stored locally"
   },
   {
+    "file": "weather/gfs.json",
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=-80%2C-80%2C-80%2C-80%2C-80%2C-80%2C-70%2C-70%2C-70%2C-70%2C-70%2C-70%2C-60%2C-60%2C-60%2C-60%2C-60%2C-60&longitude=-180%2C-120%2C-60%2C0%2C60%2C120%2C-180%2C-120%2C-60%2C0%2C60%2C120%2C-180%2C-120%2C-60%2C0%2C60%2C120&hourly=wind_speed_10m%2Cwind_direction_10m&wind_speed_unit=ms&models=gfs_seamless&forecast_days=1&timezone=GMT",
+    "sha256": "55fc877d4c847ce011a18dd4fc1564cfa5fcfdd67c4ca588d0db37ebfdd0af5c",
+    "bytes": 17953,
+    "retrieved_utc": "2026-11-27T04:18:18.237844+00:00",
+    "license": "Consult source terms; raw content stored locally"
+  },
+  {
     "file": "natgeo_atlas/group_1.json",
     "url": "https://www.arcgis.com/sharing/rest/search?q=group%3A36443e9570294a1f883b5d2c5abfe6b5&sortField=title&num=100&start=1&f=json",
     "sha256": "c54baf6487e37dc0d665fe893d347b7817393d7ea56e83b43b823f26142dd53d",

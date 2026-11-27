@@ -184,3 +184,34 @@ el('atlas-list').ontoggle = async event => {
     }))
   } catch {list.textContent = 'Catálogo no disponible.'}
 }
+let resourceRequest = 0
+async function showResources() {
+  const collection = el('collection').value, list = el('resources')
+  const request = ++resourceRequest
+  try {
+    const data = await (await fetch('../data/science/'+collection+'.json')).json()
+    if (request !== resourceRequest) return
+    if (collection === 'gfs_wind_currents') {
+      list.replaceChildren(...data.points.map(point => {
+        const li = document.createElement('li'), hours = point.hourly
+        const index = hours.wind_speed_10m.findIndex(Number.isFinite)
+        li.textContent = point.latitude+'°, '+point.longitude+'° · '+(index < 0 ? 'Sin datos' :
+          hours.time[index]+' UTC · '+hours.wind_speed_10m[index]+' m/s · '+hours.wind_direction_10m[index]+'°')
+        return li
+      }))
+    } else {
+      list.replaceChildren(...data.map(item => {
+        const li = document.createElement('li'), link = document.createElement('a')
+        link.href = item.source
+        link.target = '_blank'
+        link.rel = 'noreferrer'
+        link.textContent = item.title
+        li.append(link)
+        if (item.route) li.append(' · '+item.route)
+        return li
+      }))
+    }
+  } catch {if (request === resourceRequest) list.textContent = 'Fuente no disponible.'}
+}
+el('collection').onchange = showResources
+el('sources').ontoggle = event => {if (event.currentTarget.open) showResources()}

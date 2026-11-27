@@ -1,0 +1,30 @@
+{
+  "gibs_sensors.json": {
+    "bytes": 4169,
+    "sha256": "7dd5691dc604d059ce3e05bddef1669276395ef62bd230bc33defb785c8513d5"
+  },
+  "external_source_index.json": {
+    "bytes": 10848,
+    "sha256": "12c9176789ed3d79c8c0da39b77aea39124e2d58f7472711fe85be057a1eb0f2"
+  },
+  "natgeo_atlas_layers.json": {
+    "bytes": 23761,
+    "sha256": "c9ada1ad29f90da0111387ef75af3d81597b65e2ce279d51b445b45750cc06ff"
+  },
+  "ku_geophysics_3d.json": {
+    "bytes": 303254,
+    "sha256": "910efe4360b74cdc8243a6fab70baf016b02511011ccb614d38c8175920f684f"
+  },
+  "gfs_wind_currents.json": {
+    "bytes": 37851,
+    "sha256": "aa8f1da1646560954b34e0104b23954d00fd996ee6800dcec537efe3fb76ca0b"
+  },
+  "mspglobal_2030.json": {
+    "bytes": 2796,
+    "sha256": "882a9d8719093bbe8b3bd0ab5d619e68248ca998486e67b7713d176c685c05fe"
+  },
+  "mapped_earth_migrations.json": {
+    "bytes": 1192,
+    "sha256": "235d097afafa06fd007683491359302adb24e3fbe0a4fcaf6af42a5360179c1e"
+  }
+}

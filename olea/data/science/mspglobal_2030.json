@@ -1,0 +1,57 @@
+[
+  {
+    "title": "MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/index.html",
+    "sha256": "0b3c4e8f0985b570552bb0b2b0ce6b57281c423e18fb6ae5299f678925ff27db"
+  },
+  {
+    "title": "MSPglobal Data Toolbox  | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/cover.html",
+    "sha256": "47c65b519168ac0af5510e79b2805f337eb7406c597ea5ffb3e05184cb45fbdf"
+  },
+  {
+    "title": "Chapter 1 About this Data Toolbox | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch1.html",
+    "sha256": "e1cd87a9a318dde4a251700d2f96a417b81092c19e5fe52067e434af11609c59"
+  },
+  {
+    "title": "Chapter 2 Getting started with your SDI | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch2.html",
+    "sha256": "dd362ad111cd69172094a2918fd2690513aadd567912c39765f3c8ec0e83adb3"
+  },
+  {
+    "title": "Chapter 3 Data for SDI | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch3.html",
+    "sha256": "470b1880a66036a18f496858138c5da4241e939f9fc650af2a0e99eb073c0a1e"
+  },
+  {
+    "title": "Chapter 4 Web architecture | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch4.html",
+    "sha256": "e1d98e717c226b951c486be768c3e8267bdd455f24a58bd78131e6ee62f2f1e2"
+  },
+  {
+    "title": "Chapter 5 Data security, privacy and safety | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch5.html",
+    "sha256": "9353d4576389cb5b8d19ace9d3bfb97fe78163870c384b033f7be679de04fe69"
+  },
+  {
+    "title": "Chapter 6 SDI governance and setup | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch6.html",
+    "sha256": "fe46b19ae278e3e8d3eff470d995b9d60ef32146ba81dd96dfe374a17d4eef62"
+  },
+  {
+    "title": "Chapter 7 Monitoring, Evaluation and Adaptation | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/ch7.html",
+    "sha256": "85501ae309d2e4b1dea00b6d25aae7edcc99c796a7eb03ab6916bac78422311c"
+  },
+  {
+    "title": "Chapter 8 References | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/references.html",
+    "sha256": "53d9c04fa56acff322b2bca15b05554927263adf48d9169f485cc14cf301f86e"
+  },
+  {
+    "title": "Chapter 9 Annexes | MSPglobal Data Toolbox",
+    "source": "https://toolbox.mspglobal2030.org/spatial-data-infrastructure/annexes.html",
+    "sha256": "2e4e15c75cc9b37c0d38505f3bca01102e92c2bda63df0e62cc8da49bf621d3d"
+  }
+]
